@@ -11,4 +11,15 @@ package ec.edu.espe.associations.model;
  */
 public class D {
     
+    public B m(){
+        B b = new B();
+        
+        return b;
+                
+    }
+    
+    public int; m(F f ){
+        
+        return 0;
+    }
 }

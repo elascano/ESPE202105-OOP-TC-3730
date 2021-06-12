@@ -12,7 +12,7 @@ package ec.edu.espe.associations.model;
 public class C {
     private float f;
     
-    public void  m()
+    public  void  m(){
 
     /**
      * @return the f
