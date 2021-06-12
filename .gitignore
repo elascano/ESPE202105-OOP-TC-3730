@@ -24,3 +24,5 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/barrerak/WS06CDCode/FronUmlToCode/nbproject/private/
+/workshops/barrerak/WS06CDCode/FronUmlToCode/build/
