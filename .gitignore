@@ -24,3 +24,5 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/criollok/unit1/WS06CDCode/FromUmlToCode/nbproject/private/
+/workshops/criollok/unit1/WS06CDCode/FromUmlToCode/build/
