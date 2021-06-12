@@ -24,3 +24,5 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/izal/unit1/W06CDCode/FromUmltoCode/nbproject/private/
+/workshops/izal/unit1/W06CDCode/FromUmltoCode/build/
