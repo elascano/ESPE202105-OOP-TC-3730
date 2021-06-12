@@ -27,8 +27,8 @@ public class SystemDisplay {
         
         b.setA(567);
         b.setB(198);
-        c.setF(85.5F);
-        d.setI(985);
+        c.setF(563.5F);
+        d.setI(150);
         e.setC('G');
         f.setS("Luis");
         
