@@ -24,3 +24,6 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/chasig/unit1/WS06CDCode/FromUmlToCode/nbproject/private/
+/workshops/chasig/unit1/WS06CDCode/FromUmlToCode/build/
+/workshops/chasig/unit1/DEBER_1_JAVA/build/
