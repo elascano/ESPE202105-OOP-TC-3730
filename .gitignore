@@ -24,3 +24,5 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/ortizm/unit1/WS06CdCode/FromUmlToCode/nbproject/private/
+/workshops/ortizm/unit1/WS06CdCode/FromUmlToCode/build/
