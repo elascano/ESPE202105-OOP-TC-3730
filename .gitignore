@@ -24,5 +24,10 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+<<<<<<< HEAD
 /workshops/yaneze/unit1/WS06CDCode/FromUmlToCode/nbproject/private/
 /workshops/yaneze/unit1/WS06CDCode/FromUmlToCode/build/
+=======
+/workshops/villavicencioa/unit1/WS06CDCode/FromUmlToCode/nbproject/private/
+/workshops/villavicencioa/unit1/WS06CDCode/FromUmlToCode/build/
+>>>>>>> d17c135eba24adea1fca8f81fc977eae30cf7d6a
