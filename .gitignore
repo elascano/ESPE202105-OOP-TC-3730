@@ -25,8 +25,13 @@ hs_err_pid*
 # visual paradigm bakcup files
 *vpp.bak*
 <<<<<<< HEAD
+<<<<<<< HEAD
 /workshops/yugsim/unit1/WS06CDCode/FromUmiToCode/nbproject/private/
 /workshops/yugsim/unit1/WS06CDCode/FromUmiToCode/build/
+=======
+/workshops/suntaj/unit1/WS06CDCode/FromUmlToCode/nbproject/private/
+/workshops/suntaj/unit1/WS06CDCode/FromUmlToCode/build/
+>>>>>>> 69c7a0e6526bac522deb6e03a4433515bfedb00f
 =======
 <<<<<<< HEAD
 /workshops/heredial/unit1/WS06 CDCode/FromUmlToCode/nbproject/private/
