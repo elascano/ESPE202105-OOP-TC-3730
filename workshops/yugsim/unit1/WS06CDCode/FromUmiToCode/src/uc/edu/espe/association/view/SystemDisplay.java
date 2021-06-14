@@ -13,7 +13,6 @@ import uc.edu.espe.association.model.*;
  */
 public class SystemDisplay {
     
-    
     public static void main(String[] args) {
         A a = new A();
         B b = new B();
