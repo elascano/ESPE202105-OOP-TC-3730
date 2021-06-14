@@ -12,10 +12,18 @@ import java.util.Services;
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
 public class Agency {
+
    private int workers;
-   private int computers;
-   private Services[] services = new Services[6];
-    
+   private int travels;
+   private Services[] services = new Services[3];
+   private TravelPackage[] travelpackage = new TravelPackage[4];  
+
+    @Override
+    public String toString() {
+        return "Agency{" + "workers=" + workers + ", travels=" + travels + ", services=" + services + ", travelpackage=" + travelpackage + '}';
+    }
+  
+   
    public void travelinsurance(){
     }
     public void marketingpromoter(){    
@@ -41,17 +49,17 @@ public class Agency {
     }
 
     /**
-     * @return the computers
+     * @return the travels
      */
-    public int getComputers() {
-        return computers;
+    public int getTravels() {
+        return travels;
     }
 
     /**
-     * @param computers the computers to set
+     * @param travels the travels to set
      */
-    public void setComputers(int computers) {
-        this.computers = computers;
+    public void setTravels(int travels) {
+        this.travels = travels;
     }
 
     /**
