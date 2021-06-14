@@ -9,95 +9,51 @@ package ec.edu.espe.associations.model;
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
 public class Services {
-    private int Agency ;
-    private int TouristGuide;
-    private int Transport;
-    private int TravelPackage;
-    private  Travels[] travels = new Travels[6];
-    private int Products;
+    private String security ;
+    private String servicedescription;
 
-    /**
-     * @return the Agency
-     */
-    public int getAgency() {
-        return Agency;
+    @Override
+    public String toString() {
+        return "Services{" + "security=" + security + ", servicedescription=" + servicedescription + '}';
+    }
+   
+
+    public void customersupport(){
+       
+    }
+    public void lodgings(){
+        
+    }
+    public Client reportaproblem(){
+        Client client = new Client();
+           return  client;   
     }
 
     /**
-     * @param Agency the Agency to set
+     * @return the security
      */
-    public void setAgency(int Agency) {
-        this.Agency = Agency;
+    public String getSecurity() {
+        return security;
     }
 
     /**
-     * @return the TouristGuide
+     * @param security the security to set
      */
-    public int getTouristGuide() {
-        return TouristGuide;
+    public void setSecurity(String security) {
+        this.security = security;
     }
 
     /**
-     * @param TouristGuide the TouristGuide to set
+     * @return the servicedescription
      */
-    public void setTouristGuide(int TouristGuide) {
-        this.TouristGuide = TouristGuide;
+    public String getServicedescription() {
+        return servicedescription;
     }
 
     /**
-     * @return the Transport
+     * @param servicedescription the servicedescription to set
      */
-    public int getTransport() {
-        return Transport;
+    public void setServicedescription(String servicedescription) {
+        this.servicedescription = servicedescription;
     }
-
-    /**
-     * @param Transport the Transport to set
-     */
-    public void setTransport(int Transport) {
-        this.Transport = Transport;
-    }
-
-    /**
-     * @return the TravelPackage
-     */
-    public int getTravelPackage() {
-        return TravelPackage;
-    }
-
-    /**
-     * @param TravelPackage the TravelPackage to set
-     */
-    public void setTravelPackage(int TravelPackage) {
-        this.TravelPackage = TravelPackage;
-    }
-
-    /**
-     * @return the travels
-     */
-    public Travels[] getTravels() {
-        return travels;
-    }
-
-    /**
-     * @param travels the travels to set
-     */
-    public void setTravels(Travels[] travels) {
-        this.travels = travels;
-    }
-
-    /**
-     * @return the Products
-     */
-    public int getProducts() {
-        return Products;
-    }
-
-    /**
-     * @param Products the Products to set
-     */
-    public void setProducts(int Products) {
-        this.Products = Products;
-    }
-    
 }
