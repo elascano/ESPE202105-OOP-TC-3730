@@ -22,7 +22,7 @@ public class SystemDysplay {
         
         a.setI(28);
         System.out.println("a.b ->" +a.getI());
-        System.out.println ("From Class Diagram to Code, \n"
+        System.out.println ("From  Diagram to Code, \n"
             + "Alina Villavicencio");
         
 
