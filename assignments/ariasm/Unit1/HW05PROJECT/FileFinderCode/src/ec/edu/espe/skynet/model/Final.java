@@ -3,31 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.associations.model;
+package ec.edu.espe.skynet.model;
 
 /**
  *
  * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
-public class F {
-    private String  s;
+public class Final {
+    private String Type;
 
     @Override
     public String toString() {
-        return "F{" + "s=" + s + '}';
+        return "Final{" + "Type=" + Type + '}';
     }
 
     /**
-     * @return the s
+     * @return the Type
      */
-    public String getS() {
-        return s;
+    public String getType() {
+        return Type;
     }
 
     /**
-     * @param s the s to set
+     * @param Type the Type to set
      */
-    public void setS(String s) {
-        this.s = s;
+    public void setType(String Type) {
+        this.Type = Type;
     }
+
 }
