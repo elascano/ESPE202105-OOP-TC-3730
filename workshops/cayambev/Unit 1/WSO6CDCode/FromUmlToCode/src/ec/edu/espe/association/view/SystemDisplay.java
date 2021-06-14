@@ -11,6 +11,7 @@ import ec.edu.espe.association.model.*;
  */
 public class SystemDisplay {
         public static void main(String[] args) {
+            
         A a = new A();
         B b = new B();
         C c = new C();
@@ -18,7 +19,7 @@ public class SystemDisplay {
         E e = new E();
         F f = new F();
                 
-        a.setI(64);
+        a.setI(28);
         b.setA(10);
         b.setB(45);
         c.setF((float) 34.5);

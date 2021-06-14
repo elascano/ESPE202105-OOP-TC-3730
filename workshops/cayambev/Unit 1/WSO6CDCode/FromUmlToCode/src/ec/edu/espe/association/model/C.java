@@ -14,20 +14,17 @@ public class C {
     
     public void m(){
         
-    }
-
-    @Override
-    public String toString() {
-        return "C{" + "f=" + getF() + '}';
-    }
-    
+    }    
     /**
      * @return the f
      */
     public float getF() {
         return f;
     }
-
+ @Override
+    public String toString() {
+        return "C{" + "f=" + getF() + '}';
+    }
     /**
      * @param f the f to set
      */
