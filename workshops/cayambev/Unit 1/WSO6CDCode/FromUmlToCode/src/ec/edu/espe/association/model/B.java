@@ -18,20 +18,19 @@ public class B {
         C c = new C();
         
         return c;
-    }
-
-    @Override
-    public String toString() {
-        return "B{" + "a=" + a + ", b=" + b + ", es=" + es + '}';
-    }
-         
+    }    
     /**
      * @return the a
      */
     public int getA() {
         return a;
     }
-
+    
+    @Override
+    public String toString() {
+        return "B{" + "a=" + a + ", b=" + b + ", es=" + es + '}';
+    }
+    
     /**
      * @param a the a to set
      */
