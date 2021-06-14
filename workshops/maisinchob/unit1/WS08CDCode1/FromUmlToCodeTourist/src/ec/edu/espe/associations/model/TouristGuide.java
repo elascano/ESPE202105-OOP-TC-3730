@@ -14,13 +14,19 @@ package ec.edu.espe.associations.model;
 public class TouristGuide {
     
    private int age;
-   private String skincolor ;
-   private int height;
+   private int height ;
+   private String skincolor;
+
+    @Override
+    public String toString() {
+        return "TouristGuide{" + "age=" + age + ", height=" + height + ", skincolor=" + skincolor + '}';
+    }
+   
    public void salary(){
    }
-   public void descriptionsearch(){    
+   public void touristexperience(){    
    }
-   public void references(){
+   public void freetime(){
    }
 
     /**
@@ -38,20 +44,6 @@ public class TouristGuide {
     }
 
     /**
-     * @return the skincolor
-     */
-    public String getSkincolor() {
-        return skincolor;
-    }
-
-    /**
-     * @param skincolor the skincolor to set
-     */
-    public void setSkincolor(String skincolor) {
-        this.skincolor = skincolor;
-    }
-
-    /**
      * @return the height
      */
     public int getHeight() {
@@ -63,5 +55,19 @@ public class TouristGuide {
      */
     public void setHeight(int height) {
         this.height = height;
+    }
+
+    /**
+     * @return the skincolor
+     */
+    public String getSkincolor() {
+        return skincolor;
+    }
+
+    /**
+     * @param skincolor the skincolor to set
+     */
+    public void setSkincolor(String skincolor) {
+        this.skincolor = skincolor;
     }
 }
