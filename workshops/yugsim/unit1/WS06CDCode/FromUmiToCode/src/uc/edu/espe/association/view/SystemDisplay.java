@@ -13,7 +13,6 @@ import uc.edu.espe.association.model.*;
  */
 public class SystemDisplay {
     
-    
     public static void main(String[] args) {
         A a = new A();
         B b = new B();
@@ -30,6 +29,10 @@ public class SystemDisplay {
         
         b.setA(567);
         b.setB(158);
+        c.setF(0.9F);
+        d.setI(89);
+        e.setC('P');
+        f.setS("Corazón");
         
         System.out.println("a -> " + a);
         System.out.println("b -> " + b);

@@ -7,7 +7,7 @@ package ec.edu.espe.associations.model;
 
 /**
  *
- * @author Marco Arias SkyNet.hubtech ESPE-DCCO
+ * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
 public class F {
     private String  s;
