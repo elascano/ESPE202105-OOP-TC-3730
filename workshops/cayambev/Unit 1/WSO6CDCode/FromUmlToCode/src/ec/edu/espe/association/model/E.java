@@ -10,20 +10,17 @@ package ec.edu.espe.association.model;
  * @author Vanessa Cayambe Team of machine ESPE-DCCO
  */
 public class E {
-    private char c;
-
-    @Override
-    public String toString() {
-        return "E{" + "c=" + c + '}';
-    }
-    
+    private char c;    
     /**
      * @return the c
      */
     public char getC() {
         return c;
     }
-
+    @Override
+    public String toString() {
+        return "E{" + "c=" + c + '}';
+    }
     /**
      * @param c the c to set
      */
