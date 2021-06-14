@@ -5,6 +5,8 @@
  */
 package ec.edu.associations.view;
 
+import ec.edu.associations.model.Bond;
+
 /**
  *
  * @author Andrea Quichimbo Program Builder ESPE-DCCO
@@ -12,25 +14,17 @@ package ec.edu.associations.view;
 public class LogicOperators {
  
     public static void main(String[] args) {
-       Age a =new Age();
-       a.setI(28);
-        System.out.println("a.i ->" + a.getB());
-        System.out.println("From Class Diagram to Code,\n" + "Andrea Quichimbo");
+        Bond a  = new Bond();
         
-    }
-
-    private static class Age {
-        private String b;
-
-        public Age() {
-        }
-
-        private String getB() {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
-
-        private void setI(int i) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
+        a.setI(28);
+        System.out.println("a.b->"+a.getI());
+        
+        System.out.println("From Class Diadram to code, \n" + "Andrea Quichimbo");
+    
     }
 }
+    
+
+       
+
+      

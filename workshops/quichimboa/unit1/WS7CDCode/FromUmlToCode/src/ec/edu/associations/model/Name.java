@@ -25,4 +25,12 @@ public class Name {
     public void setD(char d) {
         this.d = d;
     }
+
+    public void setI(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getI() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

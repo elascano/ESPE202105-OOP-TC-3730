@@ -47,4 +47,16 @@ public class Age {
     public void setB(int b) {
         this.b = b;
     }
+
+    
+
+    public void setAge(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setBond(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    
 }

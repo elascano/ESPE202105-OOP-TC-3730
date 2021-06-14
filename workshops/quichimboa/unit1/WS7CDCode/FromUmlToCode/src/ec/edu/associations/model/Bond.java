@@ -16,6 +16,8 @@ public class Bond {
     private Bond b; 
     private ArrayList<Male> cs = new ArrayList<>();
     
+    
+    
     public Male m(Name d)
     {
         Male c = new Male ();
@@ -62,4 +64,14 @@ public class Bond {
     public void setCs(ArrayList<Male> cs) {
         this.cs = cs;
     }
+
+    public void setBond(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    
+    
+
+  
+    
 }

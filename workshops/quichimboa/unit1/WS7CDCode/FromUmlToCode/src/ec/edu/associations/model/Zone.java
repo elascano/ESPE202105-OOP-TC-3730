@@ -33,4 +33,12 @@ public class Zone {
     public void setE(float e) {
         this.e = e;
     }
+
+    public void setC(char c) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setMale(char c) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
