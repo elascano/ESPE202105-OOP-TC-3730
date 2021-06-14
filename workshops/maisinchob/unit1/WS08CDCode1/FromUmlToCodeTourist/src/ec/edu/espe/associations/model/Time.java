@@ -9,28 +9,25 @@ package ec.edu.espe.associations.model;
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class Gain {
-    private  String benefit;
-public void promotepackages(){
-}    
+public class Time {
+   private int id;
 
     @Override
     public String toString() {
-        return "Gain{" + "benefit=" + benefit + '}';
+        return "Time{" + "id=" + id + '}';
     }
 
     /**
-     * @return the benefit
+     * @return the id
      */
-    public String getBenefit() {
-        return benefit;
+    public int getId() {
+        return id;
     }
 
     /**
-     * @param benefit the benefit to set
+     * @param id the id to set
      */
-    public void setBenefit(String benefit) {
-        this.benefit = benefit;
+    public void setId(int id) {
+        this.id = id;
     }
-
 }

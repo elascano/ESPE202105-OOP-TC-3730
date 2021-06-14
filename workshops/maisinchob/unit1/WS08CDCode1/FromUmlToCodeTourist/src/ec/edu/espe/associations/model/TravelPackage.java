@@ -12,12 +12,21 @@ import java.util.Promotions;
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class Travelpackage {
+public class TravelPackage {
   private Contents[] contents = new Contents[3];
   private float cost;
   private Promotions[] promotions = new Promotions[3];
+
+    @Override
+    public String toString() {
+        return "TravelPackage{" + "contents=" + contents + ", cost=" + cost + ", promotions=" + promotions + '}';
+    }
+
+    
   
- public void promotionalcombos(){
+ public   Time durationofpackages(){
+    Time time = new Time ();
+    return time;
  } 
  public void modeoftravel(){
  } 
