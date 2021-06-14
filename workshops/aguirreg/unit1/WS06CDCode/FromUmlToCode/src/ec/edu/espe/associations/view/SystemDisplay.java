@@ -30,7 +30,7 @@ public class SystemDisplay {
         c.setF(6.5F);
         d.setI(240);
         e.setC('F');
-        f.setS("Gabriel");
+        f.setS(" Gabriel");
               
         
                       
