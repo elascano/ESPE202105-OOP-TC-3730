@@ -29,26 +29,26 @@ public class SystemDisplay {
         
         a.setI(345);
         
-        System.out.println("A -> " + a);
+        System.out.println("a -> " + a);
         
         b.setA(567);
         b.setB(198); 
         
-        System.out.println("B -> " + b);
+        System.out.println("b -> " + b);
         
         c.setF((float) 3.56);
        
-        System.out.println("C -> " + c);
+        System.out.println("c -> " + c);
         
         d.setI(456);
         
-        System.out.println("D -> " + d);
+        System.out.println("d -> " + d);
         
         e.setC((char) 'h');
         
-        System.out.println("E -> " + e);
+        System.out.println("e -> " + e);
         
-        System.out.println("F -> " + f); 
+        System.out.println("f -> " + f); 
 
 
         
