@@ -15,16 +15,15 @@ public class D {
         B b = new B();
         return b;
     }
-
-    @Override
+    public int m(F f){
+        return 0;
+    }
+    
+@Override
     public String toString() {
         return "D{" + "i=" + i + '}';
     }
     
-    public int m(F f){
-        return 0;
-    }
-
     /**
      * @return the i
      */
