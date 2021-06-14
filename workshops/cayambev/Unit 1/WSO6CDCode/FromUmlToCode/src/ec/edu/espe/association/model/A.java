@@ -13,11 +13,6 @@ public class A {
     private int i;
     private B b; 
     private ArrayList<C> cs = new ArrayList<>();
-
-    @Override
-    public String toString() {
-        return "A{" + "i=" + i + ", b=" + b + ", cs=" + cs + '}';
-    }
     
     public C m(D d){              
         C c = new C();
@@ -29,7 +24,12 @@ public class A {
         
         return d;
     }
-
+    
+ @Override
+    public String toString() {
+        return "A{" + "i=" + i + ", b=" + b + ", cs=" + cs + '}';
+    }
+    
     public int getI(){
         return i;
     }

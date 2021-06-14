@@ -11,19 +11,16 @@ package ec.edu.espe.association.model;
  */
 public class F {
     private String  s;
-
-    @Override
-    public String toString() {
-        return "F{" + "s=" + s + '}';
-    }
-
     /**
      * @return the s
      */
     public String getS() {
         return s;
     }
-
+    @Override
+    public String toString() {
+        return "F{" + "s=" + s + '}';
+    }
     /**
      * @param s the s to set
      */
