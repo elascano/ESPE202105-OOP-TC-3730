@@ -9,14 +9,23 @@ package ec.edu.espe.associations.model;
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class Transport {
+public class Transports {
     
    private int fuel;
    private int maximumcapacity;
    private  String driver;
+
+    @Override
+    public String toString() {
+        return "Transports{" + "fuel=" + fuel + ", maximumcapacity=" + maximumcapacity + ", driver=" + driver + '}';
+    }
+   
    public void destinationtime(){    
    }
-   public void destinationtypes(){   
+   public void transportcost(){   
+   }
+   public void driverbackground(){
+       
    }
 
     /**
@@ -60,5 +69,4 @@ public class Transport {
     public void setDriver(String driver) {
         this.driver = driver;
     }
-   
 }

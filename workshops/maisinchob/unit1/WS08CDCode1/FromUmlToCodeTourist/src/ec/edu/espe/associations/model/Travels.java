@@ -11,9 +11,23 @@ import java.util.Destinations;
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
 public class Travels {
-    private Destinations[]destinations = new Destinations[20];
+    private Destinations[]destinations = new Destinations[40];
+    private Transports[]transports = new Transports[3];
     private int tickets;
-   public void  costclassifications(){ 
+
+    @Override
+    public String toString() {
+        return "Travels{" + "destinations=" + destinations + ", transports=" + transports + ", tickets=" + tickets + '}';
+    }
+   
+    public void  costclassifications(){ 
+   }
+   
+   public void updatedocuments(){
+       
+   }
+   public void recommendeddestinations(){
+       
    }
 
     /**
@@ -28,6 +42,20 @@ public class Travels {
      */
     public void setDestinations(Destinations[] destinations) {
         this.destinations = destinations;
+    }
+
+    /**
+     * @return the transports
+     */
+    public Transports[] getTransports() {
+        return transports;
+    }
+
+    /**
+     * @param transports the transports to set
+     */
+    public void setTransports(Transports[] transports) {
+        this.transports = transports;
     }
 
     /**
