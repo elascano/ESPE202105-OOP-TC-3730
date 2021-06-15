@@ -24,7 +24,7 @@ private int inches;
         this.inches=inches; 
           
     }
-
+    
     @Override
     public String toString() {
         return "Television{" + "model=" + model + ", color=" + color + ", inches=" + inches + '}';
