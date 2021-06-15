@@ -12,10 +12,14 @@ package ec.edu.espe.associations.model;
 public class Client {
    private  String name;
    private  String lastname;
+
+    @Override
+    public String toString() {
+        return "Client{" + "name=" + name + ", lastname=" + lastname + ", money=" + money + '}';
+    }
    
    private int money;
-   public void statics(){    
-   }
+  
    public void satisfaction(){
    }
    public void economicstatus(){
