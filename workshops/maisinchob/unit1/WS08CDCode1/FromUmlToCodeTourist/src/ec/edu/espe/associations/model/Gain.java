@@ -14,6 +14,11 @@ public class Gain {
 public void promotepackages(){
 }    
 
+    @Override
+    public String toString() {
+        return "Gain{" + "benefit=" + benefit + '}';
+    }
+
     /**
      * @return the benefit
      */
