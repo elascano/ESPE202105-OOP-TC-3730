@@ -5,10 +5,7 @@
  */
 package InventoryProducts.view;
 
-import InventoryProducts.model.Inventory;
-import InventoryProducts.model.Available;
-import InventoryProducts.model.Connectors;
-import InventoryProducts.model.Device;
+import InventoryProducts.model.*;
 
 /**
  *
