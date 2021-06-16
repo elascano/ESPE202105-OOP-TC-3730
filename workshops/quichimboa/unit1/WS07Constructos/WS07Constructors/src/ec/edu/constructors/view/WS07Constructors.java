@@ -13,6 +13,7 @@ import ec.edu.constructors.model.Computer;
  */
 public class WS07Constructors {
     public static void main(String[] args) {
+       
         System.out.println("HELLO FROM COMPUTER OBJECT");
         
         Computer computer;
