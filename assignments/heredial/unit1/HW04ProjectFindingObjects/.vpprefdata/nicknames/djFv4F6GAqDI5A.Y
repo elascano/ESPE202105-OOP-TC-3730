@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NickNames projectID="6sqWx56GAqDI5AWL" projectPath="C:\Users\ASUS\Desktop\ESPE\21May_Sep\POO\03code\ESPE202105-OOP-TC-3730\assignments\heredial\unit1\HW06 CompleteProjectInventory\Inventory 1.2.vpp" selectedNickName="Realname"/>
