@@ -20,7 +20,8 @@ public class FarmSystem {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println("ChFarmSimulator, \n");
+        System.out.println("ChFarmSimulator, \n"
+        + "Andrea Quichimbo");
         Chicken chiken;
         //TODO reading from keyboard
         int id;
