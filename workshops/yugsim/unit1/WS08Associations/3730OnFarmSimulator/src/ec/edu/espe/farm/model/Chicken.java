@@ -19,10 +19,6 @@ public class Chicken {
     private boolean molting;
     private int eggCounter=0;
 
-    public Chicken(int id, String name, String color, Date age, boolean molting) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     @Override
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
