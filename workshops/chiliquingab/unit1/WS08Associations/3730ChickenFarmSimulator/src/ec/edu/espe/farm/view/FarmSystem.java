@@ -30,6 +30,14 @@ public class FarmSystem {
         
         //TODO reading from keyboard 
         
+        id = 0;
+        name = "Lucy";
+        color = "white";
+        age = new Date();
+        bornOn = new Date();
+        molthing = true;
+        eggCounter = 0;
+        
         Calendar cal = new GregorianCalendar();
         int mesActual = cal.get(Calendar.MONTH), anoActual = cal.get(Calendar.YEAR),
                 diaActual = cal.get(Calendar.DAY_OF_MONTH);
@@ -47,14 +55,6 @@ public class FarmSystem {
         anoResultado = Math.abs(ano - anoActual);
         
         System.out.println("Chickens have " + anoResultado + " years " + mesResultado + " months " + " and " + diaResultado + " days.");
-        
-        id = 0;
-        name = "Lucy";
-        color = "white";
-        age = new Date();
-        bornOn = new Date();
-        molthing = true;
-        eggCounter = 0;
         
         chicken = new Chicken(id, name, color, age, bornOn, molthing);
         
