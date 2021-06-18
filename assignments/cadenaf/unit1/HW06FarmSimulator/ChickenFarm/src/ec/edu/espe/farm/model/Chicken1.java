@@ -5,96 +5,36 @@
  */
 package ec.edu.espe.farm.model;
 
+import java.io.InputStream;
 import java.util.Date;
 
 /**
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class Chicken {
-        private int id;
-private String name;
+public class Chicken1 {
     private String color;
     private Date age;
     private Date bornOn;
     private boolean molting;
    private int eggCounter=0;
 
-    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
-        this.id = id;
-        this.name = name;
+    public Chicken1(String color, Date age, Date bornOn, boolean molting) {
         this.color = color;
         this.age = age;
         this.bornOn = bornOn;
         this.molting = molting;
     }
 
+    public Chicken1(InputStream in) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
+        return "Chicken1{" + "color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
-    
-   
-  
-    public void doStuff(int forTime){
         
-    }
-    
-    private void cluck(){
-        System.out.println(" cluck cluck cluck");
-    }
-    
-    private void wander(){
-        System.out.println(" wander from one chicken coop to another");
-        
-    }
-    
-    private void eat(){
-        System.out.println(" eating ");
-              
-     }
-    
-    private void drink(){
-        System.out.println(" drinking water");
-
-    }
-    
-    private Poop poop(){
-        return new Poop();
-    }
-    
-    private Egg layAnEgg(){
-        
-        return new Egg(0);
-    }
-
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    /**
-     * @return the name
-     */
-    public String getName() {
-        return name;
-    }
-
-    /**
-     * @param name the name to set
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
 
     /**
      * @return the color
@@ -164,5 +104,9 @@ private String name;
      */
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
+    }
+
+    public int nextInt() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
