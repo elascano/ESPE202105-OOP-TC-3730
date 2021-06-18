@@ -38,6 +38,7 @@ public class FarmSystem {
         Chicken ckicken = new Chicken (id, name, color, age, bornOn, molting);
         System.out.println("ckicken ->" + ckicken);
         // ENTER THE 10 CHICKES
+        
         Scanner entry = new Scanner(System.in);
         char[] chickens;
         chickens = new char [10];
