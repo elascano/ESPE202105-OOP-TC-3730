@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class Chicken {
+  public class Chicken {
   private  int id;
   private  String name;
   private  String color;
