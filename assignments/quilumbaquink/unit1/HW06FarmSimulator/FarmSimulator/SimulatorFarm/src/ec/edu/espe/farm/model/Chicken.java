@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package ec.edu.espe.farm.model;
+
 import java.util.Date;
 
 /**
@@ -156,8 +157,5 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
-
-    
-
     
 }
