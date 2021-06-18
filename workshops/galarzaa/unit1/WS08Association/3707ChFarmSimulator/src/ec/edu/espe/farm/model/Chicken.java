@@ -17,21 +17,22 @@ public class Chicken {
     private String name;
     private String color;
     private Date age;
+    private Date bornOn;
     private boolean molting;
-    int eggCounter=0;
+    private int eggCounter=0;
 
-    @Override
-    public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
-    }
-
-    
-    public Chicken(int id, String name, String color, Date age, boolean molting) {
+    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
         this.id = id;
         this.name = name;
         this.color = color;
         this.age = age;
+        this.bornOn = bornOn;
         this.molting = molting;
+    }
+
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
     
     
@@ -60,7 +61,7 @@ public class Chicken {
     }
 
     private Egg LayAnEgg() {
-        eggCounter++;
+        setEggCounter(getEggCounter() + 1);
         return new Egg(0);
     }
 
@@ -121,6 +122,20 @@ public class Chicken {
     }
 
     /**
+     * @return the bornOn
+     */
+    public Date getBornOn() {
+        return bornOn;
+    }
+
+    /**
+     * @param bornOn the bornOn to set
+     */
+    public void setBornOn(Date bornOn) {
+        this.bornOn = bornOn;
+    }
+
+    /**
      * @return the molting
      */
     public boolean isMolting() {
@@ -133,4 +148,19 @@ public class Chicken {
     public void setMolting(boolean molting) {
         this.molting = molting;
     }
+
+    /**
+     * @return the eggCounter
+     */
+    public int getEggCounter() {
+        return eggCounter;
+    }
+
+    /**
+     * @param eggCounter the eggCounter to set
+     */
+    public void setEggCounter(int eggCounter) {
+        this.eggCounter = eggCounter;
+    }
+    
 }
