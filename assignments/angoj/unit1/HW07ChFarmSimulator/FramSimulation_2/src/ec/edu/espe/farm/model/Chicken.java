@@ -4,31 +4,26 @@
  * and open the template in the editor.
  */
 package ec.edu.espe.farm.model;
-
 import java.util.Date;
 /**
  *
- * @author Pamela Yugsi LAMESTech ESPE-DCCO
+ * @author Johny Ango OOPTech ESPE-DCCO
  */
 public class Chicken {
-    private int id;
-    private String name;
-    private String color;
-    private Date age;
-    private Date bornOn;
-    private boolean molting;
+     private int id;
+     private String name;
+     private String color;
+     private Date age;
+     private Date bornOn;
+     private boolean molting;
     private int eggCounter=0;
-
-    public Chicken(int id, String name, String color, Date age, boolean molting) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
     @Override
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
     
-    
+
     public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
         this.id = id;
         this.name = name;
@@ -39,33 +34,27 @@ public class Chicken {
     }
     
     
-    
     public void doStuff(int forTime){
-        
-    }
     
+    }
     private void cluck(){
-        System.out.println(" cluck cluck cluck");
+    System.out.println("cluck cluck cluck");      
     }
-    
-    private void wande(){
-        System.out.println(" wandering from one chicken coop to another");
+    private void wander(){
+    System.out.println("wandering from one chicken coop to another");
     }
-    
     private void eat(){
-        System.out.println(" eating");
+    System.out.println("eating");
     }
-    
     private void drink(){
-        System.out.println("drinking water");
-    }
-    
+    System.out.println("drinking water");
+}
     private Poop poop(){
-        return new Poop();
+    return new Poop();
     }
-    
-    private Egg LayAnEgg(){
-        return new Egg(0);
+    private Egg layanEgg(){
+        setEggCounter(getEggCounter() + 1);
+    return new Egg(0);
     }
 
     /**
@@ -125,20 +114,6 @@ public class Chicken {
     }
 
     /**
-     * @return the bornOn
-     */
-    public Date getBornOn() {
-        return bornOn;
-    }
-
-    /**
-     * @param bornOn the bornOn to set
-     */
-    public void setBornOn(Date bornOn) {
-        this.bornOn = bornOn;
-    }
-
-    /**
      * @return the molting
      */
     public boolean isMolting() {
@@ -150,6 +125,20 @@ public class Chicken {
      */
     public void setMolting(boolean molting) {
         this.molting = molting;
+    }
+
+    /**
+     * @return the bornOn
+     */
+    public Date getBornOn() {
+        return bornOn;
+    }
+
+    /**
+     * @param bornOn the bornOn to set
+     */
+    public void setBornOn(Date bornOn) {
+        this.bornOn = bornOn;
     }
 
     /**
@@ -165,4 +154,5 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
+    
 }

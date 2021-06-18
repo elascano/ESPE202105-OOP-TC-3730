@@ -6,9 +6,10 @@
 package ec.edu.espe.farm.model;
 
 import java.util.Date;
+
 /**
  *
- * @author Pamela Yugsi LAMESTech ESPE-DCCO
+ * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
 public class Chicken {
     private int id;
@@ -19,14 +20,11 @@ public class Chicken {
     private boolean molting;
     private int eggCounter=0;
 
-    public Chicken(int id, String name, String color, Date age, boolean molting) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     @Override
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
+    
     
     
     public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
@@ -39,7 +37,7 @@ public class Chicken {
     }
     
     
-    
+            
     public void doStuff(int forTime){
         
     }
@@ -48,23 +46,24 @@ public class Chicken {
         System.out.println(" cluck cluck cluck");
     }
     
-    private void wande(){
+    private void wander(){
         System.out.println(" wandering from one chicken coop to another");
     }
     
     private void eat(){
-        System.out.println(" eating");
+        System.out.println(" eating ");
     }
     
     private void drink(){
-        System.out.println("drinking water");
+        System.out.println(" drinking water");
     }
     
     private Poop poop(){
         return new Poop();
     }
     
-    private Egg LayAnEgg(){
+    private Egg layAnEgg(){
+        setEggCounter(getEggCounter() + 1);
         return new Egg(0);
     }
 

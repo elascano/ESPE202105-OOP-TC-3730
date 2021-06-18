@@ -30,23 +30,30 @@ public class FarmSystem {
         int EggCounter;
         int birth;
         
-        System.out.println("WS06 - Farm Simulator, \n" + "Pamela Yugsi");
+        System.out.println("HW06 - Farm Simulator, \n"
+                        + "Pamela Yugsi");
         
-        System.out.println("Enter the ID: ");
         id=read.nextInt();
-        System.out.println("Enter Name: ");
+        System.out.println("Enter the ID: ");
+        
         name=read.next();
+        System.out.println("Enter Name: ");
+        
+        color=read.next();        
         System.out.println("Enter Color: ");
-        color=read.next();
-        System.out.println("Enter Molting: ");
+        
         molting=read.nextBoolean();
-        System.out.println("Enter Egg Counter: ");
+        System.out.println("Enter Molting: ");
+        
         EggCounter=read.nextInt();
-        System.out.println("Enter Date of Birth: ");
+        System.out.println("Enter Egg Counter: ");
+        
         birth=read.nextInt();
+        System.out.println("Enter Date of Birth: ");
 
         chicken = new Chicken(id, name, color, age, molting); 
         System.out.println("chicken -> " + chicken);
+        
         System.out.println("");
         }
     }
