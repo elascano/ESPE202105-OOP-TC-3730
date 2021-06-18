@@ -5,8 +5,6 @@
  */
 package ec.edu.espe.farm.model;
 
-import java.time.LocalDate;
-import java.time.Period;
 import java.util.Date;
 
 /**
@@ -15,33 +13,29 @@ import java.util.Date;
  */
 public class Chicken {
 
-     private int id;
-     private String name;
-     private String color;
-    private  LocalDate date;
-     private LocalDate born0n;
-     private Period age;
+    private int id;
+    private String name;
+    private String color;
+    private Date age;
+    private Date bornOn;
     private boolean molting;
-    private int eggCounter;
+    private int eggCounter=0;
 
-    public Chicken(int id, String name, String color, LocalDate date, LocalDate born0n, Period age, boolean molting, int eggCounter) {
+    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
         this.id = id;
         this.name = name;
         this.color = color;
-        this.date = date;
-        this.born0n = born0n;
         this.age = age;
+        this.bornOn = bornOn;
         this.molting = molting;
-        this.eggCounter = eggCounter;
     }
 
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", date=" + date + ", born0n=" + born0n + ", age=" + age + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
-
     
- 
+    
     public void doStuff(int forTime) {
 
     }
@@ -114,45 +108,31 @@ public class Chicken {
     }
 
     /**
-     * @return the date
-     */
-    public LocalDate getDate() {
-        return date;
-    }
-
-    /**
-     * @param date the date to set
-     */
-    public void setDate(LocalDate date) {
-        this.date = date;
-    }
-
-    /**
-     * @return the born0n
-     */
-    public LocalDate getBorn0n() {
-        return born0n;
-    }
-
-    /**
-     * @param born0n the born0n to set
-     */
-    public void setBorn0n(LocalDate born0n) {
-        this.born0n = born0n;
-    }
-
-    /**
      * @return the age
      */
-    public Period getAge() {
+    public Date getAge() {
         return age;
     }
 
     /**
      * @param age the age to set
      */
-    public void setAge(Period age) {
+    public void setAge(Date age) {
         this.age = age;
+    }
+
+    /**
+     * @return the bornOn
+     */
+    public Date getBornOn() {
+        return bornOn;
+    }
+
+    /**
+     * @param bornOn the bornOn to set
+     */
+    public void setBornOn(Date bornOn) {
+        this.bornOn = bornOn;
     }
 
     /**
@@ -182,10 +162,5 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
-
     
-    
-
-    
-   
 }
