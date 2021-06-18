@@ -48,6 +48,7 @@ public class FramSimulation {
         chickens[8] = new Chicken(8, "guty", "yellow", new Date(), new Date(), false);
         chickens[9] = new Chicken(9, "javi", "blue", new Date(), new Date(), true);
         
+        
          for (int i=0; 1<10; i++){
              System.out.println("chicken"+ i + "=" + chickens[i]);
              
