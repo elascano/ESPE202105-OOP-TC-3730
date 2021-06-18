@@ -15,28 +15,22 @@ public class Chicken {
     private int id;
     private String name;
     private String color;
-    private Date age;
+    private Date bornOn;
     private boolean molting;
     private int eggCounter=0;
 
-    @Override
-    public String toString() {
-        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", molting=" + isMolting() + ", eggCounter=" + getEggCounter() + '}';
-    }
-    
-    public Chicken(int id, String name, String color, Date age, boolean molting) {
+    public Chicken(int id, String name, String color, Date bornOn, boolean molting) {
         this.id = id;
         this.name = name;
         this.color = color;
-        this.age = age;
+        this.bornOn = bornOn;
         this.molting = molting;
     }
 
-    public Chicken(int i, String lola, String brown, Date age, Date bornOn, boolean b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
-    
-    
     
     public void doStuff(int forTime){
         
@@ -110,20 +104,6 @@ public class Chicken {
     }
 
     /**
-     * @return the age
-     */
-    public Date getAge() {
-        return age;
-    }
-
-    /**
-     * @param age the age to set
-     */
-    public void setAge(Date age) {
-        this.age = age;
-    }
-
-    /**
      * @return the molting
      */
     public boolean isMolting() {
@@ -149,5 +129,19 @@ public class Chicken {
      */
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
+    }
+
+    /**
+     * @return the bornOn
+     */
+    public Date getBornOn() {
+        return bornOn;
+    }
+
+    /**
+     * @param bornOn the bornOn to set
+     */
+    public void setBornOn(Date bornOn) {
+        this.bornOn = bornOn;
     }
 }
