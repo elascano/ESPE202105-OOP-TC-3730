@@ -89,7 +89,7 @@ public class FarmSystem {
     jsonChicken = gson.toJson(chicken);
     System.out.println("jsonChicken -> " + jsonChicken);
     
-    //deserealizacion
+    //deserealizacion 
     Chicken chicken2;
     chicken2 = gson.fromJson(jsonChicken,Chicken.class);
     
