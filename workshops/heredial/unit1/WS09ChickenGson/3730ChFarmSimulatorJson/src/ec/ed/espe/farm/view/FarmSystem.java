@@ -62,6 +62,7 @@ public class FarmSystem {
          chicken3 = gson.fromJson(jsonChicken, Chicken.class);
          
          System.out.println("chicken object name->" + chicken3.getName());
+         
        
     }
     
