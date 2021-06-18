@@ -8,9 +8,6 @@ package ec.edu.espe.farm.view;
 import ec.edu.espe.farm.model.Chicken;
 import java.util.Date;
 
-
-
-
 /**
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
@@ -27,6 +24,7 @@ public class FarmSystem {
         boolean molting;
         int eggCounter;
         
+     
         id=0;
         name="Lucy";
         color="White";
@@ -39,10 +37,7 @@ public class FarmSystem {
         chicken = new Chicken(id,name,color,age,bornOn,molting);
         System.out.println("chicken -" + chicken);
         
-        //Chicken chickens[]=new Chicken[10];
-        
-        //chickens[0]=chicken;
-        //chickens[1]=new Chicken(1, "Maruja" , "black" , age, bornOn,false)
+      
     }
             
 }
