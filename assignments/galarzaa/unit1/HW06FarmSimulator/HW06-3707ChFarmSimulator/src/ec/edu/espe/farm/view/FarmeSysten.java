@@ -58,10 +58,10 @@ public class FarmeSysten {
             eggCounter = data.nextInt();
             chickens[i]= new Chicken(id, name, color, date, bornOn,age,molting,eggCounter);
             }
+         System.out.println("Data of all chickens entered: ");
         for(int i = 0; i <2; i++){
-            System.out.println("Data of all chickens entered: ");
-            System.out.println(chickens[i].getId()+" "+chickens[i].getName()+" "+chickens[i].getColor()+" "+chickens[i].getDate()+" "+chickens[i].getBorn0n()+" "+chickens[i].getAge()+" "+chickens[i].isMolting()+" "+chickens[i].getEggCounter());
-   }
+          System.out.println(chickens[i].getId()+" "+chickens[i].getName()+" "+chickens[i].getColor()+" "+chickens[i].getDate()+" "+chickens[i].getBorn0n()+" "+chickens[i].getAge()+" "+chickens[i].isMolting()+" "+chickens[i].getEggCounter());
+       }
  }
 }
 
