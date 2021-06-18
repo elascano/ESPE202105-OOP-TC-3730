@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package ec.edu.espe.farmSimulator.model;
-import java.util.Date;
 
 /**
  *
@@ -14,57 +13,21 @@ public class Chicken {
     private int id;
     private String name;
     private String color;
-    private Date age;
-    private Date bornOn;
+
     private boolean nolting;
-    private int eggCounter=0;
+    private int eggCounter;
 
-    @Override
-    public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", nolting=" + nolting + ", eggCounter=" + eggCounter + '}';
-    }
-
-    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean nolting) {
+    public Chicken(int id, String name, String color, boolean nolting, int eggCounter) {
         this.id = id;
         this.name = name;
         this.color = color;
-        this.age = age;
-        this.bornOn = bornOn;
         this.nolting = nolting;
+        this.eggCounter = eggCounter;
     }
-    
-    public void doStuff(int forTime){
-    
-    }
-    
-    private void cluck(){
-        System.out.println(" cluck cluck cluck ");
-        
-    }
-    
-    private void wander(){
-        System.out.println(" wandering from one chiken coop to another ");
-        
-    }
-    
-    private void eat(){
-        System.out.println(" eating ");
-        
-    }
-    
-    private void drink(){
-        System.out.println(" drinking water ");
-    }
-    
-    private Poop poop(){
-        return new Poop();
-        
-    }
-    
-    private Egg layAnEgg(){
-        setEggCounter(getEggCounter() + 1);
-        return new Egg(0);
-        
+
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", nolting=" + isNolting() + ", eggCounter=" + getEggCounter() + '}';
     }
 
     /**
@@ -110,34 +73,6 @@ public class Chicken {
     }
 
     /**
-     * @return the age
-     */
-    public Date getAge() {
-        return age;
-    }
-
-    /**
-     * @param age the age to set
-     */
-    public void setAge(Date age) {
-        this.age = age;
-    }
-
-    /**
-     * @return the bornOn
-     */
-    public Date getBornOn() {
-        return bornOn;
-    }
-
-    /**
-     * @param bornOn the bornOn to set
-     */
-    public void setBornOn(Date bornOn) {
-        this.bornOn = bornOn;
-    }
-
-    /**
      * @return the nolting
      */
     public boolean isNolting() {
@@ -164,4 +99,6 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
+
+   
 }
