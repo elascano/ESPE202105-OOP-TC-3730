@@ -8,6 +8,7 @@ package ec.edu.espe.farm.view;
 
 import ec.edu.espe.farm.model.Chicken;
 import java.util.Date;
+import java.util.Scanner;
 
 /**
  *
@@ -15,6 +16,7 @@ import java.util.Date;
  */
 public class FarmerSystem { 
     public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
         Chicken chicken;
         int id;
         String name;
@@ -35,20 +37,10 @@ public class FarmerSystem {
         chicken = new Chicken(id, name, color, age, born0n, molting);
         
         System.out.println("chicken ->"+ chicken);
+       
+               
         
-        
-        
-        
-        
-                
-        
-        
-        
-        
-        
-        
-        
-        
-    }
+
+        }
     
 }

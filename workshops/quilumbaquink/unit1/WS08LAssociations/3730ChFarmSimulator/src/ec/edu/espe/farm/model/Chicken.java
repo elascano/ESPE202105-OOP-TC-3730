@@ -5,6 +5,7 @@
  */
 package ec.edu.espe.farm.model;
 import java.util.Date;
+
 /**
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
@@ -17,6 +18,7 @@ public class Chicken {
     private Date bornOn;
     private boolean molting;
     private int eggCounter=0;
+    
 
     @Override
     public String toString() {
