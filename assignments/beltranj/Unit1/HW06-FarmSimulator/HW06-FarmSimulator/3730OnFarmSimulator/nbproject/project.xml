@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD:assignments/beltranj/Unit1/HW06-FarmSimulator/HW06-FarmSimulator/3730OnFarmSimulator/nbproject/project.xml
             <name>3730OnFarmSimulator</name>
+=======
+            <name>3730ChFarmSimulator_HW</name>
+>>>>>>> 8f15c6dba388375145c50a2b120aff5f854bba36:assignments/criollok/unit1/HW06FarmSimulador/3730ChFarmSimulator_HW/nbproject/project.xml
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
