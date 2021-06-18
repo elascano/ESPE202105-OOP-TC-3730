@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.farm.view;
+package ec.edu.espe.farm.model;
 
 /**
  *
- * @author LILIAN IZA TOUR GUEST OPP-ESPE
+ * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
-public class Simulator {
+public class Poop {
     
 }
