@@ -30,24 +30,6 @@ public class FarmSystem {
         
         //TODO reading from keyboard 
         
-        Calendar cal = new GregorianCalendar();
-        int mesActual = cal.get(Calendar.MONTH), anoActual = cal.get(Calendar.YEAR),
-                diaActual = cal.get(Calendar.DAY_OF_MONTH);
-        int mes, dia, ano;
-        int mesResultado, diaResultado, anoResultado;
-        System.out.print("Tell me the day: ");
-        dia = entrada.nextInt();
-        System.out.print("Tell me the month: ");
-        mes = entrada.nextInt();
-        System.out.print("Tell me the year: ");
-        ano = entrada.nextInt();
-        
-        mesResultado = Math.abs(mes - mesActual);
-        diaResultado = Math.abs(dia - diaActual);
-        anoResultado = Math.abs(ano - anoActual);
-        
-        System.out.println("Chickens have " + anoResultado + " years " + mesResultado + " months " + " and " + diaResultado + " days.");
-        
         id = 0;
         name = "Lucy";
         color = "white";
@@ -64,13 +46,13 @@ public class FarmSystem {
         
         chickens[0] = chicken;
         chickens[1] = new Chicken(1, "Maruja", "black", age, bornOn, false);
-        chickens[2] = new Chicken(2, "Veronica", "orange", age, bornOn, true);
+        chickens[2] = new Chicken(2, "Veronica", "orange", age, bornOn, false);
         chickens[3] = new Chicken(3, "Camila", "red", age, bornOn, false);
-        chickens[4] = new Chicken(4, "Bellota", "white", age, bornOn, true);
+        chickens[4] = new Chicken(4, "Bellota", "white", age, bornOn, false);
         chickens[5] = new Chicken(5, "Alisson", "rose", age, bornOn, false);
-        chickens[6] = new Chicken(6, "Melanie", "blue", age, bornOn, true);
+        chickens[6] = new Chicken(6, "Melanie", "blue", age, bornOn, false);
         chickens[7] = new Chicken(7, "Alexandra", "yellow", age, bornOn, false);
-        chickens[8] = new Chicken(8, "Andrea", "green", age, bornOn, true);
+        chickens[8] = new Chicken(8, "Andrea", "green", age, bornOn, false);
         chickens[9] = new Chicken(9, "Martha", "purple", age, bornOn, false);
 
     for(Chicken i: chickens){
