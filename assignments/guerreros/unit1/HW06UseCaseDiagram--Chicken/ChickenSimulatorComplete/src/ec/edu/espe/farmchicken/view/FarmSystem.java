@@ -33,31 +33,23 @@ public class FarmSystem {
         Chicken chicken [] = new Chicken[10];
         BornOnChicken bornOn[] = new BornOnChicken[10];
         Age age[] = new Age[10];
-        for(int i=0;i<10;i++){
+        for(int i=0;i<1;i++){
             
             System.out.print("Insert chicken id:");
             id = enter.nextInt();
-            
             System.out.print("Insert chicken name:");
             name = enter.next();
-            
             System.out.print("Insert chiken color:");
-            color = enter.next();
-                                  
+            color = enter.next();              
             System.out.print("Insert Born On:\n");
-            
             System.out.print("Insert Day:"); 
-            day = enter.nextInt();                  
-                                    
+            day = enter.nextInt();                                      
             System.out.print("Insert Month:"); 
             month = enter.nextInt();
-           
             System.out.print("Insert Year:"); 
             annun = enter.nextInt();
-            
             System.out.print("Inster molting:");
             molting = enter.nextBoolean();
-            
             System.out.print("Insert eggCounter:");
             eggCounter = enter.nextInt();
             
@@ -70,7 +62,7 @@ public class FarmSystem {
             age[i]  = new Age(day, month, annun);
         }
         
-        for(int i=0;i<10;i++){
+        for(int i=0;i<1;i++){
        
            System.out.println(chicken[i]);
       
