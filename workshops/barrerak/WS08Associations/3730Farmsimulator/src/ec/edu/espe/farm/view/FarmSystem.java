@@ -30,7 +30,7 @@ public class FarmSystem {
         age = new Date();
         bornOn = new Date();
         molting = true;
-        eggCounter = 0;
+        eggCounter = 0; 
         
         
         
