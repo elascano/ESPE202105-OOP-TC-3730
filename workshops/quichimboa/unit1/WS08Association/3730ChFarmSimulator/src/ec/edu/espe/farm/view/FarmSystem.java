@@ -13,14 +13,14 @@ import java.util.Date;
  * @author Andrea Quichimbo Builder Program ESPE-DCCO
  */
 public class FarmSystem {
+    
 
     /**
      *
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println("ChFarmSimulator, \n"
-        + "Andrea Quichimbo");
+        System.out.println("ChFarmSimulator, \n");
         Chicken chiken;
         //TODO reading from keyboard
         int id;
@@ -42,11 +42,26 @@ public class FarmSystem {
         Chicken chicken = new Chicken(id, name, color, age, born0n, molting);
         System.out.println("chicken ->" + chicken);
        
-        @SuppressWarnings("MismatchedReadAndWriteOfArray")
-        Chicken chikens[]= new Chicken[10];
         
-        chikens[0] = chicken;
-        chikens[1] = new Chicken(1, "Maruja", "black", age, born0n, false);
+         
+     
+        Chicken chickens[]= new Chicken[10];
+        chicken = new Chicken(id, name, color, age, born0n, molting);
+        chickens[0] = chicken;
+        chickens[1] = new Chicken(1, "Maruja", "black", new Date(), new Date(), false);
+        chickens[2] = new Chicken(2, "Chloc", "gray", new Date(), new Date(), false);
+        chickens[3] = new Chicken(3, "Harper", "blue", new Date(), new Date(), false);
+        chickens[4] = new Chicken(4, "Avery", "green", new Date(), new Date(), true);
+        chickens[5] = new Chicken(5, "Ellie", "pink", new Date(),new Date(), false);
+        chickens[6] = new Chicken(6, "Luke", "red", new Date(), new Date(), true);
+        chickens[7] = new Chicken(7, "Jack", "purple", new Date(), new Date(), true);
+        chickens[8] = new Chicken(8, "Ryan", "yellow", new Date(), new Date(), false);
+        chickens[9] = new Chicken(9, "Jeremiah", "orange", new Date(), new Date(), true);
+        
+        for (int i=0; 1<10; i++){
+            
+            System.out.println("chicken"+ i + "=" + chickens[i]);
+        }
     }
 }
     
