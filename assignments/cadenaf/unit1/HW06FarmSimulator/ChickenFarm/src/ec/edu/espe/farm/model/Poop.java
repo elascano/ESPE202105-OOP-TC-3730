@@ -9,6 +9,6 @@ package ec.edu.espe.farm.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class Poop1 {
+public class Poop {
     
 }

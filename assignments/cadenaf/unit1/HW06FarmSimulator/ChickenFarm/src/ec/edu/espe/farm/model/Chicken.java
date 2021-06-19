@@ -12,25 +12,25 @@ import java.util.Date;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class Chicken1 {
+public class Chicken {
     private String color;
     private Date age;
     private Date bornOn;
     private boolean molting;
    private int eggCounter=0;
 
-    public Chicken1(String color, Date age, Date bornOn, boolean molting) {
+    public Chicken(String color, Date age, Date bornOn, boolean molting) {
         this.color = color;
         this.age = age;
         this.bornOn = bornOn;
         this.molting = molting;
     }
 
-    public Chicken1(InputStream in) {
+    public Chicken(InputStream in) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public Chicken1() {
+    public Chicken() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -53,7 +53,6 @@ public class Chicken1 {
     public void setColor(String color) {
         this.color = color;
     }
-
     /**
      * @return the age
      */
@@ -114,7 +113,7 @@ public class Chicken1 {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public void add(Chicken1 chicken1) {
+    public void add(Chicken chicken1) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

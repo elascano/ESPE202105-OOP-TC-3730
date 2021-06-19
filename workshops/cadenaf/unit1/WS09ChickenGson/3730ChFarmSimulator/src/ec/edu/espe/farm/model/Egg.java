@@ -9,17 +9,18 @@ package ec.edu.espe.farm.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class Eggs1 {
+public class Egg {
      private int id;
 
-    public Eggs1(int id) {
+    public Egg(int id) {
         this.id = id;
     }
 
     @Override
     public String toString() {
-        return "Eggs{" + "id=" + id + '}';
+        return "Egg{" + "id=" + id + '}';
     }
+
 
     /**
      * @return the id
@@ -34,4 +35,5 @@ public class Eggs1 {
     public void setId(int id) {
         this.id = id;
     }
+    
 }
