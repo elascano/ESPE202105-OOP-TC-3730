@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.farm.view;
+package ec.edu.espe.farm.model;
 
 /**
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-class Arraylist<T> {
+public class ChickenFarmer {
     
 }

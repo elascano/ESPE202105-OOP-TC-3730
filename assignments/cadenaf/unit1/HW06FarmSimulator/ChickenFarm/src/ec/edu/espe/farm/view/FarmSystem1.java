@@ -5,48 +5,40 @@
  */
 package ec.edu.espe.farm.view;
 
-import ec.edu.espe.farm.model.Chicken1;
-import java.util.ArrayList;
-import java.util.Date;
+import java.util.Scanner;
 
 /**
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class FarmSystem1 {
-    public static void main(String[] args){
-    int Chicken1Id;
-    String name;
-    String color;
-    Date date = new Date();
-    boolean molting;
-    Arraylist<Chicken1> chicken1 = new ArrayList<>();
-    Chicken1 chicken1Array[] = new Chicken1[5];
-    
-    //emput by keyboard
-    Chicken1Id = 1;
-    name = "Francisca";
-    color = "Black";
-    boolean isMolting = true;
-    
-    Chicken1 chicken1 = new Chicken1());
-    System.out.println("Chicken1 object -> " + chicken1);
-        int chicken1Id = 0;
+        public static void main(String[] args) {  
+            
+     Scanner sc = new Scanner(System.in);
+     System.out.println("Write the Id: ");
+     String id = sc.nextLine();
      
-    chicken1 = new Chicken1(chicken1Id, name, color, date, ismolting);
-    System.out.println("chicken1 object -> " + chicken1);
-    
-    Chicken1 chicken12 = new chicken1(2, "Ana", "Pink", new Date(), false);
-    System.out.println("chicken12 object ->" + chicken12);
+     System.out.println("Write the name: ");
+     String name = sc.nextLine();
      
-    chicken1.add(chicken1);
-    chicken.add(chicken12);
+     System.out.println("Write the color: ");
+     String color = sc.nextLine();
+     
+     System.out.println("Write the age: ");
+     String age = sc.nextLine();
+     
+     System.out.println("Write the bornOn: ");
+     String bornOn = sc.nextLine();
+     
+     System.out.println("Write the molting: ");
+     String molting = sc.nextLine();
+     
+     System.out.println("Write the eggCounter: ");
+     String eggCounter = sc.nextLine();
+     
+     System.out.println("Id: " + id + ", Name: " + name + ", Color: " + color + ", Age: " + age + ", bornOn: " + bornOn + ", molting: " + molting + ", eggCounter: " + eggCounter);
+              
+
+    }
     
-    System.out.println("chicken1 -> " + chicken1);
-        String[] chicken1Array;
-    
-    chicken1Array[0] = chicken; 
-    
-    System.out.println("chichen1Array ->" + chicken1Array[0]);
-}
 }
