@@ -6,7 +6,10 @@
 package ec.edu.espe.farm.view;
 
 import ec.edu.espe.farm.model.Chicken;
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.Date;
+import java.util.Scanner;
 //import java.util.Scanner;
 
 /**
@@ -14,45 +17,56 @@ import java.util.Date;
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
 public class FarmSystem {
+
     public static void main(String[] args) {
-        
+
+        Scanner imprim = new Scanner(System.in);
         Chicken chicken;
+        Scanner data = new Scanner(System.in);
+        int day;
+        int month;
+        int year;
         int id;
-        String name; 
-        String color; 
-        Date age;
-        Date bornOn;
-        boolean molting;
+        String name;
+        String color;
+        boolean molthing;
         int eggCounter;
         
         
-        id= 0;
-        name = "Lucy";
-        color = "white";
-        age = new Date();
-        bornOn = new Date();
-        molting = true;
-        eggCounter = 0;
-        
-        chicken = new Chicken(id, name, color, age, bornOn, molting);
-        
-        System.out.println(" chicken -> " + chicken);
-        Chicken chickens[] = new Chicken [10];
-        chickens[0] = chicken;
-        chickens[1] = new Chicken(1, " Cyndi ", " green ", age, bornOn, false);
-        chickens[2] = new Chicken(2, " Tatiana ", " black ", age, bornOn, true);
-        chickens[3] = new Chicken(3, " Roberta ", " red ", age, bornOn, false);
-        chickens[4] = new Chicken(4, " Gaby ", " pink ", age, bornOn, true);
-        chickens[5] = new Chicken(5, " Pancha ", " purple ", age, bornOn, false);
-        chickens[6] = new Chicken(6, " Anita ", " blue ", age, bornOn, false);
-        chickens[7] = new Chicken(7, " America ", " black ", age, bornOn, true);
-        chickens[8] = new Chicken(8, " Carmen ", " brown ", age, bornOn, true);
-        chickens[9] = new Chicken(9, " Juana ", " brown ", age, bornOn, true);
-    
-          for (int i = 0; i < chickens.length; i++) {
-            System.out.println(chickens[i]);
+      
+        Chicken chickens[] = new Chicken[10];
+        for (int i = 0; i < 2; i++) {
+            System.out.println("Deme dato de gallina");
+            System.out.println("Introdusca id");
+            id = imprim.nextInt();
+            System.out.println("Introdusca name");
+            name = imprim.next();
+            System.out.println("Introdusca color");
+            color = imprim.next();
+            System.out.println("Day of born");
+            System.out.println("Enter day");
+            day = data.nextInt();
+            System.out.println("Enter month");
+            month = data.nextInt();
+            System.out.println("Enter year");
+            year = data.nextInt();
             
+            LocalDate bornon = LocalDate.of(year, month, day); //specify year, month, date directly
+            LocalDate dayactuallity = LocalDate.now(); //gets localDate
+            Period diff = Period.between(bornon, dayactuallity); //difference between the dates is calculated
             
+            System.out.println("Enter the molting: ");
+            boolean molting = data.nextBoolean();
+            System.out.println("Enter the Egg Counter: ");
+            eggCounter = data.nextInt();
+            System.out.println(diff.getYears() + " years "+" months " + diff.getMonths()+diff.getDays() + "days");
+        
+            chickens[i]= new Chicken(id, name, color, dayactuallity, bornon, molting,eggCounter);
         }
+            System.out.println("Data of all chickens entered: ");
+            for(int i = 0; i <2; i++){
+            System.out.println(chickens[i].getId()+" "+chickens[i].getName()+" "+chickens[i].getColor()+" "+chickens[i].getDayactuallity()+" "+chickens[i].getBornon()+" "+chickens[i].isMolting()+" "+chickens[i].getEggCounter());
+ 
     }
+  }
 }
