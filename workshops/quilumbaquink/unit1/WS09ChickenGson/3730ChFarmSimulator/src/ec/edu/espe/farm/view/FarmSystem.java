@@ -40,35 +40,32 @@ public class FarmSystem {
         bornOn = new Date();
         molting =true;
         eggCounter=0;
-        //String jsonChicken="";
+        String jsonChicken="";
 
         //Chicken chicken= new Chicken();
         chicken = new Chicken(id,name,color,age,bornOn,molting);
-        System.out.println("chicken object ->" + chicken);
-        
+        System.out.println("chicken object -" + chicken);
         
         Chicken chicken2=new Chicken(2,"Maruja","black",new Date(),new Date(), false);
-        System.out.println("chicken object ->" + chicken2);
+        
+        
+        //chicken =new Chicken(id,name,color,date,molting);
         
         GsonBuilder gsonBuilder= new GsonBuilder();
         Gson gson=gsonBuilder.create();
         
-        String jsonChicken="{\"id\":\"1\"}";
-        System.out.println("chicken Json ->"+jsonChicken);
-        
         jsonChicken=gson.toJson(chicken);
         
         //Serialization
-        System.out.println("jsonChicken ->"+jsonChicken);
+        System.out.println("jsonChicken -"+jsonChicken);
         jsonChicken=gson.toJson(chicken2);
-        System.out.println("jsonChicken ->"+jsonChicken);
-       
+        System.out.println("jsonChicken -"+jsonChicken);
         
         //Deserialization
         Chicken chicken3;
         chicken3=gson.fromJson(jsonChicken,Chicken.class);
         
-        System.out.println("chicken object name ->"+chicken3.getName());
+        System.out.println("chicken object name -"+chicken3.getName());
         
         
         
