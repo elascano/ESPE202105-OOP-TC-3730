@@ -19,7 +19,7 @@ public class FarmeSysten {
         String name;
         String color ;
         Date age;
-        Date born0n;
+        Date bornOn;
         boolean molthing;
         int eggCounter;
        
@@ -27,12 +27,12 @@ public class FarmeSysten {
         name = "Lucy";
         color = "while";
         age = new Date();
-        born0n = new Date();
+        bornOn = new Date();
         molthing =true;
         eggCounter=0;
         
         
-        chicken = new Chicken(id, name, color, age, molthing);
+        chicken = new Chicken(id, name, color, age, bornOn, molthing);
         System.out.println("Chicken ->"+chicken);
     }
  
