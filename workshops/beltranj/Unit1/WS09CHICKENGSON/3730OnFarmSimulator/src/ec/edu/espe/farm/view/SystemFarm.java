@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package ec.edu.espe.farm.view;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import java.util.Date;
 import ec.edu.espe.farm.model.Chicken;
 /**
@@ -31,14 +33,26 @@ public class SystemFarm {
  
         chicken = new Chicken(id, name, color, age, bornOn, molting);
         
-        System.out.println("chicken ->"+ chicken);
+        System.out.println("chicken -> " + chicken);
+        Chicken chicken2 = new Chicken(1, "Lupita", "red", new Date(), new Date(), true);
+        System.out.println("Chicken 2 " + chicken2);
+        String jsonChicken = null;
         
-        Chicken chickens[] = new Chicken[10];
+        System.out.println("Chicken json " + jsonChicken);
         
-        chickens[0] = chicken;
-        chickens [1] = new Chicken(1, "Maruja", "black", age, bornOn, false);
-     
-        System.out.println("WS08 - Associations, \n"
+        GsonBuilder gsonBuilder = new GsonBuilder() ;
+        Gson gson = gsonBuilder.create();
+        jsonChicken = gson.toJson(chicken);
+        
+        System.out.println("jsonChicken " + jsonChicken);
+        jsonChicken = gson.toJson(chicken2);
+        System.out.println("jsonChicken " + jsonChicken);
+        
+        Chicken chicken3;
+        chicken3 = gson.fromJson(jsonChicken, Chicken.class);
+        System.out.println("Chicken objects name: " + chicken3.getName());
+       
+        System.out.println("WS09- ChickenGson , \n"
                         + "Jennifer Beltran");
     }
 
