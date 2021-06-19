@@ -20,8 +20,9 @@ public class Chicken {
    private Date bornOn;
    private boolean moltying; 
    private int eggCounter=0;
+   
 
-    @Override
+     @Override
     public String toString() {
         return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", bornOn=" + getBornOn() + ", moltying=" + isMoltying() + ", eggCounter=" + getEggCounter() + '}';
     }
