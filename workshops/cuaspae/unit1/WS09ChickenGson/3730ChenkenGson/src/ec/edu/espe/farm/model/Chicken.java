@@ -116,16 +116,16 @@ public class Chicken {
     }
 
     /**
-     * @return the bornOn
+     * @return the bornon
      */
     public Date getBornon() {
         return bornOn;
     }
 
     /**
-     * @param bornOn the bornon to set
+     * @param bornon the bornon to set
      */
-    public void setBornon(Date bornOn) {
+    public void setBornon(Date bornon) {
         this.bornOn = bornOn;
     }
 
