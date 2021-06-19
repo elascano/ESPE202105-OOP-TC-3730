@@ -60,5 +60,6 @@ public class Supplier {
      */
     public void setTelephone(int telephone) {
         this.telephone = telephone;
+        
     }
    
