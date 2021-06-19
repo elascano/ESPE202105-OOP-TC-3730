@@ -16,7 +16,6 @@ import java.util.Scanner;
  */
 public class FarmSimulator {
     public static void main(String[] args) {
-            
         
         int id; 
         String name; 
