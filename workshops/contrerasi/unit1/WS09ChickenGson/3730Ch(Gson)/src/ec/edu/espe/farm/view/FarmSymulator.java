@@ -5,6 +5,8 @@
  */
 package ec.edu.espe.farm.view;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import ec.edu.espe.farm.model.Chicken;
 import java.util.ArrayList;
 import java.util.Date;
@@ -37,7 +39,7 @@ public class FarmSymulator {
         molting = true;
         eggCounter = 0;
 
-        chicken = new Chicken(id, name, color, age, bornOn, molting);
+        chicken = new Chicken(0, name, color, age, bornOn, molting);
         
         System.out.println("chicken -> " + chicken);
         
@@ -72,6 +74,19 @@ public class FarmSymulator {
  //       
  //       System.out.println("json " + json);
         
+        GsonBuilder gsonbuilder = new GsonBuilder();
+        Gson gson = gsonbuilder.create();
         
+        jsonChicken = gson.toJson(chicken);
+        System.out.println("jsonChicken -> " + jsonChicken);
+        
+        Chicken chicken2 = new Chicken(1, "Mary", "black", age, bornOn, molting);
+        jsonChicken = gson.toJson(chicken2);
+        System.out.println("jsonChicken -> " + jsonChicken);
+        
+        Chicken chicken3;
+        chicken3 = gson.fromJson(jsonChicken, Chicken.class);
+        
+        System.out.println("chicken object name ->" + chicken3.getName());
     }    
 }
