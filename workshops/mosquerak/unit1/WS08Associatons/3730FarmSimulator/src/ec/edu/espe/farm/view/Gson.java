@@ -3,35 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.associations.model;
+package ec.edu.espe.farm.view;
+
+import ec.edu.espe.farm.model.Chicken;
 
 /**
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class E {
-    private char c;
+class Gson {
 
-    @Override
-    public String toString() {
-        return "E{" + "c=" + c + '}';
-    }
+    String[] talson;
 
-    /**
-     * @return the c
-     */
-    public char getC() {
-        return c;
-    }
-
-    /**
-     * @param c the c to set
-     */
-    public void setC(char c) {
-        this.c = c;
-    }
-
-    public void setC(int i) {
+    String toJson(Chicken chicken) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    Chicken fromJson(String jsonChicken, Class<Chicken> aClass) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
 }

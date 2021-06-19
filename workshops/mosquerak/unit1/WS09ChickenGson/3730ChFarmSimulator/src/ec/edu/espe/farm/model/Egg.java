@@ -3,36 +3,36 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.associations.model;
+package ec.edu.espe.farm.model;
 
 /**
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class C {
-    
-    private float f;
-    
-    public void m(){
-        
-    }
+public class Egg {
 
     @Override
     public String toString() {
-        return "C{" + "f=" + f + '}';
+        return "Egg{" + "id=" + id + '}';
+    }
+
+    public Egg(int id) {
+        this.id = id;
+    }
+    private int id;
+
+
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
     }
 
     /**
-     * @return the f
+     * @param id the id to set
      */
-    public float getF() {
-        return f;
-    }
-
-    /**
-     * @param f the f to set
-     */
-    public void setF(float f) {
-        this.f = f;
+    public void setId(int id) {
+        this.id = id;
     }
 }

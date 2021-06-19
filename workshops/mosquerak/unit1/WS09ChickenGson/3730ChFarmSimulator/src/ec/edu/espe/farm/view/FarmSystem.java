@@ -5,15 +5,18 @@
  */
 package ec.edu.espe.farm.view;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import ec.edu.espe.farm.model.Chicken;
 import java.util.Date;
+import java.util.Scanner;
 
 /**
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
 public class FarmSystem {
-    public static void main(String[] args, Chicken[] chickensArray) {
+    public static void main(String[] args) {
         Chicken chicken = null;
         //reading from keyboard
         int id;
@@ -23,7 +26,8 @@ public class FarmSystem {
         Date bornOn;
         boolean molting;
         int eggCounter;
-        String jsonChicken="";
+        String jsonChicken ="";
+        
         //TODO reading from keyboard
         
          id =0;
@@ -33,11 +37,11 @@ public class FarmSystem {
          bornOn= new Date();
          molting = true;
          eggCounter =0;
-        
+         
    
          chicken = new Chicken(id, name, color, age, bornOn, molting);
         
-         System.out.println("ChFarmSimulator \n Mosquera Kerly");
+         System.out.println("WS09ChickenGson \n Mosquera Kerly");
          
          System.out.println("chicken  → " + chicken);
          Chicken chickens[] =new Chicken[10]; 
@@ -56,16 +60,21 @@ public class FarmSystem {
         chickens[8] = new Chicken(8, "Cleo", "tangerine", new Date(), new Date(), false);
         chickens[9] = new Chicken(9, "Pía", "cream", new Date(), new Date(), true);
        
-        for (int i=0; 1<10; i++){
-            
-            System.out.println("chicken"+ i + "=" + chickens[i]);
        
-            
-         chickensArray[0]=chicken;   
-         System.out.println("chickenArray "+ chickensArray[0]);   
+    
+        jsonChicken = " { \"id\"; \"1\"    } ";
+        System.out.println("chiken Json -> "+ jsonChicken);
          
-         GsonBuild gsonbuild = new GsonBuild();
-         Gson gson = gsonBuild.create();
-            }
+            GsonBuilder gsonBuilder = new GsonBuilder() ;
+            Gson gson = gsonBuilder.create();
+               
+            jsonChicken = gson.toJson(chicken);
+              
+            System.out.println("jsonChicken->"+ jsonChicken);
+               
+            Chicken chicken3;
+            chicken3 = gson.fromJson(jsonChicken, Chicken.class);
+               
+            System.out.println("chicken object name ->"+ chicken.getName());
     }
- }
+}
