@@ -18,7 +18,7 @@ public class Chicken {
      private int id;
      private String name;
      private String color;
-    private LocalDate date;
+    private  LocalDate date;
      private LocalDate born0n;
      private Period age;
     private boolean molting;
