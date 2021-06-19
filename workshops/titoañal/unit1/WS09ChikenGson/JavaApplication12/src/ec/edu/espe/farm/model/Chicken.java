@@ -18,28 +18,21 @@ public class Chicken {
     private Date age;
     private Date bornOn;
     private boolean Molting;
-    private int eggCounter;
-
-    public Chicken(int id, String name, String color, Date age, boolean molting, int eggCounter) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    private int eggCounter = 0;
 
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", Molting=" + Molting + ", eggCounter=" + eggCounter + '}';
+        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", bornOn=" + getBornOn() + ", Molting=" + isMolting() + ", eggCounter=" + getEggCounter() + '}';
     }
 
-    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean Molting, int eggCounter) {
+    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean Molting) {
         this.id = id;
         this.name = name;
         this.color = color;
         this.age = age;
         this.bornOn = bornOn;
         this.Molting = Molting;
-        this.eggCounter = eggCounter;
     }
-
-    
     
     
     public void doStuff(int forTime){
