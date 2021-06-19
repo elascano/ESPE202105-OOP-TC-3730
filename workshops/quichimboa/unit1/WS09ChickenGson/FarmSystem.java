@@ -21,9 +21,9 @@ public class FarmSystem {
      */
     public static void main(String[] args) {
         System.out.println("ChFarmSimulator, \n"
-        + "Víctor Coba");
+        + "Andrea Quichimbo");
         Chicken chiken;
-       
+        //TODO reading from keyboard
         int id;
         String name;  
         String color; 
@@ -33,7 +33,7 @@ public class FarmSystem {
         int eggCounter; 
         
         id = 0;
-        name = "Santy";
+        name = "Ellie";
         color = "white";
         age = new Date();
         born0n = new Date();
@@ -46,7 +46,7 @@ public class FarmSystem {
         Chicken chickens[]= new Chicken[10];
         chicken = new Chicken(id, name, color, age, born0n, molting);
         chickens[0] = chicken;
-        chickens[1] = new Chicken(1, "Guty", "black", new Date(), new Date(), false);
+        chickens[1] = new Chicken(1, "Maruja", "black", new Date(), new Date(), false);
         System.out.println("Chicke1" + chickens [0]);
         System.out.println("Chicke2" + chickens [1]);
         String jsonChicken = "{\"id\";\"1\"}";
