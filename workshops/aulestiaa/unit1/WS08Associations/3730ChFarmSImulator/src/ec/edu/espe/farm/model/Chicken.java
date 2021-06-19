@@ -20,13 +20,6 @@ public class Chicken {
     private boolean molting;
     private int eggCounter=0;
 
-    @Override
-    public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
-    }
-    
-    
-    
     public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
         this.id = id;
         this.name = name;
@@ -35,19 +28,24 @@ public class Chicken {
         this.bornOn = bornOn;
         this.molting = molting;
     }
+
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
+    }
     
     
     
-    public void doStuff(int forTime){
+    public void doStuff(int fotTime){
         
     }
     
     private void cluck(){
-        System.out.println("cluck cluck cluck ");
+        System.out.println("cluck cluck cluck");
     }
     
     private void wander(){
-        System.out.println("wandering from one chicken coop to another ");
+        System.out.println("wandering from one chicken coop to another");
     }
     
     private void eat(){
@@ -58,10 +56,10 @@ public class Chicken {
         System.out.println("drinking water");
     }
     
-    private Poop poop(){
-        return new Poop();
+     private Poop poop(){
+        return new Poop();  
     }
-    
+     
     private Egg layAnEgg(){
         setEggCounter(getEggCounter() + 1);
         return new Egg(0);
@@ -164,5 +162,4 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
-    
 }
