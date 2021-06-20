@@ -5,6 +5,7 @@
  */
 package ec.espe.edu.farm.view;
 
+
 import ec.espe.edu.farm.model.Chicken;
 import java.util.Date;
 import java.util.Scanner;
@@ -15,7 +16,7 @@ import java.util.Scanner;
  */
 public class FarmSystem {
     public static void main(String[] args) {
-        Chicken chicken;
+        
         int id;
         String name;
         String color;
@@ -43,9 +44,7 @@ public class FarmSystem {
             molting = data.nextBoolean();
             System.out.println("Enter the eggCounter: ");
             eggCounter = data.nextInt();
-            chicken = new Chicken(id, name, color, age, bornOn, molting);
+            Chicken chicken = new Chicken(id, name, color, age, bornOn, molting);
             System.out.println("Chicken[" + (chickenCounter) + "]" + chicken);
-        }
-    }
- 
+    }   }   
 }
