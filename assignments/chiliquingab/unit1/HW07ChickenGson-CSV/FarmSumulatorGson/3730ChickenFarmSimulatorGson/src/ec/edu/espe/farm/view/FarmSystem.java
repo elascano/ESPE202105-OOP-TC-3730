@@ -12,7 +12,13 @@ import static ec.edu.espe.farm.model.Age.calculaAnos;
 import static ec.edu.espe.farm.model.Age.calculaDias;
 import static ec.edu.espe.farm.model.Age.calculaMeses;
 import ec.edu.espe.farm.model.Chicken;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -35,12 +41,12 @@ public class FarmSystem {
         String jsonChicken;
         String jsonAge;
         
-        //TODO reading from keyboard 
+            //TODO reading from keyboard
+
+    Chicken chickens[] = new Chicken[1];
+    Age ages[] = new Age[1];
         
-    Chicken chickens[] = new Chicken[10];
-    Age ages[] = new Age[10];
-        
-    for(int i=0;i<10;i++){
+    for(int i=0;i<1;i++){
         System.out.println("\nEnter the chicken data[" + (i+1) + "]:");
         
         System.out.print("Enter the id: ");
@@ -84,7 +90,7 @@ public class FarmSystem {
     GsonBuilder gsonBuilder = new GsonBuilder();
     Gson gson = gsonBuilder.create();
     
-    for(int i=0;i<10;i++){
+    for(int i=0;i<1;i++){
     //Serealizacion
     jsonChicken = gson.toJson(chickens[i]);
     System.out.println("\njsonChicken[" + (i+1) + "]");
@@ -112,4 +118,4 @@ public class FarmSystem {
    
     }
  
-}
+  }
