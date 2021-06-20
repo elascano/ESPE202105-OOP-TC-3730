@@ -23,11 +23,6 @@ public class Chicken {
         this.molthing = molthing;
         this.eggCounter = eggCounter;
     }
-
-    @Override
-    public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", molthing=" + molthing + ", eggCounter=" + eggCounter + '}';
-    }
     
     /**
      * @return the id
@@ -98,7 +93,10 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
-
-   
     
+    public String [] getArray(){
+        String[] datos = {String.valueOf(id), name, color,String.valueOf(eggCounter), String.valueOf(molthing)};
+        return datos;
+    }
+
 }
