@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.farm.model;
+package ec.edu.ec.farm.model;
 
 /**
  *
  * @author Johny Ango OOPTech ESPE-DCCO
  */
-public class ChickenFarmer {
-    
+public class Poop {
     
 }
