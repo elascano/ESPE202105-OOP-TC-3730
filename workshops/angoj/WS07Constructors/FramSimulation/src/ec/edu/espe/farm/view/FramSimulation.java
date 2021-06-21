@@ -51,6 +51,7 @@ public class FramSimulation {
          for (int i=0; 1<10; i++){
              System.out.println("chicken"+ i + "=" + chickens[i]);
              
+             
          }
      
     }

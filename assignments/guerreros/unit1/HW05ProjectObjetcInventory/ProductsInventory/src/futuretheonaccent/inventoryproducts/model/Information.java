@@ -11,6 +11,7 @@ package futuretheonaccent.inventoryproducts.model;
  */
 public class Information {
     private String data;
+    
 
     @Override
     public String toString() {
