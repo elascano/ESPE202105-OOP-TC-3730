@@ -32,6 +32,7 @@ public Inventory analyzeGain()
     
 }
 
+
     @Override
     public String toString() {
         return "ProductStatus{" + "type=" + type + ", gain=" + gain + ", loss=" + loss + '}';

@@ -21,7 +21,7 @@ public class Chicken
     Date born; 
     int eggcounter=0;
 
-    public Chicken(int id, String name, String color, Date age, boolean Ismolting, Date born) {
+        public Chicken(int id, String name, String color, Date age, boolean Ismolting, Date born) {
         this.id = id;
         this.name = name;
         this.color = color;
