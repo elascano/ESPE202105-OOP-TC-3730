@@ -45,8 +45,8 @@ public class FarmSystem {
         birth=read.nextInt();
 
         chicken = new Chicken(id, name, color, age, molting); 
-        System.out.println("chicken -> " + chicken);
-        System.out.println("");
+        System.out.println("chicken -> " + chicken + EggCounter + birth);
+        System.out.println("Marco Arias's project");
         }
     }
 }

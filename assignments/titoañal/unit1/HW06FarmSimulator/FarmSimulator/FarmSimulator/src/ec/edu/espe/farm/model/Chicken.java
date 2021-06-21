@@ -20,24 +20,27 @@ public class Chicken {
     private boolean Molting;
     private int eggCounter;
 
+    public Chicken(int id, String name, String color, Date age, boolean molting, int eggCounter) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     @Override
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", Molting=" + Molting + ", eggCounter=" + eggCounter + '}';
     }
 
-    public Chicken(int id, String name, String color, Date age, boolean Molting, int eggCounter) {
+    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean Molting, int eggCounter) {
         this.id = id;
         this.name = name;
         this.color = color;
         this.age = age;
+        this.bornOn = bornOn;
         this.Molting = Molting;
         this.eggCounter = eggCounter;
     }
 
-   
-
     
-
+    
     
     public void doStuff(int forTime){
         
@@ -161,10 +164,7 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
-
-    /**
-     * @return the chickenCounter
-     */
+    
     
     
 }
