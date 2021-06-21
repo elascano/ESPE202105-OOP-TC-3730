@@ -5,10 +5,13 @@
  */
 package ec.edu.espe.farm.view;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import ec.edu.espe.farm.model.Age;
+import static ec.edu.espe.farm.model.Age.calculaAnos;
+import static ec.edu.espe.farm.model.Age.calculaDias;
+import static ec.edu.espe.farm.model.Age.calculaMeses;
 import ec.edu.espe.farm.model.Chicken;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 /**
@@ -20,61 +23,93 @@ public class FarmSystem {
         //TODO reading from keyboard
         Scanner entrada = new Scanner(System.in);
         Chicken chicken;
+        Age age;
         int id; 
         String name; 
         String color; 
-        Date age; 
-        Date bornOn; 
         boolean molthing;
-        int eggCounter; 
+        int eggCounter;
+        int dia;
+        int mes;
+        int ano;
+        String jsonChicken;
+        String jsonAge;
         
         //TODO reading from keyboard 
         
-        id = 0;
-        name = "Lucy";
-        color = "white";
-        age = new Date();
-        bornOn = new Date();
-        molthing = true;
-        eggCounter = 0;
+    Chicken chickens[] = new Chicken[10];
+    Age ages[] = new Age[10];
         
-        Calendar cal = new GregorianCalendar();
-        int mesActual = cal.get(Calendar.MONTH), anoActual = cal.get(Calendar.YEAR),
-                diaActual = cal.get(Calendar.DAY_OF_MONTH);
-        int mes, dia, ano;
-        int mesResultado, diaResultado, anoResultado;
-        System.out.print("Tell me the day: ");
+    for(int i=0;i<10;i++){
+        System.out.println("\nEnter the chicken data[" + (i+1) + "]:");
+        
+        System.out.print("Enter the id: ");
+        id = entrada.nextInt();
+        
+        System.out.print("Enter the name: ");
+        name = entrada.next();
+        
+        System.out.print("Enter the color: ");
+        color = entrada.next();
+        
+        System.out.print("Insert molthing: ");
+        molthing = entrada.nextBoolean();
+        
+        System.out.print("Enter the egg counter: ");
+        eggCounter = entrada.nextInt();
+        
+        System.out.println("Enter the chicken's date of birth[" + (i+1) + "]:");
+        
+        System.out.print("Enter the day: ");
         dia = entrada.nextInt();
-        System.out.print("Tell me the month: ");
+        
+        System.out.print("Enter the month: ");
         mes = entrada.nextInt();
-        System.out.print("Tell me the year: ");
+        
+        System.out.print("Enter the year: ");
         ano = entrada.nextInt();
         
-        mesResultado = Math.abs(mes - mesActual);
-        diaResultado = Math.abs(dia - diaActual);
-        anoResultado = Math.abs(ano - anoActual);
+        entrada.nextLine();
         
-        System.out.println("Chickens have " + anoResultado + " years " + mesResultado + " months " + " and " + diaResultado + " days.");
-        
-        chicken = new Chicken(id, name, color, age, bornOn, molthing);
-        
-        System.out.println("Chicken -> " + chicken);
-        
-        Chicken chickens[] = new Chicken[10];
-        
-        chickens[0] = chicken;
-        chickens[1] = new Chicken(1, "Maruja", "black", age, bornOn, false);
-        chickens[2] = new Chicken(2, "Veronica", "orange", age, bornOn, true);
-        chickens[3] = new Chicken(3, "Camila", "red", age, bornOn, false);
-        chickens[4] = new Chicken(4, "Bellota", "white", age, bornOn, true);
-        chickens[5] = new Chicken(5, "Alisson", "rose", age, bornOn, false);
-        chickens[6] = new Chicken(6, "Melanie", "blue", age, bornOn, true);
-        chickens[7] = new Chicken(7, "Alexandra", "yellow", age, bornOn, false);
-        chickens[8] = new Chicken(8, "Andrea", "green", age, bornOn, true);
-        chickens[9] = new Chicken(9, "Martha", "purple", age, bornOn, false);
-
-    for(Chicken i: chickens){
-            System.out.println("Chicken -> "+ i);
+        chickens[i] = new Chicken(id, name, color, molthing, eggCounter);
+        ages[i] = new Age(calculaDias(dia,mes,ano), calculaMeses(dia,mes,ano),calculaAnos(dia,mes,ano));
+            
     }
-  }
+        
+//  for(int i=0;i<2;i++){
+//       System.out.println("Chicken -> " + chickens[i]);
+//       System.out.println("El pollo[" + (i+1) + "]" + " tiene la edad de " + ages[i]);
+//  }
+
+    GsonBuilder gsonBuilder = new GsonBuilder();
+    Gson gson = gsonBuilder.create();
+    
+    for(int i=0;i<10;i++){
+    //Serealizacion
+    jsonChicken = gson.toJson(chickens[i]);
+    System.out.println("\njsonChicken[" + (i+1) + "]");
+    
+    jsonAge = gson.toJson(ages[i]);
+//  System.out.println("jsonAge -> " + jsonAge);
+    
+    //deserealizacion
+    Chicken chicken2;
+    chicken2 = gson.fromJson(jsonChicken,Chicken.class);
+    
+    System.out.println("\nChicken object id -> " + chicken2.getId());
+    System.out.println("Chicken object name -> " + chicken2.getName());
+    System.out.println("Chicken object color -> " + chicken2.getColor());
+    System.out.println("Chicken object molthing -> " + chicken2.isMolthing());
+    System.out.println("Chicken object eggCounter -> " + chicken2.getEggCounter());
+    
+    Age ages2;
+    ages2 = gson.fromJson(jsonAge,Age.class);
+    
+    System.out.println("\nThe chicken[" + (i+1) + "] is " + ages2.getAno() 
+            + " years, " + ages2.getMes() + " months and " 
+            + ages2.getDia() + " days old");
+    }
+   
+    }
+ 
 }

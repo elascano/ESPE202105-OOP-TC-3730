@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package ec.edu.espe.farm.view;
+
 import java.util.Scanner;
 
 /**
@@ -11,8 +12,8 @@ import java.util.Scanner;
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class FarmSystem1 {
-    public static void main(String[] args){
-    
+        public static void main(String[] args) {  
+            
      Scanner sc = new Scanner(System.in);
      System.out.println("Write the Id: ");
      String id = sc.nextLine();
