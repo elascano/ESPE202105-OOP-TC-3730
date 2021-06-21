@@ -5,7 +5,7 @@
  */
 package ec.edu.espe.farm.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 /**
  *
@@ -15,33 +15,29 @@ public class Chicken {
     private int id;
     private String name;
     private String color;
-    private Date bornon;
-    private Date age;
+    private LocalDate dayactuallity;
+    private LocalDate bornon;
     private boolean molting;
-    private int eggCounter=0;
+    private int eggCounter;
 
-    public Chicken(int id, String name, String color, Date age, boolean molthing) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Chicken(int id, String name, String color, LocalDate age, LocalDate bornon, boolean molting, int eggCounter) {
+        this.id = id;
+        this.name = name;
+        this.color = color;
+        this.dayactuallity = age;
+        this.bornon = bornon;
+        this.molting = molting;
+        this.eggCounter = eggCounter;
     }
 
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", bornon=" + bornon + ", age=" + age + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + dayactuallity + ", bornon=" + bornon + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
 
-    
-    
-    public Chicken(int id, String name, String color, Date bornon, Date age, boolean molting) {
-        this.id = id;
-        this.name = name;
-        this.color = color;
-        this.bornon = bornon;
-        this.age = age;
-        this.molting = molting;
-    }
-    
-     
-    
+ 
+
+       
  public void doStuff(int forTime){
  
  }
@@ -117,15 +113,29 @@ public class Chicken {
     /**
      * @return the age
      */
-    public Date getAge() {
-        return age;
+    public LocalDate getDayactuallity() {
+        return dayactuallity;
     }
 
     /**
-     * @param age the age to set
+     * @param dayactuallity the age to set
      */
-    public void setAge(Date age) {
-        this.age = age;
+    public void setDayactuallity(LocalDate dayactuallity) {
+        this.dayactuallity = dayactuallity;
+    }
+
+    /**
+     * @return the bornon
+     */
+    public LocalDate getBornon() {
+        return bornon;
+    }
+
+    /**
+     * @param bornon the bornon to set
+     */
+    public void setBornon(LocalDate bornon) {
+        this.bornon = bornon;
     }
 
     /**
@@ -143,20 +153,6 @@ public class Chicken {
     }
 
     /**
-     * @return the bornon
-     */
-    public Date getBornon() {
-        return bornon;
-    }
-
-    /**
-     * @param bornon the bornon to set
-     */
-    public void setBornon(Date bornon) {
-        this.bornon = bornon;
-    }
-
-    /**
      * @return the eggCounter
      */
     public int getEggCounter() {
@@ -169,4 +165,6 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
+
+  
 }
