@@ -5,48 +5,85 @@
  */
 package ec.edu.espe.farm.view;
 
-import ec.edu.espe.farm.model.Chicken1;
-import java.util.ArrayList;
-import java.util.Date;
+import ec.edu.espe.farm.model.BornOn;
+import ec.edu.espe.farm.model.Chicken;
+import ec.edu.espe.farm.model.YearsCount;
+import java.util.Scanner;
 
 /**
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class FarmSystem1 {
-    public static void main(String[] args){
-    int Chicken1Id;
-    String name;
-    String color;
-    Date date = new Date();
-    boolean molting;
-    Arraylist<Chicken1> chicken1 = new ArrayList<>();
-    Chicken1 chicken1Array[] = new Chicken1[5];
+
+    private static YearsCount[] YearCount;
+    private static int id;
+    private static String name;
+    private static String color;
+    private static int day;
+    private static int month;
+    private static int year;
+    private static boolean molting;
+    private static int eggCounter;
+    private static boolean[] yearsCount;
     
-    //emput by keyboard
-    Chicken1Id = 1;
-    name = "Francisca";
-    color = "Black";
-    boolean isMolting = true;
+        public static void main(String[] args) {  
+            Scanner enter = new Scanner (System.in);
+            
+            Chicken chicken [] = new Chicken[10];
+            BornOn bornOn[] = new BornOn[10];
+            YearsCount yearsCout[] = new YearsCount[10];
+      
+            System.out.println("Welcome to Farm Simulator" + " Author: Cadena Fernanda ");
+            
+            for(int i=0;i<10;i++){
+                
+                System.out.print("\n Next Chicken... \n");
+                
+                System.out.print("Insert chicken id: ");
+                id = enter.nextInt();
+                
+                System.out.print("Insert chicken name: ");
+                name = enter.next();
+                
+                System.out.print("Insert chicken color: ");
+                color = enter.next();
+                
+                System.out.print("Insert Born On \n");
+                
+                System.out.print("Insert Day: ");
+                day = enter.nextInt();
+                
+                System.out.print("Insert Month: ");
+                month = enter.nextInt();
+                
+                System.out.print("Insert Year: ");
+                year = enter.nextInt();
+                
+                System.out.print("Insert molting: ");
+                molting = enter.nextBoolean();
+                
+                System.out.print("Insert eggCounter: ");
+               eggCounter = enter.nextInt();
+                
+                
+                enter.nextLine();
+                
+                chicken[i] = new Chicken(id,name,color,molting,eggCounter);
+                bornOn[i] = new BornOn(day, month, year);
+                YearCount[i] = new YearsCount(month, day, year);
+                
+            }
+            for(int i=0;i<10;i++){
+                
+                System.out.println("\n" + chicken[i]);
+                
+                System.out.println(bornOn[i]);
+                                
+                System.out.println(yearsCount[i]);
+         
+     }              
+
+    }
     
-    Chicken1 chicken1 = new Chicken1());
-    System.out.println("Chicken1 object -> " + chicken1);
-        int chicken1Id = 0;
-     
-    chicken1 = new Chicken1(chicken1Id, name, color, date, ismolting);
-    System.out.println("chicken1 object -> " + chicken1);
-    
-    Chicken1 chicken12 = new chicken1(2, "Ana", "Pink", new Date(), false);
-    System.out.println("chicken12 object ->" + chicken12);
-     
-    chicken1.add(chicken1);
-    chicken.add(chicken12);
-    
-    System.out.println("chicken1 -> " + chicken1);
-        String[] chicken1Array;
-    
-    chicken1Array[0] = chicken; 
-    
-    System.out.println("chichen1Array ->" + chicken1Array[0]);
-}
 }

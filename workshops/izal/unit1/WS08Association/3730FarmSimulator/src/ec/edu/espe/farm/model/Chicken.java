@@ -29,6 +29,18 @@ public class Chicken {
         this.molting = molting;
     }
 
+    public Chicken() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Chicken(int i, String lurena, String black, int i0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Chicken(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
     @Override
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", BornOn=" + BornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
@@ -156,4 +168,9 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
+    /*public String [] getArray(){
+     String[] datas = {String.valueOf(id),name,color,String.valueOf(age)};
+     return datas;
+    }*/
+    
 }
