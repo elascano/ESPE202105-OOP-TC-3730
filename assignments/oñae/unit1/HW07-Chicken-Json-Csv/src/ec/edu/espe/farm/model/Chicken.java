@@ -13,15 +13,15 @@ import java.util.Date;
  */
 public class Chicken 
 {
-    int id;
-    String name;
-    String color;
-    Date age ;
-    boolean Ismolting;
-    Date born; 
-    int eggcounter=0;
+   private int id;
+   private String name;
+   private String color;
+   private Date age ;
+   private boolean Ismolting;
+   private Date born; 
+   private int eggcounter;
 
-        public Chicken(int id, String name, String color, Date age, boolean Ismolting, Date born) {
+    public Chicken(int id, String name, String color, Date age, boolean Ismolting, Date born) {
         this.id = id;
         this.name = name;
         this.color = color;
@@ -29,16 +29,6 @@ public class Chicken
         this.Ismolting = Ismolting;
         this.born = born;
     }
-
-    public Chicken() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public Chicken(int id, String name, String color, Date age, Date born0n, boolean molting) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-
     @Override
     public String toString() {
         return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", Ismolting=" + isIsmolting() + ", born=" + getBorn() + ", eggcounter=" + getEggcounter() + '}';
