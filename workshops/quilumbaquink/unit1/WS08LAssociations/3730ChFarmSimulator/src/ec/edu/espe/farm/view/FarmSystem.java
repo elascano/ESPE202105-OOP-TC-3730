@@ -47,7 +47,7 @@ public class FarmSystem {
         System.out.println("chicken object ->" + chicken);
         
         
-        Chicken chicken2=new Chicken(2,"Maruja","black",new Date(),new Date(), false);
+        Chicken chicken2=new Chicken(2,"Mimi","black",new Date(),new Date(), false);
         System.out.println("chicken object ->" + chicken2);
         
         GsonBuilder gsonBuilder= new GsonBuilder();
@@ -68,11 +68,8 @@ public class FarmSystem {
         Chicken chicken3;
         chicken3=gson.fromJson(jsonChicken,Chicken.class);
         
-        System.out.println("chicken object name ->"+chicken3.getName());
-        
-        
-        
-      
+        System.out.println("chicken object name ->"+chicken3.getName()); 
+        System.out.println("chicken object name ->"+chicken3.getId());
     }
             
 }
