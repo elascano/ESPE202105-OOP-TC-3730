@@ -40,7 +40,7 @@ public class InventoryOfTelecommunicationsProducts {
         productsales.setLoss(0.7F);
         productstatus.setLoss(14.6F);
         productstatus.setType(5);
-        information.setData("Dato de productoen Telecomunicaciones");
+        information.setData("Dato de producto en Telecomunicaciones");
         
         System.out.println("controlofproduct ->" + controlofproduct);
         System.out.println(" inventory ->" + inventory);
