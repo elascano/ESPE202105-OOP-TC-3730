@@ -18,6 +18,7 @@ public class FarmSystem {
    
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
+       
         
         Chicken chicken;
         int id;
@@ -27,17 +28,29 @@ public class FarmSystem {
         Date bornOn;
         boolean molting;
         int eggCounter;
-      
-        
-        
+        Calendar cal = new GregorianCalendar();
+        int mesActual = cal.get(Calendar.MONTH),
+                anyoActual=cal.get(Calendar.YEAR),
+                diaActual = cal.get(Calendar.DAY_OF_MONTH);
+        int day;
+        int month;
+        int year;
+               
+         
         Chicken chickens[]=new Chicken[10];
         System.out.println("Enter the chicken data");
-        for(int counter=0;counter<10;counter++){
+        for(int counter=0;counter<1;counter++){
             
             System.out.println("Enter id");
             id=sc.nextInt();
             System.out.println("Enter name");
             name = sc.next();
+            System.out.println("Enter day");
+            day = sc.nextInt();
+            System.out.println("Enter month");
+            month = sc.nextInt();
+            System.out.println("Enter year");
+            year = sc.nextInt();
             System.out.println("Age");
             age = new Date();
             System.out.println("Enter color");
@@ -47,10 +60,12 @@ public class FarmSystem {
             System.out.println("Enter eggCounter");
             eggCounter=sc.nextInt();
             chickens[counter]= new Chicken(id, name,color,age, molting, eggCounter);
+            
         }
        
-        for(int counter=0;counter<10;counter++){
+        for(int counter=0;counter<1;counter++){
             System.out.println(chickens[counter]);
+            
         
     }
 
