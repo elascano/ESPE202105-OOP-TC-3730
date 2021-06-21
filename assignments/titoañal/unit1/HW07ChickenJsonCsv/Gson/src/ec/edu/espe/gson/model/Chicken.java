@@ -1,33 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package ec.edu.espe.farm.model;
 
-import java.util.Date;
+package ec.edu.espe.gson.model;
 
-/**
- *
- * @author Leslie Titoaña LAMES Tech ESPE-DCC0
- */
 public class Chicken {
     private int id;
     private String name;
     private String color; 
-    private boolean Molting;
+    private boolean molting;
     private int eggCounter;
 
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", Molting=" + isMolting() + ", eggCounter=" + getEggCounter() + '}';
+        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", molting=" + molting() + ", eggCounter=" + getEggCounter() + '}';
     }
 
-    public Chicken(int id, String name, String color, boolean Molting, int eggCounter) {
+    public Chicken(int id, String name, String color, boolean molting, int eggCounter) {
         this.id = id;
         this.name = name;
         this.color = color;
-        this.Molting = Molting;
+        this.molting = molting;
         this.eggCounter = eggCounter;
     }
 
@@ -76,15 +66,15 @@ public class Chicken {
     /**
      * @return the Molting
      */
-    public boolean isMolting() {
-        return Molting;
+    public boolean molting() {
+        return molting;
     }
 
     /**
-     * @param Molting the Molting to set
+     * @param molting the Molting to set
      */
-    public void setMolting(boolean Molting) {
-        this.Molting = Molting;
+    public void setmolting(boolean molting) {
+        this.molting = molting;
     }
 
     /**
@@ -101,7 +91,10 @@ public class Chicken {
         this.eggCounter = eggCounter;
     }
     
-    
-
+    public String[] getArray(){
+        String[] data = {String.valueOf(id), name, color, String.valueOf(eggCounter), String.valueOf(molting)};
+        
+        return  data;
+   }
 
 }
