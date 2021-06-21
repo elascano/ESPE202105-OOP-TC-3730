@@ -13,6 +13,10 @@ import java.util.Date;
  * @author Andrea Quichimbo Builder Program ESPE-DCCO
  */
 public class FarmSystem {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
     /**
      *
@@ -22,7 +26,11 @@ public class FarmSystem {
         System.out.println("ChFarmSimulator, \n"
         + "Andrea Quichimbo");
         Chicken chiken;
+<<<<<<< HEAD
         //TODO reading from keyboard
+=======
+       
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         int id;
         String name;  
         String color; 
@@ -32,7 +40,11 @@ public class FarmSystem {
         int eggCounter; 
         
         id = 0;
+<<<<<<< HEAD
         name = "Lucy";
+=======
+        name = "Ellie";
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         color = "white";
         age = new Date();
         born0n = new Date();
@@ -41,6 +53,7 @@ public class FarmSystem {
         
         Chicken chicken = new Chicken(id, name, color, age, born0n, molting);
         System.out.println("chicken ->" + chicken);
+<<<<<<< HEAD
        
         @SuppressWarnings("MismatchedReadAndWriteOfArray")
         Chicken chikens[]= new Chicken[10];
@@ -52,3 +65,53 @@ public class FarmSystem {
     
 
   
+=======
+     
+        Chicken chickens[]= new Chicken[10];
+        chicken = new Chicken(id, name, color, age, born0n, molting);
+        chickens[0] = chicken;
+        chickens[1] = new Chicken(1, "Dayo", "black", new Date(), new Date(), false);
+        System.out.println("Chicke1" + chickens [0]);
+        System.out.println("Chicke2" + chickens [1]);
+        String jsonChicken = "{\"id\";\"1\"}";
+        System.out.println("Chicke1"+ jsonChicken);
+        GsonBuilder gsonBuilder = new GsonBuilder();
+        Gson gson= gsonBuilder.create();
+        jsonChicken =gson.toJson(chickens[0]);
+        System.out.println("Chicke2"+jsonChicken);
+        jsonChicken =gson.toJson(chickens[1]);
+        
+        System.out.println("Chicke3"+jsonChicken);
+        
+        Chicken chicken3;
+        chicken3 = gson.fromJson(jsonChicken,Chicken.class);
+        System.out.println("chcicken object name"+chicken3.getName());
+    }
+
+    private static class GsonBuilder {
+
+        public GsonBuilder() {
+        }
+
+        private Gson create() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+    }
+
+    private static class Gson {
+
+        public Gson() {
+        }
+
+        private String toJson(Chicken chicken) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        private Chicken fromJson(String jsonChicken, Class<Chicken> aClass) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+    }
+}
+
+   
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b

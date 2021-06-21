@@ -37,7 +37,29 @@ public class FarmSystem {
          
         System.out.println("chicken -> " + chicken);
         
+<<<<<<< HEAD
         
+=======
+        Chicken chickens[]= new Chicken[10];
+        Date born0n = null;
+        chicken = new Chicken(id, name, color, age, born0n, molting);
+        chickens[0] = chicken;
+        chickens[1] = new Chicken(1, "Lucy", "blue", new Date(), new Date(), false);
+        chickens[2] = new Chicken(2, "Kerly", "yellow", new Date(), new Date(), false);
+        chickens[3] = new Chicken(3, "Maria", "black", new Date(), new Date(), false);
+        chickens[4] = new Chicken(4, "Pamela", "green", new Date(), new Date(), true);
+        chickens[5] = new Chicken(5, "Alex", "pin", new Date(),new Date(), false);
+        chickens[6] = new Chicken(6, "Donal", "red", new Date(), new Date(), true);
+        chickens[7] = new Chicken(7, "Leonel", "orange", new Date(), new Date(), true);
+        chickens[8] = new Chicken(8, "Jaime", "red", new Date(), new Date(), false);
+        chickens[9] = new Chicken(9, "Boss", "brown", new Date(), new Date(), true);
+        
+        for (int i=0; 1<10; i++){
+            
+            System.out.println("chicken"+ i + "=" + chickens[i]);
+            }
+
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     }
 }
 

@@ -41,6 +41,13 @@ public class FarmSystem {
         
         System.out.println("chiken->" + chicken);
         
+<<<<<<< HEAD
+=======
+       Chicken chicken2 = new Chicken(2,"Maruja", "Black" , new Date(), new Date(), false);
+        System.out.println("chiken->" + chicken2);
+        
+        
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     }
     
 

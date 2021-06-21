@@ -14,8 +14,13 @@ import java.util.Date;
  */
 public class FarmSystem {
     public static void main(String[] args) {
+<<<<<<< HEAD
         Chicken chicken;
         //reading from keyboard
+=======
+        //variables
+        Chicken chicken;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         int id;
         String name;
         String color;
@@ -24,10 +29,16 @@ public class FarmSystem {
         boolean molting;
         int eggCounter;
         
+<<<<<<< HEAD
+=======
+        //TODO reading from keyboard
+        
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         id = 0;
         name = "Lucy";
         color = "White";
         age = new Date();
+<<<<<<< HEAD
         bornOn = new Date();
         molting = true;
         eggCounter = 0;
@@ -37,10 +48,25 @@ public class FarmSystem {
         chicken = new Chicken(id, name, color, age, bornOn, molting);
         
         System.out.println("ckicken -> " + chicken);
+=======
+        bornOn = new Date ();
+        molting = true;
+        eggCounter = 0;
+        
+        chicken = new Chicken(id, name, color, age, bornOn, molting);
+        
+        System.out.println("WS08 - Associations, \n" + "Pamela Yugsi");
+        
+        System.out.println("chicken -> " + chicken);
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         
         Chicken chickens[] = new Chicken[10];
         
         chickens[0] = chicken;
+<<<<<<< HEAD
         chickens[1] = new Chicken(1, "Maruja", "blank", age, bornOn, false);
+=======
+        chickens[1] = new Chicken(1, "Estrella", "brown", age, bornOn, false);
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     }
 }

@@ -16,7 +16,11 @@ public class Chicken {
     private String name;
     private String color;
     private Date age;
+<<<<<<< HEAD
     private final Date bornOn;
+=======
+    private Date bornOn;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     private boolean molting;
     private int eggCounter=0;
 
@@ -116,6 +120,7 @@ public class Chicken {
     }
 
     /**
+<<<<<<< HEAD
      * @return the bornon
      */
     public Date getBornon() {
@@ -127,6 +132,19 @@ public class Chicken {
      */
     public void setBornon(Date bornon) {
         this.bornon = bornon;
+=======
+     * @return the bornOn
+     */
+    public Date getBornOn() {
+        return bornOn;
+    }
+
+    /**
+     * @param bornOn the bornon to set
+     */
+    public void setBornOn(Date bornOn) {
+        this.bornOn = bornOn;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     }
 
     /**

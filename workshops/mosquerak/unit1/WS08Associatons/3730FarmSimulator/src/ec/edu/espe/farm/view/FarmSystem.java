@@ -7,14 +7,24 @@ package ec.edu.espe.farm.view;
 
 import ec.edu.espe.farm.model.Chicken;
 import java.util.Date;
+<<<<<<< HEAD
+=======
+import java.util.Scanner;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
 /**
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
 public class FarmSystem {
+<<<<<<< HEAD
     public static void main(String[] args) {
         Chicken chicken;
+=======
+
+    public static void main(String[] args) {
+        Chicken chicken ;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         //reading from keyboard
         int id;
         String name;
@@ -23,6 +33,7 @@ public class FarmSystem {
         Date bornOn;
         boolean molting;
         int eggCounter;
+<<<<<<< HEAD
         
         //TODO reading from keyboard
         
@@ -42,3 +53,48 @@ public class FarmSystem {
          System.out.println("chicken  → " + chicken);
     }
 }
+=======
+        String jsonChicken ="";
+
+        //TODO reading from keyboard
+        id = 0;
+        name = "Lucy";
+        color = "White";
+        age = new Date();
+        bornOn = new Date();
+        molting = true;
+        eggCounter = 0;
+
+        chicken = new Chicken(id, name, color, age, bornOn, molting);
+
+        System.out.println("ChFarmSimulator \n Mosquera Kerly");
+
+        System.out.println("chicken  → " + chicken);
+        Chicken chickens[] = new Chicken[10];
+
+        Date born0n = null;
+
+        chicken = new Chicken(id, name, color, age, born0n, molting);
+        chickens[0] = chicken;
+        chickens[1] = new Chicken(1, "Maruja", "blue", new Date(), new Date(), false);
+        
+
+            System.out.println("chicken" + i + "=" + chickens[i]);
+ 
+        }
+         jsonChicken= " { \"id\"; \"1\"    } ";
+          System.out.println("chiken Json -> "+ jsonChicken);
+         
+               GsonBuilder gsonBuilder = new GsonBuilder() ;
+               Gson gson = gsonBuilder.create();
+               
+               jsonChicken = gson.toJson(chicken);
+               
+               System.out.println("jsonChicken->"+ jsonChicken);
+               
+               Chicken chicken3;
+               chicken3 = gson.fromJson(jsonChicken, Chicken.class);
+               
+               System.out.println("chicken object name ->"+ chicken.getName());
+    }
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
