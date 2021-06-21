@@ -11,28 +11,28 @@ import java.util.Date;
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
-public class Chicken {
+public class Chicken1 {
     private int id;
     private String name;
     private String color;
-    private Date age;
-    private Date bornOn;
+    //private Date age;
+    //private Date bornOn;
     private boolean molting;
-    private int eggCounter=0;
-    
+    private int eggCounter;
 
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
+        return "Chicken1{" + "id=" + id + ", name=" + name + ", color=" + color + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
 
-    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
+    public Chicken1(int id, String name, String color, Date age, Date bornOn, boolean molting, int eggCounter) {
         this.id = id;
         this.name = name;
         this.color = color;
-        this.age = age;
-        this.bornOn = bornOn;
+        //this.age = age;
+        //this.bornOn = bornOn;
         this.molting = molting;
+        this.eggCounter=eggCounter;
     }
 
    
@@ -105,30 +105,30 @@ public class Chicken {
     /**
      * @return the age
      */
-    public Date getAge() {
+    /*public Date getAge() {
         return age;
-    }
+    }*/
 
     /**
      * @param age the age to set
      */
-    public void setAge(Date age) {
+    /*public void setAge(Date age) {
         this.age = age;
-    }
+    }*/
 
     /**
      * @return the bornOn
      */
-    public Date getBornOn() {
+    /*public Date getBornOn() {
         return bornOn;
-    }
+    }*/
 
     /**
-     * @param bornOn the bornOn to set
+    * @param bornOn the bornOn to set
      */
-    public void setBornOn(Date bornOn) {
+    /*public void setBornOn(Date bornOn) {
         this.bornOn = bornOn;
-    }
+    }*/
 
     /**
      * @return the molting
@@ -157,5 +157,7 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
+
+    
     
 }
