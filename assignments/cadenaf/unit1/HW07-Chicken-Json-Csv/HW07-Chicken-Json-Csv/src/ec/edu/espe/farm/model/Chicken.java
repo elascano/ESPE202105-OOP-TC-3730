@@ -12,26 +12,31 @@ import java.util.Date;
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class Chicken {
-     private int id;
-private String name;
+    private int id;
+    private String name;
     private String color;
-    private Date age;
-    private Date bornOn;
-    private boolean molting;
-   private int eggCounter=0;
+    private Date age ;
+    private boolean Ismolting;
+    private Date born; 
+    private int eggcounter;
 
-    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
+    public Chicken(int id, String name, String color, Date age, boolean Ismolting, Date born, int eggcounter) {
         this.id = id;
         this.name = name;
         this.color = color;
         this.age = age;
-        this.bornOn = bornOn;
-        this.molting = molting;
+        this.Ismolting = Ismolting;
+        this.born = born;
+        this.eggcounter = eggcounter;
+    }
+
+    public Chicken(int chickenId, String name, String color, Date date, boolean Ismolting, Date date0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", bornOn=" + getBornOn() + ", molting=" + isMolting() + ", eggCounter=" + getEggCounter() + '}';
+        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", Ismolting=" + isIsmolting() + ", born=" + getBorn() + ", eggcounter=" + getEggcounter() + '}';
     }
 
     /**
@@ -91,48 +96,46 @@ private String name;
     }
 
     /**
-     * @return the bornOn
+     * @return the Ismolting
      */
-    public Date getBornOn() {
-        return bornOn;
+    public boolean isIsmolting() {
+        return Ismolting;
     }
 
     /**
-     * @param bornOn the bornOn to set
+     * @param Ismolting the Ismolting to set
      */
-    public void setBornOn(Date bornOn) {
-        this.bornOn = bornOn;
+    public void setIsmolting(boolean Ismolting) {
+        this.Ismolting = Ismolting;
     }
 
     /**
-     * @return the molting
+     * @return the born
      */
-    public boolean isMolting() {
-        return molting;
+    public Date getBorn() {
+        return born;
     }
 
     /**
-     * @param molting the molting to set
+     * @param born the born to set
      */
-    public void setMolting(boolean molting) {
-        this.molting = molting;
+    public void setBorn(Date born) {
+        this.born = born;
     }
 
     /**
-     * @return the eggCounter
+     * @return the eggcounter
      */
-    public int getEggCounter() {
-        return eggCounter;
+    public int getEggcounter() {
+        return eggcounter;
     }
 
     /**
-     * @param eggCounter the eggCounter to set
+     * @param eggcounter the eggcounter to set
      */
-    public void setEggCounter(int eggCounter) {
-        this.eggCounter = eggCounter;
+    public void setEggcounter(int eggcounter) {
+        this.eggcounter = eggcounter;
     }
 
-
-
-   
+    
 }
