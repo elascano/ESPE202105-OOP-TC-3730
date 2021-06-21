@@ -20,6 +20,7 @@ public class Chicken {
     private boolean molting;
     private int eggCounter=0;
 
+
     @Override
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", born0n=" + born0n + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
