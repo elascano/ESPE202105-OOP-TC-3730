@@ -7,14 +7,13 @@ package ec.edu.espe.farm.view;
 
 import ec.edu.espe.farm.model.Chicken;
 import java.util.Date;
-import java.util.Scanner;
 
 /**
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
 public class FarmSystem {
-    public static void main(String[] args) {
+    public static void main(String[] args, Chicken[] chickensArray) {
         Chicken chicken = null;
         //reading from keyboard
         int id;
@@ -24,7 +23,7 @@ public class FarmSystem {
         Date bornOn;
         boolean molting;
         int eggCounter;
-        
+        String jsonChicken="";
         //TODO reading from keyboard
         
          id =0;
@@ -60,7 +59,13 @@ public class FarmSystem {
         for (int i=0; 1<10; i++){
             
             System.out.println("chicken"+ i + "=" + chickens[i]);
+       
+            
+         chickensArray[0]=chicken;   
+         System.out.println("chickenArray "+ chickensArray[0]);   
+         
+         GsonBuild gsonbuild = new GsonBuild();
+         Gson gson = gsonBuild.create();
             }
-
     }
-}
+ }
