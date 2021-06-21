@@ -39,30 +39,31 @@ public class FarmSystem {
         born0n = new Date();
         molting =true;
         eggCounter = 0;
+        String jsonChicken = "";
+        @SuppressWarnings("UnusedAssignment")
+        String jsonChickens = "";
         
+        System.out.println("WS09ChikenGson - Andrea Quichimbo");
+                
         Chicken chicken = new Chicken(id, name, color, age, born0n, molting);
-        System.out.println("chicken ->" + chicken);
-       
-        
-         
-     
-        Chicken chickens[]= new Chicken[10];
-        chicken = new Chicken(id, name, color, age, born0n, molting);
-        chickens[0] = chicken;
-        chickens[1] = new Chicken(1, "Maruja", "black", new Date(), new Date(), false);
-        chickens[2] = new Chicken(2, "Chloc", "gray", new Date(), new Date(), false);
-        chickens[3] = new Chicken(3, "Harper", "blue", new Date(), new Date(), false);
-        chickens[4] = new Chicken(4, "Avery", "green", new Date(), new Date(), true);
-        chickens[5] = new Chicken(5, "Ellie", "pink", new Date(),new Date(), false);
-        chickens[6] = new Chicken(6, "Luke", "red", new Date(), new Date(), true);
-        chickens[7] = new Chicken(7, "Jack", "purple", new Date(), new Date(), true);
-        chickens[8] = new Chicken(8, "Ryan", "yellow", new Date(), new Date(), false);
-        chickens[9] = new Chicken(9, "Jeremiah", "orange", new Date(), new Date(), true);
-        
-        for (int i=0; 1<10; i++){
+        System.out.println("chicken -> " + chicken);
             
-            System.out.println("chicken"+ i + "=" + chickens[i]);
-        }
+        Chicken chicken = new Chicken(1, "Ellie", "pink", age, born0n, false);
+        System.out.println("chicken 2 -> " + chicken);
+        
+        System.out.println("Jack "+ jsonChicken);
+               
+        GsonBuilder gsonBuilder = new GsonBuilder() ;
+        Gson gson = gsonBuilder.create(); 
+        
+        jsonChicken = gson.toJson(chicken);
+        jsonChickens = gson.toJson(chicken);
+                      
+        System.out.println("jsonChicken->"+ jsonChicken);
+        System.out.println("jsonChicken->"+ jsonChickens);
+                     
+        Chicken chicken3;
+        chicken3 = gson.fromJson(jsonChicken, Chicken.class);
     }
 }
     
