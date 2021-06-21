@@ -57,7 +57,6 @@ public class FarmSimulator {
              reday= currentDay;
              reyear= Math.abs(year-currentYear);
              System.out.println("Age= Have "+reyear+" years "+", "+remonth+"months"+" and "+reday+" days ");
-             
              System.out.println("Born Date");
              System.out.println("Enter the day of the month:");
              day = data.nextInt();
