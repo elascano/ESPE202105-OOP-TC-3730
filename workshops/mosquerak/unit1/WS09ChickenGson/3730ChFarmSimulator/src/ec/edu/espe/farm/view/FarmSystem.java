@@ -8,8 +8,13 @@ package ec.edu.espe.farm.view;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import ec.edu.espe.farm.model.Chicken;
+import java.io.FileWriter;
 import java.util.Date;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Scanner;
+
 
 /**
  *
@@ -22,59 +27,82 @@ public class FarmSystem {
         int id;
         String name;
         String color;
-        Date age;
-        Date bornOn;
+        int age;
+        String dateBornOn;
+        int moltingOption;
         boolean molting;
         int eggCounter;
+        int menu;
+        Date bornOn;
         String jsonChicken ="";
+        Scanner read = new Scanner(System.in);
         
-        //TODO reading from keyboard
         
-         id =0;
-         name="Lucy";
-         color="White";
-         age= new Date();
-         bornOn= new Date();
-         molting = true;
-         eggCounter =0;
+         System.out.println("HW07-Chicken-Json-Csv  \n "+ "Mosquera Kerly");
+         System.out.println("WELCOME");
+         System.out.println("Enter the name or the chicken");
+         name=read.next();
+         System.out.println("Enter the chicek ID");
+         id=read.nextInt();
+         System.out.println("Enter the color of the chicken");
+         color=read.next();
+         System.out.println("Enter the age of the chicken");
+         age=read.nextInt();
+         System.out.println("Enter born0n of the chicken");
+         String dateBorn = read.next();
          
-   
-         chicken = new Chicken(id, name, color, age, bornOn, molting);
-        
-         System.out.println("WS09ChickenGson \n Mosquera Kerly");
+         System.out.println("Enter chicken moult");
+         System.out.println("1)Yes");
+         System.out.println("2)No");
+         moltingOption= read.nextInt();
          
-         System.out.println("chicken  → " + chicken);
-         Chicken chickens[] =new Chicken[10]; 
+         if( moltingOption == 1 ){
+            molting = true;
+            
+         }
+         else {
+             molting = false;
+         }
+         
+        System.out.println("Enter chicken egg counter");
+        eggCounter= read.nextInt();
         
-        Date born0n = null;
+        chicken = new chicken (id,name,color,age,bornOn,molting);
         
-        chicken = new Chicken(id, name, color, age, born0n, molting);
-        chickens[0] = chicken;
-        chickens[1] = new Chicken(1, "Maruja", "blue", new Date(), new Date(), false);
-        chickens[2] = new Chicken(2, "Calimero", "yellow", new Date(), new Date(), false);
-        chickens[3] = new Chicken(3, "Piolín", "black", new Date(), new Date(), true);
-        chickens[4] = new Chicken(4, "Toto", "silver", new Date(), new Date(), true);
-        chickens[5] = new Chicken(5, "Hugo", "black", new Date(),new Date(), false);
-        chickens[6] = new Chicken(6, "Condorito", "gray", new Date(), new Date(), true);
-        chickens[7] = new Chicken(7, "Pucky", "pumpkin", new Date(), new Date(), true);
-        chickens[8] = new Chicken(8, "Cleo", "tangerine", new Date(), new Date(), false);
-        chickens[9] = new Chicken(9, "Pía", "cream", new Date(), new Date(), true);
+        System.out.println("Choose where you want to save");
+        System.out.println(" Save to Jason");
+        System.out.println(" Save to Cvs");
+        menu=read.nextInt();
+        
+        switch(menu){
+            case 1:
+                {
+                GsonBuilder gsonBuilder = new GsonBuilder() ;
+                Gson gson = gsonBuilder.create();
+               
+                jsonChicken = gson.toJson(chicken);
+                 Chicken chicken1;
+                System.out.println("jsonChicken->"+ jsonChicken);
+                }
+                break;
+            case 2:
+                {
+                CsvWriter csvwriter = new CsvWriter("chicken.csv");
+                csvWrite.writeRecord (chicken.toString());
+                 } 
+                csvWrite.close();
+                break;
+        
+      }  
+        
+     }  
+ }  
+        
+        
+        
+        
+     
        
        
     
-        jsonChicken = " { \"id\"; \"1\"    } ";
-        System.out.println("chiken Json -> "+ jsonChicken);
-         
-            GsonBuilder gsonBuilder = new GsonBuilder() ;
-            Gson gson = gsonBuilder.create();
-               
-            jsonChicken = gson.toJson(chicken);
-              
-            System.out.println("jsonChicken->"+ jsonChicken);
-               
-            Chicken chicken3;
-            chicken3 = gson.fromJson(jsonChicken, Chicken.class);
-               
-            System.out.println("chicken object name ->"+ chicken.getName());
-    }
-}
+       
