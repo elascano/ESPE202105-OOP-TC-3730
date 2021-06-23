@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class FarmSystem {
     public static void main(String[] args) {
         //TODO reading from keyboard
-        Scanner entrada = new Scanner(System.in);
+        Scanner entry = new Scanner(System.in);
         Chicken chicken;
         Age age;
         int id; 
@@ -32,10 +32,12 @@ public class FarmSystem {
         int dia;
         int mes;
         int ano;
+        boolean salir = false;
+        int option;
         String jsonChicken;
         String jsonAge;
         
-        //TODO reading from keyboard 
+    //TODO reading from keyboard 
         
     Chicken chickens[] = new Chicken[10];
     Age ages[] = new Age[10];
@@ -44,32 +46,32 @@ public class FarmSystem {
         System.out.println("\nEnter the chicken data[" + (i+1) + "]:");
         
         System.out.print("Enter the id: ");
-        id = entrada.nextInt();
+        id = entry.nextInt();
         
         System.out.print("Enter the name: ");
-        name = entrada.next();
+        name = entry.next();
         
         System.out.print("Enter the color: ");
-        color = entrada.next();
+        color = entry.next();
         
         System.out.print("Insert molthing: ");
-        molthing = entrada.nextBoolean();
+        molthing = entry.nextBoolean();
         
         System.out.print("Enter the egg counter: ");
-        eggCounter = entrada.nextInt();
+        eggCounter = entry.nextInt();
         
         System.out.println("Enter the chicken's date of birth[" + (i+1) + "]:");
         
         System.out.print("Enter the day: ");
-        dia = entrada.nextInt();
+        dia = entry.nextInt();
         
         System.out.print("Enter the month: ");
-        mes = entrada.nextInt();
+        mes = entry.nextInt();
         
         System.out.print("Enter the year: ");
-        ano = entrada.nextInt();
+        ano = entry.nextInt();
         
-        entrada.nextLine();
+        entry.nextLine();
         
         chickens[i] = new Chicken(id, name, color, molthing, eggCounter);
         ages[i] = new Age(calculaDias(dia,mes,ano), calculaMeses(dia,mes,ano),calculaAnos(dia,mes,ano));
@@ -80,17 +82,43 @@ public class FarmSystem {
 //       System.out.println("Chicken -> " + chickens[i]);
 //       System.out.println("El pollo[" + (i+1) + "]" + " tiene la edad de " + ages[i]);
 //  }
-
+     
     GsonBuilder gsonBuilder = new GsonBuilder();
     Gson gson = gsonBuilder.create();
     
+    do{
+        
+        System.out.println("\nMenu: ");
+    System.out.println("1. Write the jsonChicken: ");
+    System.out.println("2. Read the jsonChicken: ");
+    System.out.println("3. Exit: ");
+    System.out.print("Enter an option: ");
+    option = entry.nextInt();
+    
+    if(option == 1){
+    
     for(int i=0;i<10;i++){
     //Serealizacion
-    jsonChicken = gson.toJson(chickens[i]);
     System.out.println("\njsonChicken[" + (i+1) + "]");
+    jsonChicken = gson.toJson(chickens[i]);
+    System.out.println("jsonChicken -> " + jsonChicken);
     
     jsonAge = gson.toJson(ages[i]);
-//  System.out.println("jsonAge -> " + jsonAge);
+    System.out.println("jsonAge -> " + jsonAge);
+    
+        }
+    
+    }
+    
+    if(option == 2){
+    
+    for(int i=0;i<10;i++){
+    //Serealizacion
+    System.out.println("\njsonChicken[" + (i+1) + "]");
+    jsonChicken = gson.toJson(chickens[i]);
+    
+    jsonAge = gson.toJson(ages[i]);
+    //System.out.println("jsonAge -> " + jsonAge);
     
     //deserealizacion
     Chicken chicken2;
@@ -109,7 +137,15 @@ public class FarmSystem {
             + " years, " + ages2.getMes() + " months and " 
             + ages2.getDia() + " days old");
     }
-   
-    }
- 
+    
   }
+    
+    if(option == 3){
+        salir = true;
+    }
+    
+    }while(!salir);
+    
+        System.out.println("\nEnd of the program");
+    }
+}

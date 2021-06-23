@@ -10,6 +10,8 @@ package futuretheonaccent.inventoryproducts.model;
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
 public class Register {
+<<<<<<< HEAD
+=======
    private Float number;
    private String date;
 
@@ -42,5 +44,6 @@ public class Register {
     }
    
     
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     
 }
