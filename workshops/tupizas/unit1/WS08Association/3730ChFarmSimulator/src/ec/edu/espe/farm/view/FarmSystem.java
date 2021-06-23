@@ -5,14 +5,20 @@
  */
 package ec.edu.espe.farm.view;
 
+<<<<<<< HEAD
+import ec.edu.espe.farm.model.Chicken;
+import java.util.Date;
+=======
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import ec.edu.espe.farm.model.Chicken;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
 /**
  *
@@ -20,8 +26,13 @@ import java.util.Scanner;
  * OOP-ESPE
  */
 public class FarmSystem {
+<<<<<<< HEAD
     public static void main(String[] args) {
         Chicken chicken;
+=======
+    @SuppressWarnings("empty-statement")
+    public static void main(String[] args) {
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         
         int id; 
         String name;
@@ -30,21 +41,89 @@ public class FarmSystem {
         Date bornOn;
         boolean molting;
         int eggCounter;
+<<<<<<< HEAD
         
         
         id = 0;
-        name = "Lola";
-        color = "coffe";
+        name = "Lucy";
+        color = "White";
+=======
+        ArrayList<Chicken> chickens = new ArrayList<>();
+        Chicken chickensArray[] = new Chicken[5];
+        
+        
+        
+        
+        
+        
+        id = 0;
+        name = ".....";
+        color = ".....";
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         age = new Date();
         bornOn = new Date();
         molting = true;
         eggCounter = 0;
         
+<<<<<<< HEAD
         
         chicken = new Chicken(id, name, color, age, bornOn, molting);
         
         System.out.println("chicken ->"+ chicken);
         
+    }
+}
+=======
+        Scanner entry = new Scanner(System.in);
+        
+        System.out.println("...............................");
+        System.out.println(".... Enter date from keyboard...........");
+
+        
+        for(int i=0;i<10;i++){
+             System.out.println("...............................");
+             System.out.println("What is name of chicken?:          ");
+             name = entry.nextLine();
+             
+             
+          System.out.println("What i color of the chicken?"         );
+          color= entry.nextLine();
+          
+           System.out.println("What is age of the Chicken?        ");
+          
+           System.out.println("What is Date of the Chicken?        "); 
+           
+           System.out.println("...................................."); 
+             
+           
+           System.out.println(" name the chicken ->" + name);
+           System.out.println(" color the chicken ->" + color);
+           System.out.println(" age the chicken" + age);
+           System.out.println(" bornOn the chicken" + bornOn);
+           System.out.println(".............................");
+            
+           
+             
+        }
+       
+        //Chicken chicken = new Chicken();
+        // System.out.println("chicken" + chicken);
+        Chicken chicken = new Chicken(id, name, color, age, bornOn, molting);
+       System.out.println("chicken ->" + chicken);
+        
+      /* Chicken chicken2 = new Chicken(2, "lula", "black", new Date(), false);
+      / System.out.println("chicken2 ->" + chicken2);
+       
+       chickens.add(chicken);
+       chickens.add(chicken2);
+       
+       System.out.println("chickens ->" + chickens);
+       
+       chickensArray[0] = chicken;
+       
+       System.out.println("chickensArray ->" + chickensArray[0]);*/
+       
+       
        
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate fechaNac = LocalDate.parse("24/06/2021", fmt);
@@ -78,15 +157,19 @@ public class FarmSystem {
 //"  \"url\": \"https://httpbin.org/get\"\n" +
 //"}"
             //CLASE DATE
+   
+        
         GsonBuilder gsonBuilder = new GsonBuilder();
-     Gson gson = gsonBuilder.create();
-     
+        Gson gson = gsonBuilder.create();
+   
+        
         String jsonChicken = gson.toJson(chicken);
-        String jsonchicken = null;
-     
-     System.out.println("jsonchicken" + jsonchicken);
     
+        System.out.println("jsonCkicken ->" + jsonChicken);
+        
+        
+        jsonChicken = gson.toJson(chicken);
+        System.out.println("jsonCkicken ->" + jsonChicken);
     }
 }
-       
-   
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b

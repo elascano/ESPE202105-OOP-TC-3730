@@ -13,9 +13,6 @@ import java.util.Date;
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
 public class FarmSystem {
-
-    public FarmSystem() {
-    }
     
     public static void main(String[] args) {
         
@@ -30,7 +27,7 @@ public class FarmSystem {
         int eggCounter; 
         
         id = 0;
-        name = "Ellie";
+        name = "Lucy";
         color = "white";
         age = new Date();
         born0n = new Date();

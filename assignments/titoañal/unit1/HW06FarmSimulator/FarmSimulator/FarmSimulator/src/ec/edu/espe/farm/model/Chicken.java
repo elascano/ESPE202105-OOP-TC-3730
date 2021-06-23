@@ -14,57 +14,21 @@ import java.util.Date;
 public class Chicken {
     private int id;
     private String name;
-    private String color;
-    private Date age;
-    private Date bornOn;
+    private String color; 
     private boolean Molting;
     private int eggCounter;
 
-    public Chicken(int id, String name, String color, Date age, boolean molting, int eggCounter) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", Molting=" + Molting + ", eggCounter=" + eggCounter + '}';
+        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", Molting=" + isMolting() + ", eggCounter=" + getEggCounter() + '}';
     }
 
-    public Chicken(int id, String name, String color, Date age, Date bornOn, boolean Molting, int eggCounter) {
+    public Chicken(int id, String name, String color, boolean Molting, int eggCounter) {
         this.id = id;
         this.name = name;
         this.color = color;
-        this.age = age;
-        this.bornOn = bornOn;
         this.Molting = Molting;
         this.eggCounter = eggCounter;
-    }
-
-    
-    
-    
-    public void doStuff(int forTime){
-        
-    }
-    private void cluck(){
-        System.out.println("cluck cluck cluck cluck");
-    }
-    private void wander(){
-        System.out.println("wandering from one chicken coop to another");
-        
-    }
-    private void eat(){
-        System.out.println("eating");
-    }
-    private void drink(){
-        System.out.println("drinking water");
-    }
-    private Poop poop(){
-        return new Poop();
-    }
-    
-    private Egg layAnEgg(){
-        setEggCounter(getEggCounter()+1);
-        return new Egg(0);
     }
 
     /**
@@ -110,34 +74,6 @@ public class Chicken {
     }
 
     /**
-     * @return the age
-     */
-    public Date getAge() {
-        return age;
-    }
-
-    /**
-     * @param age the age to set
-     */
-    public void setAge(Date age) {
-        this.age = age;
-    }
-
-    /**
-     * @return the bornOn
-     */
-    public Date getBornOn() {
-        return bornOn;
-    }
-
-    /**
-     * @param bornOn the bornOn to set
-     */
-    public void setBornOn(Date bornOn) {
-        this.bornOn = bornOn;
-    }
-
-    /**
      * @return the Molting
      */
     public boolean isMolting() {
@@ -166,5 +102,6 @@ public class Chicken {
     }
     
     
-    
+
+
 }
