@@ -16,7 +16,7 @@ public class Chicken {
     private String name;
     private String color;
     private Date age;
-    private final Date bornOn;
+    private Date bornOn;
     private boolean molting;
     private int eggCounter=0;
 
@@ -116,17 +116,17 @@ public class Chicken {
     }
 
     /**
-     * @return the bornon
+     * @return the bornOn
      */
-    public Date getBornon() {
+    public Date getBornOn() {
         return bornOn;
     }
 
     /**
-     * @param bornon the bornon to set
+     * @param bornOn the bornOn to set
      */
-    public void setBornon(Date bornon) {
-        this.bornOn = bornOn;
+    public void setBornOn(Date bornOn) {
+        this.bornOn = bornOn ;
     }
 
     /**

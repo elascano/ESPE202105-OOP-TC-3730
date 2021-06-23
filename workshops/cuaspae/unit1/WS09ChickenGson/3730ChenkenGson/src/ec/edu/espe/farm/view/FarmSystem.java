@@ -40,7 +40,7 @@ public class FarmSystem {
         
         chicken = new Chicken(id, name, color, age, bornOn, molting);
         System.out.println("chicken -> " + chicken);
-        Chicken chicken2 = new Chicken(1, "Kevin", "black", new Date(), new Date(), true);
+        Chicken chicken2 = new Chicken(1, "Ann", "whikw", new Date(), new Date(), true);
         System.out.println("Chicken 2 " + chicken2);
         
         System.out.println("Chicken json " + jsonChicken);
@@ -62,6 +62,6 @@ public class FarmSystem {
         }
                 
                 
-    }
+ }
     
 

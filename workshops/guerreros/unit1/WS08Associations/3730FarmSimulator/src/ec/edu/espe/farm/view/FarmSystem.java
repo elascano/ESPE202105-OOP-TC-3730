@@ -5,10 +5,13 @@
  */
 package ec.edu.espe.farm.view;
 
+<<<<<<< HEAD
+=======
 
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 import ec.edu.espe.farm.model.Chicken;
 import java.util.Date;
 
@@ -29,11 +32,15 @@ public class FarmSystem {
         Date bornOn;
         boolean molting;
         int eggCounter;
+<<<<<<< HEAD
+             
+=======
        String jsonChicken = ""; 
        
        
         
        
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
                  
          id = 0;
          name = "Lucky";
@@ -42,6 +49,15 @@ public class FarmSystem {
          bornOn = new Date();
          molting = true;
          eggCounter = 0;
+<<<<<<< HEAD
+        
+               
+        
+        chicken = new Chicken(id, name, color, age, bornOn, molting);
+        
+        System.out.println("chiken->" + chicken);
+        
+=======
        
         chicken = new Chicken(id, name, color, age, bornOn, molting);
         
@@ -66,6 +82,7 @@ public class FarmSystem {
        System.out.println(" chicken object name ->"+ chicken3.getName());
       
        
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     }
     
 
