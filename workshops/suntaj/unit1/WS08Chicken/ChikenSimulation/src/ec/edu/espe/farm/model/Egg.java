@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+<<<<<<< HEAD
+=======
 
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 package ec.edu.espe.farm.model;
 
 /**
