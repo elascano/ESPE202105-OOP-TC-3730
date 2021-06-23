@@ -37,6 +37,9 @@ public class FarmSystem {
          
         System.out.println("chicken -> " + chicken);
         
+<<<<<<< HEAD
+        
+=======
         Chicken chickens[]= new Chicken[10];
         Date born0n = null;
         chicken = new Chicken(id, name, color, age, born0n, molting);
@@ -56,6 +59,7 @@ public class FarmSystem {
             System.out.println("chicken"+ i + "=" + chickens[i]);
             }
 
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     }
 }
 
