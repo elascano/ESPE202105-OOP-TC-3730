@@ -43,7 +43,7 @@ public class books {
         boo.set(i, new Book1(title,author,publisher,yearOfPublication));
         
         }
-        for(int i= 0;i < 2;i++){
+       /* for(int i= 0;i < 2;i++){
                          GsonBuilder gsonBuilder = new GsonBuilder();
                          Gson gson= gsonBuilder.create();
                          String jsonBook1 = gson.toJson(boo.get(i));
@@ -53,6 +53,6 @@ public class books {
                          System.out.println("jsonBook1:"+jsonBook1);
                          
                          System.out.println(boo.get(i).getTitle() + "" + boo.get(i).getAuthor()+ "" + boo.get(i).getPublisher());
-                     }
+                     }*/
     }
 }
