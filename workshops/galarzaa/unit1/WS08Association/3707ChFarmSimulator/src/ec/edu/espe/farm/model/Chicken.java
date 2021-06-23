@@ -17,15 +17,32 @@ public class Chicken {
     private String name;
     private String color;
     private Date age;
+<<<<<<< HEAD
+    private boolean molting;
+    int eggCounter=0;
+
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
+    }
+
+    
+    public Chicken(int id, String name, String color, Date age, boolean molting) {
+=======
     private Date bornOn;
     private boolean molting;
     private int eggCounter=0;
 
     public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         this.id = id;
         this.name = name;
         this.color = color;
         this.age = age;
+<<<<<<< HEAD
+        this.molting = molting;
+    }
+=======
         this.bornOn = bornOn;
         this.molting = molting;
     }
@@ -34,6 +51,7 @@ public class Chicken {
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     
     
     public void doStuff(int forTime) {
@@ -61,7 +79,11 @@ public class Chicken {
     }
 
     private Egg LayAnEgg() {
+<<<<<<< HEAD
+        eggCounter++;
+=======
         setEggCounter(getEggCounter() + 1);
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         return new Egg(0);
     }
 
@@ -122,6 +144,8 @@ public class Chicken {
     }
 
     /**
+<<<<<<< HEAD
+=======
      * @return the bornOn
      */
     public Date getBornOn() {
@@ -136,6 +160,7 @@ public class Chicken {
     }
 
     /**
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
      * @return the molting
      */
     public boolean isMolting() {
@@ -148,6 +173,8 @@ public class Chicken {
     public void setMolting(boolean molting) {
         this.molting = molting;
     }
+<<<<<<< HEAD
+=======
 
     /**
      * @return the eggCounter
@@ -163,4 +190,5 @@ public class Chicken {
         this.eggCounter = eggCounter;
     }
     
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 }
