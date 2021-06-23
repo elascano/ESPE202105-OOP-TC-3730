@@ -5,6 +5,10 @@
  */
 package ec.edu.espe.farm.view;
 
+<<<<<<< HEAD
+import ec.edu.espe.farm.model.Chicken;
+import java.util.Date;
+=======
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import ec.edu.espe.farm.model.Chicken;
@@ -14,6 +18,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
 /**
  *
@@ -21,8 +26,13 @@ import java.util.Scanner;
  * OOP-ESPE
  */
 public class FarmSystem {
+<<<<<<< HEAD
+    public static void main(String[] args) {
+        Chicken chicken;
+=======
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         
         int id; 
         String name;
@@ -31,6 +41,13 @@ public class FarmSystem {
         Date bornOn;
         boolean molting;
         int eggCounter;
+<<<<<<< HEAD
+        
+        
+        id = 0;
+        name = "Lucy";
+        color = "White";
+=======
         ArrayList<Chicken> chickens = new ArrayList<>();
         Chicken chickensArray[] = new Chicken[5];
         
@@ -42,11 +59,21 @@ public class FarmSystem {
         id = 0;
         name = ".....";
         color = ".....";
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         age = new Date();
         bornOn = new Date();
         molting = true;
         eggCounter = 0;
         
+<<<<<<< HEAD
+        
+        chicken = new Chicken(id, name, color, age, bornOn, molting);
+        
+        System.out.println("chicken ->"+ chicken);
+        
+    }
+}
+=======
         Scanner entry = new Scanner(System.in);
         
         System.out.println("...............................");
@@ -145,3 +172,4 @@ public class FarmSystem {
         System.out.println("jsonCkicken ->" + jsonChicken);
     }
 }
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
