@@ -10,8 +10,6 @@ import com.google.gson.GsonBuilder;
 import ec.edu.espe.book.model.*;
 import java.io.FileWriter;
 import java.io.IOException;
-import static java.rmi.server.ObjID.read;
-import static java.rmi.server.UID.read;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -69,7 +67,6 @@ public class BookSystem {
                     registry.write(jsonBook);
                     registry.flush();
                     registry.close();
-
                 } catch (IOException e) {
                 }
     }
