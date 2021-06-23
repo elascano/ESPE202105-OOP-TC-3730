@@ -30,7 +30,10 @@ public class FarmSystem {
         int EggCounter;
         int birth;
         
+<<<<<<< HEAD
+=======
         
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         System.out.println("Write name: ");
         name=read.next();
         System.out.println("Write color: ");
@@ -48,5 +51,9 @@ public class FarmSystem {
         System.out.println("chicken -> " + chicken);
         System.out.println("Homework Vanessa Cayambe");
     }
+<<<<<<< HEAD
+  
+=======
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
   }
 }

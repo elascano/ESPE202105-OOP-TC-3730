@@ -34,12 +34,7 @@ public class FarmSystem {
         molting= true;
         eggCounter= 0;
         
-        
-           
-          
-        
-        
-        chicken= new Chicken(id, name, color, bornon, age, molting);
+      chicken= new Chicken(id, name, color, bornon, age, molting);
         System.out.println("chicken->" + chicken );
         Chicken chicken2 = new Chicken(1,"Cyndi","White",new Date(),new Date(), false);
         System.out.println("chicken ->" + chicken2);
@@ -54,9 +49,5 @@ public class FarmSystem {
         System.out.println("jsonChicken ->"+ jsonChicken);
         jsonChicken = gson.toJson(chicken2);
         System.out.println("jsonChicken ->"+ jsonChicken);
-        
     }
-    
-    
-    
 }

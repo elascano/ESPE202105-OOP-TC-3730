@@ -39,8 +39,8 @@ public class FarmsSystem {
         int eggCounter;
         
         
-        Chicken1 [] chickens=new Chicken1[1];
-        Born [] bornOn1=new Born[1];
+        Chicken1 [] chickens=new Chicken1[10];
+        Born [] bornOn1=new Born[10];
         
         for(int i=0;i<chickens.length;i++){
             System.out.print("Chicken[%d] "+ i);
@@ -70,7 +70,7 @@ public class FarmsSystem {
             bornOn1[i]= born;
         
         }
-        for (int j=0; j<1; j++){
+        for (int j=0; j<10; j++){
             
             System.out.println("chicken"+ j + "=" + chickens[j]);
             System.out.println("BorOn "+ j + "=" + bornOn1[j]);
@@ -82,23 +82,19 @@ public class FarmsSystem {
             case 1:
                 GsonBuilder gsonBuilder= new GsonBuilder();
                 Gson gson=gsonBuilder.create();
-        
-                String jsonChicken="{\"id\":\"1\"}";
-                System.out.println("chicken Json ->"+jsonChicken);
-        
+
+                String jsonChicken="";
                 jsonChicken=gson.toJson(chickens);
         
                 //Serialization
                 System.out.println("jsonChicken ->"+jsonChicken);
-                //jsonChicken=gson.toJson(chickens);
-                //System.out.println("jsonChicken ->"+jsonChicken);
        
         
                 //Deserialization
                 
                 Chicken1 chicken3[]=new Chicken1[1];
-                chicken3[0]=gson.fromJson(jsonChicken,Chicken1.class);
-                System.out.println("chicken object name ->"+chicken3[0].getId());
+                chicken3[1]=gson.fromJson(jsonChicken,Chicken1.class);
+                System.out.println("chicken object name ->"+chicken3[1].getId());
             break;
             case 2:
             break;
