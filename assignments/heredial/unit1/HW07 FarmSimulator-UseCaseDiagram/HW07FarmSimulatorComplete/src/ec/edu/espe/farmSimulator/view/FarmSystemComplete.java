@@ -23,9 +23,7 @@ public class FarmSystemComplete {
         int day;
         int month;
         int annun;
-        int day1;
-        int month1;
-        int annun1;
+       
                        
         Scanner enter = new Scanner (System.in);
         
@@ -36,7 +34,7 @@ public class FarmSystemComplete {
         System.out.println("Welcome to my Farm\n" + "Author: LUIS ALBERTO HEREDIA IZA\n" );
         
            
-        for(int i=0;i<10;i++){
+        for(int i=0;i<1;i++){
             
             System.out.println("\n Chicken...");  
             
@@ -78,7 +76,7 @@ public class FarmSystemComplete {
             age[i]  = new Age(day, month, annun);
         }
         
-        for(int i=0;i<10;i++){
+        for(int i=0;i<1;i++){
        
            System.out.println(chicken[i]);
       
