@@ -29,7 +29,7 @@ public class books {
      Book1 book1[] = new Book1[10];
      ArrayList<Book1> boo = new ArrayList();
      
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 1; i++) {
         
         System.out.println("Enter title");
         title =data.next();
@@ -40,19 +40,20 @@ public class books {
         System.out.println("Enter yearOfPublication");
         yearOfPublication= sc.nextInt();
         
-        boo.set(i, new Book1(title,author,publisher,yearOfPublication));
+        book1[i]= new Book1(title,author,publisher,yearOfPublication);
         
         }
-       /* for(int i= 0;i < 2;i++){
+        for(int i= 0;i < 1;i++){
                          GsonBuilder gsonBuilder = new GsonBuilder();
                          Gson gson= gsonBuilder.create();
-                         String jsonBook1 = gson.toJson(boo.get(i));
+                         String jsonBook1 = gson.toJson(book1[i]);
                      
                          Book1 book;
                          book = gson.fromJson(jsonBook1, Book1.class);
                          System.out.println("jsonBook1:"+jsonBook1);
                          
-                         System.out.println(boo.get(i).getTitle() + "" + boo.get(i).getAuthor()+ "" + boo.get(i).getPublisher());
-                     }*/
+                         System.out.println(book1[i].getTitle() + "" + book1[i].getAuthor()+ "" + book1[i].getPublisher()+"" + book1[i].getYearOfPublication());
+                     
     }
+}
 }
