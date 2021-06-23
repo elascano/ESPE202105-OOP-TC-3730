@@ -5,6 +5,8 @@
  */
 package ec.edu.espe.associations.model;
 
+import java.util.Arrays;
+
 /**
  *
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
@@ -16,7 +18,7 @@ public class B {
 
     @Override
     public String toString() {
-        return "B{" + "a=" + a + ", b=" + b + ", es=" + es + '}';
+        return "B{" + "a=" + a + ", b=" + b + ", es=" + Arrays.toString(es) + '}';
     }
     
     
