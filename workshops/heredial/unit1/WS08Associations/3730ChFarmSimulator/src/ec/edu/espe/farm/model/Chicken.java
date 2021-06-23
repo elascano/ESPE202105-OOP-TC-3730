@@ -20,8 +20,14 @@ public class Chicken {
    private Date bornOn;
    private boolean moltying; 
    private int eggCounter=0;
+<<<<<<< HEAD
 
     @Override
+=======
+   
+
+     @Override
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     public String toString() {
         return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", bornOn=" + getBornOn() + ", moltying=" + isMoltying() + ", eggCounter=" + getEggCounter() + '}';
     }

@@ -6,15 +6,28 @@
 package ec.edu.espe.farm.view;
 
 
+<<<<<<< HEAD
 import ec.edu.espe.farm.model.Chicken;
 import java.util.Date;
 
+=======
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import ec.edu.espe.farm.model.Chicken;
+import java.util.Date;
+
+
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 /**
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
 public class FarmerSystem { 
     public static void main(String[] args) {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         Chicken chicken;
         int id;
         String name;
@@ -23,7 +36,12 @@ public class FarmerSystem {
         Date born0n;
         boolean molting;
         int eggCounter;
+<<<<<<< HEAD
         
+=======
+       String jsonChicken = ""; 
+      
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         id= 0;
         name = "Lucky";
         color = "White";
@@ -36,6 +54,7 @@ public class FarmerSystem {
         
         System.out.println("chicken ->"+ chicken);
         
+<<<<<<< HEAD
         
         
         
@@ -50,5 +69,27 @@ public class FarmerSystem {
         
         
     }
+=======
+        Chicken chicken2 = new Chicken(2,"Piolin", "Brown" , new Date(), new Date(), false);
+        System.out.println("chiken->" + chicken2);
+       
+        jsonChicken= " { \"id\"; \"1\"    } ";
+        System.out.println("chiken Json -> "+ jsonChicken);
+         
+               GsonBuilder gsonBuilder = new GsonBuilder() ;
+               Gson gson = gsonBuilder.create();
+               
+               jsonChicken = gson.toJson(chicken);
+               
+               System.out.println("jsonChicken->"+ jsonChicken);
+               
+               Chicken chicken3;
+               chicken3 = gson.fromJson(jsonChicken, Chicken.class);
+               
+               System.out.println("chicken object name ->"+ chicken.getName());
+        
+
+        }
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     
 }

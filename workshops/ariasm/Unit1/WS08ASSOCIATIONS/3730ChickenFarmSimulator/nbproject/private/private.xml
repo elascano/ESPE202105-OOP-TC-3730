@@ -2,6 +2,7 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/D:/Users/Usuario/Desktop/Nueva%20carpeta%20(2)/3730ChickenFarmSimulator/src/ec/edu/espe/farm/model/Chicken.java</file>
             <file>file:/D:/Users/Usuario/Desktop/Nueva%20carpeta%20(2)/3730ChickenFarmSimulator/src/ec/edu/espe/farm/model/Egg.java</file>
@@ -10,5 +11,8 @@
             <file>file:/D:/Users/Usuario/Desktop/Nueva%20carpeta%20(2)/3730ChickenFarmSimulator/src/ec/edu/espe/farm/view/FarmSystem.java</file>
             <file>file:/D:/Users/Usuario/Desktop/Nueva%20carpeta%20(2)/3730ChickenFarmSimulator/src/ec/edu/espe/farm/model/ChickenCoop.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     </open-files>
 </project-private>
