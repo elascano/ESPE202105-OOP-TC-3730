@@ -12,8 +12,13 @@ import java.util.Date;
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class Chicken {
+<<<<<<< HEAD
+    private int id;
+    private String name;
+=======
         private int id;
 private String name;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     private String color;
     private Date age;
     private Date bornOn;
@@ -29,6 +34,13 @@ private String name;
         this.molting = molting;
     }
 
+<<<<<<< HEAD
+=======
+    public Chicken(int id, String name, String color, boolean molting, int eggCounter) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     @Override
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';

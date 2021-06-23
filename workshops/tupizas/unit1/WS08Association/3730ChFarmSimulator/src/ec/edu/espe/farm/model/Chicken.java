@@ -21,11 +21,22 @@ public class Chicken {
     private boolean molting;
     private int eggCounter=0;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     @Override
     public String toString() {
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
+<<<<<<< HEAD
     
+=======
+
+   
+
+ 
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     
     public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
         this.id = id;
@@ -35,6 +46,7 @@ public class Chicken {
         this.bornOn = bornOn;
         this.molting = molting;
     }
+<<<<<<< HEAD
     
     
     
@@ -66,6 +78,8 @@ public class Chicken {
         setEggCounter(getEggCounter() + 1);
         return new Egg(0); 
     }
+=======
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
     /**
      * @return the id
@@ -164,5 +178,13 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
+<<<<<<< HEAD
+=======
+    
+    
+    
+    
+    
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 }
 
