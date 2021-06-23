@@ -4,10 +4,13 @@
  * and open the template in the editor.
  */
 package ec.edu.espe.farm.view;
+<<<<<<< HEAD
+=======
 
 import ec.edu.espe.farm.model.BornOn;
 import ec.edu.espe.farm.model.Chicken;
 import ec.edu.espe.farm.model.YearsCount;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 import java.util.Scanner;
 
 /**
@@ -15,6 +18,34 @@ import java.util.Scanner;
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class FarmSystem1 {
+<<<<<<< HEAD
+    public static void main(String[] args){
+    
+     Scanner sc = new Scanner(System.in);
+     System.out.println("Write the Id: ");
+     String id = sc.nextLine();
+     
+     System.out.println("Write the name: ");
+     String name = sc.nextLine();
+     
+     System.out.println("Write the color: ");
+     String color = sc.nextLine();
+     
+     System.out.println("Write the age: ");
+     String age = sc.nextLine();
+     
+     System.out.println("Write the bornOn: ");
+     String bornOn = sc.nextLine();
+     
+     System.out.println("Write the molting: ");
+     String molting = sc.nextLine();
+     
+     System.out.println("Write the eggCounter: ");
+     String eggCounter = sc.nextLine();
+     
+     System.out.println("Id: " + id + ", Name: " + name + ", Color: " + color + ", Age: " + age + ", bornOn: " + bornOn + ", molting: " + molting + ", eggCounter: " + eggCounter);
+              
+=======
 
     private static YearsCount[] YearCount;
     private static int id;
@@ -83,6 +114,7 @@ public class FarmSystem1 {
                 System.out.println(yearsCount[i]);
          
      }              
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
     }
     
