@@ -15,7 +15,7 @@ import java.util.Scanner;
  *
  * @author Gabriel Aguirre SkyNet.hub ESPE-DCCO
  */
-public class Book {
+public class BookSystem {
     public static void main(String[] args) {
         
         int id; 
@@ -72,8 +72,9 @@ public class Book {
             
            
             enter.nextLine();
+            int counter;
             
-            book[i] = new Book(id,name,author,molting,Counter);  
+            book[i] = new Book(id,name,author,molting,counter);  
             datePublic[i] = new DatePublic(day, month, year);
             
             
