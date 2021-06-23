@@ -37,7 +37,12 @@ public class FarmSystem {
         
         System.out.println(" chicken -> " + chicken);
         
+<<<<<<< HEAD
+    }
+}
+=======
             
         }
     }
 
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b

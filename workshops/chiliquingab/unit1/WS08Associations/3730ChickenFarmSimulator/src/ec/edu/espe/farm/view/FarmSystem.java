@@ -5,6 +5,10 @@
  */
 package ec.edu.espe.farm.view;
 
+<<<<<<< HEAD
+import ec.edu.espe.farm.model.Chicken;
+import java.util.Date;
+=======
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import ec.edu.espe.farm.model.Age;
@@ -13,6 +17,7 @@ import static ec.edu.espe.farm.model.Age.calculaDias;
 import static ec.edu.espe.farm.model.Age.calculaMeses;
 import ec.edu.espe.farm.model.Chicken;
 import java.util.Scanner;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
 /**
  *
@@ -20,6 +25,39 @@ import java.util.Scanner;
  */
 public class FarmSystem {
     public static void main(String[] args) {
+<<<<<<< HEAD
+        Chicken chicken;
+        //TODO reading from keyboard
+        int id; 
+        String name; 
+        String color; 
+        Date age; 
+        Date bornOn; 
+        boolean molthing;
+        int eggCounter; 
+        
+        //TODO reading from keyboard 
+        
+        id = 0;
+        name = "Lucy";
+        color = "white";
+        age = new Date();
+        bornOn = new Date();
+        molthing = true;
+        eggCounter = 0;
+        
+        chicken = new Chicken(id, name, color, age, bornOn, molthing);
+        
+        System.out.println(" Chicken -> " + chicken);
+        
+        Chicken chickens[] = new Chicken[10];
+        
+        chickens[0] = chicken;
+        chickens[1] = new Chicken(1, "Maruja", "black", age, bornOn, false);
+        
+    }
+}
+=======
         //TODO reading from keyboard
         Scanner entrada = new Scanner(System.in);
         Chicken chicken;
@@ -113,3 +151,4 @@ public class FarmSystem {
     }
  
 }
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
