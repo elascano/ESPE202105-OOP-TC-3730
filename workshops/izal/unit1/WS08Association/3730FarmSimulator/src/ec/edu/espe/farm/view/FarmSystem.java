@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ec.edu.espe.farm.view;
+
+import ec.edu.espe.farm.model.Chicken;
+import java.util.Date;
+=======
 
 package ec.edu.espe.farm.view;
 
@@ -12,6 +23,7 @@ import java.util.ArrayList;
 //import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
 /**
  *
@@ -19,7 +31,11 @@ import java.util.Scanner;
  */
 public class FarmSystem {
     public static void main(String[] args) {
+<<<<<<< HEAD
+        Chicken chicken;
+=======
       
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
      int id;
      String name;
      String color; 
@@ -27,6 +43,12 @@ public class FarmSystem {
      Date bornOn;
      boolean molting;
      int eggCounter;
+<<<<<<< HEAD
+     
+     id = 0;
+     name = "Lucy";
+     color = "whike";
+=======
      String filepath = "cake.txt";
      /*ArrayList<Chicken> chickens = new ArrayList<>();
      Chicken chickensArray[] = new Chicken[5];
@@ -35,10 +57,22 @@ public class FarmSystem {
      id = 0;
      name = "   ";
      color = "    ";
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
      age = new Date();
      bornOn = new Date();
      molting = true;
      eggCounter =0;
+<<<<<<< HEAD
+    
+        Chicken ckicken = new Chicken (id, name, color, age, bornOn, molting);
+        System.out.println("ckicken ->" + ckicken);
+    
+    }
+       
+    
+}
+
+=======
        
      /*ArrayList<Chicken> chickens = new ArrayList();
       
@@ -184,3 +218,4 @@ public class FarmSystem {
     }
     
 }
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
