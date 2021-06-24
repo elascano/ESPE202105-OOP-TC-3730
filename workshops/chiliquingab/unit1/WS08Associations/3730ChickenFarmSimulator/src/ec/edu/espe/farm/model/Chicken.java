@@ -5,8 +5,11 @@
  */
 package ec.edu.espe.farm.model;
 
+<<<<<<< HEAD
 import java.util.Date;
 
+=======
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 /**
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
@@ -15,6 +18,7 @@ public class Chicken {
     private int id;
     private String name;
     private String color;
+<<<<<<< HEAD
     private Date age;
     private Date bornOn;
     private boolean molthing;
@@ -63,6 +67,24 @@ public class Chicken {
         return new Egg(0);
     }
 
+=======
+    private boolean molthing;
+    private int eggCounter;
+
+    public Chicken(int id, String name, String color, boolean molthing, int eggCounter) {
+        this.id = id;
+        this.name = name;
+        this.color = color;
+        this.molthing = molthing;
+        this.eggCounter = eggCounter;
+    }
+
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", molthing=" + molthing + ", eggCounter=" + eggCounter + '}';
+    }
+    
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     /**
      * @return the id
      */
@@ -106,6 +128,7 @@ public class Chicken {
     }
 
     /**
+<<<<<<< HEAD
      * @return the age
      */
     public Date getAge() {
@@ -120,6 +143,8 @@ public class Chicken {
     }
 
     /**
+=======
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
      * @return the molthing
      */
     public boolean isMolthing() {
@@ -134,6 +159,7 @@ public class Chicken {
     }
 
     /**
+<<<<<<< HEAD
      * @return the bornOn
      */
     public Date getBornOn() {
@@ -148,6 +174,8 @@ public class Chicken {
     }
 
     /**
+=======
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
      * @return the eggCounter
      */
     public int getEggCounter() {
@@ -160,5 +188,10 @@ public class Chicken {
     public void setEggCounter(int eggCounter) {
         this.eggCounter = eggCounter;
     }
+<<<<<<< HEAD
+=======
+
+   
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
     
 }

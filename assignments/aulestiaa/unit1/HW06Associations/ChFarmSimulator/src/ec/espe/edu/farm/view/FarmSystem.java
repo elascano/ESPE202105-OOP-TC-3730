@@ -5,6 +5,10 @@
  */
 package ec.espe.edu.farm.view;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 import ec.espe.edu.farm.model.Chicken;
 import java.util.Date;
 import java.util.Scanner;
@@ -15,7 +19,11 @@ import java.util.Scanner;
  */
 public class FarmSystem {
     public static void main(String[] args) {
+<<<<<<< HEAD
         Chicken chicken;
+=======
+        
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         int id;
         String name;
         String color;
@@ -43,9 +51,16 @@ public class FarmSystem {
             molting = data.nextBoolean();
             System.out.println("Enter the eggCounter: ");
             eggCounter = data.nextInt();
+<<<<<<< HEAD
             chicken = new Chicken(id, name, color, age, bornOn, molting);
             System.out.println("Chicken[" + (chickenCounter) + "]" + chicken);
         }
     }
  
 }
+=======
+            Chicken chicken = new Chicken(id, name, color, age, bornOn, molting);
+            System.out.println("Chicken[" + (chickenCounter) + "]" + chicken);
+    }   }   
+}
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
