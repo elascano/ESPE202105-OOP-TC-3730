@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
+        <group/>
+=======
+        <group>
+<<<<<<< HEAD
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW06FarmSimulator.1/FarmSimulator.1/src/ec/edu/espe/farmSimulator/view/FarmSimulator.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW06FarmSimulator.1/FarmSimulator.1/src/ec/edu/espe/farmSimulator/model/ChickenFarmer.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW06FarmSimulator.1/FarmSimulator.1/src/ec/edu/espe/farmSimulator/model/YearsCount.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW06FarmSimulator.1/FarmSimulator.1/src/ec/edu/espe/farmSimulator/model/Egg.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW06FarmSimulator.1/FarmSimulator.1/src/farmsimulator/pkg1/FarmSimulator1.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW06FarmSimulator.1/FarmSimulator.1/src/ec/edu/espe/farmSimulator/model/Chicken.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW06FarmSimulator.1/FarmSimulator.1/src/ec/edu/espe/farmSimulator/model/BornOn.java</file>
+=======
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW07FarmSimulator+UseCaseDiagram/FarmSimulator/src/ec/edu/espe/farmSimulator/model/ChickenFarmer.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW07FarmSimulator+UseCaseDiagram/FarmSimulator/src/ec/edu/espe/farmSimulator/model/BornOn.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW07FarmSimulator+UseCaseDiagram/FarmSimulator/src/ec/edu/espe/farmSimulator/model/Chicken.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW07FarmSimulator+UseCaseDiagram/FarmSimulator/src/ec/edu/espe/farmSimulator/model/Egg.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW07FarmSimulator+UseCaseDiagram/FarmSimulator/src/ec/edu/espe/farmSimulator/model/Poop.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW07FarmSimulator+UseCaseDiagram/FarmSimulator/src/ec/edu/espe/farmSimulator/model/YearsCount.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW07FarmSimulator+UseCaseDiagram/FarmSimulator/src/ec/edu/espe/farmSimulator/view/FarmSimulator.java</file>
+            <file>file:/C:/Users/David%20UNDA/Desktop/ESPE/21MAY-SEP/POO/03code/ESPE202105-OOP-TC-3730/assignments/aguirreg/unit1/HW07FarmSimulator+UseCaseDiagram/FarmSimulator/src/ec/edu/espe/farmSimulator/model/ChickenCoop.java</file>
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
+        </group>
+>>>>>>> 1de78992294f8d2df73289d2e931b1d9ad8fcd74
+    </open-files>
+</project-private>
