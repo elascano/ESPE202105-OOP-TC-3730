@@ -23,8 +23,8 @@ public class Inventory {
     }
     
     public Balance calculateBalance(){
-        Balance balances = new Balance();
-        return balances;
+        Balance balance = new Balance();
+        return balance;
         
        
     }

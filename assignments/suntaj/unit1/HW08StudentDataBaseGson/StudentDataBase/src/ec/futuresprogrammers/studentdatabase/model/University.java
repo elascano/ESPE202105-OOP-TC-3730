@@ -3,77 +3,57 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.futuresprogrammers.studentdatabase.model;
+package databasestudent.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Josselyn Sigcha Future´s ProgrammersTech ESPE-DCC0
  */
 public class University {
-   private String name;
-   private Students[] student;
-   private int course;
-   private String racing;
+    private String nameUniversity;
+    private String racing;
+    private int studentCode;
     
-   
-   public void  catagorizeStudent()
-   {
-   }
-   
-   public void establishCourse()
-   {
-       
-   }
-   public void placeRacing()
-   {
-       
-   }
+    
+    
+    
+    public void catagorizeStudents()
+    {
+        
+    }   
+    public void establishCourse()
+    {
+        
+    }
+    public void placeRacing()
+    {
+        
+        
+    } 
+
+    public University(String nameUniversity, String racing, int studentCode) {
+        this.nameUniversity = nameUniversity;
+        this.racing = racing;
+        this.studentCode = studentCode;
+    }
 
     @Override
     public String toString() {
-        return "University{" + "name=" + name + ", student=" + student + ", course=" + course + ", racing=" + racing + '}';
+        return "University{" + "nameUniversity=" + getNameUniversity() + ", racing=" + getRacing() + ", studentCode=" + getStudentCode() + '}';
     }
 
     /**
-     * @return the name
+     * @return the nameUniversity
      */
-    public String getName() {
-        return name;
+    public String getNameUniversity() {
+        return nameUniversity;
     }
 
     /**
-     * @param name the name to set
+     * @param nameUniversity the nameUniversity to set
      */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    /**
-     * @return the student
-     */
-    public Students[] getStudent() {
-        return student;
-    }
-
-    /**
-     * @param student the student to set
-     */
-    public void setStudent(Students[] student) {
-        this.student = student;
-    }
-
-    /**
-     * @return the course
-     */
-    public int getCourse() {
-        return course;
-    }
-
-    /**
-     * @param course the course to set
-     */
-    public void setCourse(int course) {
-        this.course = course;
+    public void setNameUniversity(String nameUniversity) {
+        this.nameUniversity = nameUniversity;
     }
 
     /**
@@ -89,6 +69,31 @@ public class University {
     public void setRacing(String racing) {
         this.racing = racing;
     }
+
+    /**
+     * @return the studentCode
+     */
+    public int getStudentCode() {
+        return studentCode;
+    }
+
+    /**
+     * @param studentCode the studentCode to set
+     */
+    public void setStudentCode(int studentCode) {
+        this.studentCode = studentCode;
+    }
+
+   
+   
+    }
+
     
     
-}
+    
+    
+
+  
+    
+    
+
