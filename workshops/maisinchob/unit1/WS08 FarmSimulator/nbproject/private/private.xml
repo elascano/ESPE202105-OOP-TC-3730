@@ -2,12 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit1/WS08%20FarmSimulator/src/ec/edu/espe/fram/model/Chicken.java</file>
-            <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit1/WS08%20FarmSimulator/src/ec/edu/espe/fram/model/CkickenFarmer.java</file>
-            <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit1/WS08%20FarmSimulator/src/ec/edu/espe/fram/model/ChkienCoop.java</file>
             <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit1/WS08%20FarmSimulator/src/ec/edu/espe/farm/view/FarmSystem.java</file>
-            <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit1/WS08%20FarmSimulator/src/ec/edu/espe/fram/model/Egg.java</file>
         </group>
+=======
+<<<<<<< HEAD
+        <group>
+            <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit1/WS08%20FarmSimulator/src/ec/edu/espe/fram/model/CkickenFarmer.java</file>
+            <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit1/WS08%20FarmSimulator/src/ec/edu/espe/farm/view/FarmSystem.java</file>
+        </group>
+=======
+        <group/>
+>>>>>>> 31bdcde6089c2e0d80d05c5b50a8bb709bf8a7cf
+>>>>>>> ee7260e39932cb2af7a4d5fd7fe5ba2f5926c463
     </open-files>
 </project-private>

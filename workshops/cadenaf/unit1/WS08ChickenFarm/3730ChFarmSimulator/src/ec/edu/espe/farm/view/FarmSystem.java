@@ -15,26 +15,32 @@ import java.util.Date;
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class FarmSystem {
-     public static void main(String[] args) {
-        //variables
+    public static void main(String[] args) {
+        //Variables
             Chicken chicken;
-             int id;
-        String name;
-        String color;
-        Date age;
-        Date bornOn;
-        boolean molting;
-        int eggCounter;
-        String jsonChicken="" ;
+            int id;
+            String name;
+            String color;
+            Date age;
+            Date bornOn;
+            boolean molting;
+            int eggCounter;
+            
+        // Todo reading from keyboard    
+            id = 0;
+            name = "Lucy";
+            color = "While";
+            age = new Date();
+            bornOn = new Date();
+            molting = true;
+            eggCounter = 0;
+            
+            
+            chicken = new Chicken(id, name, color, age, bornOn, molting);
+            
+            System.out.println("chicken ->" + chicken);
         
-        id=0;
-        name= "Lucy";
-        color = "White";
-        age = new Date();
-        bornOn = new Date();
-        molting = true;
-        eggCounter = 0; 
-        
+   
         
         chicken = new Chicken(id, name, color, age, bornOn, molting);
         System.out.println("chicken -> " + chicken);
@@ -56,4 +62,6 @@ public class FarmSystem {
         System.out.println("Chicken objects name: " + chicken3.getName());       
     }
 }
+
+
         

@@ -13,7 +13,10 @@ import java.util.Date;
  * @author Andrea Quichimbo Builder Program ESPE-DCCO
  */
 public class FarmSystem {
+<<<<<<< HEAD
+=======
     
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
 
     /**
      *
@@ -21,9 +24,13 @@ public class FarmSystem {
      */
     public static void main(String[] args) {
         System.out.println("ChFarmSimulator, \n"
-        + "Víctor Coba");
+        + "Andrea Quichimbo");
         Chicken chiken;
+<<<<<<< HEAD
+        //TODO reading from keyboard
+=======
        
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         int id;
         String name;  
         String color; 
@@ -33,7 +40,11 @@ public class FarmSystem {
         int eggCounter; 
         
         id = 0;
-        name = "Santy";
+<<<<<<< HEAD
+        name = "Lucy";
+=======
+        name = "Ellie";
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         color = "white";
         age = new Date();
         born0n = new Date();
@@ -42,11 +53,24 @@ public class FarmSystem {
         
         Chicken chicken = new Chicken(id, name, color, age, born0n, molting);
         System.out.println("chicken ->" + chicken);
+<<<<<<< HEAD
+       
+        @SuppressWarnings("MismatchedReadAndWriteOfArray")
+        Chicken chikens[]= new Chicken[10];
+        
+        chikens[0] = chicken;
+        chikens[1] = new Chicken(1, "Maruja", "black", age, born0n, false);
+    }
+}
+    
+
+  
+=======
      
         Chicken chickens[]= new Chicken[10];
         chicken = new Chicken(id, name, color, age, born0n, molting);
         chickens[0] = chicken;
-        chickens[1] = new Chicken(1, "Guty", "black", new Date(), new Date(), false);
+        chickens[1] = new Chicken(1, "Dayo", "black", new Date(), new Date(), false);
         System.out.println("Chicke1" + chickens [0]);
         System.out.println("Chicke2" + chickens [1]);
         String jsonChicken = "{\"id\";\"1\"}";
@@ -90,3 +114,4 @@ public class FarmSystem {
 }
 
    
+>>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
