@@ -1,0 +1,6 @@
+Chicken{id=12, name=asdf, color=asd, molting=false, eggCouter=3}
+Age{day1=1, month1=-2, annun1=22}
+BornOnChicken{23/8/1999}
+Chicken{id=2, name=asdcvb, color=234, molting=false, eggCouter=3}
+Age{day1=12, month1=3, annun1=0}
+BornOnChicken{12/3/2021}

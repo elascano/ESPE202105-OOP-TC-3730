@@ -2,6 +2,9 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
+        <group/>
+=======
         <group>
 <<<<<<< HEAD
             <file>file:/C:/Users/Dell/Desktop/Espe/ESPE202105-OOP-TC-3730/workshops/ortizm/unit1/TouristGuets1/ToueristGuestCode/src/ec/edu/espe/TouristGuest/model/Hotel.java</file>
@@ -17,5 +20,6 @@
             <file>file:/C:/Users/Dell/Desktop/Espe/ESPE202105-OOP-TC-3730/assignments/ortizm/unit1/HW04ProjectTouristguest/ToueristGuestCode/src/ec/edu/espe/TouristGuest/model/Country.java</file>
 >>>>>>> 31bdcde6089c2e0d80d05c5b50a8bb709bf8a7cf
         </group>
+>>>>>>> eff75220c9d5c830c776fc9344495682464c2659
     </open-files>
 </project-private>

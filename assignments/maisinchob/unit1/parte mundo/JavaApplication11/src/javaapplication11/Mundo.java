@@ -9,36 +9,36 @@ package javaapplication11;
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class Mundo {
-    ListadoPais listaPais;
-    ListadoCiudad listaCiudad;
-    public Mundo(){
-        this.listaPais = new ListadoPais();
-        this.listaCiudad = new ListadoCiudad();
+public class World {
+    ListCountry countrylist;
+    CityList citylist;
+    public World(){
+        this.countrylist = new ListCountry();
+        this.citylist = new CityList();
     }
-    public void agregarPais(Pais p){
-        this.listaPais.agregarPias(p);
+    public void addCountry(Country p){
+        this.countrylist.addCountry(p);
     }
-    public void agregarCiudad(Ciudad c){
-        this.listaCiudad.agregarCiudad(c);
+    public void addCity(City c){
+        this.citylist.addCity(c);
     }
-    public String getCiudadesPorPais(String paisBuscado){
-        Pais p = this.listaPais.buscarPais(paisBuscado);
+    public String getCitiesByCountry(String CountrySearched){
+        Country p = this.countrylist.SearchCountry(CountrySearched);
         if (p != null){
-            return p .getListadoCiudades();
+            return p .getListCities();
         }
-        return "Pais no encontrado. ";
+        return "Country not found. ";
     }
     
-    public String getDatosCiudad(String ciudadBuscada){
-        Ciudad c = this.listaCiudad.bucarCiudad(ciudadBuscada);
+    public String getDataCity(String WantedCity){
+        City c = this.citylist.SearchCity(WantedCity);
         if (c ! = null){
-        return c.getNombrePais();
+        return c.getNameCountry();
     }
-        return ""
+        return "City not found. ";
     }
     
     
-    
+  
     
 }

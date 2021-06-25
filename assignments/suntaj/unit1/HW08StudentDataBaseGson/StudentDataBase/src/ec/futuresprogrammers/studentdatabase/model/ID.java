@@ -3,101 +3,79 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.futuresprogrammers.studentdatabase.model;
+package databasestudent.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Josselyn Sigcha Future´s ProgrammersTech ESPE-DCC0
  */
 public class ID {
-   private int number;
-   private Students[] student;
-   private DataInformations[] datainformation; 
-   private String sex ;
-   private String civilStatus;
-   
-   public void indentifyStudent()
-   {
-       
-   }
-   
-   public void poseNumber()
-   {
-       
-   }
-   
-   public void dataInformation()
-   {
-       
-   }
-   public void detailSex()
-   {
-       
-   }
-   public void showCivilStatus ()
-   {
-       
-   }       
+    private String name;
+    private int numbersId;
+    private String civilStatus;
+    private String sex;
+    
+    
+    public void identify()
+    {
+        
+    }
+    public void poseNumber()
+    {
+        
+  
+    }
+    public void specifySex()
+    {
+        
+    }
+    public void establisCivilStatus()
+    {
+        
+        
+    }
+
+    public ID(String name, int numbersId, String civilStatus, String sex) {
+        this.name = name;
+        this.numbersId = numbersId;
+        this.civilStatus = civilStatus;
+        this.sex = sex;
+    }
+    
+    
 
     @Override
     public String toString() {
-        return "ID{" + "number=" + getNumber() + ", student=" + getStudent() + ", datainformation=" + getDatainformation() + ", sex=" + getSex() + ", civilStatus=" + getCivilStatus() + '}';
+        return "ID{" + "name=" + getName() + ", numbersId=" + getNumbersId() + ", civilStatus=" + getCivilStatus() + ", sex=" + getSex() + '}';
+    }
+    
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
     }
 
     /**
-     * @return the number
+     * @param name the name to set
      */
-    public int getNumber() {
-        return number;
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**
-     * @param number the number to set
+     * @return the numbersId
      */
-    public void setNumber(int number) {
-        this.number = number;
+    public int getNumbersId() {
+        return numbersId;
     }
 
     /**
-     * @return the student
+     * @param numbersId the numbersId to set
      */
-    public Students[] getStudent() {
-        return student;
-    }
-
-    /**
-     * @param student the student to set
-     */
-    public void setStudent(Students[] student) {
-        this.student = student;
-    }
-
-    /**
-     * @return the datainformation
-     */
-    public DataInformations[] getDatainformation() {
-        return datainformation;
-    }
-
-    /**
-     * @param datainformation the datainformation to set
-     */
-    public void setDatainformation(DataInformations[] datainformation) {
-        this.datainformation = datainformation;
-    }
-
-    /**
-     * @return the sex
-     */
-    public String getSex() {
-        return sex;
-    }
-
-    /**
-     * @param sex the sex to set
-     */
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setNumbersId(int numbersId) {
+        this.numbersId = numbersId;
     }
 
     /**
@@ -113,13 +91,26 @@ public class ID {
     public void setCivilStatus(String civilStatus) {
         this.civilStatus = civilStatus;
     }
+
+    /**
+     * @return the sex
+     */
+    public String getSex() {
+        return sex;
+    }
+
+    /**
+     * @param sex the sex to set
+     */
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
    
     
-   
-   
-   
-  
+
+
+            
     
-   
     
 }
+

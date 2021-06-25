@@ -26,7 +26,7 @@ public class Systembooks {
         String publisher;
         int yearOfPublication;
         
-        Book [] books=new Book [10];
+        Book [] books=new Book [1];
         for(int i=0;i<books.length;i++){
             
             System.out.println("\n Hen's name: ");
@@ -40,7 +40,7 @@ public class Systembooks {
             book=new Book(title,author,publisher,yearOfPublication);
             books[i]=book;
         }
-        for (int j=0; j<10; j++){
+        for (int j=0; j<1; j++){
             
             System.out.println("book"+ j + "=" + books[j]);
                 

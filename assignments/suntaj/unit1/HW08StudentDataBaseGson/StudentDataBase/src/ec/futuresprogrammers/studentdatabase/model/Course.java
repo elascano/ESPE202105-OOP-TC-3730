@@ -3,36 +3,38 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.futuresprogrammers.studentdatabase.model;
+package databasestudent.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Josselyn Sigcha Future´s ProgrammersTech ESPE-DCC0
  */
 public class Course {
-  
-   private int nrc;
-   private Students[] student;
-   private String subjectName;
-    
-   
-   public void determineNrc()
-   {
-       
-   }
-   public void identifyStudents()
-   {
-       
-   }
-    
-    public void establisSubjectName()
-    {
-        
+    private String semester;
+    private int nrc;
+
+    public Course(String semester, int nrc) {
+        this.semester = semester;
+        this.nrc = nrc;
     }
 
     @Override
     public String toString() {
-        return "Course{" + "nrc=" + getNrc() + ", student=" + getStudent() + ", subjectName=" + getSubjectName() + '}';
+        return "Course{" + "semester=" + getSemester() + ", nrc=" + getNrc() + '}';
+    }
+
+    /**
+     * @return the semester
+     */
+    public String getSemester() {
+        return semester;
+    }
+
+    /**
+     * @param semester the semester to set
+     */
+    public void setSemester(String semester) {
+        this.semester = semester;
     }
 
     /**
@@ -48,38 +50,10 @@ public class Course {
     public void setNrc(int nrc) {
         this.nrc = nrc;
     }
-
-    /**
-     * @return the student
-     */
-    public Students[] getStudent() {
-        return student;
-    }
-
-    /**
-     * @param student the student to set
-     */
-    public void setStudent(Students[] student) {
-        this.student = student;
-    }
-
-    /**
-     * @return the subjectName
-     */
-    public String getSubjectName() {
-        return subjectName;
-    }
-
-    /**
-     * @param subjectName the subjectName to set
-     */
-    public void setSubjectName(String subjectName) {
-        this.subjectName = subjectName;
+    
+    
+    
+        
     }
     
-    
-    
-    
-    
-    
-}
+
