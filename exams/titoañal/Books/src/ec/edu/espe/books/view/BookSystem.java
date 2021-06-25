@@ -24,7 +24,7 @@ public class BookSystem {
         String publisher;
         int  yearOfPublication;
         Book books[]=new Book[5];
-        for(int counter=0;counter<5;counter++){
+        for(int counter=0;counter<1;counter++){
         System.out.println("Enter title of book");
         title = sc.next();
         System.out.println("Enter author");
@@ -37,7 +37,7 @@ public class BookSystem {
             
         }
         
-        for(int counter=0;counter<5;counter++){
+        for(int counter=0;counter<1;counter++){
             System.out.println(books[counter]);
             System.out.println("Total number of books");
             System.out.println(" "+counter);

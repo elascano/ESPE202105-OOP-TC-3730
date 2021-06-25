@@ -1,5 +1,4 @@
+pachacama workshops
 
-notepad.exe
-exit
 
 
