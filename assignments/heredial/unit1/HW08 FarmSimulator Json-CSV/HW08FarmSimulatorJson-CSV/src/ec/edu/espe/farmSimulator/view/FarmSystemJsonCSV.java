@@ -203,7 +203,7 @@ public class FarmSystemJsonCSV {
             line.println(chicken[i]);
             line.println(bornOn[i]);
             line.println(age[i]);
-            
+            System.out.println("\n");
             line.close();
             write.close();
             
