@@ -35,16 +35,15 @@ public class FarmeSysten {
         born0n = new Date();
 =======
         bornOn = new Date();
->>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
+
         molthing =true;
         eggCounter=0;
         
         
-<<<<<<< HEAD
+
         chicken = new Chicken(id, name, color, age, molthing);
-=======
         chicken = new Chicken(id, name, color, age, bornOn, molthing);
->>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
+
         System.out.println("Chicken ->"+chicken);
     }
  

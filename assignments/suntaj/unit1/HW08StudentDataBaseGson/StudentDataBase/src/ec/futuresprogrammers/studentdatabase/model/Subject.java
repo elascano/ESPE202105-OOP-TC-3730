@@ -3,60 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.futuresprogrammers.studentdatabase.model;
 
-import static jdk.nashorn.internal.objects.NativeJava.type;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Josselyn Sigcha Future´s ProgrammersTech ESPE-DCC0
  */
 public class Subject {
-    private String name;
+    private String nameSubject;
     private int type;
+
+    public Subject(String name, int type) {
+        this.name = name;
+        this.type = type;
+    }
+
     
-    public void selectName()
-    {
-        
-    }
-    public void appointClassification()
-    {
-        
-    }
 
     @Override
     public String toString() {
         return "Subject{" + "name=" + name + ", type=" + type + '}';
     }
-
-    /**
-     * @return the name
-     */
-    public String getName() {
-        return name;
-    }
-
-    /**
-     * @param name the name to set
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    /**
-     * @return the type
-     */
-    public int getType() {
-        return type;
-    }
-
-    /**
-     * @param type the type to set
-     */
-    public void setType(int type) {
-        this.type = type;
-    }
     
     
     
-}
