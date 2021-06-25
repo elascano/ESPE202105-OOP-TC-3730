@@ -18,7 +18,11 @@ public class TraditionalFood {
      public String getinfo3(){
         String m= "";
         m += "\n Info of "+ this.getName() + ":";
+<<<<<<< HEAD
+        m +="\n TraditionalFood"+ this.listTraditionalFood;
+=======
         m +="\n Encebolldo"+ this.listTraditionalFood;
+>>>>>>> 31bdcde6089c2e0d80d05c5b50a8bb709bf8a7cf
        
         
         
