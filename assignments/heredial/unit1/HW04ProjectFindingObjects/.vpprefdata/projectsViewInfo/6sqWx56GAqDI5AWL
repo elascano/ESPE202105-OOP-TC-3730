@@ -2,6 +2,12 @@
 <ProjectsViewInfo>
 	<DiagramOpenInfos activeDiagramId="m7u2x56GAqDI5AkH">
 <<<<<<< HEAD
+		<Info bounds="Re:0.0,0.0,1894.0,885.0" diagramId="m7u2x56GAqDI5AkH" maximized="true" offsetX="408" offsetY="196"/>
+	</DiagramOpenInfos>
+	<DiagramLastActivated>
+		<Diagram id="m7u2x56GAqDI5AkH" time="1624413926315"/>
+=======
+<<<<<<< HEAD
 		<Info bounds="Re:0.0,0.0,1894.0,885.0" diagramId="m7u2x56GAqDI5AkH" maximized="true" offsetX="0" offsetY="175"/>
 	</DiagramOpenInfos>
 	<DiagramLastActivated>
@@ -12,6 +18,7 @@
 	<DiagramLastActivated>
 		<Diagram id="m7u2x56GAqDI5AkH" time="1623977020902"/>
 >>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
+>>>>>>> 92ab7effe7dde825325fd0fe4bfae3300f1d11b5
 		<Diagram id="Use Case Statement" time="0"/>
 		<Diagram id="Use Case" time="0"/>
 		<Diagram id="User Story" time="0"/>
