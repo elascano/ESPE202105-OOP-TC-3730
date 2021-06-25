@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Victor Coba DCC0
+ * @author Andrea Quichimbo DCC0
  */
 public class Main {
         public static void main(String[] args) {
