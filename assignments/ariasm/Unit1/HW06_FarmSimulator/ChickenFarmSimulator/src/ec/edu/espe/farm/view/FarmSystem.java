@@ -45,13 +45,10 @@ public class FarmSystem {
         birth=read.nextInt();
 
         chicken = new Chicken(id, name, color, age, molting); 
-<<<<<<< HEAD
         System.out.println("chicken -> " + chicken);
         System.out.println("");
-=======
         System.out.println("chicken -> " + chicken + EggCounter + birth);
         System.out.println("Marco Arias's project");
->>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
         }
     }
 }
