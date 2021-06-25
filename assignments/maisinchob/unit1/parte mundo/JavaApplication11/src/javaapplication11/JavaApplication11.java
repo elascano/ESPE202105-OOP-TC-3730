@@ -16,19 +16,20 @@ public class JavaApplication11 {
      */
     public static void main(String[] args) {
         
-        Mundo mundo = new Mundo();
-        mundo.agregarPais(p1);
-        mundo.agregarPais(p2);
-        mundo.agregarPais(p3);
+       City c1 = new City()
+       World world = new World();
+        World .addCountry(p1);
+        World.addCountry(p2);
+        World.addCountry(p3);
         
-        mundo.agregarCiudad(c1);
-        mundo.agregarCiudad(c2);
-        mundo.agregarCiudad(c3);
-        mundo.agregarCiudad(c4);
-        mundo.agregarCiudad(c5);
-        mundo.agregarCiudad(c6);
-        mundo.agregarCiudad(c7);
-        mundo.agregarCiudad(c8);
+        World.addCity(c1);
+       World.addCity(c2);
+        World.addCity(c3);
+        World.addCity(c4);
+        World.addCity(c5);
+        World.addCity(c6);
+        World.addCity(c7);
+        World.addCity(c8);
     }
     
 }
