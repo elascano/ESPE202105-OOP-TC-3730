@@ -27,7 +27,7 @@ import java.util.Date;
 public class FarmSystem {
     public static void main(String[] args) {
 <<<<<<< HEAD
-        System.out.println("ChFarmSimulator, \n" + "Bryan Maisincho");
+        System.out.println("ChFarmSimulator",  + "Bryan Maisincho");
         Chicken chicken;
         int id; 
         String name; 
@@ -37,7 +37,7 @@ public class FarmSystem {
         boolean molting; 
         int eggCounter;
         
-       //Todo reading from keyboard
+       // reading from keyboard
         id = 0;
         name = "Lucy";
         color = "White";
@@ -56,11 +56,15 @@ public class FarmSystem {
         
         System.out.println("chicken ->" + chicken);
        
+        
+        
+        
+        
+        
     }
-}
-=======
-        //variables
-        System.out.println("ChickenFarmSimulator, \n" + "Bryan Maisincho");
+    
+    //variables
+        
         Chicken chicken;
         int id;
         String name;
@@ -94,13 +98,8 @@ public class FarmSystem {
      
         System.out.println("json" + json);        
 */
-//TODO reading form keyboard
-       id = 0;
-       name = "Lucy";
-       color = "White";
-        age = new Date();
-        bornOn = new Date();
-      
+    
+
            
            
            chicken = new Chicken (id, name, color, age, bornOn, true);
@@ -110,12 +109,7 @@ public class FarmSystem {
            
            jsonChicken = gson.toJson(chicken);
               System.out.println("jsonChicken ->" + jsonChicken);     
-       }
        
-       
-     
-        
-       
-    }
-
->>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
+    
+    
+}
