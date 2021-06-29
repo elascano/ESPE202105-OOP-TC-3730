@@ -39,8 +39,13 @@ public class FarmsSystem {
         int eggCounter;
         
         
+<<<<<<< HEAD
         Chicken1 [] chickens=new Chicken1[1];
         Born [] bornOn1=new Born[1];
+=======
+        Chicken1 [] chickens=new Chicken1[10];
+        Born [] bornOn1=new Born[10];
+>>>>>>> 31bdcde6089c2e0d80d05c5b50a8bb709bf8a7cf
         
         for(int i=0;i<chickens.length;i++){
             System.out.print("Chicken[%d] "+ i);
@@ -70,7 +75,11 @@ public class FarmsSystem {
             bornOn1[i]= born;
         
         }
+<<<<<<< HEAD
         for (int j=0; j<1; j++){
+=======
+        for (int j=0; j<10; j++){
+>>>>>>> 31bdcde6089c2e0d80d05c5b50a8bb709bf8a7cf
             
             System.out.println("chicken"+ j + "=" + chickens[j]);
             System.out.println("BorOn "+ j + "=" + bornOn1[j]);
@@ -82,23 +91,36 @@ public class FarmsSystem {
             case 1:
                 GsonBuilder gsonBuilder= new GsonBuilder();
                 Gson gson=gsonBuilder.create();
+<<<<<<< HEAD
         
                 String jsonChicken="{\"id\":\"1\"}";
                 System.out.println("chicken Json ->"+jsonChicken);
         
+=======
+
+                String jsonChicken="";
+>>>>>>> 31bdcde6089c2e0d80d05c5b50a8bb709bf8a7cf
                 jsonChicken=gson.toJson(chickens);
         
                 //Serialization
                 System.out.println("jsonChicken ->"+jsonChicken);
+<<<<<<< HEAD
                 //jsonChicken=gson.toJson(chickens);
                 //System.out.println("jsonChicken ->"+jsonChicken);
+=======
+>>>>>>> 31bdcde6089c2e0d80d05c5b50a8bb709bf8a7cf
        
         
                 //Deserialization
                 
                 Chicken1 chicken3[]=new Chicken1[1];
+<<<<<<< HEAD
                 chicken3[0]=gson.fromJson(jsonChicken,Chicken1.class);
                 System.out.println("chicken object name ->"+chicken3[0].getId());
+=======
+                chicken3[1]=gson.fromJson(jsonChicken,Chicken1.class);
+                System.out.println("chicken object name ->"+chicken3[1].getId());
+>>>>>>> 31bdcde6089c2e0d80d05c5b50a8bb709bf8a7cf
             break;
             case 2:
             break;
