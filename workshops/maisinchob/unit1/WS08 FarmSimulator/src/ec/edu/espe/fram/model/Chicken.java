@@ -22,25 +22,9 @@ public class Chicken {
 
     @Override
     public String toString() {
-<<<<<<< HEAD
-        return "Chiken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
-    }
-
-=======
         return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", bornOn=" + bornOn + ", molting=" + molting + ", eggCounter=" + eggCounter + '}';
     }
-   
-    
-   
->>>>>>> c4357b06b8495ba58d302d26c552b444f149850b
-    
-    
-    
-    
-    
-    
-    
-    
+
     public Chicken(int id, String name, String color, Date age, Date bornOn, boolean molting) {
         this.id = id;
         this.name = name;
@@ -49,6 +33,21 @@ public class Chicken {
         this.bornOn = bornOn;
         this.molting = molting;
     }
+
+    
+   
+    
+   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
