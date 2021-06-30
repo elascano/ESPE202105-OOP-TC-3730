@@ -15,7 +15,7 @@ import java.util.Scanner;
  *
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
-public class books {
+public class books { //no json file
     public static void main(String[] args) {
          System.out.println ("BooksJson, \n"
             + "Alina Villavicencio \n");
@@ -29,7 +29,7 @@ public class books {
      Book1 book1[] = new Book1[10];
      ArrayList<Book1> boo = new ArrayList();
      
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 2; i++) {
         
         System.out.println("Enter title");
         title =data.next();
@@ -43,7 +43,7 @@ public class books {
         book1[i]= new Book1(title,author,publisher,yearOfPublication);
         
         }
-        for(int i= 0;i < 1;i++){
+        for(int i= 0;i < 2;i++){
                          GsonBuilder gsonBuilder = new GsonBuilder();
                          Gson gson= gsonBuilder.create();
                          String jsonBook1 = gson.toJson(book1[i]);
