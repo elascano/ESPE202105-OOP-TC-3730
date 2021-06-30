@@ -10,5 +10,10 @@ package ec.edu.espe.book.model;
  * @author Jean Jaramillo
  */
 public class listaOfBoosk {
-    
+    // does not execute
+    //does not contain json file
+    //does not contain a book list(only contains the listOfBooks class)
+    //does not contain total number of books
+    //its internal code content is empty
+
 }
