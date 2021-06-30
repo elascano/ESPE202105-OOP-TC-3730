@@ -46,4 +46,14 @@ public class SaveBooks {
             System.out.println("The total number of books are: "+booksArray.size());
     } 
     }
-    
+   
+//Inspector: Erick Oña
+
+//Execution: 8 // the program runs up to a certain point
+
+//Json file: 0  //  there is no json file
+//Books list on screen: 0	// the program does not print any list of books
+
+//total number of books: 0 // the program does not print any book
+//code quality:	5 //	the program only has the model and there is no creation of the view
+//total: 13/50
