@@ -14,15 +14,17 @@ import java.util.Scanner;
  */
 public class Prueba {
 
-    /**
+    /**<
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-       public static void main(String[] args) {
+   public static void main(String[] args) {
+       // public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String titulo, autor;
         int ejemplares;
 
+        //Put code in english
+        
         //se crea el objeto libro1 utilizando el constructor con parámetros
         Libro libro1 = new Libro("El quijote", "Cervantes", 1, 0);
         //se crea el objeto libro2 utilizando el constructor por defecto
