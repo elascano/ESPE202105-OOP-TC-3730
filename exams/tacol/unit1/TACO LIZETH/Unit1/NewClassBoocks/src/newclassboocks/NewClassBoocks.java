@@ -9,8 +9,10 @@ package newclassboocks;
  *
  * @author user
  */
-public class NewClassBoocks {
-
+public class NewClassBoocks { 
+    // classes are not plural
+    //there is no package model
+    //there is no package view
     /**
      * @param args the command line arguments
      */
