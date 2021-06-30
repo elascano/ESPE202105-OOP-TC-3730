@@ -9,6 +9,7 @@ package ec.edu.espe.saveBooks.model;
  *
  * @author Camilo Ponce PROGRAM BUILDER ESPE-DCCO
  */
+//It only has one class
 public class Books {
  
     private String title;
