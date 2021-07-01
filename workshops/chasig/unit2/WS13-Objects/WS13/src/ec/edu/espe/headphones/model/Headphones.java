@@ -9,12 +9,12 @@ package ec.edu.espe.headphones.model;
  *
  * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
-public class headphones {
+public class Headphones {
     private String brand;
     private String color;
     private String type;
 
-    public headphones(String brand, String color, String type) {
+    public Headphones(String brand, String color, String type) {
         this.brand = brand;
         this.color = color;
         this.type = type;
