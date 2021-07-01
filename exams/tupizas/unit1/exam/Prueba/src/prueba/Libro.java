@@ -11,6 +11,8 @@ package prueba;
  * OOP-ESPE
  */
 class Libro {
+    
+    // It is necessary to put the contructor and the to string
 
     Libro(String el_quijote, String cervantes, int i, int i0) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
