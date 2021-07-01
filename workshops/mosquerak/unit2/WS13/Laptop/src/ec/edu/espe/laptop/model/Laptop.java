@@ -3,39 +3,38 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.constructor.model;
+package ec.edu.espe.laptop.model;
 
 /**
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
 public class Laptop {
-
-    private String brand;
+   private String brand;
     private int memory;
     private String model;
     private String color;
 
-    public Laptop(String brand, int memory, String model, String color) {
+    public Laptop() {
+    }
+
+    @Override
+    public String toString() {
+        return "Laptop{" + "brand=" + getBrand() + ", memory=" + getMemory() + ", model=" + getModel() + ", color=" + getColor() + '}';
+    }
+
+    public Laptop(String brand, int memory, String model,String color) {
         this.brand = brand;
         this.memory = memory;
         this.model = model;
         this.color = color;
     }
 
-    @Override
-    public String toString() {
-        return "Laptop{" + "brand=" + brand + ", memory=" + memory + ", model=" + model + ", color=" + color + '}';
-    }
-
-  
-   
-    
     public Laptop (String brand, String model, int memory, String color){
     this.brand=brand;
     this.memory=memory;
     this.model=model;
-    this.color = color;
+    this.color=color;
        }
 
     /**
@@ -94,4 +93,6 @@ public class Laptop {
         this.color = color;
     }
 
- }
+    
+
+}
