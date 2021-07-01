@@ -62,6 +62,7 @@ public class SneakerInformation {
            Gson gson = gsonBuilder.create();
            jsonSneakers = gson.toJson(sneaker [1]);
                    
+       
            Sneakers sneakers; 
            sneakers = gson.fromJson(jsonSneakers, Sneakers.class);
            System.out.println("*********************************************************");
