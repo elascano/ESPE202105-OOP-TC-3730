@@ -9,7 +9,7 @@ package ec.edu.books.view;
  *
  * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
-public class Gson {
+public class Gson {//Unnecessary class
 
     @Override
     protected void finalize() throws Throwable {
