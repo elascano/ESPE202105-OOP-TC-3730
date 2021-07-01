@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
-public class Books {
+public class Books {// The class name is not correct
     private int year;
     private String title;
     private String editorial;

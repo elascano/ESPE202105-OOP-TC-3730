@@ -16,7 +16,9 @@ import java.util.Scanner;
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
-public class Systembooks {
+public class Systembooks {      //executable is nice!, but no compile in json file
+                                //Inspector : Cristopher Sarmiento
+    
     public static void main(String[] args) {
         Scanner read=new Scanner(System.in);
         Book book;
