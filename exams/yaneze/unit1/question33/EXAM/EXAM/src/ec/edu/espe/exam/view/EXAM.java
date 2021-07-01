@@ -17,7 +17,9 @@ import java.util.Scanner;
  * @author Erick Yánez ESPE-DCCO
  */
 public class EXAM {
-
+    
+// the class name does not have to be capitalized all
+    
     /**
      * @param args the command line arguments
      */
