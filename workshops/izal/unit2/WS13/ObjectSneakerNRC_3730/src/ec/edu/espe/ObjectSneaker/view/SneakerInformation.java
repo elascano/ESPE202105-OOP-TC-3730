@@ -60,7 +60,7 @@ public class SneakerInformation {
            
            GsonBuilder gsonBuilder = new  GsonBuilder();
            Gson gson = gsonBuilder.create();
-           jsonSneakers = gson.toJson (sneaker [1]);
+           jsonSneakers = gson.toJson(sneaker [1]);
                    
            Sneakers sneakers; 
            sneakers = gson.fromJson(jsonSneakers, Sneakers.class);
