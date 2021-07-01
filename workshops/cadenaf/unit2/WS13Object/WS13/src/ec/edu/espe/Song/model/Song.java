@@ -5,26 +5,29 @@
  */
 package ec.edu.espe.Song.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class Song {
+
     private String name;
     private String nameAuthor; 
-    private int Time;
+    private int time;
     private String nameSinger;
 
-    public Song(String name, String nameAuthor, int Time, String nameSinger) {
+    public Song(String name, String nameAuthor, int time, String nameSinger) {
         this.name = name;
         this.nameAuthor = nameAuthor;
-        this.Time = Time;
+        this.time = time;
         this.nameSinger = nameSinger;
     }
 
     @Override
     public String toString() {
-        return "Song{" + "name=" + getName() + ", nameAuthor=" + getNameAuthor() + ", Time=" + getTime() + ", nameSinger=" + getNameSinger() + '}';
+        return "Song{" + "name=" + getName() + ", nameAuthor=" + getNameAuthor() + ", time=" + getTime() + ", nameSinger=" + getNameSinger() + '}';
     }
 
     /**
@@ -56,17 +59,17 @@ public class Song {
     }
 
     /**
-     * @return the Time
+     * @return the time
      */
     public int getTime() {
-        return Time;
+        return time;
     }
 
     /**
-     * @param Time the Time to set
+     * @param time the time to set
      */
-    public void setTime(int Time) {
-        this.Time = Time;
+    public void setTime(int time) {
+        this.time = time;
     }
 
     /**
@@ -83,4 +86,5 @@ public class Song {
         this.nameSinger = nameSinger;
     }
 
+    
 }
