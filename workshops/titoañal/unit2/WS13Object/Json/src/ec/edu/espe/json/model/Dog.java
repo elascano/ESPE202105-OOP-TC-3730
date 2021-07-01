@@ -10,37 +10,24 @@ package ec.edu.espe.json.model;
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
 public class Dog {
-    private String race;
+
     private String name;
     private int age;
     private String color;
     private int height;
+    private String race;
 
-    public Dog(String race, String name, int age, String color, int height) {
-        this.race = race;
+    public Dog(String name, int age, String color, int height, String race) {
         this.name = name;
         this.age = age;
         this.color = color;
         this.height = height;
+        this.race = race;
     }
 
     @Override
     public String toString() {
-        return "Dog{" + "race=" + getRace() + ", name=" + getName() + ", age=" + getAge() + ", color=" + getColor() + ", height=" + getHeight() + '}';
-    }
-
-    /**
-     * @return the race
-     */
-    public String getRace() {
-        return race;
-    }
-
-    /**
-     * @param race the race to set
-     */
-    public void setRace(String race) {
-        this.race = race;
+        return "Dog{" + "name=" + getName() + ", age=" + getAge() + ", color=" + getColor() + ", height=" + getHeight() + ", race=" + getRace() + '}';
     }
 
     /**
@@ -99,5 +86,19 @@ public class Dog {
         this.height = height;
     }
 
+    /**
+     * @return the race
+     */
+    public String getRace() {
+        return race;
+    }
 
+    /**
+     * @param race the race to set
+     */
+    public void setRace(String race) {
+        this.race = race;
+    }
+
+   
 }
