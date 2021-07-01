@@ -13,3 +13,5 @@ import model.*;
 public class SystemBook {
     
 }
+//programa no culminado, solo tiene creadas las clases y paquetes en Java.
+//no tiene la clase Book
