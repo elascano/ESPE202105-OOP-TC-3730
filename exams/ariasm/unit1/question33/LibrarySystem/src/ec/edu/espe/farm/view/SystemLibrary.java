@@ -27,7 +27,7 @@ public class SystemLibrary {
         String author;
         String yearOfPublication;
         String jsonBook = "";
-        int i;
+        int i; // bad name for a variable
 
         for (i = 0; i < 4; i++) {
             System.out.println("Marco_Arias_Exam");

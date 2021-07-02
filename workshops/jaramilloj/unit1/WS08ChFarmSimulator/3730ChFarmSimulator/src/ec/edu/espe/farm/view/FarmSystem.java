@@ -24,6 +24,7 @@ public class FarmSystem {
         boolean molting;
         int eggCounter;
         
+        
         id= 0;
         name = "Lucy";
         color = "white";
