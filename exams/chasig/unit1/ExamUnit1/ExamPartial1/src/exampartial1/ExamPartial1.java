@@ -9,7 +9,7 @@ package exampartial1;
  *
  * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
-public class ExamPartial1 {
+public class ExamPartial1 {//Unnecessary class
 
     /**
      * @param args the command line arguments
