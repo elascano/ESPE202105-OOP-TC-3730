@@ -14,21 +14,28 @@ public class Laptop {
     private String brand;
     private int memory;
     private String model;
+    private String color;
 
-    public Laptop() {
+    public Laptop(String brand, int memory, String model, String color) {
+        this.brand = brand;
+        this.memory = memory;
+        this.model = model;
+        this.color = color;
     }
 
     @Override
     public String toString() {
-        return "Laptop{" + "brand=" + getBrand() + ", memory=" + getMemory() + ", model=" + getModel() + '}';
+        return "Laptop{" + "brand=" + brand + ", memory=" + memory + ", model=" + model + ", color=" + color + '}';
     }
-    
+
+  
    
     
-    public Laptop (String brand, String model, int memory){
+    public Laptop (String brand, String model, int memory, String color){
     this.brand=brand;
     this.memory=memory;
     this.model=model;
+    this.color = color;
        }
 
     /**
@@ -71,6 +78,20 @@ public class Laptop {
      */
     public void setModel(String model) {
         this.model = model;
+    }
+
+    /**
+     * @return the color
+     */
+    public String getColor() {
+        return color;
+    }
+
+    /**
+     * @param color the color to set
+     */
+    public void setColor(String color) {
+        this.color = color;
     }
 
  }
