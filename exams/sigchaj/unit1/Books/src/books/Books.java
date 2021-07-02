@@ -1,6 +1,12 @@
+
+
+// sin main en view
+// sin paquetes 
+// sin json files
 public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String titulo, autor;
+        String titulo, autor; //nombrar strinng autor 
+
         int ejemplares;
 
         //se crea el objeto libro1 utilizando el constructor con parámetros
@@ -77,3 +83,7 @@ public static void main(String[] args) {
         System.out.println("Prestados: " + libro2.getPrestados());
         System.out.println();
 }//Fin de la clase Fraccion
+
+
+// No Ejecuta programa
+// no jdon file

@@ -3,27 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.futuresprogrammers.studentdatabase.model;
+package databasestudent20.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
 public class StudentsInformation {
-    private String nameStudent;
-    private int numbersId;
-    private String civilStatus;
-    private String sex;
-     private String nameUniversity;
-    private String racing;
-     private String semester;
-    private int nrc;
-     private String nameSubject;
-    private int type;
+    
+     String cedula;
+     String name;
+     String civilStatus;
+     String sex;
+     String nameUniversity;
+     String racing;
+     String semester;
+     String nrc;
+     String nameSubject;
+     String estado;
+     double n1;
+     double n2;
+     double n3;
+     double promedio;
 
-    public StudentsInformation(String nameStudent, int numbersId, String civilStatus, String sex, String nameUniversity, String racing, String semester, int nrc, String nameSubject, int type) {
-        this.nameStudent = nameStudent;
-        this.numbersId = numbersId;
+    public StudentsInformation(String cedula, String name, String civilStatus, String sex, String nameUniversity, String racing, String semester, String nrc, String nameSubject, String estado, double n1, double n2, double n3, double promedio) {
+        this.cedula = cedula;
+        this.name = name;
         this.civilStatus = civilStatus;
         this.sex = sex;
         this.nameUniversity = nameUniversity;
@@ -31,158 +36,147 @@ public class StudentsInformation {
         this.semester = semester;
         this.nrc = nrc;
         this.nameSubject = nameSubject;
-        this.type = type;
+        this.estado = estado;
+        this.n1 = n1;
+        this.n2 = n2;
+        this.n3 = n3;
+        this.promedio = promedio;
     }
 
-    public StudentsInformation(String next, int nextInt, String next0, String next1, String next2, int nextInt0, String next3) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String getCedula() {
+        return cedula;
     }
 
-    @Override
-    public String toString() {
-        return "StudentsInformation{" + "nameStudent=" + getNameStudent() + ", numbersId=" + getNumbersId() + ", civilStatus=" + getCivilStatus() + ", sex=" + getSex() + ", nameUniversity=" + getNameUniversity() + ", racing=" + getRacing() + ", semester=" + getSemester() + ", nrc=" + getNrc() + ", nameSubject=" + getNameSubject() + ", type=" + getType() + '}';
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
     }
 
-    /**
-     * @return the nameStudent
-     */
-    public String getNameStudent() {
-        return nameStudent;
+    public String getName() {
+        return name;
     }
 
-    /**
-     * @param nameStudent the nameStudent to set
-     */
-    public void setNameStudent(String nameStudent) {
-        this.nameStudent = nameStudent;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    /**
-     * @return the numbersId
-     */
-    public int getNumbersId() {
-        return numbersId;
-    }
-
-    /**
-     * @param numbersId the numbersId to set
-     */
-    public void setNumbersId(int numbersId) {
-        this.numbersId = numbersId;
-    }
-
-    /**
-     * @return the civilStatus
-     */
     public String getCivilStatus() {
         return civilStatus;
     }
 
-    /**
-     * @param civilStatus the civilStatus to set
-     */
     public void setCivilStatus(String civilStatus) {
         this.civilStatus = civilStatus;
     }
 
-    /**
-     * @return the sex
-     */
     public String getSex() {
         return sex;
     }
 
-    /**
-     * @param sex the sex to set
-     */
     public void setSex(String sex) {
         this.sex = sex;
     }
 
-    /**
-     * @return the nameUniversity
-     */
     public String getNameUniversity() {
         return nameUniversity;
     }
 
-    /**
-     * @param nameUniversity the nameUniversity to set
-     */
     public void setNameUniversity(String nameUniversity) {
         this.nameUniversity = nameUniversity;
     }
 
-    /**
-     * @return the racing
-     */
     public String getRacing() {
         return racing;
     }
 
-    /**
-     * @param racing the racing to set
-     */
     public void setRacing(String racing) {
         this.racing = racing;
     }
 
-    /**
-     * @return the semester
-     */
     public String getSemester() {
         return semester;
     }
 
-    /**
-     * @param semester the semester to set
-     */
     public void setSemester(String semester) {
         this.semester = semester;
     }
 
-    /**
-     * @return the nrc
-     */
-    public int getNrc() {
+    public String getNrc() {
         return nrc;
     }
 
-    /**
-     * @param nrc the nrc to set
-     */
-    public void setNrc(int nrc) {
+    public void setNrc(String nrc) {
         this.nrc = nrc;
     }
 
-    /**
-     * @return the nameSubject
-     */
     public String getNameSubject() {
         return nameSubject;
     }
 
-    /**
-     * @param nameSubject the nameSubject to set
-     */
     public void setNameSubject(String nameSubject) {
         this.nameSubject = nameSubject;
     }
 
-    /**
-     * @return the type
-     */
-    public int getType() {
-        return type;
+    public String getEstado() {
+        return estado;
     }
 
-    /**
-     * @param type the type to set
-     */
-    public void setType(int type) {
-        this.type = type;
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public double getN1() {
+        return n1;
+    }
+
+    public void setN1(double n1) {
+        this.n1 = n1;
+    }
+
+    public double getN2() {
+        return n2;
+    }
+
+    public void setN2(double n2) {
+        this.n2 = n2;
+    }
+
+    public double getN3() {
+        return n3;
+    }
+
+    public void setN3(double n3) {
+        this.n3 = n3;
+    }
+
+    public double getPromedio() {
+        return promedio;
+    }
+
+    public void setPromedio(double promedio) {
+        this.promedio = promedio;
     }
 
     
     
+   @Override
+    public String toString() {
+        return "StudentsInformation" 
+                + "\nCedula: " + cedula 
+                + "\nName: " + name 
+                + "\nCivilStatus: " + civilStatus 
+                + "\nSex: " + sex 
+                + "\nNameUniversity: " + nameUniversity 
+                + "\nRacing: " + racing 
+                + "\nSemester: " + semester 
+                + "\nNrc: " + nrc 
+                + "\nNameSubject: " + nameSubject 
+                + "\nEstado: " + estado
+                + "\nNota 1:" + n1 
+                + "\nNota 2: " + n2 
+                + "\nNota 3: " + n3 
+                + "\nPromedio: " + promedio;
+        
+
+   
+    }
+
 }
