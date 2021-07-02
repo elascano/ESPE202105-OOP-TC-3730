@@ -12,7 +12,7 @@ package ec.edu.espe.farm.model;
 public class Book {
     private String title;
     private String author;
-    private String yearOfPublication;
+    private String yearOfPublication; // very long name 
 
     @Override
     public String toString() {
