@@ -29,12 +29,13 @@ public class HorseObject {
         String color = null;
         String race = null;
         int age = 0;
-        String jsonHorse = "";
+        String jsonhorse = "";
+        Horse horse [] = new Horse[5];
        
         
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
-        int opcion; //Guardaremos la opcion del usuario
+        int opcion; 
  
         while (!salir) {
  
@@ -67,28 +68,20 @@ public class HorseObject {
                         break;
                     case 4:
                         System.out.println("The date will be saved in json");
-          
-                {
-                    Horse[] horse = null;
-                    horse [1] = new Horse (name, color, age, race);
-                }
-                
-          
+                        
+                        horse [1] = new Horse (name, color, race,age);
+                        
+               
                         GsonBuilder gsonBuilder = new GsonBuilder();
                         Gson gson = gsonBuilder.create();
-                {
-                    Object[] horse = null;
-                    
-                 
-                    jsonHorse = gson.toJson(horse [1]);
-                }
-                        
-                        Horse horse;
-                        horse = gson.fromJson(jsonHorse, Horse.class);
-                        System.out.println("The color of Horse ->" + horse.getColor());
-                        System.out.println("The name of Horse ->" + horse.getName());
-                        System.out.println("The of Age ->" + horse.getAge());
-                        System.out.println("The of the Race ->" + horse.getRace());
+                        String jsonHorse = gson.toJson(horse [1]);
+               
+                        Horse horse1;
+                        horse1 = gson.fromJson(jsonHorse, Horse.class);
+                        System.out.println("The color of Horse ->" + horse1.getColor());
+                        System.out.println("The name of Horse ->" + horse1.getName());
+                        System.out.println("The of Age ->" + horse1.getAge());
+                        System.out.println("The of the Race ->" + horse1.getRace());
                    
                         
                         break;
@@ -100,7 +93,6 @@ public class HorseObject {
             } catch (InputMismatchException e) {
                 System.out.println("Debes insertar un número");
                 sn.next();
-                
                 
                 
             }
