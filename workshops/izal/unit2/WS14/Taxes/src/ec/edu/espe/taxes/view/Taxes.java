@@ -14,7 +14,7 @@ import ec.edu.espe.taxes.Tax;
  * @author LILIAN IZA TOURIST GUEST OPP-ESPE
  */
 public class Taxes {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         System.out.println("TAXES LIBRARY - LILIAN IZA");
         float amount = 10.0F;
         float ivaPercentage = 12.0F;
