@@ -12,7 +12,7 @@ package ec.edu.espe.modelprogram;
 public class Libro {
     
 
-    private String titulo;
+    private String titulo;//the variables are in english
     private String autor;
     private int ejemplares;
     private int prestados;
