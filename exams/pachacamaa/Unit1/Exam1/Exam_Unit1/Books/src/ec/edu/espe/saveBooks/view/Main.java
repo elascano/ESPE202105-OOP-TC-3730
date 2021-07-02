@@ -36,7 +36,7 @@ public class Main {
             Book book = new Book(title,author,editorial,yearPublication);
             String BookDataJson = gson.toJson(book);
             FileManager.save("BooksList.json", BookDataJson);
-            bookArray  = FileManager.findAll("BooksList.json");
+           // bookArray  = FileManager.findAll("BooksList.json");
             System.out.println(bookArray);
             System.out.println("El total de libros son: "+bookArray.size());
     } 

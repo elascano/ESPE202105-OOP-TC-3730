@@ -7,7 +7,10 @@ package ec.edu.espe.bike.view;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import ec.edu.espe.Filemanager.utils.FileManager;
 import ec.edu.espe.bike.model.Bike;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,8 +19,9 @@ import java.util.Scanner;
  * @author Ian Contreras LAMES ESPE-DCCO
  */
 public class BikeStore {
-    public static void main(String[] args){
-        System.out.println ("Ian Contreras \n");
+    public static void main(String[] args)throws IOException{
+        System.out.println ("Save data in Json file (Bike), \n"
+            + "Ian Contreras\n");
             Scanner entry = new Scanner(System.in);
             Scanner data = new Scanner(System.in);    
             Scanner sc =new Scanner(System.in);
@@ -26,8 +30,9 @@ public class BikeStore {
     String colour;
     String type;
     
-    Bike bike[] = new Bike[10];
-    ArrayList<Bike> boo = new ArrayList();
+    Bike bike[] = new Bike[1];
+    Scanner read = new Scanner(System.in);
+    ArrayList<String> bik = new ArrayList();
          
         for (int i = 0; i < 1; i++) {
         
@@ -44,13 +49,11 @@ public class BikeStore {
 
             GsonBuilder gsonBuilder = new GsonBuilder();
             Gson gson= gsonBuilder.create();
-            String jsonBike = gson.toJson(bike[i]);
+            String BikeDataJson = gson.toJson(bike);
                      
-            Bike bike1;
-            bike1 = gson.fromJson(jsonBike, Bike.class);
-            System.out.println("jsonBike:"+jsonBike);
-                         
-            System.out.println(bike[i].getSize() + "" + bike[i].getColour()+ "" + bike[i].getType());
+            FileManager.save("./file/Bike.json", BikeDataJson);
+             bik = FileManager.findAll("./file/Bike.json");
+            System.out.println(bik);
         } 
     }
 }
