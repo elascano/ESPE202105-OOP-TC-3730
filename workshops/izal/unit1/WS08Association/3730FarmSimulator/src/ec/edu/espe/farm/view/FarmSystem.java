@@ -64,7 +64,7 @@ public class FarmSystem {
      eggCounter =0;
 <<<<<<< HEAD
     
-        Chicken ckicken = new Chicken (id, name, color, age, bornOn, molting);
+        Chicken chicken = new Chicken (id, name, color, age, bornOn, molting);
         System.out.println("ckicken ->" + ckicken);
     
     }
