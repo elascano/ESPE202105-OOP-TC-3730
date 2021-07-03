@@ -25,12 +25,12 @@ public class JavaApplication12 {
 
 
 
-       Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         String titulo, autor;
         int ejemplares;
 
         
-        Libro libro1 = new Libro("El quijote", "Cervantes", 1, 0);
+        Libro libro1 = new Libro("El quijote", "Cervantes",1,0);//the variables are in english
        
         Libro libro2 = new Libro();
 
