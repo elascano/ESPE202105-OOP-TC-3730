@@ -1226,8 +1226,17 @@ hs_err_pid*
 >>>>>>> 9d03c4eba644a9d1fd5f85a7f20d4031bc35a14f
 >>>>>>> c68023f38abd8544db91c642dd98e9d79d4a32be
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/workshops/tupizas/unit2/HorseObject/nbproject/private/
+/workshops/tupizas/unit2/HorseObject/build/
+/workshops/tupizas/unit2/WS13Object/HorseObject/build/
+/workshops/tupizas/unit2/WS13Object/HorseObject/nbproject/private/
+=======
 /workshops/cobav/unit2/WS13-Objects/HouseSystem/nbproject/private/
 /workshops/cobav/unit2/WS13-Objects/HouseSystem/build/
+>>>>>>> 5cf95dc97e5740c84bfe27c26b2a7354f9abec77
 =======
 <<<<<<< HEAD
 /exams/criollok/unit1/CodeExam/Books/build/
@@ -1282,6 +1291,7 @@ hs_err_pid*
 /workshops/cayambev/Unit 2/WS13-Toy/WS13Toy/build/
 =======
 <<<<<<< HEAD
+>>>>>>> 81e7e46c0b10e11478e2047cbfc4ba19555e2712
 /workshops/aguirreg/unit2/WS13HeadsetsJson/JoystickJson/nbproject/private/
 /workshops/aguirreg/unit2/WS13HeadsetsJson/JoystickJson/build/
 =======
@@ -1340,7 +1350,27 @@ hs_err_pid*
 /workshops/maisinchob/unit2/WS13-Object-Chair/WS13 Objet/build/
 =======
 >>>>>>> 32b5f471abe10d180b0953948e866f87ca78cf22
+<<<<<<< HEAD
+/workshops/harol/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/harol/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/harol/unit2/WS14Libraries/Taxes/build/
+/workshops/harol/unit2/WS14Libraries/TaxLibrary/dist/
+/workshops/harol/unit2/WS14Libraries/TaxLibrary/build/
+=======
+<<<<<<< HEAD
+/workshops/quichimboa/unit2/WS13-Objects/WS13-Objects/nbproject/private/
+/workshops/quichimboa/unit2/WS13-Objects/WS13-Objects/build/
+/workshops/quichimboa/unit2/WS13-Objects/AnimalSystem/nbproject/private/
+/workshops/quichimboa/unit2/WS13-Objects/AnimalSystem/build/
+=======
 >>>>>>> 59c05f61fe0813e19c3c9df91526a87d0312d6c4
+<<<<<<< HEAD
+/workshops/villavicencioa/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/villavicencioa/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/villavicencioa/unit2/WS14Libraries/Taxes/build/
+/workshops/villavicencioa/unit2/WS14Libraries/TaxLibrary/dist/
+/workshops/villavicencioa/unit2/WS14Libraries/TaxLibrary/build/
+=======
 <<<<<<< HEAD
 /workshops/sarmientoc/unit2/WS13 Object/WS13 Object (TV)/nbproject/private/
 /workshops/sarmientoc/unit2/WS13 Object/WS13 Object (TV)/build/
@@ -1348,7 +1378,21 @@ hs_err_pid*
 =======
 >>>>>>> 3d4a8e8d4ed5d2af3d798db4f4487f541e2563f4
 >>>>>>> 411b2344c16a7bbee415641df13e3c1b836e5b7c
+<<<<<<< HEAD
+/workshops/quilumbaquink/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/quilumbaquink/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/quilumbaquink/unit2/WS14Libraries/Taxes/build/
+/workshops/quilumbaquink/unit2/WS14Libraries/TaxLibrary/dist/
+/workshops/quilumbaquink/unit2/WS14Libraries/TaxLibrary/build/
+=======
 >>>>>>> ba041381bf1917d1cef16a56d71b6b9e035ce750
+<<<<<<< HEAD
+/workshops/yugsim/unit2/WS14-Libraries/TaxLibrary/nbproject/private/
+/workshops/yugsim/unit2/WS14-Libraries/Taxes/nbproject/private/
+/workshops/yugsim/unit2/WS14-Libraries/TaxLibrary/build/
+/workshops/yugsim/unit2/WS14-Libraries/TaxLibrary/dist/
+/workshops/yugsim/unit2/WS14-Libraries/Taxes/build/
+=======
 >>>>>>> b74d18ac7d3f99d4808c8e8e80b7d95485e441ec
 >>>>>>> 5c65718459fdf10b7057db81437a28cc552b2c8c
 <<<<<<< HEAD
@@ -1356,32 +1400,215 @@ hs_err_pid*
 /workshops/oñae/unit2/WS13Object/build/
 =======
 >>>>>>> bf4568e7302fb04543feb83b92d896dd0b3afbb9
+<<<<<<< HEAD
+/workshops/contrerasi/unit2/WS14-Library/JavaApplication8/nbproject/private/
+/workshops/contrerasi/unit2/WS14-Library/TaxLibrary/nbproject/private/
+/workshops/contrerasi/unit2/WS14-Library/TaxLibrary/build/
+/workshops/contrerasi/unit2/WS14-Library/TaxLibrary/dist/
+/assignments/contrerasi/unit2/HW-File/FileManager/nbproject/private/
+/workshops/contrerasi/unit2/WS14-Library/Taxes/build/
+=======
+<<<<<<< HEAD
+/workshops/aguirreg/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/aguirreg/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/aguirreg/unit2/WS14Libraries/TaxLibrary/build/
+/workshops/aguirreg/unit2/WS14Libraries/TaxLibrary/dist/
+/workshops/aguirreg/unit2/WS14Libraries/Taxes/build/
+=======
+<<<<<<< HEAD
+/workshops/titoañal/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/titoañal/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/titoañal/unit2/WS14Libraries/Taxes/build/
+/workshops/titoañal/unit2/WS14Libraries/TaxLibrary/dist/
+/workshops/titoañal/unit2/WS14Libraries/TaxLibrary/build/
+=======
 >>>>>>> f811042d4e5b259afe2e76b86a74cc6f126b92d1
+<<<<<<< HEAD
+/workshops/cayambev/Unit 2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/cayambev/Unit 2/WS14Libraries/Taxes/nbproject/private/
+/workshops/cayambev/Unit 2/WS14Libraries/Taxes/build/
+/workshops/cayambev/Unit 2/WS14Libraries/TaxLibrary/build/
+/workshops/cayambev/Unit 2/WS14Libraries/TaxLibrary/dist/
+=======
 >>>>>>> 3d0aa23ef41e3111e2daf15ff9c588a21a5d13a2
+<<<<<<< HEAD
+/workshops/barrerak/Unit 2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/barrerak/Unit 2/WS14Libraries/Taxes/nbproject/private/
+/workshops/barrerak/Unit 2/WS14Libraries/Taxes/build/
+/workshops/barrerak/Unit 2/WS14Libraries/TaxLibrary/dist/
+/workshops/barrerak/Unit 2/WS14Libraries/TaxLibrary/build/
+=======
 >>>>>>> 02869db155865b6488cbd6a80ba5bf0bae059669
 <<<<<<< HEAD
 /workshops/chasig/unit2/WS13/WS13/build/
 =======
 >>>>>>> 829b46f5e8f506616380ecd1ac9b0ef84a2aa69f
+<<<<<<< HEAD
+/workshops/oñae/unit2/WS14 Libraries/nbproject/private/
+/workshops/oñae/unit2/WS14 Libraries/TaxLibrary/nbproject/private/
+/workshops/oñae/unit2/WS14 Libraries/Taxes/nbproject/private/
+/workshops/oñae/unit2/WS14 Libraries/Taxes/build/
+/workshops/oñae/unit2/WS14 Libraries/TaxLibrary/build/
+/workshops/oñae/unit2/WS14 Libraries/TaxLibrary/dist/
+=======
+<<<<<<< HEAD
+/workshops/poncec/unit2/WS13-OBJECT/WS13-OBJECTS/nbproject/private/
+/workshops/poncec/unit2/WS13-OBJECT/WS13-OBJECTS/build/
+=======
 >>>>>>> 8fdc546a88d41b9dfb3af06c22db1e16a09a51c2
+<<<<<<< HEAD
+/workshops/sarmientoc/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/sarmientoc/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/sarmientoc/unit2/WS14Libraries/Taxes/build/
+/workshops/sarmientoc/unit2/WS14Libraries/TaxLibrary/build/
+/workshops/sarmientoc/unit2/WS14Libraries/TaxLibrary/dist/
+=======
 >>>>>>> 22a0aff39fa471123ae65db4f1154da7d95d4009
 <<<<<<< HEAD
 /workshops/jaramilloj/unit2/WS13Object/WS13Object/nbproject/private/
 /workshops/jaramilloj/unit2/WS13Object/WS13Object/build/
 =======
 >>>>>>> 53fb93e852da9fae72757ce4596ef7de3e86fa77
+<<<<<<< HEAD
+/workshops/guerreros/unit2/WS14/TaxLibrary/nbproject/private/
+/workshops/guerreros/unit2/WS14/Taxes/nbproject/private/
+/workshops/guerreros/unit2/WS14/Taxes/build/
+/workshops/guerreros/unit2/WS14/TaxLibrary/build/
+/workshops/guerreros/unit2/WS14/TaxLibrary/dist/
+/workshops/guerreros/unit2/WS14Libraries/TaxLibrary/build/
+/workshops/guerreros/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/guerreros/unit2/WS14Libraries/Taxes/build/
+/workshops/guerreros/unit2/WS14Libraries/Taxes/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/yaneze/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/yaneze/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/yaneze/unit2/WS14Libraries/Taxes/build/
+/workshops/yaneze/unit2/WS14Libraries/TaxLibrary/build/
+/workshops/yaneze/unit2/WS14Libraries/TaxLibrary/dist/
+=======
+<<<<<<< HEAD
+/workshops/maisinchob/unit2/WS14-/TaxLibrary/nbproject/private/
+/workshops/maisinchob/unit2/WS14-/Taxes/nbproject/private/
+/workshops/maisinchob/unit2/WS14-/Taxes/build/
+/workshops/maisinchob/unit2/WS14-/TaxLibrary/dist/
+/workshops/maisinchob/unit2/WS14-/TaxLibrary/build/
+=======
+<<<<<<< HEAD
+/workshops/heredial/unit2/WS14 Libraries/TaxLibrary/nbproject/private/
+/workshops/heredial/unit2/WS14 Libraries/Taxes/nbproject/private/
+/workshops/heredial/unit2/WS14 Libraries/Taxes/build/
+/workshops/heredial/unit2/WS14 Libraries/TaxLibrary/build/
+/workshops/heredial/unit2/WS14 Libraries/TaxLibrary/dist/
+=======
+<<<<<<< HEAD
+/workshops/chiliquingab/unit2/WS14Library/TaxLibrary/nbproject/private/
+/workshops/chiliquingab/unit2/WS14Library/Taxes/nbproject/private/
+/workshops/chiliquingab/unit2/WS14Library/Taxes/build/
+/workshops/chiliquingab/unit2/WS14Library/TaxLibrary/build/
+/workshops/chiliquingab/unit2/WS14Library/TaxLibrary/dist/
+=======
 >>>>>>> 1c112d9d07ac7f9f989c1d8276e84da46cf33aca
+<<<<<<< HEAD
+/workshops/mosquerak/unit2/WS14Libraires/TaxLibrary/nbproject/private/
+/workshops/mosquerak/unit2/WS14Libraires/Taxes/nbproject/private/
+/workshops/mosquerak/unit2/WS14Libraires/Taxes/build/
+/workshops/mosquerak/unit2/WS14Libraires/TaxLibrary/build/
+/workshops/mosquerak/unit2/WS14Libraires/TaxLibrary/dist/
+/workshops/mosquerak/unit2/WS14Libraries/TaxLibrary/build/
+/workshops/mosquerak/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/mosquerak/unit2/WS14Libraries/Taxes/build/
+/workshops/mosquerak/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/mosquerak/unit2/WS14Libraries/TaxLibrary/dist/
+=======
 >>>>>>> e7b870c9338ea6d3ac8b5b257c8c438829148e31
+<<<<<<< HEAD
+/workshops/criollok/unit2/Nueva Carpeta/TaxLibrary/nbproject/private/
+/workshops/criollok/unit2/Nueva Carpeta/Taxes/nbproject/private/
+/workshops/criollok/unit2/Nueva Carpeta/Taxes/build/
+/workshops/criollok/unit2/Nueva Carpeta/TaxLibrary/build/
+/workshops/criollok/unit2/Nueva Carpeta/TaxLibrary/dist/
+=======
 >>>>>>> 977fecc464cf20ad7fa413de3c17a43f68f45ccb
 >>>>>>> 5e347ca6f717abcfb1c094206e770da486dbfd51
+<<<<<<< HEAD
+/workshops/cadenaf/unit2/Nueva Carpeta/TaxLibrary/nbproject/private/
+/workshops/cadenaf/unit2/Nueva Carpeta/Taxes/nbproject/private/
+/workshops/cadenaf/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/cadenaf/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/cadenaf/unit2/WS14Libraries/Taxes/build/
+/workshops/cadenaf/unit2/WS14Libraries/TaxLibrary/build/
+/workshops/cadenaf/unit2/WS14Libraries/TaxLibrary/dist/
+=======
 >>>>>>> c72be3e99ba4dae9a96a5705add86685629004c0
 >>>>>>> 4f7f9d82233eac755f4bf291f221197ed18e0bb8
+<<<<<<< HEAD
+/workshops/jaramilloj/unit2/WS14Libraries/WS14Libraries/nbproject/private/
+/workshops/jaramilloj/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/jaramilloj/unit2/WS14Libraries/Taxlibrary/nbproject/private/
+/workshops/jaramilloj/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/jaramilloj/unit2/WS14Libraries/Taxes/build/
+/workshops/jaramilloj/unit2/WS14Libraries/Taxlibrary/build/
+/workshops/jaramilloj/unit2/WS14Libraries/Taxlibrary/dist/
+=======
 >>>>>>> 14e24cbfb74e5e3a89cd1e8f3563e897e8a6836d
 >>>>>>> 6af3f2bb107b3cccaba5da70322c521e12ed1b09
+<<<<<<< HEAD
+/workshops/cuaspae/unit2/WS14LIBRARIES/TaxLibrary/nbproject/private/
+/workshops/cuaspae/unit2/WS14LIBRARIES/Taxes/nbproject/private/
+/workshops/cuaspae/unit2/WS14LIBRARIES/Taxes/build/
+/workshops/cuaspae/unit2/WS14LIBRARIES/TaxLibrary/build/
+/workshops/cuaspae/unit2/WS14LIBRARIES/TaxLibrary/dist/
+=======
 >>>>>>> d70dec90c348368f01a52a8549f9c10be180f1d4
 >>>>>>> 3ff71560ac085a8efca1c5d0adafc160bb5917a1
+<<<<<<< HEAD
 /workshops/cobav/unit2/WS14-Libraries/Tax/nbproject/private/
 /workshops/cobav/unit2/WS14-Libraries/TaxLibrary/nbproject/private/
 /workshops/cobav/unit2/WS14-Libraries/TaxLibrary/build/
 /workshops/cobav/unit2/WS14-Libraries/TaxLibrary/dist/
 /workshops/cobav/unit2/WS14-Libraries/Tax/build/
+=======
+<<<<<<< HEAD
+/workshops/sigchaj/unit2/WS14Libraries/TaxLibrary/nbproject/private/
+/workshops/sigchaj/unit2/WS14Libraries/Taxes/nbproject/private/
+/workshops/sigchaj/unit2/WS14Libraries/Taxes/build/
+/workshops/sigchaj/unit2/WS14Libraries/TaxLibrary/build/
+/workshops/sigchaj/unit2/WS14Libraries/TaxLibrary/dist/
+=======
+<<<<<<< HEAD
+/workshops/tupizas/unit2/Taxes/nbproject/private/
+/workshops/tupizas/unit2/TaxLibrary/nbproject/private/
+/workshops/tupizas/unit2/TaxLibrary/build/
+/workshops/tupizas/unit2/TaxLibrary/dist/
+/workshops/tupizas/unit2/Taxes/build/
+/workshops/tupizas/unit2/WS14Library/TaxLibrary/build/
+/workshops/tupizas/unit2/WS14Library/TaxLibrary/nbproject/private/
+/workshops/tupizas/unit2/WS14Library/Taxes/build/
+/workshops/tupizas/unit2/WS14Library/Taxes/nbproject/private/
+=======
+>>>>>>> 5966ad1d7f7510916b3133a6def7973ecdf30453
+>>>>>>> f19a3e3995d501ac0bad200acf59eb572618eceb
+>>>>>>> 1ca976afcc1124c93a80d891256b09a339c8fc6e
+>>>>>>> bb6da9ee3e86618231e959bc5690c8011574140d
+>>>>>>> b13485994d4e1641712107c5a967bfba7cea26da
+>>>>>>> fd3b7460b6a5bfa978d0ba6e46c3feea258a98e7
+>>>>>>> c38ebe68edb59e6f181e8edb14c1e5bd3860c9ac
+>>>>>>> 5748e1dbe785b9ed53622a02c91998fc243546b8
+>>>>>>> e4ed43fbefda7ef808ae8c5407b9f7f763b52ae3
+>>>>>>> d34e8785a227a2f92f03170caa8ca4190708153c
+>>>>>>> 7e9859fdbde4f330bd145b0700960dc213302e52
+>>>>>>> 81e7e46c0b10e11478e2047cbfc4ba19555e2712
+>>>>>>> ac6d80a8145578029fc6817c182eb1fa14d6d602
+>>>>>>> 7e39bc4953f14af9bbffcefac0383670093b7dd9
+>>>>>>> 9a5915d6310c0846aba76401602a35e07685ac05
+>>>>>>> 7aa9b7069f58879a55dc4b6409fad892a79859ed
+>>>>>>> 4fb6d25b01ab939f7148b8eec1a7369a496d1496
+>>>>>>> ce4c23ccdb8e42c2cbdbbe4f933e288f3573f017
+>>>>>>> fbb38ddb6b7d241186e58039950b5d0d30e5e2ae
+>>>>>>> 3bb3b3f3eca4d50ddedcb76f975552127c469713
+>>>>>>> 5cd9d25390b4f3d72cfaf736776b742852754ca0
+>>>>>>> eb4c12ee79561cf8629fc5e5a170401126566644
+>>>>>>> f42d163f8cf71fea9687a69d8c3f9cb3a6aeb1ea
+>>>>>>> c1bf1e8be2033262f36effdf8462e60383fd80f5
+>>>>>>> 332fc246f92dfd648e6ded642c47cf73c9ab169b
