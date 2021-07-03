@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gabriel Aguirre SkyNet.hub ESPE-DCCO
+ * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
 public class BoooksDisplay {
     public static void main(String[] args) {
