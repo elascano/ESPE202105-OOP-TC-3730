@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.associations.view;
+package taxes;
 
 import ec.edu.espe.taxes.Tax;
 
@@ -12,6 +12,10 @@ import ec.edu.espe.taxes.Tax;
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
 public class Taxes {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         
         System.out.println("TAXES LIBRARY -Alina Villavicencio");
@@ -28,5 +32,4 @@ public class Taxes {
         System.out.println("the total price of -> " + amount + " <- is -> "
                 + totalPrice + ", this prices includes IVA");
     }
-  
-}
+} 
