@@ -7,7 +7,7 @@ package ec.edu.espe.animal.model;
 
 /**
  *
- * @author Estefania
+ * @author Andrea Quichimbo Program Builder ESPE-DCCO
  */
 public class Animal {
     private int age;
