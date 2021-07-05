@@ -3,23 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.view;
-
-import ec.edu.espe.model.Chair;
+package ec.edu.espe.chairfactory.view;
 import com.google.gson.Gson;
+//import ec.edu.espe.chairsFactory.ChairFactory;
 import ec.edu.espe.Filemanager.utils.FileManager;
-import java.util.ArrayList;
+
+import java.io.IOException;
+import ec.edu.espe.chairfactory.ChairFactory;
+
 import java.util.Scanner;
+import ec.edu.espe.chairfactory.ChairData;
+
+
+//import java.io.FileWriter;
 /**
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class WS13Chair {
+public class Chair {
 
-    
-    public static void main(String[] args) {
-     
-        Scanner input = new Scanner(System.in);
+    /**
+     * @param args the command line arguments
+     */
+     public static void main(String[] args) throws IOException {
+        
+  Scanner input = new Scanner(System.in);
         System.out.println("welcome, how many chairs do you want to save?");
         int  counter = input.nextInt();
         
@@ -36,16 +44,36 @@ public class WS13Chair {
             String support = input.next();
             System.out.println("enter the number of people capacity that the chair supports");
             int bearingCapacity = input.nextInt();
-            ArrayList<String> Chair = new ArrayList();
-            Chair chair = new Chair(composition, design, color, support, bearingCapacity);
-            String ChairDataJson = gson.toJson(chair);
             
-            FileManager.save("./files/Chair.json",ChairDataJson);
-            Chair = FileManager.findAll("./files/Chair.json");
-            System.out.println(Chair);
-            System.out.println("Number of Chairs: " + Chair.size());
+            ChairData chairdata = new ChairData(color, color, i, color);
+            String ChairFactoryDataJson = gson.toJson(chairdata);
+            
+            FileManager.save("./files/Chair.json",ChairFactoryDataJson);
+            
+            System.out.println(chairdata);
+            
         }
+                        
+            
+            
+        
+            
+           
+        
         
     }
-    
-}
+       
+       
+       
+       
+       
+      
+            
+            
+        
+            
+           
+    }
+     
+
+ 
