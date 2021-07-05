@@ -34,5 +34,4 @@ public class Taxes {
         System.out.println("the total price of ->"+ amount + "<- is ->"
                 + totalPrice + ", this prices includes IVA");
     }
-    
 }
