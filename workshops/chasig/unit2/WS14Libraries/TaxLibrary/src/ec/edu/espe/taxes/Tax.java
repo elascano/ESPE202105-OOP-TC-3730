@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ec.edu.espe.taxes;
+
+/**
+ *
+ * @author Geraldi Chasi Team of Machine ESPE-DCCD
+ */
+public class Tax {
+    private static float ivaPercentage = 12.0F;
+    
+    public static float computeIva(float amount){
+        float ivaValue = amount + ivaPercentage/100;
+        return ivaValue;
+    }
+    public static float computeTotaPrice(float amount){
+        float totalPrice;
+        totalPrice = amount + computeIva(amount);
+        return totalPrice;
+    }
+}
