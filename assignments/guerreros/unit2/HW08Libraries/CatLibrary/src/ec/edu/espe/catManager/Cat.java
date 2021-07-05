@@ -10,16 +10,11 @@ package ec.edu.espe.catManager;
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
 public class Cat {
-    
-     private String name;
-     private String color;
+
+    private String name;
+    private  String color;
      private int age;
      private Float stature;
-     private String breed;
-
-    Cat() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
     @Override
     public String toString() {
@@ -33,6 +28,7 @@ public class Cat {
         this.stature = stature;
         this.breed = breed;
     }
+     private String breed;
 
     /**
      * @return the name
@@ -103,8 +99,10 @@ public class Cat {
     public void setBreed(String breed) {
         this.breed = breed;
     }
-     
+
+   
+        }
 
         
-    
-}
+
+
