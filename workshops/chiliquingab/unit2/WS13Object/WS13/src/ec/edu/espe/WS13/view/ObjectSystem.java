@@ -53,7 +53,7 @@ public class ObjectSystem {
 			file.close();
 			
 			
-		}catch(Exception e){
+		}catch(IOException e){
 		
 		}
 		finally{
