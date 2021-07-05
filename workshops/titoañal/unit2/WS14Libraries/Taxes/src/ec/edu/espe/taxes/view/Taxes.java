@@ -7,8 +7,6 @@ package ec.edu.espe.taxes.view;
 
 import ec.edu.espe.taxes.Tax;
 
-
-
 /**
  *
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
@@ -30,9 +28,7 @@ public class Taxes {
         
         System.out.println("the total price of →" + amount + " ← is → "
                 + totalPrice + ", this prices includes IVA");
-        
-            
-        
+       
     }
     
 }
