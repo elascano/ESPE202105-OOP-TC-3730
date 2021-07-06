@@ -22,39 +22,67 @@ import java.util.StringTokenizer;
  */
 public class FileManager {
 
-    static int lineasTotales;
-    static int totalCoincidencias;
+    private String name;
+    private String lastName;
+    private String id;
+    private int age;
 
-    public static String read(String name, String lastName, String age) {
-        return "FileManager{" + "name=" + name + ", lastName=" + lastName + "age=" + age + '}';
+    public FileManager(String name, String lastName, String id, int age) {
+        this.name = name;
+        this.lastName = lastName;
+        this.id = id;
+        this.age = age;
     }
 
-    public static String add(String Read, String id) throws IOException {
+    @Override
+    public String toString() {
+        return "FileManager{" + "name= " + getName() + " , lastName= "
+                + getLastName() + " , id= " + getId() + " , age= "
+                + getAge() + " " + '}';
+    }
+
+    public static String add(FileManager read, id iD) throws IOException {
         //TODO code to add (append) new data (String) in a file
         GsonBuilder gsonBuilder = new GsonBuilder();
         Gson gson = gsonBuilder.create();
 
-        String jsonRead = gson.toJson(Read);
-        File file = new File("C:/Users/DELL/Desktop/Programacion/ESPE202105-OOP-TC-3730/assignments/chiliquingab/unit2/HW08Libraries/FileManagerSystem/files/Read.json");
-
-        if (!file.exists()) {
-            file.createNewFile();
-        }
+        String jsonRead = gson.toJson(read);
+        File file = new File("C:/Users/DELL/Desktop/Programacion/"
+                + "ESPE202105-OOP-TC-3730/assignments/chiliquingab/unit2/"
+                + "HW08Libraries/FileManagerSystem/files/Read.json");
 
         FileWriter add = new FileWriter(file.getAbsoluteFile(), true);
         BufferedWriter write = new BufferedWriter(add);
-        write.write("\nID -> " + id + " " + jsonRead);
+        write.write("\n" + "Client -> " + iD + " " + jsonRead);
         write.close();
         add.close();
 
-        System.out.println("\nThe information has been saved");
         return jsonRead;
     }
 
-    public static void find(String search) {
-        //TODO search for data and return the line
+    public static void indicate() throws IOException {
 
-        try (FileReader file = new FileReader("C:/Users/DELL/Desktop/Programacion/ESPE202105-OOP-TC-3730/assignments/chiliquingab/unit2/HW08Libraries/FileManagerSystem/files/Read.json");
+        try (FileReader file = new FileReader("C:/Users/DELL/Desktop/"
+                + "Programacion/ESPE202105-OOP-TC-3730/assignments/"
+                + "chiliquingab/unit2/HW08Libraries/FileManagerSystem/"
+                + "files/Read.json");
+                BufferedReader br = new BufferedReader(file)) {
+
+            String linea = br.readLine();
+
+            while (linea != null) {
+                System.out.println(linea);
+                linea = br.readLine();
+            }
+        }
+    }
+
+    public static void find(String search) throws FileNotFoundException, IOException {
+        //TODO search for data and return the line
+        try (FileReader file = new FileReader("C:/Users/DELL/Desktop/"
+                + "Programacion/ESPE202105-OOP-TC-3730/assignments/"
+                + "chiliquingab/unit2/HW08Libraries/"
+                + "FileManagerSystem/files/Read.json");
                 BufferedReader br = new BufferedReader(file)) {
 
             String linea = br.readLine();
@@ -68,10 +96,62 @@ public class FileManager {
                 }
                 linea = br.readLine();
             }
-        } catch (FileNotFoundException e) {
-            System.out.println("File not Found" + e.getMessage());
-        } catch (IOException e) {
-            System.out.println("Read error" + e.getMessage());
         }
+    }
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * @return the lastName
+     */
+    public String getLastName() {
+        return lastName;
+    }
+
+    /**
+     * @param lastName the lastName to set
+     */
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    /**
+     * @return the id
+     */
+    public String getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @param age the age to set
+     */
+    public void setAge(int age) {
+        this.age = age;
     }
 }
