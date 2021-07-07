@@ -26,7 +26,7 @@ public class Balls {
         System.out.println("Ball system");
         do {
             System.out.println("1.- Radio");
-            System.out.println("2.- peso");
+            System.out.println("2.- Weight");
             System.out.println("3.- exit");
 
             System.out.println("Choose the option: ");
@@ -41,7 +41,7 @@ public class Balls {
                     break;
 
                 case 2:
-                    System.out.println("Write weight ");
+                    System.out.println("Write weight of the ball ");
                     weight = read.nextFloat();
                     ballWeight = Ball.getWeight(weight);
                     System.out.println("" + ballWeight);
