@@ -39,7 +39,7 @@ public class CityProyect {
         City city[] = new City[10];
         ArrayList<City> Citys = new ArrayList();
         
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 1; i++) {
                         System.out.println("Enter the city data: ");
                         System.out.println("Enter the id: ");
                         id = data.nextInt();
@@ -58,7 +58,7 @@ public class CityProyect {
                         city[i] = new City(id, name, continent, country, numberOfProvinces, turistPlace);
                     }
                     System.out.println("Data of all Citys entered: ");
-                    for (int i = 0; i < 2; i++) {
+                    for (int i = 0; i < 1; i++) {
                     
                         GsonBuilder gsonBuilder = new GsonBuilder();
                         Gson gson = gsonBuilder.create();

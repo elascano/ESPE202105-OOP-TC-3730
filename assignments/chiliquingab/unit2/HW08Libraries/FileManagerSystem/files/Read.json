@@ -1,0 +1,77 @@
+"FileManager{name\u003dAAAA, lastName\u003dBBBB, id\u003dCCCC, age\u003dDDDD}"Hola stackoverflow.com...Hola stackoverflow.com..."FileManager{name\u003dA, lastName\u003dB, id\u003dC, age\u003dD}""FileManager{name\u003dALISSON, lastName\u003dMELANIE, id\u003d12, age\u003d13}"
+"FileManager{name\u003dALISSON, lastName\u003dVIZUETE, id\u003d19, age\u003d9999}"
+"FileManager{name\u003dALISSON, lastName\u003dVIZUETE, id\u003d19, age\u003d9999}"
+"FileManager{name\u003dMELANIE, lastName\u003dVICTORIA, id\u003d20, age\u003d1111}"
+"FileManager{name\u003dMELANIE, lastName\u003dVICTORIA, id\u003d20, age\u003d1111}"
+"FileManager{name\u003dA, lastName\u003dB, id\u003dC, age\u003dD}"
+"FileManager{name\u003dA, lastName\u003dB, id\u003dC, age\u003dD}"
+"FileManager{name\u003dBRYAN, lastName\u003dDAVID, id\u003d12, age\u003d1}"
+"FileManager{name\u003dBRYAN, lastName\u003dDAVID, id\u003d12, age\u003d1}"
+"FileManager{name\u003d1, lastName\u003d1, id\u003d1, age\u003d1}"
+"FileManager{name\u003d1, lastName\u003d1, id\u003d1, age\u003d1}""FileManager{name\u003d0, lastName\u003d0, id\u003d0, age\u003d0}""FileManager{name\u003d0, lastName\u003d0, id\u003d0, age\u003d0}""FileManager{name\u003d2, lastName\u003d2, id\u003d2, age\u003d2}"
+"FileManager{name\u003dCOCO, lastName\u003dMARTINEZ, id\u003d20, age\u003d0000}"
+"FileManager{name\u003dCOCO, lastName\u003dMARTINEZ, id\u003d20, age\u003d0000}""FileManager{name\u003d9, lastName\u003d9, id\u003d9, age\u003d9}""FileManager{name\u003d9, lastName\u003d9, id\u003d9, age\u003d9}""FileManager{name\u003dA, lastName\u003dB, id\u003dC, age\u003dD}"
+"FileManager{name\u003dMELANIE, lastName\u003dMELANIE, id\u003dMELANIE, age\u003dMELANIE}"
+"FileManager{name\u003dA, lastName\u003dB, id\u003dC, age\u003dD}"
+"FileManager{name\u003dA, lastName\u003dB, id\u003dC, age\u003dD}"
+"FileManager{name\u003d44, lastName\u003d44, id\u003d44, age\u003d44}" Bryan
+
+"FileManager{name\u003dALISSON, lastName\u003dALISSONage\u003dALISSON}"1
+"FileManager{name\u003dA, lastName\u003dBage\u003dC}"D
+"FileManager{name\u003dD, lastName\u003dDage\u003dD}" 5ID -> 2 "FileManager{name\u003dA, lastName\u003dAage\u003dA}"
+ID -> D "FileManager{name\u003dA, lastName\u003dBage\u003dC}"
+ID -> 6 "FileManager{name\u003d0, lastName\u003d0age\u003d0}"
+ID -> 1 "FileManager{name\u003dAAAA, lastName\u003dAAAAage\u003dAAAA}"
+ID -> 7 "FileManager{name\u003dBRYAN, lastName\u003dDAVIDage\u003d19}"
+ID -> 99 "FileManager{name\u003dBRYAN, lastName\u003dLEMAage\u003d12}"
+ID -> 900 "FileManager{name\u003dALISSON, lastName\u003dVIZUETEage\u003d20}"
+ID -> 0 "FileManager{name\u003d A, lastName\u003d Bage\u003d 12}"
+ID -> 1 "FileManager{name\u003d B ,lastName\u003d B ,age\u003d 1 }"
+"FileManager{name\u003d BRYAN ,lastName\u003d CHILIQUINGA ,age\u003d 19, id\u003d 8888 }"
+"FileManager{name\u003d C ,lastName\u003d D ,age\u003d 3, id\u003d 4 }"
+"FileManager{name\u003d E ,lastName\u003d R ,age\u003d 5, id\u003d 6 }"
+null
+{"name":"A","lastName":"A","id":1,"age":1}
+{"name":"B","lastName":"B","id":0,"age":0}
+Client -> {"name":"K","lastName":"K","id":3,"age":3}
+Client -> {"name":"L","lastName":"L","id":4,"age":4}
+Client -> {"name":"S","lastName":"S","id":7,"age":7}
+Client -> {"name":"F","lastName":"F","id":4,"age":9}
+Client -> {"name":"Z","lastName":"Z","id":1,"age":1} ticket: 0
+Client -> {"name":"D","lastName":"D","id":2,"age":3} ticket: 1
+Client -> {"name":"G","lastName":"G","id":5,"age":5} ticket: 0
+Client -> {"name":"H","lastName":"H","id":7,"age":7} ticket: 1
+Client -> {"name":"S","lastName":"S","id":1,"age":1} ticket: 
+Client -> {"name":"R","lastName":"R","id":5,"age":5} ticket: 
+Client -> {"name":"T","lastName":"T","id":6,"age":4} ticket: 
+Client -> {"name":"F","lastName":"F","id":2,"age":2} ticket: 62
+Client -> {"name":"F","lastName":"F","id":3,"age":3} ticket: 10
+Client -> {"name":"H","lastName":"H","id":8,"age":8} ticket: 38
+Client -> {"name":"�","lastName":"�","id":9,"age":9} ticket: 92
+Client -> {"name":"A","lastName":"A","id":1,"age":1} ticket: 65
+Client -> {"name":"A","lastName":"A","id":2,"age":2} ticket: 40
+Client -> {"name":"E","lastName":"E","id":1,"age":1} ticket: 26
+Client -> {"name":"E","lastName":"E","id":2,"age":2} ticket: 38
+Client -> {"name":"J","lastName":"J","id":1,"age":1} ticket: 44
+Client -> {"name":"U","lastName":"U","id":5,"age":6} ticket: 44
+Client -> {"name":"Y","lastName":"Y","id":1,"age":1} ticket: 30
+Client -> {"name":"R","lastName":"R","id":4,"age":4} ticket: 30
+Client -> {"name":"T","lastName":"T","id":2,"age":1} ticket: 42
+Client -> {"name":"Y","lastName":"Y","id":5,"age":4} ticket: 42
+Client -> {"name":"G","lastName":"G","id":1,"age":2}
+Client -> {"name":"Y","lastName":"Y","id":2,"age":3}
+Client -> {"name":"BRYAN","lastName":"CHILIQUINGA","id":"90","age":19}
+Client -> {"name":"ALISSON","lastName":"VIZUETE","id":"30","age":19}
+Client -> 3 {"name":"A","lastName":"A","id":"2","age":1}
+Client -> 3 {"name":"E","lastName":"E","id":"3","age":1}
+Client -> id{id=1} {"name":"A","lastName":"A","id":"1","age":2}
+Client -> id{id=2} {"name":"B","lastName":"B","id":"2","age":2}
+Client -> ID{ 1  {"name":"A","lastName":"B","id":"1","age":1}
+Client -> ID{ 2  {"name":"B","lastName":"B","id":"2","age":2}
+Client -> Id{ 1 } -> {"name":"A","lastName":"A","id":"1","age":2}
+Client -> Id{ 2 } -> {"name":"B","lastName":"B","id":"2","age":2}
+Client -> Id{ L9980 } -> {"name":"BRYAN","lastName":"CHILIQUINGA","id":"L9980","age":19}
+Client -> Id{ E3330 } -> {"name":"ALISSON","lastName":"VIZUETE","id":"E3330","age":19}
+Client -> Id{ L3730 } -> {"name":"ELIANA","lastName":"CUASPA","id":"L3730","age":21}
+Client -> Id{ L2240 } -> {"name":"KEVIN","lastName":"GUALOTU�A","id":"L2240","age":22}
+Client -> Id{ B1230 } -> {"name":"MELANIE","lastName":"TIPANTU�A","id":"B1230","age":20}
