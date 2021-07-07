@@ -8,7 +8,7 @@ import com.google.gson.Gson;
 //import ec.edu.espe.chairsFactory.ChairFactory;
 import ec.edu.espe.Filemanager.utils.FileManager;
 
-import java.io.IOException;
+
 import ec.edu.espe.chairfactory.ChairFactory;
 
 import java.util.Scanner;
@@ -25,7 +25,7 @@ public class Chair {
     /**
      * @param args the command line arguments
      */
-     public static void main(String[] args) throws IOException {
+     public static void main(String[] args) {
         
   Scanner input = new Scanner(System.in);
         System.out.println("welcome, how many chairs do you want to save?");
