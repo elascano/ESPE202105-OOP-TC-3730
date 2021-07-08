@@ -53,7 +53,7 @@ public class FarmSystem {
             switch (option) {
                 case 1:
 
-                    for (int i = 0; i < 3; i++) {
+                    for (int i = 0; i < 2; i++) {
                         System.out.println("Enter the chicken data: ");
                         System.out.println("Enter the id: ");
                         id = data.nextInt();
@@ -80,7 +80,7 @@ public class FarmSystem {
                         chickens[i] = new Chicken(id, name, color, date, bornOn, age, molting, eggCounter);
                     }
                     System.out.println("Data of all chickens entered: ");
-                    for (int i = 0; i < 3; i++) {
+                    for (int i = 0; i < 2; i++) {
                         GsonBuilder gsonBuilder = new GsonBuilder();
                         Gson gson = gsonBuilder.create();
                         jsonChicken = gson.toJson(chickens[i]);
