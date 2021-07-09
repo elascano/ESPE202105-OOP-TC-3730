@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.racket.view;
+package ec.edu.espe.tracket.view;
 
-import ec.edu.espe.racket.model.TennisRacket;
+import ec.edu.espe.tracket.model.TennisRacket;
 /**
  *
  * @author Pamela Yugsi LAMESTech ESPE-DCCO
