@@ -3,9 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uc.edu.espe.association.view;
+package ec.edu.espe.association.view;
 
-import uc.edu.espe.association.model.*;
+import ec.edu.espe.association.model.D;
+import ec.edu.espe.association.model.F;
+import ec.edu.espe.association.model.A;
+import ec.edu.espe.association.model.B;
+import ec.edu.espe.association.model.C;
+import ec.edu.espe.association.model.E;
 
 /**
  *
