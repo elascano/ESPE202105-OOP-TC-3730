@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.associations.view;
+package ec.edu.espe.associations.view;
 
 import ec.edu.espe.computer.*;
 import java.io.IOException;
