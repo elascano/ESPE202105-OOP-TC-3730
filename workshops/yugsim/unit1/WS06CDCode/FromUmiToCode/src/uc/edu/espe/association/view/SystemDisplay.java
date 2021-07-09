@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.association.view;
+package uc.edu.espe.association.view;
 
 import ec.edu.espe.association.model.D;
 import ec.edu.espe.association.model.F;
