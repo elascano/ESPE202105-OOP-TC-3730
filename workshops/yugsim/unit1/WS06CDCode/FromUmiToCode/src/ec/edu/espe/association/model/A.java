@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uc.edu.espe.association.model;
+package ec.edu.espe.association.model;
 
 import java.util.ArrayList;
 

@@ -3,34 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uc.edu.espe.association.model;
+package ec.edu.espe.association.model;
 
 /**
  *
  * @author Pamela Yugsi LAMESTech ESPE-DCCD
  */
-public class C {
-    private float f;
+public class F {
+    private String s;
     
-    public void m(){
-}
-
     @Override
     public String toString() {
-        return "C{" + "f=" + f + '}';
+        return "F{" + "s=" + s + '}';
+    }
+    /**
+     * @return the s
+     */
+    public String getS() {
+        return s;
     }
 
     /**
-     * @return the f
+     * @param s the s to set
      */
-    public float getF() {
-        return f;
-    }
-
-    /**
-     * @param f the f to set
-     */
-    public void setF(float f){
-        this.f = f;
+    public void setS(String s) {
+        this.s = s;
     }
 }
