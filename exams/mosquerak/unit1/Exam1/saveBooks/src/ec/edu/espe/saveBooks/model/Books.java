@@ -9,7 +9,7 @@ package ec.edu.espe.saveBooks.model;
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class Books {
+public class Books { //the name of the class must be singular
 
     @Override
     public String toString() {
