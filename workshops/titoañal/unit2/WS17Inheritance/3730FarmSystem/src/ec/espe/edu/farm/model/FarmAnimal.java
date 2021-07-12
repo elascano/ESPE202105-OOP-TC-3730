@@ -11,16 +11,20 @@ import java.util.Date;
  *
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
-public class FarmAnimal {
+public abstract class FarmAnimal {
     private int id;
     private String breed;
     private Date bornOn;
+    
+    public abstract void feed(int amount);
+    public abstract void vaccinate(int numberOfVaccines);
     
     public int getAgeInMonths(){
         //TODO Compute the age in months
         return bornOn.getMonth();
     }
 
+    
     public FarmAnimal(int id, String breed, Date bornOn) {
         this.id = id;
         this.breed = breed;
