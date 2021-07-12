@@ -11,12 +11,12 @@ import java.util.Date;
  *
  * @author Jean Jaramillo
  */
-public class FarmAnimal {
+public abstract class FarmAnimal {
     private int id;
     private String breed;
     private Date born0n;
     
-    
+    public abstract void feed(int amoount);
     
     public int getAgeInMonths(){
         //TODO compute the age in months
