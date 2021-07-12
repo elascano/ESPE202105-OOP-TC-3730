@@ -16,7 +16,7 @@ public class Cow extends FarmAnimal {
 
     @Override
     public String toString() {
-        return "Cow{" + "milk=" + milk + '}';
+        return "Cow{" + super.toString() + "milk=" + milk + '}';
     }
 
     public Cow(String milk, int id, String breed, Date bornOn) {
