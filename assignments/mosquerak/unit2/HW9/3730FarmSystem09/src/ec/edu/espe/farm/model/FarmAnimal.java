@@ -9,32 +9,22 @@ import java.util.Date;
 
 /**
  *
- * @author Geraldi Chasi Team of Machine ESPE-DCCD
+ * @author Kerly Mosquera CODE ESPE-DCCO
  */
 public class FarmAnimal {
-   private int id;
-   private String breed;
-   private Date bornOn; 
-
-    public FarmAnimal(int id, String breed, Date bornOn) {
-        this.id = id;
-        this.breed = breed;
-        this.bornOn = bornOn;
-    }
+     private int id;
+     private String breed;
+     private Date bornOn;
+     
+     public int getAgeInMonths(){
+         //TODO Compute the age in months
+        return getBornOn().getMonth();
+     }
 
     @Override
     public String toString() {
         return "FarmAnimal{" + "id=" + id + ", breed=" + breed + ", bornOn=" + bornOn + '}';
     }
-   
-   
-   
-   public int getAgeInMonths(){
-       
-       //Todo Compute the age in months
-       
-       return getBornOn().getMonth();
-   }
 
     /**
      * @return the id
@@ -57,6 +47,12 @@ public class FarmAnimal {
         return breed;
     }
 
+    public FarmAnimal(int id, String breed, Date bornOn) {
+        this.id = id;
+        this.breed = breed;
+        this.bornOn = bornOn;
+    }
+
     /**
      * @param breed the breed to set
      */
@@ -77,11 +73,4 @@ public class FarmAnimal {
     public void setBornOn(Date bornOn) {
         this.bornOn = bornOn;
     }
-
-    public void add(FarmAnimal farmAnimal) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-   
-   
-} 
-
+}
