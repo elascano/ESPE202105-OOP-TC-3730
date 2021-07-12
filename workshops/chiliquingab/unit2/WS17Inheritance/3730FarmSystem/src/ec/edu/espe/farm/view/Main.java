@@ -120,6 +120,9 @@ public class Main {
         System.out.println("\nMy farm has " + farmAnimals.size() + " animals");
         System.out.println("\nMy FarmAnimals are: ");
         System.out.println(farmAnimals);
+        
+        chicken.feed(5);
+        //farmAnimal.feed(5);
 
     }
 }
