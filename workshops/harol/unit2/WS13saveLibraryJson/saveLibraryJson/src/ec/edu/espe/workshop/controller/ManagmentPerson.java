@@ -17,7 +17,7 @@ import org.json.simple.parser.JSONParser;
 
 /**
  *
- * @author Fernando
+ * @author Luis Haro LAMESTech ESPE-DCC0
  */
 public class ManagmentPerson {
 

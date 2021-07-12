@@ -11,7 +11,7 @@ import java.text.ParseException;
 
 /**
  *
- * @author Fernando
+ * @author Luis Haro LAMESTech ESPE-DCC0
  */
 public class JavaApplication3 {
 

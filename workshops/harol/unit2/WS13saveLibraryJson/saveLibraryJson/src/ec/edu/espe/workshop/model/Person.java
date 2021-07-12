@@ -7,7 +7,7 @@ package ec.edu.espe.workshop.model;
 
 /**
  *
- * @author Fernando
+ * @author Luis Haro LAMESTech ESPE-DCC0
  */
 public class Person {
 
