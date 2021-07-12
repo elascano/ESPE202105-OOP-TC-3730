@@ -22,12 +22,12 @@ public class Books { //the name of the class must be singular
     private String publisher;
     private int yearPublication;
     
-    public Books( String title, String author String publisher, int yearPublication);
+    public Books( String title, String author String publisher, int yearPublication );
     {
         this.setTitle(getTitle());
         this.setAuthor(getAuthor());
         this.setPublisher(getPublisher());
-        this.setYearPublications(getYearPublications());
+        this.setYearPublications(get YearPublication());
 }
 
     public Books(String title, String author, String publisher, int yearPublication) {
@@ -90,7 +90,7 @@ public class Books { //the name of the class must be singular
      * @param yearPublications the yearPublications to set
      */
     public void setYearPublications(int yearPublications) {
-        this.yearPublication = yearPublications;
+        this.yearPublication = yearPublication;
     }
     
 }

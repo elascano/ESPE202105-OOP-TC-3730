@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gabriel Aguirre SkyNet.hub ESPE-DCCO
+ * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
 public class FarmSystem {
     public static void main(String[] args) {
@@ -39,7 +39,7 @@ public class FarmSystem {
         
         System.out.print("Hello, Play the FarmSimulator" + "Programmer: Cristopher Sarmiento ");
         
-        for(int i=0;i<10;i++){
+        for(int i=0;i<2;i++){
             
             System.out.print("\n Description: \n");
             System.out.println("\n This program describe 10 chicken, now play and write ");
@@ -83,7 +83,7 @@ public class FarmSystem {
 
         }
         
-        for(int i=0;i<10;i++){
+        for(int i=0;i<2;i++){
             
            System.out.println("Characteristics about all chickens:");
            
