@@ -35,7 +35,9 @@ public class FarmSystem {
         chicken = new Chicken(3, "Menorca", date, true);
         farmAnimals.add(chicken);
         System.out.println("chicken ->" + chicken);
-        
+        System.out.println(" • The Age of the Chickens are \n");
+        System.out.println("   Chickens age -> "+ chicken.getAgeInMonths()+ " months");
+         System.out.println("\n");
         
         ArrayList<Cow> cows = new ArrayList<>();
         date = new Date(2021, 4, 15);
@@ -49,6 +51,9 @@ public class FarmSystem {
         cow = new Cow(3, "Lownline", date, false);
         farmAnimals.add(cow);
         System.out.println("cow -> " + cow);
+        System.out.println("• The Age of the Cows are \n");
+        System.out.println("  Cows age -> "+ cow.getAgeInMonths() + " months");
+        System.out.println("\n");
         
         ArrayList<Pig> pigs = new ArrayList<>();
         date = new Date(2021, 5, 15);
@@ -62,6 +67,9 @@ public class FarmSystem {
         pig = new Pig (3, "Meishan", date);
         farmAnimals.add(pig);
         System.out.println("pig -> " + pig);
+        System.out.println("• The Age of the Pigs are \n");
+        System.out.println("  Pigs age -> " + pig.getAgeInMonths() + " months");
+        System.out.println("\n");
         
         ArrayList<Sheep> sheeps = new ArrayList<>();
         date = new Date(2021, 6, 15);
@@ -75,11 +83,9 @@ public class FarmSystem {
         sheep = new Sheep(3, "Texel", date, date);
         farmAnimals.add(sheep);
         System.out.println("sheep -> " + sheep);
-        
-        System.out.println("Chickens age -> "+ chicken.getAgeInMonths()+ " months");
-        System.out.println("Cows age -> "+ cow.getAgeInMonths() + " months");
-        System.out.println("Pigs age -> " + pig.getAgeInMonths() + " months");
-        System.out.println("Sheeps age -> " + sheep.getAgeInMonths() + " months");
+        System.out.println("• The Age of the Sheeps are \n");
+        System.out.println("  Sheeps age -> " + sheep.getAgeInMonths() + " months");
+        System.out.println("\n");
         
         System.out.println("My farm has ->" + farmAnimals.size()+ "animals");
         System.out.println("my FarmAnimals are ->" + farmAnimals);
