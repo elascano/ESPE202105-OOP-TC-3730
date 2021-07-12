@@ -25,14 +25,13 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        
+ 
         
         FarmAnimal farmAnimal;
-        Date date = new Date(2020, 3, 11);
+        Date date = new Date();
         
-        Period age = Period.between(LocalDate.of(1987, 4, 8), LocalDate.now());
-        System.out.println(String.format("%d años, %d meses y %d días", age.getYears(), age.getMonths(), age.getDays()));
+        /*Period age = Period.between(LocalDate.of(1987, 4, 8), LocalDate.now());
+        System.out.println(String.format("%d años, %d meses y %d días", age.getYears(), age.getMonths(), age.getDays()));*/
         
         farmAnimal = new FarmAnimal(0, "german shepherd", date);
         System.out.println("Farm Animal -> " + farmAnimal);
@@ -40,7 +39,7 @@ public class Main {
         
         ArrayList<FarmAnimal> farmAnimals = new ArrayList<>();
         date = new Date(2021, 9, 24);
-        date = new Date(2021, 10, 25);
+        
         farmAnimals.add(farmAnimal);
         
         System.out.println("farmAnimal is : " + farmAnimal.getClass());
