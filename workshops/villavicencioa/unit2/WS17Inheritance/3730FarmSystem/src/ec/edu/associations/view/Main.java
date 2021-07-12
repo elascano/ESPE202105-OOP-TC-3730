@@ -35,6 +35,7 @@ public class Main {
         Chicken chicken = new Chicken(2, "aguarico", date, true);
         System.out.println("chicken ->" + chicken);
         
+        
         System.out.println("chicken is a" + chicken.getClass());
         System.out.println("the age is -> " + chicken.isIsMolting());
         
