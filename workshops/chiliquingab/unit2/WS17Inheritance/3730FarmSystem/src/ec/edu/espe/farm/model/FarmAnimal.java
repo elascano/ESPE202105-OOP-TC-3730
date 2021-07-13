@@ -5,20 +5,25 @@
  */
 package ec.edu.espe.farm.model;
 
+import java.util.Calendar;
 import java.util.Date;
 
 /**
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class FarmAnimal {
+public abstract class FarmAnimal {
+
     private int id;
     private String breed;
     private Date bornOn;
+    
+    public abstract void feed(int amount);
+    public abstract void vaccinate(int numberOfVaccines);
 
     @Override
     public String toString() {
-        return "FarmAnimal{" + "id=" + id + ", breed=" + breed + ", bornOn=" + bornOn + '}';
+        return "FarmAnimal{" + "id=" + id + ", breed=" + breed + ", bornOn=" + bornOn;
     }
 
     public FarmAnimal(int id, String breed, Date bornOn) {
@@ -26,11 +31,43 @@ public class FarmAnimal {
         this.breed = breed;
         this.bornOn = bornOn;
     }
-    
-    public int getAgeInMonths(){
+
+    public static int calculaAnos(int dia, int mes, int ano) {
+        Date actual = new Date();
+
+        int diaActual = actual.getDate();
+        int mesActual = actual.getMonth() + 1;
+        int anoActual = actual.getYear() + 1900;
+
+        int diferencia = anoActual - ano;
+
+        if (mesActual <= mes) {
+            if (mesActual == mes) {
+                if (dia > diaActual) {
+                    diferencia--;
+                }
+            } else {
+                diferencia--;
+            }
+        }
+        return diferencia;
+    }
+
+    public int getAgeInMonths(int dia, int mes, int ano) {
         //TODO Compute the age in months
-        
-        return getBornOn().getMonth();
+        Calendar inicio = Calendar.getInstance();
+        inicio.set(ano, mes - 1, dia);
+
+        Calendar actual = Calendar.getInstance();
+
+        int anos_diferencia = calculaAnos(dia, mes, ano);
+
+        int meses = (anos_diferencia * 12) + (actual.get(Calendar.MONTH) - inicio.get(Calendar.MONTH));
+
+        if (actual.get(Calendar.DATE) < dia) {
+            meses--;
+        }
+        return meses;
     }
 
     /**
@@ -74,5 +111,5 @@ public class FarmAnimal {
     public void setBornOn(Date bornOn) {
         this.bornOn = bornOn;
     }
-    
+
 }
