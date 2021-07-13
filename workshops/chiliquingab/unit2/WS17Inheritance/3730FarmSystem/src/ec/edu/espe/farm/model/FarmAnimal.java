@@ -12,11 +12,14 @@ import java.util.Date;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class FarmAnimal {
+public abstract class FarmAnimal {
 
     private int id;
     private String breed;
     private Date bornOn;
+    
+    public abstract void feed(int amount);
+    public abstract void vaccinate(int numberOfVaccines);
 
     @Override
     public String toString() {
