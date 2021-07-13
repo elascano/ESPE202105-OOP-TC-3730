@@ -20,5 +20,15 @@ public class Pig extends FarmAnimal{
     public String toString() {
         return "Pig{" + super.toString() + '}' + "\n";
     }
+
+    @Override
+    public void feed(int amount) {
+        System.out.println("Feeding the pig with -> " + amount + " of pig feed");
+    }
+
+    @Override
+    public void vaccinate(int numberOfVaccines) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
