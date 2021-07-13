@@ -7,6 +7,7 @@ package ec.edu.espe.farm.view;
 
 import ec.edu.espe.farm.model.Chicken;
 import ec.edu.espe.farm.model.FarmAnimal;
+import ec.edu.espe.farm.model.Pig;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -20,7 +21,7 @@ public class Main {
         FarmAnimal farmAnimal;
         Date date = new Date();
         
-        farmAnimal = new FarmAnimal(0,"ger shephard", date);
+        farmAnimal = new Chicken(2, "guarica", date, true);
         System.out.println("Farm Animal ->" + farmAnimal);
         date = new Date(2021 , 1 , 20);
         ArrayList<FarmAnimal> farmAnimals =  new ArrayList <>();
@@ -40,5 +41,12 @@ public class Main {
         System.out.println(" My harm has ->" + farmAnimals.size() + "animals");
         System.out.println("my FarmAnimals are ->"+ farmAnimals);
         
+        farmAnimal = new Pig(25.5F, 5,"miniature", new Date(2020,8,25));
+        
+    
+        
+        
     }
+
+   
 }

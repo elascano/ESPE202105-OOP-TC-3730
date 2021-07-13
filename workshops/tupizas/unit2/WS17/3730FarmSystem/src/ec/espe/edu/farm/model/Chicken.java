@@ -20,6 +20,10 @@ public class Chicken extends FarmAnimal {
         this.isMolting = isMolting;
     }
 
+    public Chicken(int i, String german_shepherd, Date date) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     @Override
     public String toString() {
         return "Chicken{" +super.toString()+ "isMolting=" + isMolting + '}';
