@@ -37,5 +37,15 @@ public class Cow extends FarmAnimal{
     public void setIsProducingMilk(boolean isProducingMilk) {
         this.isProducingMilk = isProducingMilk;
     }
+
+    @Override
+    public void feed(int amount) {
+        
+    }
+
+    @Override
+    public void vaccinate(int numberOfVaccines) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
