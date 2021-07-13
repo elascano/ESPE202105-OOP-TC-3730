@@ -37,5 +37,15 @@ public class Chicken extends FarmAnimal{
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
     }
+
+    @Override
+    public void feed(int amount) {
+        System.out.println("feeding the chicken"+ getId()+ "with" + amount+ "onzes");
+    }
+
+    @Override
+    public void vaccinate(int number0Vaccines) {
+        System.out.println("vaccinating the chicken with" + number0Vaccines);
+    }
    
 }
