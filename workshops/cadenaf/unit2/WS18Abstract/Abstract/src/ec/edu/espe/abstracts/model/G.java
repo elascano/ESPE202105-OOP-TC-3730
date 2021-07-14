@@ -9,7 +9,7 @@ package ec.edu.espe.abstracts.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class G {
+public class G {       //The method is incomplete 
   private int z; 
 
     /**
