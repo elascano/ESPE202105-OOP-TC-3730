@@ -38,7 +38,7 @@ public class FarmSystem {
         BornOn bornOn[]= new BornOn[10];
         Age age[]= new Age[10];
         System.out.println("Enter the chicken data");
-        for(int counter=0;counter<10;counter++){
+        for(int counter=0;counter<1;counter++){
             
             System.out.println("Enter id");
             id=sc.nextInt();
@@ -67,7 +67,7 @@ public class FarmSystem {
         }
             
        
-        for(int counter=0;counter<10;counter++){
+        for(int counter=0;counter<1;counter++){
             System.out.println(chickens[counter]);  
             System.out.println(bornOn[counter]);
             System.out.println(age[counter]);
