@@ -11,14 +11,14 @@ import java.util.ArrayList;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class C {
-    private ArrayList<H> hs = new ArrayList<>();
+public class C {              //public void missing m
+    private ArrayList<H> hs = new ArrayList<>();   //2
     
-    public void m(F f){
+    public void m(F f){   //1
         
     }
     
-    public float m(float f){
+    public float m(float f){    //1
         
         return f; 
     }
@@ -26,22 +26,22 @@ public class C {
     /**
      * @return the hs
      */
-    public ArrayList<H> getHs() {
+    public ArrayList<H> getHs() {    //1
         return hs;
     }
 
     /**
      * @param hs the hs to set
      */
-    public void setHs(ArrayList<H> hs) {
+    public void setHs(ArrayList<H> hs) {     //1
         this.hs = hs;
     }
 
-    public C() {
+    public C() {  //1
     }
 
     @Override
-    public String toString() {
+    public String toString() {       //1
         return "C{" + "hs=" + hs + '}';
     }
     
