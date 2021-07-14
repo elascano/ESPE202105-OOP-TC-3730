@@ -25,13 +25,13 @@ public class D extends B{
     }
 
     @Override
-    public int operation1(int n) {
+    public int operation1(int n) {    //does not return the value
         System.out.println("Hello");
         return 0;
     }
 
     @Override
-    public float operation2(float f) {
+    public float operation2(float f) {   //does not return the value
         System.out.println("Hello x2");
         return 0;
     }

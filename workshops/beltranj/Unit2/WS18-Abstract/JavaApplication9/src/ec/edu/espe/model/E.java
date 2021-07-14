@@ -10,7 +10,7 @@ package ec.edu.espe.model;
  * @author hecto
  */
 public class E {
-    private float p;
-    private float q;
+    private float p; //1 - it only has the variables p and g declared
+    private float q; //1 - it only has the variables p and g declared
     
 }

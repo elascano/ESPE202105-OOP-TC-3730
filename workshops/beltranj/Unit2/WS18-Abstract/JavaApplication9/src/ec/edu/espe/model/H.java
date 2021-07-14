@@ -10,5 +10,11 @@ package ec.edu.espe.model;
  * @author hecto
  */
 public class H {
-    
+
+    public H() {
+    }
+    @Override
+    public String toString() {
+        return "H{" + '}';
+    } 
 }
