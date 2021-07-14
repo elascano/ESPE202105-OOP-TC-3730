@@ -11,5 +11,13 @@ package ec.edu.espe.model;
  */
 // empty class 
 public class H {
+    public H{
+    
+}
+
+    @Override
+    public String toString() {
+        return "H{" + '}';
+    }
     
 }

@@ -25,6 +25,12 @@ public class G {
         this.z = z;
     }
 
+    public G() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   
+
     @Override
     public String toString() {
         return "G{" + "z=" + z + '}';
