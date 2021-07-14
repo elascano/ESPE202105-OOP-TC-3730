@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 /**
  *
- * @author Leslie Titoaña LAMES Tech ESPE-DCC0
+ * @author Alina Villavicencio LAMES Tech ESPE-DCC0
  */
 public class A {
     private int a;

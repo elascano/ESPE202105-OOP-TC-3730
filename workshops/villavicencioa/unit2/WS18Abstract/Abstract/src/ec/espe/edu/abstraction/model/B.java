@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Leslie Titoaña LAMES Tech ESPE-DCC0
+ * @author Alina Villavicencio LAMES Tech ESPE-DCC0
  */
 public abstract class  B {
     

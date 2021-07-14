@@ -18,6 +18,9 @@ public class Chicken extends FarmAnimal{
         super(id, breed, bornOn);
         this.isMolting = isMolting;
     }
+    
+    
+
 
     @Override
     public String toString() {
@@ -37,6 +40,16 @@ public class Chicken extends FarmAnimal{
      */
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
+    }
+
+    @Override
+    public void feed(int amount) {
+        System.out.println("feeding the chicken  " + getId() + "with" + amount + "onzes of grains");
+    }
+
+    @Override
+    public void vaccinate(int numberOfVaccines) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
   
