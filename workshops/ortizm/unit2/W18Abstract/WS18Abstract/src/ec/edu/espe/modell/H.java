@@ -3,21 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model;
+package ec.edu.espe.modell;
 
 /**
  *
- * @author Estefania
+ * @author Marlon Ortiz Codec ESPE-DCCO
  */
-// empty class 
 public class H {
-    public H{
+    public H(){
     
-}
+    }
 
-    @Override
-    public String toString() {
-        return "H{" + '}';
+   
+   
+   
     }
     
-}
+
