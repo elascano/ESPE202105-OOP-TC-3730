@@ -10,5 +10,7 @@ package ec.edu.espe.model;
  * @author Estefania
  */
 public class H {
+    public H{
     
+}
 }

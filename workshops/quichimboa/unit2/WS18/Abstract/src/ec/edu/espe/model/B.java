@@ -21,6 +21,10 @@ public class B {
         this.d = d;
     }
 
+    public B() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     @Override
     public String toString() {
         return "B{" + "f=" + f + ", d=" + d + ", gs=" + gs + '}';
@@ -75,6 +79,10 @@ public class B {
      */
     public void setGs(ArrayList<G> gs) {
         this.gs = gs;
+    }
+
+    public void setA(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
