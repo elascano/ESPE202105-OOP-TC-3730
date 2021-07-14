@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model;
+package ec.edu.espe.view;
 
 /**
  *
- * @author hecto
+ * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
-public class G {
-    private int z; // 2 constructor is missing, to string and setters, getters 
+public class main {
+    
 }
