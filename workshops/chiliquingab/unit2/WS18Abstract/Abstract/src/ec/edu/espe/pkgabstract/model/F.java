@@ -10,21 +10,22 @@ package ec.edu.espe.pkgabstract.model;
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
 public class F {
-    private String f;
+    private String f; //Error is not an "f", but an "r" 
+
 
     @Override
-    public String toString() {
+    public String toString() {  //1
         return "F{" + "f=" + f + '}';
     }
 
-    public F(String f) {
+    public F(String f)  
         this.f = f;
     }
 
     /**
      * @return the f
      */
-    public String getF() {
+    public String getF() {  
         return f;
     }
 

@@ -11,12 +11,12 @@ package ec.edu.espe.pkgabstract.model;
  */
 public class H {
 
-    @Override
+    @Override //5 points
     public String toString() {
         return "H{" + '}';
     }
 
-    public H() {
+    public H() {  //5 points
     }
     
 }

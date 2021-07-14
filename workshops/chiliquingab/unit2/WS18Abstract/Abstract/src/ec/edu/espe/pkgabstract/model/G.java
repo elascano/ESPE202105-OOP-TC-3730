@@ -10,13 +10,13 @@ package ec.edu.espe.pkgabstract.model;
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
 public class G {
-    private int z;
+    private int z; //2
 
-    public G(int z) {
+    public G(int z) { //2
         this.z = z;
     }
 
-    @Override
+    @Override //2
     public String toString() {
         return "G{" + "z=" + z + '}';
     }
@@ -33,14 +33,14 @@ public class G {
     /**
      * @return the z
      */
-    public int getZ() {
+    public int getZ() { //2
         return z;
     }
 
     /**
      * @param z the z to set
      */
-    public void setZ(int z) {
+    public void setZ(int z) { //2
         this.z = z;
     }
 }

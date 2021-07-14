@@ -13,22 +13,24 @@ import java.util.ArrayList;
  */
 public class C {
 
-    private ArrayList<H> hs;
+    private ArrayList<H> hs; // Needs completing 1,5
 
-    public C(ArrayList<H> hs) {
+    public C(ArrayList<H> hs) { //2
         this.hs = hs;
     }
 
-    @Override
+    @Override //1
     public String toString() {
         return "C{" + "hs=" + hs + '}';
     }
 
-    public static void m(F f) {
+    public static void m(F f) { // Methods to complete 1
+
 
     }
 
-    public static float m(float f) {
+    public static float m(float f) { //Needs completing 1
+
 
         return f;
     }
@@ -36,14 +38,14 @@ public class C {
     /**
      * @return the hs
      */
-    public ArrayList<H> getHs() {
+    public ArrayList<H> getHs() { //1
         return hs;
     }
 
     /**
      * @param hs the hs to set
      */
-    public void setHs(ArrayList<H> hs) {
+    public void setHs(ArrayList<H> hs) { //1
         this.hs = hs;
     }
 }
