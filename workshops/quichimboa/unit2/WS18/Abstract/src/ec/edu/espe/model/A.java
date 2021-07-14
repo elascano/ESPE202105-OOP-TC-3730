@@ -23,14 +23,16 @@ public class A extends B{
     public void A (){   
 }
 
-    
-    public A(int a, A a1, A a2, int b) {
+    public A(int a, A a1, A a2, int b, float f, double d) {
+        super(f, d);
         this.a = a;
         this.a1 = a1;
         this.a2 = a2;
         this.b = b;
     }
 
+    
+   
     @Override
     public String toString() {
         return "A{" + "a=" + a + ", a1=" + a1 + ", a2=" + a2 + ", b=" + b + ", bs=" + bs + '}';

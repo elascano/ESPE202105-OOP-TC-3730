@@ -46,7 +46,6 @@ public class WS13Chair {
             System.out.println("Number of Chairs: " + Chair.size());
         }
         
-                
-        }
+    }
     
 }
