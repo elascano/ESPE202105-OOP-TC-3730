@@ -16,7 +16,7 @@ public class FarmAnimal {
     private String breed;
     private Date bornOn;
     
-    
+    public abstract void feed (int amount);
     
     public int getAgeInMonths(){
         //TODO compute the age in months
