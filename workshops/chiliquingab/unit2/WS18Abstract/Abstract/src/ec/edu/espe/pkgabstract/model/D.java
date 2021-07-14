@@ -9,13 +9,12 @@ package ec.edu.espe.pkgabstract.model;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class D {
+public class D extends B{
     private int x;
     private int y;
 
-    public D(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public D(float f, double d) {
+        super(f, d);
     }
 
     @Override
@@ -54,5 +53,15 @@ public class D {
      */
     public void setY(int y) {
         this.y = y;
+    }
+
+    @Override
+    public void operation1(int n) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public float operation2(float f) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
