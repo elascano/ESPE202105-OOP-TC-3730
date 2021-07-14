@@ -11,11 +11,14 @@ import java.util.Date;
  *
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
-public class FarmAnimal {
+public abstract class FarmAnimal {
     private int id;
     private String breed;
     private Date bornOn;
 
+    public abstract void feed (int amount);
+    public abstract void vaccinate (int number0Vaccines);
+    
     public FarmAnimal(int id, String breed, Date bornOn) {
         this.id = id;
         this.breed = breed;

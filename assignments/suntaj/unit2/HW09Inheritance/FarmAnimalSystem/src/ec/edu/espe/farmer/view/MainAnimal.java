@@ -12,12 +12,7 @@ import ec.edu.espe.farmer.model.Pig;
 import ec.edu.espe.farmer.model.Sheep;
 import java.util.ArrayList;
 import java.util.Date;
-//import ec.edu.espe.farmer.model.Cow;
-//import ec.edu.espe.farmer.model.FarmAnimal;
-//import ec.edu.espe.farmer.model.Pig;
-//import ec.edu.espe.farmer.model.Sheep;
-//import java.util.ArrayList;
-//import java.util.Date;
+
 
 /**
  *
