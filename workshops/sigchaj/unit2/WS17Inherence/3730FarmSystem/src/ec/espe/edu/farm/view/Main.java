@@ -23,7 +23,7 @@ public class Main {
         
         FarmAnimal farmAnimal;
         Date date = new Date();
-        farmAnimal = new FarmAnimal(0, "german shephard", date);
+        farmAnimal = new Chicken(0, "criolla", date, false);
         System.out.println("Farm Animal ->" + farmAnimal);
         date = new Date(2021, 01, 20);
         ArrayList<FarmAnimal> farmAnimals = new ArrayList<>();
@@ -41,6 +41,7 @@ public class Main {
 
         System.out.println("My farm has -> " + farmAnimals.size() + "animals");
         System.out.println("My FarmAnimals are -> " + farmAnimals);
+        
 
     }
 
