@@ -3,28 +3,38 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.abastract.model;
+package ec.edu.espe.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Estefania
  */
-public class G {                 //class G is complete 
-    
+public class G {
     private int z;
+ 
+     public static void m(F f){
+        
+    }
+    
+    public static float m(float f){
+        
+        return f;
+    }
 
     public G(int z) {
         this.z = z;
     }
 
+    public G() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   
+
     @Override
     public String toString() {
         return "G{" + "z=" + z + '}';
     }
-    
-    
-    
-    
 
     /**
      * @return the z
@@ -39,8 +49,5 @@ public class G {                 //class G is complete
     public void setZ(int z) {
         this.z = z;
     }
-    
-    
-    
     
 }

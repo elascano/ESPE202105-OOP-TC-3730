@@ -3,30 +3,41 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.abastract.model;
+package ec.edu.espe.model;
 
 import java.util.ArrayList;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Estefania
  */
-public abstract class B {         // toString not found, operations not declared as abstract.
+public class B {
     private float f;
     private double d;
+    private ArrayList<G> gs = new ArrayList<>();
+
+    public B(float f, double d) {
+        this.f = f;
+        this.d = d;
+    }
+
+    public B() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String toString() {
+        return "B{" + "f=" + f + ", d=" + d + ", gs=" + gs + '}';
+    }
     
-     private ArrayList<G> gs = new ArrayList<>();
-     
-     
-     public int operation1(int n){
-         
+    
+    public int operation1 (int n){
         return n;
-     }
-     
-     public float operation2(float f){
-         
-         return f;
-     }        
+    }
+    
+    public float operation2 (float f){
+        return f;
+    }
 
     /**
      * @return the f
@@ -69,9 +80,10 @@ public abstract class B {         // toString not found, operations not declared
     public void setGs(ArrayList<G> gs) {
         this.gs = gs;
     }
-     
-             
-             
-             
-             
-             }
+
+    public void setA(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
+}

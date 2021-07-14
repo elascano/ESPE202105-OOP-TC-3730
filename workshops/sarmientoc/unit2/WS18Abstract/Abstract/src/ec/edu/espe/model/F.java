@@ -3,18 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.abastract.model;
+package ec.edu.espe.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Estefania
  */
-public class F {            //class F is complete
-    
+public class F {
     private String r;
 
     public F(String r) {
         this.r = r;
+    }
+
+    public F() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
@@ -22,8 +25,6 @@ public class F {            //class F is complete
         return "F{" + "r=" + r + '}';
     }
 
-    
-    
     /**
      * @return the r
      */
@@ -37,8 +38,5 @@ public class F {            //class F is complete
     public void setR(String r) {
         this.r = r;
     }
-    
-    
-    
     
 }
