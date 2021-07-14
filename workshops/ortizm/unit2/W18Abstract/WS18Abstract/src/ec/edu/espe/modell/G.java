@@ -3,37 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model;
+package ec.edu.espe.modell;
 
 /**
  *
- * @author Estefania
+ * @author Marlon Ortiz Codec ESPE-DCCO
  */
 public class G {
     private int z;
- 
-     public static void m(F f){
-        
-    }
-    
-    public static float m(float f){
-        
-        return f;
-    }
 
     public G(int z) {
         this.z = z;
     }
 
-    public G() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-   
-
     @Override
     public String toString() {
-        return "G{" + "z=" + z + '}';
+        return "G{" + "z=" + getZ() + '}';
     }
 
     /**

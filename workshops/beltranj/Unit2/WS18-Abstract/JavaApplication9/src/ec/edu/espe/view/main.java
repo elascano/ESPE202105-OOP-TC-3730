@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model;
+package ec.edu.espe.view;
 
 /**
  *
- * @author hecto
+ * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
-public class B {
-    private float f;  //1 - it only has the variables f and d declared
-    private double d; //1 - it only has the variables f and d declared
+public class main {
     
 }

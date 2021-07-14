@@ -3,44 +3,51 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model;
+package ec.edu.espe.modell;
 
-
+import java.util.ArrayList;
 
 /**
  *
- * @author Andrea Quichimbo Program Builder ESPE-DCCO
+ * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public class A extends B{
+public class A {
     private int a;
     private A a1;
     private A a2;
     private int b;
-    private B[] bs = new B[5];
+    private B [] bs= new B [5];
+    private ArrayList<C> cs= new ArrayList<>();
 
-   
-
-    public void A (int m, int n){ 
-}
-    public void A (){   
-}
-
-    public A(int a, A a1, A a2, int b, float f, double d) {
-        super(f, d);
+    public A(int a, A a1, A a2, int b) {
         this.a = a;
         this.a1 = a1;
         this.a2 = a2;
         this.b = b;
     }
 
-    
-   
     @Override
     public String toString() {
-        return "A{" + "a=" + a + ", a1=" + a1 + ", a2=" + a2 + ", b=" + b + ", bs=" + bs + '}';
+        return "A{" + "a=" + a + ", a1=" + a1 + ", a2=" + a2 + ", b=" + b + ", bs=" + bs + ", cs=" + cs + '}';
     }
+
+    
+    private A() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+   
     
     
+        
+    public A m (int m, int n){
+        A a = new A ();
+        return a;
+       
+}
+    public A m(){
+    A a = new A();
+    return a;
+    }
 
     /**
      * @return the a
@@ -112,10 +119,20 @@ public class A extends B{
         this.bs = bs;
     }
 
-    public void setI(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    /**
+     * @return the cs
+     */
+    public ArrayList<C> getCs() {
+        return cs;
+    }
+
+    /**
+     * @param cs the cs to set
+     */
+    public void setCs(ArrayList<C> cs) {
+        this.cs = cs;
     }
     
-}
     
-        
+    
+}

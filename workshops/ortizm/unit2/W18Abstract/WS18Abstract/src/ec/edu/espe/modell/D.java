@@ -3,50 +3,45 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.espe.edu.abstraction.model;
+package ec.edu.espe.modell;
+
+import ec.edu.espe.modell.B;
 
 /**
  *
- * @author Marco Arias SkyNet.hub tech ESPE-DCCO
+ * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public class D extends B{
-    
+public class D extends B {
     private int x;
     private int y;
-
-    public D(float f, double d) {
-        super(f, d);
-    }
     
     public boolean m(int i){
-        
         return false;
-        
     }
-
-    @Override
-    public int operation1(int n) {    //does not return the value
-        System.out.println("Hello");
-        return 0;
-    }
-
-    @Override
-    public float operation2(float f) {   //does not return the value
-        System.out.println("Hello x2");
-        return 0;
-    }
-
-    public D(int x, int y, float f, double d) {
-        super(f, d);
+    
+     public D(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
     @Override
     public String toString() {
-        return "D{" + "x=" + super.toString()+ getX() + ", y=" + getY() + '}';
+        return "D{" + super.toString() + "x=" + getX() + ", y=" + getY() + '}';
+    }
+    
+    @Override
+    public int operation1(int n) {
+        System.out.println("The int is -> " + n);
+        return n;
     }
 
+    @Override
+    public float operation2(float f) {
+        System.out.println("The float is -> " + f);
+        return f;
+    }
+
+    
     /**
      * @return the x
      */
@@ -74,7 +69,5 @@ public class D extends B{
     public void setY(int y) {
         this.y = y;
     }
-    
-    
     
 }

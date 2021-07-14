@@ -3,49 +3,39 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.espe.edu.abstraction.model;
+package ec.edu.espe.modell;
 
 /**
  *
- * @author Marco Arias SkyNet.hub tech ESPE-DCCO
+ * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public class E extends B{
-    
+public class E {
     private float p;
     private float q;
 
-    public E(float f, double d) {
-        super(f, d);
-    }
-    
-    public int m1(boolean b){
-        return 0;
-        
-    }
-
-    public E(float p, float q, float f, double d) {   //array
-        super(f, d);
+    public E(float p, float q) {
         this.p = p;
         this.q = q;
     }
 
-    @Override
-    public String toString() {
-        return "E{" +super.toString()+ "p=" + getP() + ", q=" + getQ() + '}';
+    public E(float f, float f1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     
     @Override
-    public int operation1(int n) {   //return value
-        System.out.println("Hello");
-        return 0;
+    public String toString() {
+        return "E{" + "p=" + getP() + ", q=" + getQ() + '}';
     }
-
-    @Override
-    public float operation2(float f) {  //return value
-        System.out.println("Hello");
-        return 0;
-    }
+    
+    
+    
+    public static boolean m1(boolean b) {
+        
+        return b;
+ 
+    
+}
 
     /**
      * @return the p
@@ -74,5 +64,4 @@ public class E extends B{
     public void setQ(float q) {
         this.q = q;
     }
-    
 }

@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model;
+package ec.edu.espe.modell;
 
 /**
  *
- * @author Estefania
+ * @author Marlon Ortiz Codec ESPE-DCCO
  */
 public class F {
     private String r;
@@ -16,13 +16,9 @@ public class F {
         this.r = r;
     }
 
-    public F() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     @Override
     public String toString() {
-        return "F{" + "r=" + r + '}';
+        return "F{" + "r=" + getR() + '}';
     }
 
     /**
@@ -38,5 +34,6 @@ public class F {
     public void setR(String r) {
         this.r = r;
     }
+    
     
 }
