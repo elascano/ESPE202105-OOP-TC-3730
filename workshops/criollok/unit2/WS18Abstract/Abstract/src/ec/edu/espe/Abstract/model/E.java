@@ -9,11 +9,12 @@ package ec.edu.espe.Abstract.model;
  *
  * @author Kevin Criollo Beta-SoftwareTech ESPE-DCCO
  */
-public class  E extends B  {
-private float p;
+public class E extends B {//the constructor has not parameters and the method does not receive a b.
+
+    private float p;
     private float q;
-    
-    public int m1(int i){
+
+    public int m1(int i) {
         return 0;
     }
 
@@ -21,12 +22,12 @@ private float p;
         this.p = p;
         this.q = q;
     }
-    
+
     @Override
     public String toString() {
         return "E{" + super.toString() + "p=" + p + ", q=" + q + '}';
     }
-    
+
     @Override
     public int operation1(int n) {
         System.out.println("The int is -> " + n);
@@ -67,10 +68,4 @@ private float p;
         this.q = q;
     }
 
-
-
-
-
-
-    
 }
