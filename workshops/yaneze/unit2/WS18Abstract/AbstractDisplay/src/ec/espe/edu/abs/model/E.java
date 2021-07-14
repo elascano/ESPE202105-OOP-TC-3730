@@ -9,11 +9,11 @@ package ec.espe.edu.abs.model;
  *
  * @author Erick Yánez LAMESTech ESPE-DCC0
  */
-public class E extends B {
-    private float p;
-    private float q;
+public class E extends B {//1
+    private float p;//1
+    private float q;//1
     
-    public int m1(int i){
+    public int m1(int i){//0
         return 0;
     }
 
@@ -22,9 +22,11 @@ public class E extends B {
         return "E{" + super.toString() + "p=" + p + ", q=" + q + '}';
     }
 
+    //2
     
     //constructor
-    public E(float p, float q) {
+    public E(float p, float q) {//0
+        //incomplete constructor
         this.p = p;
         this.q = q;
     }
@@ -59,13 +61,13 @@ public class E extends B {
     }
 
     @Override
-    public int operation1(int n) {
+    public int operation1(int n) {//1
         System.out.println("The int is -> " + n);
         return n;
     }
 
     @Override
-    public float operation2(float f) {
+    public float operation2(float f) {//1
         System.out.println("The float is -> " + f);
         return f;
     }
