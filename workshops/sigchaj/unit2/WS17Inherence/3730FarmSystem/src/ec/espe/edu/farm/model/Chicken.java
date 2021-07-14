@@ -19,6 +19,9 @@ public class Chicken extends FarmAnimal{
         super(id, breed, bornOn);
         this.isMolting = isMolting;
     }
+    
+    
+    
 
     @Override
     public String toString() {
