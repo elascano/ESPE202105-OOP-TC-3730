@@ -3,35 +3,35 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.abastract.model;
+package ec.edu.espe.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Estefania
  */
-public class D extends B {     //method not found.
+public class D {
     private int x;
     private int y;
     
-    public boolean m(int i){
+ public static boolean m(int i){
+        
         return false;
     }
 
-    @Override
-    public String toString() {
-        return "D{" + super.toString() + "x=" + getX() + ", y=" + getY() + '}';
-    }
-
-    //constructor
     public D(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    
-    
-    
-    
+    public D() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String toString() {
+        return "D{" + "x=" + x + ", y=" + y + '}';
+    }
+
     /**
      * @return the x
      */
@@ -59,19 +59,5 @@ public class D extends B {     //method not found.
     public void setY(int y) {
         this.y = y;
     }
-
-    @Override
-    public int operation1(int n) {
-        System.out.println("The int is -> " + n);
-        return n;
-    }
-
-    @Override
-    public float operation2(float f) {
-        System.out.println("The float is -> " + f);
-        return f;
-    }
-
-    
     
 }

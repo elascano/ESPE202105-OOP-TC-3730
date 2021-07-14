@@ -3,27 +3,33 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.abastract.model;
+package ec.edu.espe.model;
 
 import java.util.ArrayList;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Estefania
  */
-public class C {             //toString not found, method not found.
-    
+public class C { // the function does not return the correct thing
     private ArrayList<H> hs = new ArrayList<>();
     
+    public void m(F f){
+       
+}
     public float m(float f){
-        
-        return f;
-        
-    }
+    return 0;
+}
 
     public C() {
     }
-    
+
+    @Override
+    public String toString() {
+        return "C{" + "hs=" + hs + '}';
+    }
+
+  
 
     /**
      * @return the hs
@@ -38,6 +44,5 @@ public class C {             //toString not found, method not found.
     public void setHs(ArrayList<H> hs) {
         this.hs = hs;
     }
-    
     
 }

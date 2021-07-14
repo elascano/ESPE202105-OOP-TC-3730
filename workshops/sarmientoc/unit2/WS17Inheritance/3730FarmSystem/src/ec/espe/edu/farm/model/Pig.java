@@ -4,44 +4,48 @@
  * and open the template in the editor.
  */
 package ec.espe.edu.farm.model;
-
 import java.util.Date;
 
 /**
  *
  * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
-public class Chicken extends FarmAnimal{
-    private boolean isMolting;
-
-    public Chicken(int id, String breed, Date bornOn, boolean isMolting) {
-        super(id, breed, bornOn);
-        this.isMolting = isMolting;
-    }
+public class Pig extends FarmAnimal {
+    private float weight;
     
+    
+    public Pig(int id,String breed, Date bornOn){
+        super(id, breed, bornOn);
+        this.weight = weight;
+    }
+
 
     @Override
     public String toString() {
-        return "Chicken{" + super.toString() +  "isMolting=" + isMolting + '}';
+        return "Pig{" + "weight=" + getWeight() + '}';
     }
-
     
-    /**
-     * @return the isMolting
-     */
-    public boolean isIsMolting() {
-        return isMolting;
-    }
-
-    /**
-     * @param isMolting the isMolting to set
-     */
-    public void setIsMolting(boolean isMolting) {
-        this.isMolting = isMolting;
-    }
-
     @Override
     public void feed(int amount) {
+        System.out.println("feeding the pig with"  + amount + "units of pig food");
+    }
+
+    /**
+     * @return the weight
+     */
+    public float getWeight() {
+        return weight;
+    }
+
+    /**
+     * @param weight the weight to set
+     */
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+    
+    @Override
+    public void vaccinate(int amount) {
         System.out.println("feeding the chicken" + getId() + "with" + amount + "onzes of grains");
     }
     

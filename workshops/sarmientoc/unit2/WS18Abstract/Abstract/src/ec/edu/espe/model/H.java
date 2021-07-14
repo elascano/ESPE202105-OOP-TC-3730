@@ -3,13 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.abastract.model;
+package ec.edu.espe.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Estefania
  */
-public class H {        //toString and Constructor not found, empty class
+// empty class 
+public class H {
+    public H{
+    
+}
 
+    @Override
+    public String toString() {
+        return "H{" + '}';
+    }
     
 }
