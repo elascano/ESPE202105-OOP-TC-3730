@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class A {
+public class A extends B{
 
     private int a;
     private int b;
@@ -22,6 +22,18 @@ public class A {
     private B[] bs = new B[5];
 
     private ArrayList<C> cs = new ArrayList<>();
+
+    public A(float f, double d) {
+        super(f, d);
+    }
+
+    public A(int a, int b, A a1, A a2, float f, double d) {
+        super(f, d);
+        this.a = a;
+        this.b = b;
+        this.a1 = a1;
+        this.a2 = a2;
+    }
 
     public A m(int m, int n) {
         return null;
@@ -35,13 +47,6 @@ public class A {
     @Override
     public String toString() {
         return "A{" + "a=" + a + ", b=" + b + ", a1=" + a1 + ", a2=" + a2 + ", bs=" + bs + ", cs=" + cs + '}';
-    }
-
-    public A(int a, int b, A a1, A a2) {
-        this.a = a;
-        this.b = b;
-        this.a1 = a1;
-        this.a2 = a2;
     }
 
     /**
@@ -126,5 +131,15 @@ public class A {
      */
     public void setCs(ArrayList<C> cs) {
         this.cs = cs;
+    }
+
+    @Override
+    public void operation1(int n) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public float operation2(float f) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
