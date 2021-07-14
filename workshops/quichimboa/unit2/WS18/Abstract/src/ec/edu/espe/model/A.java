@@ -18,6 +18,8 @@ public class A extends B{
     private int b;
     private B[] bs = new B[5];
 
+   
+
     public void A (int m, int n){ 
 }
     public void A (){   
@@ -108,6 +110,10 @@ public class A extends B{
      */
     public void setBs(B[] bs) {
         this.bs = bs;
+    }
+
+    public void setI(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

@@ -18,7 +18,7 @@ public class G {
     }
 
     @Override
-    public String toString() {
+    public String toString() {//The class is complete   
         return "G{" + "z=" + getZ() + '}';
     }
 

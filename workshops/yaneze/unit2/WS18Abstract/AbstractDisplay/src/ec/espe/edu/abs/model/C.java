@@ -12,8 +12,8 @@ import java.util.ArrayList;
  * @author Erick Yánez LAMESTech ESPE-DCC0
  */
 public class C {
-    private ArrayList<H> hs = new ArrayList<>();
-    public void m(F f){
+    private ArrayList<H> hs = new ArrayList<>();//2
+    public void m(F f){//2
         
     }
 
@@ -22,35 +22,36 @@ public class C {
     
     
     @Override
-    public String toString() {
+    public String toString() {//2
         return "C{" + "hs=" + hs + '}';
     }
 
     
     
     //constructor
-    public C() {
+    public C() {//0.5
+        //incomplete constructor
     }
     
     
     
     
     
-    public float m(float f){
+    public float m(float f){//2
         return f;
     }
 
     /**
      * @return the hs
      */
-    public ArrayList<H> getHs() {
+    public ArrayList<H> getHs() {//1
         return hs;
     }
 
     /**
      * @param hs the hs to set
      */
-    public void setHs(ArrayList<H> hs) {
+    public void setHs(ArrayList<H> hs) {//1
         this.hs = hs;
     }
          

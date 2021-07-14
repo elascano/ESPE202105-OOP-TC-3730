@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Estefania
  */
-public class C {
+public class C { // the function does not return the correct thing
     private ArrayList<H> hs = new ArrayList<>();
     
     public void m(F f){

@@ -17,6 +17,20 @@ public class E {
         return 0;
 }
 
+    public E(float p, float q) {
+        this.p = p;
+        this.q = q;
+    }
+
+    public E() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String toString() {
+        return "E{" + "p=" + p + ", q=" + q + '}';
+    }
+
     /**
      * @return the p
      */
