@@ -2035,6 +2035,11 @@ hs_err_pid*
 >>>>>>> 79a999ecdb453888a71ac3f590e2735c3eca6d7b
 >>>>>>> 6f064eedfcec8b05bae3534cbf497fbe4bc8372b
 <<<<<<< HEAD
+/workshops/ortizm/unit2/W17Inherence/FarmSystem/build/
+/workshops/ortizm/unit2/W17Inherence/FarmSystem/nbproject/private/
+/workshops/ortizm/unit2/W18Abstract/Abstract/nbproject/private/
+=======
+<<<<<<< HEAD
 /workshops/criollok/unit2/Nueva Carpeta/Abstract/nbproject/private/
 =======
 >>>>>>> 53f17fce3ff8194c07a159c1bbcf9d4614b16fee
@@ -2083,3 +2088,4 @@ hs_err_pid*
 >>>>>>> d7ae05a20e0fc864be19456e894a3fb9c8bd88de
 >>>>>>> 13789b99507f7278cd7a1a47549f2f1aac88b228
 >>>>>>> 7d0b372c560ca70efec2f71f74da2f7a57e57056
+>>>>>>> a13b3a13c376d3966319a5d6f50d8f41c976ac94

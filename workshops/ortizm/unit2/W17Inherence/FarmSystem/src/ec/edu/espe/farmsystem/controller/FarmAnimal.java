@@ -11,10 +11,14 @@ import java.util.Date;
  *
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public class FarmAnimal {
+public abstract class FarmAnimal {
     private int id;
     private String breed;
     private Date bornOn;
+    
+    public abstract void vaccinate(int numberOfVaccines);
+    public abstract void feed(int amount);
+
 
     @Override
     public String toString() {
