@@ -20,6 +20,11 @@ public abstract class B {
     public abstract int operation1(int n);
     
     public abstract float operation2(float f);
+    
+    // toString not found
+    // setter and getter not found
+   
+    
 
 }
    

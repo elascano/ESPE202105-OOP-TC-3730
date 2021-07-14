@@ -9,7 +9,7 @@ package ec.edu.espe.abstracts.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class F {
+public class F {       // The don’t have the method  
    private String r; 
 
     /**

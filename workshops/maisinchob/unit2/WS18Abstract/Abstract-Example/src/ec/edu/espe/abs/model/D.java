@@ -13,7 +13,7 @@ public class  D extends B{
     private int x;
     private int y;
     
-    public boolean m(int i){
+    public boolean m(int i){ //0 incomplete m
         return false;
     }
 
@@ -23,7 +23,7 @@ public class  D extends B{
     }
 
     //constructor
-    public D(int x, int y) {
+    public D(int x, int y) { //0 incomplete constructor
         this.x = x;
         this.y = y;
     }
@@ -57,13 +57,13 @@ public class  D extends B{
     }
 
     @Override
-    public int operation1(int n) {
+    public int operation1(int n) {//0 incomplete operation1
         System.out.println("The int is -> " + n);
         return n;
     }
 
     @Override
-    public float operation2(float f) {
+    public float operation2(float f) {//0 incomplete operation2
         System.out.println("The float is -> " + f);
         return f;
     }

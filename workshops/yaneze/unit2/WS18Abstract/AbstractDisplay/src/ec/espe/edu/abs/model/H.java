@@ -11,4 +11,6 @@ package ec.espe.edu.abs.model;
  */
 public class H {
     
+    //missing the constructor
+   //5 points
 }

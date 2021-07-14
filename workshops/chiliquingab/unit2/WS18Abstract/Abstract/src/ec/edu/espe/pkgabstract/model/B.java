@@ -11,22 +11,22 @@ import java.util.ArrayList;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public abstract class B {
+public abstract class B { //1
 
-    private float f;
-    private double d;
-    private ArrayList<G> gs = new ArrayList();
+    private float f; //1
+    private double d; //1
+    private ArrayList<G> gs = new ArrayList(); // 1
 
-    public abstract void operation1(int n);
+    public abstract void operation1(int n); // Es int no void, 0,8
 
-    public abstract float operation2(float f);
+    public abstract float operation2(float f); //1
 
-    @Override
+    @Override //1
     public String toString() {
         return "B{" + "f=" + f + ", d=" + d + ", gs=" + gs + '}';
     }
 
-    public B(float f, double d) {
+    public B(float f, double d) { // falta completar el constructor 0,5
         this.f = f;
         this.d = d;
     }
@@ -34,7 +34,7 @@ public abstract class B {
     /**
      * @return the f
      */
-    public float getF() {
+    public float getF() { //2
         return f;
     }
 
