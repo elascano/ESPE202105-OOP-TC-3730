@@ -11,4 +11,7 @@ package ec.espe.edu.abstraction.model;
  */
 public class H {
 
+    
+    //constructor and to string
+    
 }

@@ -9,6 +9,7 @@ package ec.espe.edu.abstraction.model;
  *
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
+ //it does not have the constructor 
 public class H {
 
 }

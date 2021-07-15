@@ -11,28 +11,28 @@ import java.util.ArrayList;
  *
  * @author Luis Heredia Accent on the Future ESPE-DCC0
  */
-public abstract class B {
-    private float f;
-    private double d;
-    private ArrayList<G> gs = new ArrayList<>();
+public abstract class B {//1     //The class is complete  
+    private float f;//1
+    private double d;//1
+    private ArrayList<G> gs = new ArrayList<>();//1
     
-    public abstract void operation1(int n);
-    public abstract void operation2(float f);
+    public abstract void operation1(int n);//1
+    public abstract void operation2(float f);//1
 
-    public B(float f, double d, ArrayList<G> gs) {
+    public B(float f, double d, ArrayList<G> gs) {//2
         this.f = f;
         this.d = d;
         this.gs = gs;
     }
 
     @Override
-    public String toString() {
+    public String toString() { //2
         return "B{" + "f=" + getF() + ", d=" + getD() + ", gs=" + getGs() + '}';
     }
 
     /**
      * @return the f
-     */
+     */ 
     public float getF() {
         return f;
     }

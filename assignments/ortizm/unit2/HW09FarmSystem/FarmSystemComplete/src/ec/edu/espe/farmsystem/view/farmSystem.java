@@ -15,7 +15,7 @@ import java.util.Date;
 
 /**
  *
- * @author Josselyn Sigcha Codes ESPE-DCCO
+ * @author  Marlon Ortiz ESPE-DCCO
  */
 public class farmSystem {
     

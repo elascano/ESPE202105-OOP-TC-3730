@@ -9,7 +9,7 @@ package ec.edu.espe.abastract.model;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class F {
+public class F {            //class F is complete
     
     private String r;
 
