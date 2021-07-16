@@ -12,16 +12,16 @@ import java.util.ArrayList;
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
 public class A {
-    private int a;       //1
-    private int b;       //1
+    private int a;       //1 is complete
+    private int b;       //1 is complete
     
-    private A a1;        //1
-    private A a2;        //1
+    private A a1;        //1 is complete
+    private A a2;        //1 is complete
     
   
-    private B[] bs = new B[5];    //1
+    private B[] bs = new B[5];    //1 is complete
     
-    private ArrayList<C> cs = new ArrayList<>();      //1
+    private ArrayList<C> cs = new ArrayList<>();      //1 is complete
     
     public A m(int m, int n){   //0,6
         return null;             //does not contain your return a from to not declaration in method nor scope of method variables
