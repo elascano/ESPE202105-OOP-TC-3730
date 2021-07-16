@@ -24,7 +24,7 @@ public class Abstract {
         System.out.println("Welcome Abstract System");
         System.out.println("\n ");
         
-      
+      //  miss to be instantiated the variables
         
         B b;
         

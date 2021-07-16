@@ -15,13 +15,10 @@ public class C extends B{
 
     private ArrayList<H> hs; // Needs completing 1,5
 
-<<<<<<< HEAD
     public C(ArrayList<H> hs) { //2
         this.hs = hs;
-=======
     public C(float f, double d) {
         super(f, d);
->>>>>>> 95649c147e804d6dca6e3f38f5c544b54ef3e496
     }
 
     @Override //1

@@ -25,21 +25,21 @@ public class A {
     
     private ArrayList<C> cs = new ArrayList<>();
     
-    public A m(int m, int n){
+    public A m(int m, int n){ //incomplete method
         return null;
     }
     
-    public A m(){
+    public A m(){// incomplete methof
         
         return null;
     }
 @Override
-    public String toString() {
+    public String toString() { //incomplete toString
         return "A{" + "a=" + a + ", b=" + b + ", a1=" + a1 + ", a2=" + a2 + ", bs=" + Arrays.toString(bs) + ", cs=" + cs + '}';
     }
 
     //constructor
-    public A(int a, int b, A a1, A a2) {
+    public A(int a, int b, A a1, A a2) { //incomplete Constructor
         this.a = a;
         this.b = b;
         this.a1 = a1;
