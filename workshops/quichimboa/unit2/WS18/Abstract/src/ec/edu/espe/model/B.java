@@ -11,7 +11,8 @@ import java.util.ArrayList;
  *
  * @author Estefania
  */
-public class B {
+public class B { // class not declared as abstract, wrong methods
+
     private float f;
     private double d;
     private ArrayList<G> gs = new ArrayList<>();
