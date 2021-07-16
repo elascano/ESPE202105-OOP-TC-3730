@@ -11,21 +11,22 @@ import java.util.ArrayList;
  *
  * @author Estefania
  */
-public class C { // the function does not return the correct thing
-    private ArrayList<H> hs = new ArrayList<>();
+public class C { //1
+    private ArrayList<H> hs = new ArrayList<>(); //1
     
-    public void m(F f){
+    public void m(F f){ //1
        
 }
-    public float m(float f){
+    public float m(float f){ 
     return 0;
 }
+     //0 the function does not return the correct thing
 
-    public C() {
+    public C() { //1
     }
 
     @Override
-    public String toString() {
+    public String toString() { //1
         return "C{" + "hs=" + hs + '}';
     }
 
@@ -34,14 +35,14 @@ public class C { // the function does not return the correct thing
     /**
      * @return the hs
      */
-    public ArrayList<H> getHs() {
+    public ArrayList<H> getHs() { //1
         return hs;
     }
 
     /**
      * @param hs the hs to set
      */
-    public void setHs(ArrayList<H> hs) {
+    public void setHs(ArrayList<H> hs) { //1
         this.hs = hs;
     }
     
