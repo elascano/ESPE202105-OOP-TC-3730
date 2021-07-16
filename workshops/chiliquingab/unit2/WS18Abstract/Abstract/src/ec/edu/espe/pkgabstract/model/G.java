@@ -9,19 +9,16 @@ package ec.edu.espe.pkgabstract.model;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-<<<<<<< HEAD
 public class G {
     private int z; //2
 
     public G(int z) { //2
         this.z = z;
-=======
 public class G extends B{
     private int z;
 
     public G(float f, double d) {
         super(f, d);
->>>>>>> 95649c147e804d6dca6e3f38f5c544b54ef3e496
     }
 
     @Override //2
