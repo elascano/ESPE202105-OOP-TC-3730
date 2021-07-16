@@ -12,5 +12,9 @@ package ec.espe.edu.abstraction.view;
 public class Main {
     public static void main(String[] args) {
     
+<<<<<<< HEAD
+=======
+    // The main is empty
+>>>>>>> 25bfb54377bb63966312347ec544e044d2a7a57b
 }
     }
