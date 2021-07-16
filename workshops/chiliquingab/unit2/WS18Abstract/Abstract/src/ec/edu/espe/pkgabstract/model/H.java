@@ -20,9 +20,7 @@ public class H extends B{
         return "H{" + '}';
     }
 
-<<<<<<< HEAD
     public H() {  //5 points
-=======
     @Override
     public void operation1(int n) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -31,6 +29,5 @@ public class H extends B{
     @Override
     public float operation2(float f) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
->>>>>>> 95649c147e804d6dca6e3f38f5c544b54ef3e496
     }
 }
