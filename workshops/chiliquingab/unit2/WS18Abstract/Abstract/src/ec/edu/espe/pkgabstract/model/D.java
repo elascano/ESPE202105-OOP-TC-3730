@@ -16,6 +16,15 @@ public class D { // falta Extends B  0
     public D(int x, int y) {
         this.x = x;
         this.y = y;
+<<<<<<< HEAD
+=======
+public class D extends B{
+    private int x;
+    private int y;
+
+    public D(float f, double d) {
+        super(f, d);
+>>>>>>> ace332268e238da37ba90259b9d6acb921c352de
     }
 
     @Override // falta la concatenacion 0,5

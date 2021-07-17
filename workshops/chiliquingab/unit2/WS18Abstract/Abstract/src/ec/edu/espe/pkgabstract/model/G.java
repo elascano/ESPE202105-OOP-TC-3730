@@ -14,6 +14,14 @@ public class G {
 
     public G(int z) { //2
         this.z = z;
+<<<<<<< HEAD
+=======
+public class G extends B{
+    private int z;
+
+    public G(float f, double d) {
+        super(f, d);
+>>>>>>> ace332268e238da37ba90259b9d6acb921c352de
     }
     
     @Override //2

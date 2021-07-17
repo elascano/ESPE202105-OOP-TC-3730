@@ -19,6 +19,7 @@ public class Abstract {
      */
     public static void main(String[] args) {
         System.out.println("Abstract Example Bryan Chiliquinga NRC: 3027");
+<<<<<<< HEAD
 
         A aa;
        
@@ -27,5 +28,9 @@ public class Abstract {
         System.out.println("A int is a class of -> " + aa.getClass());
        
                 
+=======
+     
+//main no realizado. 
+>>>>>>> ace332268e238da37ba90259b9d6acb921c352de
     }
 }

@@ -15,12 +15,19 @@ public class C{
 
     private ArrayList<H> hs; // Needs completing 1,5
 
+<<<<<<< HEAD
 
     public C(ArrayList<H> hs) { //2
         this.hs = hs;
     }
     public C(float f, double d) {
        
+=======
+    public C(ArrayList<H> hs) { //2
+        this.hs = hs;
+    public C(float f, double d) {
+        super(f, d);
+>>>>>>> ace332268e238da37ba90259b9d6acb921c352de
     }
 
     @Override //1

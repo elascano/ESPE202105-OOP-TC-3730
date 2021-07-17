@@ -10,13 +10,13 @@ package ec.edu.espe.abstracts.model;
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class A {
-    private int a; 
-    private A a1; 
-    private A a2;    
-    private int b; 
-    private B[] bs = new B[5]; 
+    private int a; //1
+    private A a1;  //1
+    private A a2;   //1 
+    private int b; //1
+    private B[] bs = new B[5];     //1
 
-    public A m(int m, int n) {
+    public A m(int m, int n) {    //incompleto 
         A a = new A(); 
         
         return a; 
@@ -100,7 +100,7 @@ public class A {
         this.b = b;
     }
 
-    @Override
+    @Override             //incompleto
     public String toString() {
         return "A{" + "a=" + getA() + ", a1=" + getA1() + ", a2=" + getA2() + ", b=" + getB() + ", bs=" + getBs() + '}';
     }

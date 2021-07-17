@@ -7,8 +7,8 @@ package ec.edu.espe.view;
 
 /**
  *
- * @author Marco Arias SkyNet.hub tech ESPE-DCCO
+ * @author hecto
  */
 public class main {
-    
+    //0 - they have nothing
 }
