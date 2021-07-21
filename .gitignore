@@ -24,3 +24,7 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/yugsim/unit2/WS19-/JavaApplication13/nbproject/private/
+/workshops/yugsim/unit2/WS19-/Exceptions/nbproject/private/
+/workshops/yugsim/unit2/WS19-/Calculator/nbproject/private/
+/workshops/yugsim/unit2/WS19-/Calculator/build/
