@@ -12,4 +12,4 @@ package ec.edu.espe.Abstract.model;
 public class H {
     
 }
-// the class H is complete
+//0  the class H is incomplete toString and Constructor not found 

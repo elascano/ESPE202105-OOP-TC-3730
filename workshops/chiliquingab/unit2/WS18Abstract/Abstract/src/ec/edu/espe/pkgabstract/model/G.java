@@ -14,17 +14,22 @@ public class G {
 
     public G(int z) { //2
         this.z = z;
+<<<<<<< HEAD
+=======
 public class G extends B{
     private int z;
 
     public G(float f, double d) {
         super(f, d);
+>>>>>>> ace332268e238da37ba90259b9d6acb921c352de
     }
-
+    
     @Override //2
     public String toString() {
         return "G{" + "z=" + z + '}';
     }
+
+    
     
     public static void m(F f){
         
@@ -49,13 +54,5 @@ public class G extends B{
         this.z = z;
     }
 
-    @Override
-    public void operation1(int n) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public float operation2(float f) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 }

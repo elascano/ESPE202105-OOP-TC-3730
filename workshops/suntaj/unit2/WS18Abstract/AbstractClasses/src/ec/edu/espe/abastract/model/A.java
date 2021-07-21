@@ -9,23 +9,23 @@ package ec.edu.espe.abastract.model;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class A {
+public class A {            //Don't arraylist and no include operations
     
-    private int a;
-    private int b;
-    private A a1;
-    private A a2;
-    private B[] bs = new B[5];
+    private int a;  //1
+    private int b;   //1
+    private A a1;    //1
+    private A a2;    //1
+    private B[] bs = new B[5];  //1
    
     
-    public void  A(int m, int n){
+    public void  A(int m, int n){    //0.2
   
 }
      public void A(){
         
     }
 
-    public A(int a, int b, A a1, A a2 ) {
+    public A(int a, int b, A a1, A a2 ) {  //0.8   dont arraylist
         this.a = a;
         this.b = b;
         this.a1 = a1;
@@ -33,7 +33,7 @@ public class A {
       
     }
 
-    @Override
+    @Override   //1
     public String toString() {
         return "A{" + "a=" + a + ", b=" + b + ", a1=" + a1 + ", a2=" + a2 + ", bs=" + bs + '}';
     }
