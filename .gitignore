@@ -25,6 +25,11 @@ hs_err_pid*
 # visual paradigm bakcup files
 *vpp.bak*
 <<<<<<< HEAD
+/workshops/ortizm/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/ortizm/unit2/WS18Abstract/Abstract/build/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/jaramilloj/unit1/WS08ChFarmSimulator/3730ChFarmSimulator/nbproject/private/
 /workshops/jaramilloj/unit1/WS08ChFarmSimulator/3730ChFarmSimulator/build/
@@ -1549,6 +1554,15 @@ hs_err_pid*
 >>>>>>> 977fecc464cf20ad7fa413de3c17a43f68f45ccb
 >>>>>>> 5e347ca6f717abcfb1c094206e770da486dbfd51
 <<<<<<< HEAD
+/workshops/angoj/unit2/WS14-Libraries/TastLibrary/nbproject/private/
+/workshops/angoj/unit2/WS14-Libraries/Taxes/nbproject/private/
+/workshops/angoj/unit2/WS14-Libraries/Taxes/build/
+/workshops/angoj/unit2/WS14-Libraries/TaxLibrary/nbproject/private/
+/workshops/angoj/unit2/WS14-Libraries/TaxLibrary/build/
+/workshops/angoj/unit2/WS14-Libraries/TaxLibrary/dist/
+/workshops/angoj/unit2/WS16-3730FarmSystem/3730FarmSystem/nbproject/private/
+=======
+<<<<<<< HEAD
 /workshops/cadenaf/unit2/Nueva Carpeta/TaxLibrary/nbproject/private/
 /workshops/cadenaf/unit2/Nueva Carpeta/Taxes/nbproject/private/
 /workshops/cadenaf/unit2/WS14Libraries/TaxLibrary/nbproject/private/
@@ -1788,6 +1802,11 @@ hs_err_pid*
 >>>>>>> 332fc246f92dfd648e6ded642c47cf73c9ab169b
 >>>>>>> b685526b8d0931fcefddc89bfd598c44b51da8dc
 >>>>>>> e5c856f0c42f9a76bb81906c150945ce1797bb3a
+<<<<<<< HEAD
+/workshops/quichimboa/unit2/W17/3730FarmSystem/nbproject/private/
+/workshops/quichimboa/unit2/W17/3730FarmSystem/build/
+/workshops/quichimboa/unit2/WS18/Abstract/nbproject/private/
+=======
 >>>>>>> 338e1619d9252799a02a57cca3e673f9f41451ea
 <<<<<<< HEAD
 /assignments/chasig/unit2/Nueva Carpeta/FileManager/nbproject/private/
@@ -2023,6 +2042,10 @@ hs_err_pid*
 <<<<<<< HEAD
 >>>>>>> 4eb76031e415196a579479133efd99cc20317523
 <<<<<<< HEAD
+/workshops/quilumbaquink/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/quilumbaquink/unit2/WS18Abstract/AbstractQuiz/nbproject/private/
+=======
+<<<<<<< HEAD
 >>>>>>> c49a34354af4deb20573fc8186f51bae78f747ac
 /workshops/sigchaj/unit2/WS18Abstract/Abstract/nbproject/private/
 =======
@@ -2034,6 +2057,11 @@ hs_err_pid*
 >>>>>>> 53305749ddb6b84f1b93c1b1a8b3335579c12ee4
 >>>>>>> 79a999ecdb453888a71ac3f590e2735c3eca6d7b
 >>>>>>> 6f064eedfcec8b05bae3534cbf497fbe4bc8372b
+<<<<<<< HEAD
+/workshops/ortizm/unit2/W17Inherence/FarmSystem/build/
+/workshops/ortizm/unit2/W17Inherence/FarmSystem/nbproject/private/
+/workshops/ortizm/unit2/W18Abstract/Abstract/nbproject/private/
+=======
 <<<<<<< HEAD
 /workshops/criollok/unit2/Nueva Carpeta/Abstract/nbproject/private/
 =======
@@ -2066,6 +2094,9 @@ hs_err_pid*
 =======
 >>>>>>> 79b54efc90f687551c416d24a8bc132f6bc17793
 <<<<<<< HEAD
+/workshops/titoañal/unit2/WS18Abstract/21/build/
+=======
+<<<<<<< HEAD
 /workshops/villavicencioa/unit2/WS18Abstract/Abstract/build/
 =======
 >>>>>>> 0e6f036977d22d6bd9b9266fdfd48fc0f7b503e2
@@ -2083,6 +2114,40 @@ hs_err_pid*
 >>>>>>> d7ae05a20e0fc864be19456e894a3fb9c8bd88de
 >>>>>>> 13789b99507f7278cd7a1a47549f2f1aac88b228
 >>>>>>> 7d0b372c560ca70efec2f71f74da2f7a57e57056
+<<<<<<< HEAD
 /workshops/jaramilloj/unit2/Nueva Carpeta/JavaApplication30/nbproject/private/
 /workshops/jaramilloj/unit2/Nueva Carpeta/Calculator/nbproject/private/
 /workshops/jaramilloj/unit2/Nueva Carpeta/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/chiliquingab/unit2/WS18Abstract/Abstract/build/
+=======
+>>>>>>> a13b3a13c376d3966319a5d6f50d8f41c976ac94
+>>>>>>> ecb9a07571c586764d6af38ce1f98bac18b33eb5
+>>>>>>> 56339974d7d57d9ea1d164baea6073dbd863ce1b
+<<<<<<< HEAD
+/workshops/quichimboa/unit2/WS18/Abstract/build/
+=======
+>>>>>>> 0524377a68f240727f91e4201480d5bed52a0885
+>>>>>>> 446fd16f60eaead8dbddae8083e62ec1f3d4832f
+<<<<<<< HEAD
+/workshops/ortizm/unit2/W18Abstract/WS18Abstract/nbproject/private/
+=======
+>>>>>>> 55ebc890add5356bf1d4342b673196daf687153b
+>>>>>>> 815c2fbbd0562a7595f785ba7221bf60cf99a6f7
+<<<<<<< HEAD
+/workshops/yaneze/unit2/WS19Calculator/Calculator/nbproject/private/
+/workshops/yaneze/unit2/WS19Calculator/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/sarmientoc/unit2/WS18Abstract/Abstract/nbproject/private/
+=======
+>>>>>>> 86addab01cac324725b9d27e0e34f244efa272a5
+>>>>>>> 3667cac7bfb1f2efa32750f7a3ff2319104088df
+/workshops/sarmientoc/unit2/WS18Abstract/Abstract/build/
+=======
+/workshops/cadenaf/unit2/WS18Abstract/Abstract/build/
+>>>>>>> 33e7f6067e8492899d8e477f2c6d19ca77b29465
+>>>>>>> 4aac1b0c704885eea7e6dc1449150b805b2f9c4f
+>>>>>>> 60fd65d33fb85094c3083ab7a9de9b396c60be22
+>>>>>>> 85c7d1a2b0435085e3df4a1f04c6d3e70445f607

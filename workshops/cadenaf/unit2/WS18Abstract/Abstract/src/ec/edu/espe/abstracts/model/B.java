@@ -11,12 +11,12 @@ import java.util.ArrayList;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class B {
-    private float f; 
-    private double d; 
-    private ArrayList<G> gs = new ArrayList<>(); 
+public class B {                           
+    private float f;                       //1
+    private double d;                 //1
+    private ArrayList<G> gs = new ArrayList<>();        //1 
 
-   public int operation1(int n){
+   public int operation1(int n){                     //1
        
        return n; 
    }

@@ -22,6 +22,8 @@ public class E extends B{
         return 0;
         
     }
+    //missing call super class 
+
 
     public E(float p, float q, float f, double d) {
         super(f, d);
@@ -34,7 +36,7 @@ public class E extends B{
         return "E{" +super.toString()+ "p=" + getP() + ", q=" + getQ() + '}';
     }
 
-    
+    // it does not return value but hello
     @Override
     public int operation1(int n) {
         System.out.println("Hello");
