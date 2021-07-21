@@ -11,14 +11,16 @@ import java.util.ArrayList;
  *
  * @author Erick Yánez LAMESTech ESPE-DCC0
  */
-public abstract class B {
-    private float f;
-    private double d;
-    ArrayList<G> gs = new ArrayList<>();
+public abstract class B {//1
+    private float f;//1
+    private double d;//1
+    ArrayList<G> gs = new ArrayList<>();//1
 
     
-    public abstract int operation1(int n);
+    public abstract int operation1(int n);//1
     
-    public abstract float operation2(float f);
+    public abstract float operation2(float f);//1
 
+    //6 points
+    //missing setters, getters and costructors.
 }

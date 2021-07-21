@@ -10,5 +10,5 @@ package ec.edu.espe.Abstract.model;
  * @author Kevin Criollo Beta-SoftwareTech ESPE-DCCO
  */
 public class H {
-    
+    //Here does not have constructor/ tostring
 }

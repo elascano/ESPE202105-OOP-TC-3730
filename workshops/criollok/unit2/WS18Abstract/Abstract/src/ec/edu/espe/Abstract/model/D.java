@@ -9,7 +9,7 @@ package ec.edu.espe.Abstract.model;
  *
  * @author Kevin Criollo Beta-SoftwareTech ESPE-DCCO
  */
-public class D extends B {
+public class D extends B { //The constructor is incomplete
     private int x;
     private int y;
     

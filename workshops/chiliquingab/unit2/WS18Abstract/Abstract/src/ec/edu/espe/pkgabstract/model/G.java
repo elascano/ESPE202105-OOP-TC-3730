@@ -10,16 +10,26 @@ package ec.edu.espe.pkgabstract.model;
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
 public class G {
+    private int z; //2
+
+    public G(int z) { //2
+        this.z = z;
+<<<<<<< HEAD
+=======
+public class G extends B{
     private int z;
 
-    public G(int z) {
-        this.z = z;
+    public G(float f, double d) {
+        super(f, d);
+>>>>>>> ace332268e238da37ba90259b9d6acb921c352de
     }
-
-    @Override
+    
+    @Override //2
     public String toString() {
         return "G{" + "z=" + z + '}';
     }
+
+    
     
     public static void m(F f){
         
@@ -33,14 +43,16 @@ public class G {
     /**
      * @return the z
      */
-    public int getZ() {
+    public int getZ() { //2
         return z;
     }
 
     /**
      * @param z the z to set
      */
-    public void setZ(int z) {
+    public void setZ(int z) { //2
         this.z = z;
     }
+
+    
 }
