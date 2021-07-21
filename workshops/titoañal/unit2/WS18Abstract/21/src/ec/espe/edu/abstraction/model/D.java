@@ -35,6 +35,7 @@ public class D extends B{
         System.out.println("Hello x2");
         return 0;
     }
+    // missing ArrayList<G> gs
 
     public D(int x, int y, float f, double d) {
         super(f, d);

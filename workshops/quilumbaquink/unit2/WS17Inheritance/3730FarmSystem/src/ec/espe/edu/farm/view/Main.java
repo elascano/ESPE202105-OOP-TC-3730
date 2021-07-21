@@ -29,7 +29,8 @@ public class Main {
     public static void main(String[] args) {
         FarmAnimal farmAnimal;
         Date date=new Date();
-        farmAnimal=new FarmAnimal(0, "german shephard", date);
+        //farmAnimal=new FarmAnimal(0, "german shephard", date);
+        farmAnimal=new Chicken(0, "criolla", date,false);
         System.out.println("Farm Animal -> "+farmAnimal);
         date=new Date(2021,1,20);
         ArrayList <FarmAnimal> farmAnimals=new ArrayList<>();
@@ -82,11 +83,11 @@ public class Main {
         farmAnimals.add(cow2);
         System.out.println("My cows has -> " + cows.size());
         
-        Pig pig=new Pig(0, "duroc", date, 36 );
+        Pig pig=new Pig(36.5F,0, "duroc", date);
         System.out.println("pig -> " + pig);
-        Pig pig1=new Pig(1, "yorkshire", date, 45 );
+        Pig pig1=new Pig(45.2F,1, "yorkshire", date);
         System.out.println("pig -> " + pig1);
-        Pig pig2=new Pig(2, "pietrain", date, 26 );
+        Pig pig2=new Pig(25.3F,2, "pietrain", date);
         System.out.println("pig -> " + pig2);
         pigs.add(pig);
         pigs.add(pig1);
@@ -114,6 +115,16 @@ public class Main {
         System.out.println("My FarmAnimals are -> " + farmAnimals);
         
         
+        farmAnimal=new Pig(20.5F ,3 ,"miniature",new Date(2020,8,25));
+        farmAnimals.add(farmAnimal);
+        
+        chicken.feed(1);
+        farmAnimal.feed(5);
+        
+        chicken.vaccinate(3);
+        farmAnimal.vaccinate(1);
+        
+        System.out.println("My Farm Animals are: " );
         
         
         

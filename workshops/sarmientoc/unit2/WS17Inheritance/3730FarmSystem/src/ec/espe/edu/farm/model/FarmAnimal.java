@@ -10,12 +10,12 @@ import java.util.Date;
  *
  * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
-public class FarmAnimal {
+public abstract class FarmAnimal {
     private int id;
     private String breed;
     private Date bornOn;
     
-    
+    public abstract void feed(int amount);
     
     public int getAgeInMonths(){
         

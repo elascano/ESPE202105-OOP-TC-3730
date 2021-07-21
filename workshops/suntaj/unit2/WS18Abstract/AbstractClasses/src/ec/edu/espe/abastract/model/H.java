@@ -9,6 +9,7 @@ package ec.edu.espe.abastract.model;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class H {
+public class H {        //toString and Constructor not found, empty class
+
     
 }

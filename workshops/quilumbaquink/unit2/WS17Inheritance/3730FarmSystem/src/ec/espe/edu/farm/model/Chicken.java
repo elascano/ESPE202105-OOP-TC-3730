@@ -18,6 +18,8 @@ public class Chicken extends FarmAnimal {
         super(id, breed, bornOn);
         this.isMolting = isMolting;
     }
+    
+    //public abstract void feed(int amount);
 
     @Override
     public String toString() {
@@ -39,5 +41,9 @@ public class Chicken extends FarmAnimal {
         this.isMolting = isMolting;
     }
     
+    @Override
+    public void feed(int amount) {
+        System.out.println("feeding the chicken -> " + getId() + " with " + amount + "onzes of ");
+    }
     
 }
