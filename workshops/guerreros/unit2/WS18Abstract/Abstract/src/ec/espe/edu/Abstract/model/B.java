@@ -15,11 +15,11 @@ public abstract class B {
     
      private float f;
     private double d;
-    ArrayList<G> gs = new ArrayList<>();
+    ArrayList<G> gs = new ArrayList<>(); // the arraylist is private (need)
 
     
     public abstract int operation1(int n);
     
     public abstract float operation2(float f);
-   
+    // it does not have set/get, toString, contructor.
 }

@@ -9,7 +9,7 @@ package ec.edu.espe.abs.model;
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class G {
+public class G { //The class is correct
     private int z;
 
     @Override

@@ -9,17 +9,22 @@ package ec.edu.espe.pkgabstract.model;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class H extends B{
+public class H{
 
     public H(float f, double d) {
-        super(f, d);
+        
     }
 
-    @Override
+    @Override //5 points
     public String toString() {
         return "H{" + '}';
     }
 
+<<<<<<< HEAD
+
+    public H() {  //5 points
+=======
+    public H() {  //5 points
     @Override
     public void operation1(int n) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -28,5 +33,7 @@ public class H extends B{
     @Override
     public float operation2(float f) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+>>>>>>> ace332268e238da37ba90259b9d6acb921c352de
     }
+    
 }
