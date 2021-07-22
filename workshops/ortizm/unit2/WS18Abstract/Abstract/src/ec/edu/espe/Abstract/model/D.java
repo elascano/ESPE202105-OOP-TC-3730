@@ -5,47 +5,51 @@
  */
 package ec.edu.espe.Abstract.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public class D extends B {          //1   
+public class D extends B{          
 
-    private int x;                  //1    
-    private int y;                  //1
+    private int x;                    
+    private int y;          
     
-    public boolean m(int i){        //1
-        return false;
+    public boolean m(int i){
+    boolean result= false;
+    if(i%2==0){
+        result = true;
+   
     }
-           
-     public D(int x, int y) {
+   return result; 
+    } 
+ @Override
+    public int operation1(int n) {
+       int result;
+       result= n+2;
+       return result;
+    }
+
+    @Override
+    public float operation2(float f) {
+        float result;
+        result= f / 2.0F;
+        return result;
+    }
+    @Override
+    public String toString() {
+        return "D{" +super.toString() +"x=" + x + ", y=" + y + '}';
+    }
+
+    
+    public D(int x, int y, float f, double d, ArrayList<G> gs) {
+        super(f, d, gs);
         this.x = x;
         this.y = y;
     }
-                                        //0       methods are missing
-
-    @Override
-    public String toString() {           //0      methods are missing
-
-        return "D{" + super.toString() + "x=" + getX() + ", y=" + getY() + '}';
-    }
     
-    @Override
-    public int operation1(int n) {        //0      methods are missing
 
-        System.out.println("The int is -> " + n);
-        return n;
-    }
-
-    @Override
-    public float operation2(float f) {        //0    methods are missing
-
-        System.out.println("The float is -> " + f);
-        return f;
-    }
-
-    //
-                                               
     /**
      * @return the x
      */
@@ -73,6 +77,7 @@ public class D extends B {          //1
     public void setY(int y) {
         this.y = y;
     }
+
+   
     
 }
-//
