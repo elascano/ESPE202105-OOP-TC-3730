@@ -11,6 +11,7 @@ import java.util.ArrayList;
  *
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
+<<<<<<< HEAD
 public abstract class B {             
     private float f;                
     private double d;                 
@@ -23,6 +24,12 @@ public abstract class B {
     public String toString() {
         return "B{" + "f=" + f + ", d=" + d + ", gs=" + gs + '}';
     }    
+=======
+public abstract class B {             // 1
+    private float f;                  // 1
+    private double d;                 // 1
+    ArrayList<G> gs = new ArrayList<>();        // 1
+>>>>>>> 6cab8e267d92cf1302ae51b4a3bd9be3ce7805f9
 
     public B(float f, double d, ArrayList<G> gs) {
         this.f = f;

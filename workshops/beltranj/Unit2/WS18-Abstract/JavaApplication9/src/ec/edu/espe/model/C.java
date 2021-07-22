@@ -10,5 +10,5 @@ package ec.edu.espe.model;
  * @author hecto
  */
 public class C {
-    
+    //0 - they have nothing
 }

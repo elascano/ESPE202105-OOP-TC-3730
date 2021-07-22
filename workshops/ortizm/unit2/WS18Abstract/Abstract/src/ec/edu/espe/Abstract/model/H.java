@@ -22,3 +22,7 @@ public class H {
     }
     
 }
+<<<<<<< HEAD
+=======
+//0  the class H is incomplete toString and Constructor not found 
+>>>>>>> 6cab8e267d92cf1302ae51b4a3bd9be3ce7805f9
