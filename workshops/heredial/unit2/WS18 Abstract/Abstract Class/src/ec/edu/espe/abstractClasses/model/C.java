@@ -14,11 +14,13 @@ import java.util.ArrayList;
 public class C extends F{
      
    
-   private ArrayList<H> hs = new ArrayList<>();
+   private ArrayList<H> hs = new ArrayList<>();//2  //The body of functions is missing, Organization of To String
+
    
-   public static void m(F f){ 
+   public static void m(F f){ //0 // Incomplete operation
    }
-   public static float m(float f){
+   public static float m(float f){ //0  // Incomplete operation
+   
        
        
        return 0;
@@ -27,12 +29,12 @@ public class C extends F{
        
    }
 
-    public C(ArrayList<H> hs, String r) {
+    public C(ArrayList<H> hs, String r) { //2
         super(r);
         this.hs = hs;
     }
     @Override
-    public String toString() {
+    public String toString() {//1
         return "C{"+super.toString()  + "hs=" + getHs() + '}';
     }
 

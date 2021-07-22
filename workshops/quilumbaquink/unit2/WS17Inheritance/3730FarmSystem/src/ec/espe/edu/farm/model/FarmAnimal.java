@@ -11,10 +11,12 @@ import java.util.Date;
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
-public class FarmAnimal {
+public abstract class  FarmAnimal {
     private int id;
     private String breed;
     private Date bornOn;
+    
+    public abstract void feed(int amount);
 
     public int getAgeInMonths(){
     //TODO Compute the age in months
@@ -73,6 +75,10 @@ public class FarmAnimal {
      */
     public void setBornOn(Date bornOn) {
         this.bornOn = bornOn;
+    }
+
+    public void vaccinate(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

@@ -12,7 +12,8 @@ import java.util.ArrayList;
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
 public class C {
-    
+    //missing constructor and complete polymorphims
+
     private ArrayList<H> hs = new ArrayList<>();
     public void m(F f){
           

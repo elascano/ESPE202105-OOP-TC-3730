@@ -9,8 +9,7 @@ package ec.edu.espe.abstractClasses.model;
  *
  * @author Luis Heredia Accent on the Future ESPE-DCC0
  */
-public class F {
-    
+public class F {  //The class is complete   
     private String r;
 
     public F(String r) {

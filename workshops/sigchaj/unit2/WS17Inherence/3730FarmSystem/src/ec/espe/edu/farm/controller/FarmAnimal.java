@@ -17,7 +17,7 @@ public class FarmAnimal {
     private Date bornOn;
 
 
-    
+    public abstract void feed(int amount);
     
     public int getAgeInMonths(){
         

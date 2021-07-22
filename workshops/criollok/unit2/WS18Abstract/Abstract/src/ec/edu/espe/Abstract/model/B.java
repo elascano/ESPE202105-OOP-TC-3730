@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Kevin Criollo Beta-SoftwareTech ESPE-DCCO
  */
-public abstract class B {
+public abstract class B { //does not have refactor constructors ,getters ,to  strings
     private float f;
     private double d;
     ArrayList<G> gs = new ArrayList<>();

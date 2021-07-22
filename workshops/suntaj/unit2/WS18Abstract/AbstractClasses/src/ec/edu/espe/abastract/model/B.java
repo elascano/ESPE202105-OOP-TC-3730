@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public abstract class B {
+public abstract class B {         // toString not found, operations not declared as abstract.
     private float f;
     private double d;
     

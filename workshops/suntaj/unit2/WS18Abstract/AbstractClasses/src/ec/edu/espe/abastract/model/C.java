@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class C {
+public class C {             //toString not found, method not found.
     
     private ArrayList<H> hs = new ArrayList<>();
     

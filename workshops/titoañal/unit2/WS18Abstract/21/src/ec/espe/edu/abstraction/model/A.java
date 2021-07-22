@@ -21,12 +21,16 @@ public class A {
     private ArrayList<C> cs = new ArrayList<>();
     
     public void A(int m, int n){
+        //missing return a
     }
     
     public void A(){
-    
+        // missing parameterized  constructor
+        
 }
-
+    //missing polymorphins
+    
+// missing constructor  ArrayList<C> cs
     public A(int a, int b, A a1, A a2) {
         this.a = a;
         this.b = b;
@@ -39,6 +43,7 @@ public class A {
         return "A{" + "a=" + a + ", b=" + b + ", a1=" + a1 + ", a2=" + a2 + ", bs=" + Arrays.toString(bs) + ", cs=" + cs + '}';
     }
 
+    
     /**
      * @return the a
      */

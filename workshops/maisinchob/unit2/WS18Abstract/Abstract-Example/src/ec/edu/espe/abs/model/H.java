@@ -9,6 +9,8 @@ package ec.edu.espe.abs.model;
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class H {
+public class H {   
+    
+//toString and Constructor not found
     
 }

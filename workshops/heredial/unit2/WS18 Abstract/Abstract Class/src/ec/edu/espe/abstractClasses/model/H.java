@@ -10,7 +10,7 @@ package ec.edu.espe.abstractClasses.model;
  * @author Luis Heredia Accent on the Future ESPE-DCC0
  */
 public class H {
-
+//The class is complete   
     public H() {
     }
 
