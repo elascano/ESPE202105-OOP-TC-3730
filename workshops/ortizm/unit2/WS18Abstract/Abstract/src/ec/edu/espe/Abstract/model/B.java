@@ -11,9 +11,9 @@ import java.util.ArrayList;
  *
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public abstract class B {             // 2
-    private float f;                  // 2
-    private double d;                 // 2
+public abstract class B {             // 1
+    private float f;                  // 1
+    private double d;                 // 1
     ArrayList<G> gs = new ArrayList<>();        // 1
 
     
