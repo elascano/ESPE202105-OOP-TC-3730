@@ -12,42 +12,44 @@ import java.util.ArrayList;
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
 public class A {
-    private int a;
-    private int b;
+    private int a;       //1 is complete
+    private int b;       //1 is complete
     
-    private A a1;
-    private A a2;
+    private A a1;        //1 is complete
+    private A a2;        //1 is complete
     
   
-    private B[] bs = new B[5];
+    private B[] bs = new B[5];    //1 is complete
     
-    private ArrayList<C> cs = new ArrayList<>();
+    private ArrayList<C> cs = new ArrayList<>();      //1 is complete
     
-    public A m(int m, int n){
-        return null;
+    public A m(int m, int n){   //0,6
+        return null;             //does not contain your return a from to not declaration in method nor scope of method variables
     }
     
-    public A m(){
+    public A m(){      //0,6          
+                              // does not apply concept of polymorphism in its method
         
         return null;
     }
 
     @Override
-    public String toString() {
+    public String toString() {    //0.6 (does not contain a2 and cs prints)
+                                   
         return "A{" + "a=" + a + ", b=" + b + ", a1=" + a1 + ", a2=" + a2 + ", bs=" + bs + ", cs=" + cs + '}';
     }
 
     //constructor
-    public A(int a, int b, A a1, A a2) {
+    public A(int a, int b, A a1, A a2) {     // 0 (missing parameters and constructors with parameters B[]bs,A[] as ,ArrayList<C>cs).
         this.a = a;
         this.b = b;
         this.a1 = a1;
         this.a2 = a2;
     }
 
-    
-    
-    
+                                            //0
+                                             //missing without constructor without parameters and without containing class D parameters.
+                                             
     
     /**
      * @return the a
