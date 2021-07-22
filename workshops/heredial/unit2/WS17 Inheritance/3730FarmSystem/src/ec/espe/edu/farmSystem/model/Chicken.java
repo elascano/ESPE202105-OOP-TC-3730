@@ -20,6 +20,9 @@ public class Chicken extends FarmAnimal{
         this.isMolting = isMolting;
     }
 
+    
+    
+            
     @Override
     public String toString() {
         return "Chicken{" + super.toString()+ "isMolting=" + isMolting + '}';
@@ -37,6 +40,19 @@ public class Chicken extends FarmAnimal{
      */
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
+    }
+
+    @Override
+    public void feed(int amount) {
+        
+        System.out.println("Feeding the Chicken -> " + getId() +"With " + amount + "Onzes"); 
+        
+    }
+
+    @Override
+    public void vaccinate(int numberOfVacciones) {
+        System.out.println("Vaccinating the chicken with" + numberOfVacciones);
+
     }
     
     

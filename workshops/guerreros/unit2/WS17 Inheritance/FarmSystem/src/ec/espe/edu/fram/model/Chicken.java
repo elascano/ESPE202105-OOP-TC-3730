@@ -20,6 +20,9 @@ public class Chicken extends FarmAnimal{
         return "Chicken{" +super.toString() + " isMolting=" + isMolting + '}';
     }
 
+
+    
+    
     public Chicken(int id, String breed, Date bornOn, boolean isMolting) {
         super(id, breed, bornOn);
         this.isMolting= isMolting;
@@ -38,6 +41,17 @@ public class Chicken extends FarmAnimal{
      */
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
+    }
+
+    @Override
+    public void feed(int amount) {
+        System.out.println("feeding the chicken"+ getId()+ "with"+ amount+ "onzes of grains");
+        
+    }
+
+    @Override
+    public void vaccinate(int numberOfVaccines) {
+        System.out.println("vaccinating "+ numberOfVaccines);
     }
  
     
