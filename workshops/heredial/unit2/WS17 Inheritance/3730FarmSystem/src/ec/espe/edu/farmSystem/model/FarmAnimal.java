@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Luis Heredia Accent on the Future ESPE-DCC0
  */
-public class FarmAnimal {
+public abstract class FarmAnimal {
     
     private int id;
     private String breed;
@@ -22,19 +22,18 @@ public class FarmAnimal {
         this.breed = breed;
         this.borOn = borOn;
     }
-
-    @Override
-    public String toString() {
-        return "FarmAnimal{" + "id=" + id + ", breed=" + breed + ", borOn=" + borOn + '}';
-    }
-    
-    
+    public abstract void feed(int amount);
+    public abstract void vaccinate(int numberOfVacciones);
     
     public int getAgeInMonths(){
         
         return getBorOn().getMonth();
     }
-
+    @Override
+    public String toString() {
+        return "FarmAnimal{" + "id=" + id + ", breed=" + breed + ", borOn=" + borOn + '}';
+    }
+   
     /**
      * @return the id
      */

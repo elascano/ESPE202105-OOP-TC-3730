@@ -49,6 +49,7 @@ public class Main {
       
         
         ArrayList< Chicken>chickens = new ArrayList<>();
+       
         Chicken chicken = new Chicken(0,"Aguarico", date, true);
         System.out.println("chicken->" + chicken);
         

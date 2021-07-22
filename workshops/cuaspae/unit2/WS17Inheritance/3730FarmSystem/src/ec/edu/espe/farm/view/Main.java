@@ -27,9 +27,11 @@ public class Main {
         date= new Date (2021,1 ,20);
         ArrayList<FarmAnimal> farmAnimals = new ArrayList<>();
         farmAnimals.add(farmAnimal);
+        System.out.println("farmAnimal is a "+ farmAnimal.getClass());
         
         farmAnimal = new Chicken(0, "Criolla", date, true);
         System.out.println("farmAnimal -->" + farmAnimal);
+        farmAnimal.add(farmAnimal);
         
         System.out.println("farmAnimal is a: " +farmAnimal.getClass());
         
@@ -44,6 +46,15 @@ public class Main {
         System.out.println("My farm has-->"+ farmAnimals.size()+"animals");
         System.out.println("My FarmAnimals are-->"+farmAnimals);
         
+        farmAnimal = new Pig (20.5F, 3), "miniature", new Date(2020,8,25));
+        
+        farmAnimal.add(farmAnimal);
+        chicken.feed(1);
+        farmAnimal.feed(5);
+        
+        chicken.vaccinate(3);
+        farmAnimal.vaccinate(1);
+        System.out.println("");
     }
     
 }
