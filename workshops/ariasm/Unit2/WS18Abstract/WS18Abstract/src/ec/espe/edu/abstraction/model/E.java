@@ -23,7 +23,7 @@ public class E extends B{
         
     }
 
-    public E(float p, float q, float f, double d) {
+    public E(float p, float q, float f, double d) {   //array
         super(f, d);
         this.p = p;
         this.q = q;
@@ -36,13 +36,13 @@ public class E extends B{
 
     
     @Override
-    public int operation1(int n) {
+    public int operation1(int n) {   //return value
         System.out.println("Hello");
         return 0;
     }
 
     @Override
-    public float operation2(float f) {
+    public float operation2(float f) {  //return value
         System.out.println("Hello");
         return 0;
     }

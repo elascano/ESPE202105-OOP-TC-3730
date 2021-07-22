@@ -9,7 +9,7 @@ import java.util.Date;
  *
  * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
-public class FarmAnimal {
+public class abstract FarmAnimal {
     private int id;
     private String breed;
     private Date bornOn;
