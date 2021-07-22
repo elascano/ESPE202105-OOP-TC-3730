@@ -20,7 +20,8 @@ public class AbstractDisplay {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) { //complete variables
+//the execution is flawed
        System.out.println("TEAM 8"); 
        System.out.println("Abstract Example in class");
        
