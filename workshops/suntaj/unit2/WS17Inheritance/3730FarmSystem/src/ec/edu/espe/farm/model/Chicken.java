@@ -19,6 +19,8 @@ public class Chicken extends FarmAnimal{
         this.isMolting = isMolting;
         
     }
+    
+    
 
     @Override
     public String toString() {
@@ -38,5 +40,13 @@ public class Chicken extends FarmAnimal{
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
     }
+
+    @Override
+    public void feed(int amount) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       // System.out.println("feeding the chicken ->")
+    }
+    
+    
     
 }

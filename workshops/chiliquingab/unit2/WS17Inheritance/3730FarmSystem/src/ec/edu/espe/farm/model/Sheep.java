@@ -37,5 +37,15 @@ public class Sheep extends FarmAnimal{
     public void setLastSheering(Date lastSheering) {
         this.lastSheering = lastSheering;
     }
+
+    @Override
+    public void feed(int amount) {
+        
+    }
+
+    @Override
+    public void vaccinate(int numberOfVaccines) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
