@@ -11,16 +11,70 @@ import java.util.ArrayList;
  *
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public abstract class B {             // 2
-    private float f;                  // 2
-    private double d;                 // 2
-    ArrayList<G> gs = new ArrayList<>();        // 1
+public abstract class B {             
+    private float f;                
+    private double d;                 
+    private ArrayList<G> gs = new ArrayList<>(); 
+    
+    public abstract int operation1(int n);
+    public abstract float operation2(float f);
 
-    
-    public abstract int operation1(int n);      // 1
-    
-    public abstract float operation2(float f);  // 1
+    @Override
+    public String toString() {
+        return "B{" + "f=" + f + ", d=" + d + ", gs=" + gs + '}';
+    }    
 
+    public B(float f, double d, ArrayList<G> gs) {
+        this.f = f;
+        this.d = d;
+        this.gs = gs;
+    }
     
+    
+    /**
+     * @return the f
+     */
+    public float getF() {
+        return f;
+    }
+
+    /**
+     * @param f the f to set
+     */
+    public void setF(float f) {
+        this.f = f;
+    }
+
+    /**
+     * @return the d
+     */
+    public double getD() {
+        return d;
+    }
+
+    /**
+     * @param d the d to set
+     */
+    public void setD(double d) {
+        this.d = d;
+    }
+
+    /**
+     * @return the gs
+     */
+    public ArrayList<G> getGs() {
+        return gs;
+    }
+
+    /**
+     * @param gs the gs to set
+     */
+    public void setGs(ArrayList<G> gs) {
+        this.gs = gs;
+    }
+
+
+
+
+
 }
-//the tostring, refactor, setters and getters are incomplete

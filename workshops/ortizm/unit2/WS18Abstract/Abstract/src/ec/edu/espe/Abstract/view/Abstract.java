@@ -5,8 +5,14 @@
  */
 package ec.edu.espe.Abstract.view;
 
+
+
+import ec.edu.espe.Abstract.model.A;
+import ec.edu.espe.Abstract.model.B;
+import ec.edu.espe.Abstract.model.C;
+import ec.edu.espe.Abstract.model.D;
+import ec.edu.espe.Abstract.model.G;
 import java.util.ArrayList;
-import ec.edu.espe.Abstract.model.*;
 
 /**
  *
@@ -18,21 +24,41 @@ public class Abstract {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Abstract GROUP 5");
-        
-        B b;
-        
-        b = new D(10, 5);
-        System.out.println("b in int is -> " + b);
-        System.out.println("b int is a class of -> " + b);
-        
-        b = new E(5.5F, 0.4F);
-        System.out.println("b in Float is -> " + b.getClass());       
-        ArrayList<B> bs = new ArrayList<>();
-        bs.add(b);        
-        System.out.println("b Float is a class of -> " + b.getClass());
+      /**
+      A a;
+     int aa;
+     int bb;
+     A a1;
+     A a2;
+     A[] as;
+     B[] bs;
+     ArrayList<C> cs;
+     
+     
+     aa=5;
+     bb=10;
+     a1= new A();
+     a2= new A();
+     as=  new A[2];
+     bs = new B[5];
+     cs = new ArrayList <> ();
+     
+     a= new A(aa, bb, a1, a2, as, bs, cs) */
+
+    int x;
+    int y;
+    float f;
+    double d;
+    ArrayList<G> gs = new ArrayList<>();
+
+    x=1;
+    y=2;
+    f= 1.0F;
+    d= 12.98F;
+    
+    B b ;
+    b= new D(x, y, f, d, gs);
+    
+        System.out.println("b -> "+b + "of type " + b.getClass().getName());
     }
-  
-    
-    
 }

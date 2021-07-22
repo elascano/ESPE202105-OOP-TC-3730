@@ -3,7 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.TouristGuest.model;
+package ec.edu.espe.TouristGuest.view;
+
+import ec.edu.espe.TouristGuest.model.Citys;
+import ec.edu.espe.TouristGuest.model.Country;
+
 /**
  *
  * @author Marlon Ortiz Codec ESPE-DCCO

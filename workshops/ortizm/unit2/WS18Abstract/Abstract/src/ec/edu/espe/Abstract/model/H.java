@@ -11,5 +11,14 @@ package ec.edu.espe.Abstract.model;
  */
 public class H {
     
+    public H(){
+    
+    
+    }
+
+    @Override
+    public String toString() {
+        return "H{" + '}';
+    }
+    
 }
-// the class H is complete

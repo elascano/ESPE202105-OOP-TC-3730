@@ -24,3 +24,7 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/ortizm/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/ortizm/unit2/WS18Abstract/Abstract/build/
+/workshops/ortizm/unit2/WS19Calculator/WS/nbproject/private/
+/workshops/ortizm/unit2/WS19Calculator/WS/build/
