@@ -38,11 +38,12 @@ public class Main {
         System.out.println("Chicken -> "+ chicken);
         
         System.out.println("Chicken is a -> "+ chicken.getClass());
-        System.out.println("the age is a -> "+ chicken.getAgeInMonths());
+        System.out.println("The age is a -> "+ chicken.getAgeInMonths());
         
         farmAnimals.add(chicken);
         
         System.out.println("My farm has -> "+ farmAnimals.size() + "animals");
         System.out.println("My FarmAnimals are -> "+ farmAnimals);
+        
     }   
 }

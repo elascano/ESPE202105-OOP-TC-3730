@@ -25,6 +25,37 @@ hs_err_pid*
 # visual paradigm bakcup files
 *vpp.bak*
 <<<<<<< HEAD
+/workshops/cadenaf/unit2/WS18Abstract/Abstract/build/
+/workshops/beltranj/Unit2/Nueva Carpeta/ws/nbproject/private/
+/workshops/beltranj/Unit2/Nueva Carpeta/Calculator/nbproject/private/
+/workshops/beltranj/Unit2/WS19-OperationTest/Calculator/nbproject/private/
+/workshops/beltranj/Unit2/WS19-OperationTest/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/yugsim/unit2/WS19-/JavaApplication13/nbproject/private/
+/workshops/yugsim/unit2/WS19-/Exceptions/nbproject/private/
+/workshops/yugsim/unit2/WS19-/Calculator/nbproject/private/
+/workshops/yugsim/unit2/WS19-/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/heredial/unit2/WS 19 Calculator/Calculator/nbproject/private/
+/workshops/heredial/unit2/WS 19 Calculator/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/cadenaf/unit2/WS18Abstract/Abstract/build/
+/workshops/titoañal/unit2/W19UnitTest/Calculator/nbproject/private/
+/workshops/titoañal/unit2/W19UnitTest/Calculator/build/
+/workshops/titoañal/unit2/WS19UnitTest/Calculator/nbproject/private/
+/workshops/titoañal/unit2/WS19UnitTest/Calculator/build/
+/workshops/titoañal/unit2/WS19UnitTest/JavaApplication25/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/ortizm/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/ortizm/unit2/WS18Abstract/Abstract/build/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 /workshops/jaramilloj/unit1/WS08ChFarmSimulator/3730ChFarmSimulator/nbproject/private/
 /workshops/jaramilloj/unit1/WS08ChFarmSimulator/3730ChFarmSimulator/build/
 =======
@@ -1548,6 +1579,15 @@ hs_err_pid*
 >>>>>>> 977fecc464cf20ad7fa413de3c17a43f68f45ccb
 >>>>>>> 5e347ca6f717abcfb1c094206e770da486dbfd51
 <<<<<<< HEAD
+/workshops/angoj/unit2/WS14-Libraries/TastLibrary/nbproject/private/
+/workshops/angoj/unit2/WS14-Libraries/Taxes/nbproject/private/
+/workshops/angoj/unit2/WS14-Libraries/Taxes/build/
+/workshops/angoj/unit2/WS14-Libraries/TaxLibrary/nbproject/private/
+/workshops/angoj/unit2/WS14-Libraries/TaxLibrary/build/
+/workshops/angoj/unit2/WS14-Libraries/TaxLibrary/dist/
+/workshops/angoj/unit2/WS16-3730FarmSystem/3730FarmSystem/nbproject/private/
+=======
+<<<<<<< HEAD
 /workshops/cadenaf/unit2/Nueva Carpeta/TaxLibrary/nbproject/private/
 /workshops/cadenaf/unit2/Nueva Carpeta/Taxes/nbproject/private/
 /workshops/cadenaf/unit2/WS14Libraries/TaxLibrary/nbproject/private/
@@ -1787,6 +1827,11 @@ hs_err_pid*
 >>>>>>> 332fc246f92dfd648e6ded642c47cf73c9ab169b
 >>>>>>> b685526b8d0931fcefddc89bfd598c44b51da8dc
 >>>>>>> e5c856f0c42f9a76bb81906c150945ce1797bb3a
+<<<<<<< HEAD
+/workshops/quichimboa/unit2/W17/3730FarmSystem/nbproject/private/
+/workshops/quichimboa/unit2/W17/3730FarmSystem/build/
+/workshops/quichimboa/unit2/WS18/Abstract/nbproject/private/
+=======
 >>>>>>> 338e1619d9252799a02a57cca3e673f9f41451ea
 <<<<<<< HEAD
 /assignments/chasig/unit2/Nueva Carpeta/FileManager/nbproject/private/
@@ -1962,29 +2007,18 @@ hs_err_pid*
 >>>>>>> 136862964f9cf7227f88cc9cc877af129f89c57b
 >>>>>>> 165938438ea961492f7da411d3dbda4987172d7d
 >>>>>>> a794aea5882c6b8ce5c40d68099245858bda9fb1
-<<<<<<< HEAD
-/assignments/maisinchob/unit2/HW09-Inheritance Animals/3730FarmSystem/build/
-/assignments/maisinchob/unit2/HW09-Inheritance Animals/3730FarmSystem/nbproject/private/
-=======
 >>>>>>> 4e911e4b6777887032e726b39c4bcd9b368a2db0
+<<<<<<< HEAD
+/assignments/sigchaj/unit2/3730FarmSystem/nbproject/private/
+/assignments/sigchaj/unit2/HW09FarmSystem/nbproject/private/
+/assignments/sigchaj/unit2/HW09FarmSystem/build/
+=======
 >>>>>>> 7f266b0d8c23591155a264b30c437fcaf2a3680a
-<<<<<<< HEAD
-/assignments/guerreros/unit2/HW09/JavaApplication24/nbproject/private/
-/assignments/guerreros/unit2/HW09/JavaApplication24/build/
-=======
 >>>>>>> c805399dda2436cd99e2cd46e2b54f6b1a53e5cb
-<<<<<<< HEAD
-/assignments/suntaj/unit2/HW09InheritanceAnimal/FarmAnimalSystem/nbproject/private/
-/assignments/suntaj/unit2/HW09InheritanceAnimal/FarmAnimalSystem/build/
-=======
 >>>>>>> ad844f2109bbb782d902f44a99dd40b46eb503c6
 /workshops/cuaspae/unit2/WS17Inheritance/3730FarmSystem/build/
 /workshops/cuaspae/unit2/WS17Inheritance/3730FarmSystem/nbproject/private/
 >>>>>>> a5f4676e86f57c6c0a17fdc748d9dedc1f802935
-<<<<<<< HEAD
-/assignments/heredial/unit2/HW10  Inheritance/HW10FarmSystemComplete/nbproject/private/
-/assignments/heredial/unit2/HW10  Inheritance/HW10FarmSystemComplete/build/
-=======
 >>>>>>> f1e333c848a0cdf9e1b4a2c5762bd72d86e3cc6b
 >>>>>>> 37dbc37aa4dc5f118f33f66e95c3cf52a2fcc242
 >>>>>>> 9587a15d9a5cd3223ba72c94b856ab586219ae36
@@ -2005,10 +2039,195 @@ hs_err_pid*
 >>>>>>> f58f8746daf3bda32001b6ad9c1350c3af062b50
 >>>>>>> aafa92b7d410618ee13bdecdfe8fff2688600623
 >>>>>>> 907e2587323168bef2ab23b4a3c950a6e11cad52
+<<<<<<< HEAD
+/workshops/yaneze/unit2/WS18Abstract/AbstractDisplay/nbproject/private/
+/workshops/yaneze/unit2/WS18Abstract/AbstractDisplay/build/
+=======
 >>>>>>> 5c45b16ce7aec2adcbb8e305224125c3e461889f
 >>>>>>> 7b99015795b5f49d08c3e7ebc5226ef668b49a84
+<<<<<<< HEAD
 >>>>>>> 8b6429e73e92f698880c0ed1b8c9f210712e8fdf
+<<<<<<< HEAD
+/workshops/guerreros/unit2/WS18/Abstraction/nbproject/private/
+/workshops/guerreros/unit2/WS18/Abstract/nbproject/private/
+/workshops/guerreros/unit2/WS18/Abstract/build/
+=======
 >>>>>>> 89081a5c4184d5b905c59f72ba014d064d5f4d41
+<<<<<<< HEAD
+/workshops/cadenaf/unit2/WS18Abstract/Abstract/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/heredial/unit2/WS18 Abstract/Abstract Class/nbproject/private/
+/workshops/heredial/unit2/WS18 Abstract/Abstract Class/build/
+=======
+<<<<<<< HEAD
+/workshops/suntaj/unit2/WS18Abstract/AbstractClasses/nbproject/private/
+/workshops/suntaj/unit2/WS18Abstract/AbstractClasses/build/
+=======
+<<<<<<< HEAD
 >>>>>>> 4eb76031e415196a579479133efd99cc20317523
+<<<<<<< HEAD
 /workshops/barrerak/Unit 2/Nueva Carpeta/Calculator/nbproject/private/
 /workshops/barrerak/Unit 2/Nueva Carpeta/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/quilumbaquink/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/quilumbaquink/unit2/WS18Abstract/AbstractQuiz/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> c49a34354af4deb20573fc8186f51bae78f747ac
+/workshops/sigchaj/unit2/WS18Abstract/Abstract/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/maisinchob/unit2/WS18-Abstract/JavaApplication17/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> 430735a6cefd1deebcc97e0e7a194f8d4bfa40a4
+<<<<<<< HEAD
+/assignments/pachacamaa/Unit2/HW09/HW08FarmSystem/build/
+=======
+>>>>>>> 53305749ddb6b84f1b93c1b1a8b3335579c12ee4
+>>>>>>> 79a999ecdb453888a71ac3f590e2735c3eca6d7b
+<<<<<<< HEAD
+/workshops/aguirreg/unit2/WS18Abstact/nbproject/private/
+/workshops/aguirreg/unit2/WS19Calculator/Calculator/nbproject/private/
+/workshops/aguirreg/unit2/WS19Calculator/Calculator/build/
+=======
+>>>>>>> 6f064eedfcec8b05bae3534cbf497fbe4bc8372b
+<<<<<<< HEAD
+/workshops/ortizm/unit2/W17Inherence/FarmSystem/build/
+/workshops/ortizm/unit2/W17Inherence/FarmSystem/nbproject/private/
+/workshops/ortizm/unit2/W18Abstract/Abstract/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/criollok/unit2/Nueva Carpeta/Abstract/nbproject/private/
+=======
+>>>>>>> 53f17fce3ff8194c07a159c1bbcf9d4614b16fee
+/workshops/mosquerak/unit2/WS17Inheritace/WS18Abstract/nbproject/private/
+/workshops/mosquerak/unit2/WS18Abstract/WS18Abstract/nbproject/private/
+/workshops/mosquerak/unit2/WS18Abstract/WS18Abstract/build/
+/workshops/mosquerak/unit2/WS18Abstract/AbstractDisplay/nbproject/private/
+/workshops/mosquerak/unit2/WS18Abstract/AbstractDisplay/build/
+=======
+<<<<<<< HEAD
+/workshops/izal/unit2/WS18/Abstract/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> 53f17fce3ff8194c07a159c1bbcf9d4614b16fee
+>>>>>>> a662ba4396c51dd6c25cb8a8ee596c3050134530
+<<<<<<< HEAD
+/workshops/cuaspae/unit2/WS18/WS18/nbproject/private/
+/workshops/cuaspae/unit2/WS18Abstract/WS18Abstract/nbproject/private/
+/workshops/cuaspae/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/cuaspae/unit2/WS18Abstract/Abstract/build/
+=======
+/workshops/galarzaa/unit2/WS18Abstrac/WS18Abstraction/nbproject/private/
+=======
+/workshops/jaramilloj/unit2/WS18Abstract/Abstract Class/nbproject/private/
+=======
+/workshops/chiliquingab/unit2/WS18Abstract/Abstract/nbproject/private/
+=======
+/workshops/titoañal/unit2/WS18/21/nbproject/private/
+=======
+>>>>>>> 79b54efc90f687551c416d24a8bc132f6bc17793
+<<<<<<< HEAD
+/workshops/titoañal/unit2/WS18Abstract/21/build/
+=======
+<<<<<<< HEAD
+/workshops/villavicencioa/unit2/WS18Abstract/Abstract/build/
+=======
+>>>>>>> 0e6f036977d22d6bd9b9266fdfd48fc0f7b503e2
+>>>>>>> af51ba7824e8c4e0f08ebba77f47ee7bae1d7520
+>>>>>>> 25297da18879a2b2003e9f87a8de2089b03aa9e8
+>>>>>>> 8f80c3d0cd67bcf03c8e1b3fcf5c3d47283b5ce8
+<<<<<<< HEAD
+/workshops/tupizas/unit2/Calculator/nbproject/private/
+/workshops/tupizas/unit2/Calculator/build/
+/workshops/tupizas/unit2/WS19 Calculator/Calculator/build/
+/workshops/tupizas/unit2/WS19 Calculator/Calculator/nbproject/private/
+=======
+>>>>>>> 27fc909f56b4cb00653fd83696867c1b0b534693
+>>>>>>> 574a44b64766de04c91463f16a27b3859a85670c
+<<<<<<< HEAD
+/workshops/mosquerak/unit2/W19/Calculator/nbproject/private/
+/workshops/mosquerak/unit2/W19/Calculator/build/
+=======
+>>>>>>> 01168f59d5bcfe0d592f8cf54f26ed87b35bd9a4
+>>>>>>> 63a90c43a24b3431187b46a8ff86687ccb1afe63
+>>>>>>> a2afd03e31682351fa16aa58bdccb125fadb04ac
+>>>>>>> 8dfc5b273598f94145cae1426491e048b2dd407d
+>>>>>>> 726d05986671b37fd4a2bccc9ff100648cc2e00c
+>>>>>>> 696fa103057ae94fc114be07fd48c20521df171d
+>>>>>>> d7ae05a20e0fc864be19456e894a3fb9c8bd88de
+>>>>>>> 13789b99507f7278cd7a1a47549f2f1aac88b228
+>>>>>>> 7d0b372c560ca70efec2f71f74da2f7a57e57056
+<<<<<<< HEAD
+/workshops/izal/unit2/WS19 UnitTest/Calculator/nbproject/private/
+/workshops/izal/unit2/WS19 UnitTest/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/jaramilloj/unit2/Nueva Carpeta/JavaApplication30/nbproject/private/
+/workshops/jaramilloj/unit2/Nueva Carpeta/Calculator/nbproject/private/
+/workshops/jaramilloj/unit2/Nueva Carpeta/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/chiliquingab/unit2/WS18Abstract/Abstract/build/
+=======
+>>>>>>> a13b3a13c376d3966319a5d6f50d8f41c976ac94
+>>>>>>> ecb9a07571c586764d6af38ce1f98bac18b33eb5
+>>>>>>> 56339974d7d57d9ea1d164baea6073dbd863ce1b
+<<<<<<< HEAD
+/workshops/quichimboa/unit2/WS18/Abstract/build/
+=======
+>>>>>>> 0524377a68f240727f91e4201480d5bed52a0885
+>>>>>>> 446fd16f60eaead8dbddae8083e62ec1f3d4832f
+<<<<<<< HEAD
+/workshops/ortizm/unit2/W18Abstract/WS18Abstract/nbproject/private/
+=======
+>>>>>>> 55ebc890add5356bf1d4342b673196daf687153b
+>>>>>>> 815c2fbbd0562a7595f785ba7221bf60cf99a6f7
+<<<<<<< HEAD
+/workshops/villavicencioa/unit2/WS19UnitTest/Calculator/nbproject/private/
+/workshops/villavicencioa/unit2/WS19UnitTest/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/yaneze/unit2/WS19Calculator/Calculator/nbproject/private/
+/workshops/yaneze/unit2/WS19Calculator/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/sarmientoc/unit2/WS18Abstract/Abstract/nbproject/private/
+=======
+>>>>>>> 86addab01cac324725b9d27e0e34f244efa272a5
+>>>>>>> 3667cac7bfb1f2efa32750f7a3ff2319104088df
+/workshops/sarmientoc/unit2/WS18Abstract/Abstract/build/
+=======
+/workshops/cadenaf/unit2/WS18Abstract/Abstract/build/
+>>>>>>> 33e7f6067e8492899d8e477f2c6d19ca77b29465
+>>>>>>> 4aac1b0c704885eea7e6dc1449150b805b2f9c4f
+<<<<<<< HEAD
+/workshops/suntaj/unit2/WS19UnitTest/Calculator/nbproject/private/
+/workshops/suntaj/unit2/WS19UnitTest/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/criollok/unit2/WS19UnitTest/Calculator/nbproject/private/
+/workshops/criollok/unit2/WS19UnitTest/Calculator/build/
+=======
+<<<<<<< HEAD
+/workshops/maisinchob/unit2/WS19- Exception/Exception/nbproject/private/
+/workshops/maisinchob/unit2/WS20- Unit Test/Calculator/nbproject/private/
+/workshops/maisinchob/unit2/WS20- Unit Test/Calculator/build/
+=======
+>>>>>>> 60fd65d33fb85094c3083ab7a9de9b396c60be22
+>>>>>>> 85c7d1a2b0435085e3df4a1f04c6d3e70445f607
+>>>>>>> f60c1d30b02d4f161b4d77b2d0d72f1833f3c75c
+>>>>>>> 4f13215c15e42a6c2ce68e7e087882089edf172f
+>>>>>>> b6d8eb985897d7dad76d454be90cdfc173ac8129
+>>>>>>> d856296714185bce8ca8cd1637171403d31b1302
+>>>>>>> a6da6bc9f28b0297d6a2b468684db1f6814357de
+>>>>>>> 525ad124536aeff369ff12fd4be882dda73f85e5
+>>>>>>> 9b6c80cd4d2cc527f7d3898f52b1f6d974eef601
+>>>>>>> 2e434dbcc6237a4cdd91b8f1cb272b598a563243
+>>>>>>> 9e2802e76123cc3eb2ae949f3f0519f3befd6daf
+>>>>>>> ec45e5dd3ca5bcc628d4a75f520883b5c34de46b
+>>>>>>> ac84132830bfb534842a2f496a31b8a3a4ecf070
+>>>>>>> cc0b9c6ebe1408d3aa71f5ef38feb7507938a5a3
