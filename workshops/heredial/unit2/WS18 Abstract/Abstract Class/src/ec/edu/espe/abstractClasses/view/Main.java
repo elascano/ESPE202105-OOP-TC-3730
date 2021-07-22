@@ -16,8 +16,8 @@ public class Main {
     
     public static void main(String[] args) {
         
-        A a;
-        a = new A(0, 0, 1, 2, cs);
+        A a; //0  Incomplete Main
+        a = new A(0, 0, 1, 2A a;, cs);
         
         
         
