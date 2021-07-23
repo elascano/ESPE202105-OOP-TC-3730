@@ -30,7 +30,6 @@ public class SharkController implements IAnimal {
        Location location = new Location(dx, dy);
         System.out.println("the Shark is swiming to " + dx + "," +dy);
         return location;
-    
     }
     
 }
