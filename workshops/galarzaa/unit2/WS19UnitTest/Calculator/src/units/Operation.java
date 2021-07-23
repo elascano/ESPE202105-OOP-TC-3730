@@ -15,11 +15,10 @@ public class Operation {
         sum = addend1 + addend2;
         return sum;
     }
-    public static float subtract(float minuend,float subtrahend){
+    public static float substract(float minuend,float subtrahend){
        float difference;
        difference = minuend - subtrahend;
        
        return difference;
     }
-            
-}
+ }
