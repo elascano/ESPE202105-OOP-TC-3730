@@ -9,7 +9,7 @@ import utils.Operation;
 
 /**
  *
- * @author Erick Yánez LAMESTech ESPE-DCC0
+ * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
 public class Calculator {
 

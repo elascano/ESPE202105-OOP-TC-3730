@@ -7,7 +7,7 @@ package utils;
 
 /**
  *
- * @author Erick Yánez LAMESTech ESPE-DCC0
+ * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
 public class Operation {
     public static float add(float addend1, float addend2){
