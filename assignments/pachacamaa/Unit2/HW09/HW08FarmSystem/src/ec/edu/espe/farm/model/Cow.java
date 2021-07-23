@@ -11,26 +11,36 @@ import java.util.Date;
  *
  * @author Alexander Pachacama BUILDER ESPE-DCC0
  */
-public class Cow {
+public class Cow extends FarmAnimal{
+    private boolean isProducingMilk;
 
-    public Cow(boolean b, int i, String angus, Date date) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Cow(int id, String breed, Date bornOn) {
+        super(id, breed, bornOn);
     }
 
-    public Cow(boolean b, int i, String angus, Date date) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    @Override
+    public String toString() {
+        return "Cow{" + super.toString()+ "isProducingMilk=" + isProducingMilk + '}';
     }
 
-    public Cow(boolean b, int i, String angus, Date date) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Cow(boolean isProducingMilk, int id, String breed, Date bornOn) {
+        super(id, breed, bornOn);
+        this.isProducingMilk = isProducingMilk;
     }
 
-    public Cow(boolean b, int i, String angus, Date date) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    /**
+     * @return the isProducingMilk
+     */
+    public boolean isIsProducingMilk() {
+        return isProducingMilk;
     }
 
-    public String getAgeInMonths() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    /**
+     * @param isProducingMilk the isProducingMilk to set
+     */
+    public void setIsProducingMilk(boolean isProducingMilk) {
+        this.isProducingMilk = isProducingMilk;
     }
-    
 }
+    
+

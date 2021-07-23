@@ -2,14 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
-            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/C.java</file>
-            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/D.java</file>
-            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/H.java</file>
-            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/B.java</file>
-            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/G.java</file>
-            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/E.java</file>
-            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/F.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/F.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/A.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/view/Abstract.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/G.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/C.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/D.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/H.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/B.java</file>
+            <file>file:/C:/Users/PC/Desktop/Programación%20Objetos/Codigos/ESPE202105-OOP-TC-3730/workshops/guerreros/unit2/WS18Abstract/Abstract/src/ec/espe/edu/Abstract/model/E.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> 3cd6695800faba521e947daec139d60b1429c25e
     </open-files>
 </project-private>

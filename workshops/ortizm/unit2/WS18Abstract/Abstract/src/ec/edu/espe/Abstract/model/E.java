@@ -5,40 +5,50 @@
  */
 package ec.edu.espe.Abstract.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public class  E extends B  {
-private float p;        //1
-    private float q;    //1
-    
-    public int m1(int i){    //1
-        return 0;
+public class E extends B{
+private float p;        
+private float q;   
+
+public int m1(boolean b){
+    int result = 0;
+    if(b){
+        result=1;
+    }
+    return result;
+}
+@Override
+    public int operation1(int n) {
+        int result;
+        result = n*10;
+        return result;
     }
 
-    public E(float p, float q) {
+    @Override
+    public float operation2(float f) {
+        float result;
+        result= f / 10.0F;
+        return result;
+    }
+    
+      
+    @Override
+    public String toString() {
+        return "E{" + super.toString() +"p=" + p + ", q=" + q + '}';
+    }
+
+
+    public E(float p, float q, float f, double d, ArrayList<G> gs) {
+        super(f, d, gs);
         this.p = p;
         this.q = q;
     }
-    
-    @Override
-    public String toString() {               //0
-        return "E{" + super.toString() + "p=" + p + ", q=" + q + '}';
-    }
-    // has no attributes
-    @Override
-    public int operation1(int n) {               //0        
-        System.out.println("The int is -> " + n);
-        return n;
-    }
-//missing operations on 1 and 2
-    @Override
-    public float operation2(float f) {            //0
-        System.out.println("The float is -> " + f);
-        return f;
-    }
-//missing operations on 1 and 2
+
     /**
      * @return the p
      */
@@ -66,11 +76,5 @@ private float p;        //1
     public void setQ(float q) {
         this.q = q;
     }
-
-
-//has no attributes, missing operations on 1 and 2 and missing superclass functions
-
-
-
-    
+   
 }

@@ -10,17 +10,19 @@ package ec.edu.espe.Abstract.model;
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
 public class F {
+      
     private String r;
-    // the class F is complete
-    public F(String r) {
-        this.r = r;
-    } 
 
     @Override
     public String toString() {
         return "F{" + "r=" + r + '}';
     }
- 
+    
+
+    public F(String r) {
+        this.r = r;
+    }
+    
     /**
      * @return the r
      */
@@ -34,4 +36,6 @@ public class F {
     public void setR(String r) {
         this.r = r;
     }
+    
+    
 }
