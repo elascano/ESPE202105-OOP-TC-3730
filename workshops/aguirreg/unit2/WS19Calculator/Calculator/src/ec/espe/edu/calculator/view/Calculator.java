@@ -20,6 +20,8 @@ public class Calculator {
         float addend1 = 1.0F;
         float addend2 = 2.0F;
         
+        
+        
         float result;
         
         result = Operation.add(addend1, addend2);
