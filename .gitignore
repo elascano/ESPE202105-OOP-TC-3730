@@ -25,6 +25,12 @@ hs_err_pid*
 # visual paradigm bakcup files
 *vpp.bak*
 <<<<<<< HEAD
+/workshops/ortizm/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/ortizm/unit2/WS18Abstract/Abstract/build/
+/workshops/ortizm/unit2/WS19Calculator/WS/nbproject/private/
+/workshops/ortizm/unit2/WS19Calculator/WS/build/
+=======
+<<<<<<< HEAD
 /workshops/cadenaf/unit2/WS18Abstract/Abstract/build/
 /workshops/beltranj/Unit2/Nueva Carpeta/ws/nbproject/private/
 /workshops/beltranj/Unit2/Nueva Carpeta/Calculator/nbproject/private/
@@ -2159,6 +2165,10 @@ hs_err_pid*
 >>>>>>> 726d05986671b37fd4a2bccc9ff100648cc2e00c
 >>>>>>> 696fa103057ae94fc114be07fd48c20521df171d
 >>>>>>> d7ae05a20e0fc864be19456e894a3fb9c8bd88de
+<<<<<<< HEAD
+/workshops/guerreros/unit2/WS19/Calculator/nbproject/private/
+/workshops/guerreros/unit2/WS19/Calculator/build/
+=======
 >>>>>>> 13789b99507f7278cd7a1a47549f2f1aac88b228
 >>>>>>> 7d0b372c560ca70efec2f71f74da2f7a57e57056
 <<<<<<< HEAD
@@ -2199,6 +2209,10 @@ hs_err_pid*
 =======
 >>>>>>> 86addab01cac324725b9d27e0e34f244efa272a5
 >>>>>>> 3667cac7bfb1f2efa32750f7a3ff2319104088df
+<<<<<<< HEAD
+/workshops/oñae/unit2/WS19 Unit Test/Calculator/nbproject/private/
+/workshops/oñae/unit2/WS19 Unit Test/Calculator/build/
+=======
 /workshops/sarmientoc/unit2/WS18Abstract/Abstract/build/
 =======
 /workshops/cadenaf/unit2/WS18Abstract/Abstract/build/
@@ -2208,6 +2222,11 @@ hs_err_pid*
 /workshops/sarmientoc/unit2/WS19Calculator/Calculator/build/
 =======
 >>>>>>> 4aac1b0c704885eea7e6dc1449150b805b2f9c4f
+<<<<<<< HEAD
+/workshops/galarzaa/unit2/Nueva Carpeta/Calculator/nbproject/private/
+/workshops/galarzaa/unit2/WS19UnitTest/Calculator/nbproject/private/
+/workshops/galarzaa/unit2/WS19UnitTest/Calculator/build/
+=======
 <<<<<<< HEAD
 /workshops/suntaj/unit2/WS19UnitTest/Calculator/nbproject/private/
 /workshops/suntaj/unit2/WS19UnitTest/Calculator/build/
@@ -2222,19 +2241,61 @@ hs_err_pid*
 /workshops/maisinchob/unit2/WS20- Unit Test/Calculator/build/
 =======
 >>>>>>> 60fd65d33fb85094c3083ab7a9de9b396c60be22
+<<<<<<< HEAD
+/assignments/chiliquingab/unit2/HW10Unit test/Calculator/build/
+=======
+<<<<<<< HEAD
+/assignments/yaneze/unit2/HW10OperationTest/Calculator/nbproject/private/
+/assignments/yaneze/unit2/HW10OperationTest/HW10Calculator/nbproject/private/
+/assignments/yaneze/unit2/HW10OperationTest/HW10Calculator/build/
+=======
 >>>>>>> 85c7d1a2b0435085e3df4a1f04c6d3e70445f607
 >>>>>>> f60c1d30b02d4f161b4d77b2d0d72f1833f3c75c
 >>>>>>> 4f13215c15e42a6c2ce68e7e087882089edf172f
+<<<<<<< HEAD
+/assignments/titoañal/unit2/HW10UnitTest/Calculator/nbproject/private/
+/assignments/titoañal/unit2/HW10UnitTest/Calculator/build/
+=======
 >>>>>>> b6d8eb985897d7dad76d454be90cdfc173ac8129
+<<<<<<< HEAD
+/assignments/villavicencioa/unit2/HW10OperationTest/BasicCalculator/nbproject/private/
+/assignments/villavicencioa/unit2/HW10OperationTest/BasicCalculator/build/
+=======
 >>>>>>> d856296714185bce8ca8cd1637171403d31b1302
 >>>>>>> a6da6bc9f28b0297d6a2b468684db1f6814357de
 >>>>>>> 525ad124536aeff369ff12fd4be882dda73f85e5
+<<<<<<< HEAD
+/assignments/suntaj/unit2/HW10UnitTest/CalculatorHW/nbproject/private/
+/assignments/suntaj/unit2/HW10UnitTest/CalculatorHW/build/
+=======
 >>>>>>> 9b6c80cd4d2cc527f7d3898f52b1f6d974eef601
 >>>>>>> 2e434dbcc6237a4cdd91b8f1cb272b598a563243
 >>>>>>> 9e2802e76123cc3eb2ae949f3f0519f3befd6daf
+<<<<<<< HEAD
+/assignments/mosquerak/unit2/HW10/Calculator/nbproject/private/
+=======
 >>>>>>> ec45e5dd3ca5bcc628d4a75f520883b5c34de46b
 >>>>>>> ac84132830bfb534842a2f496a31b8a3a4ecf070
 >>>>>>> cc0b9c6ebe1408d3aa71f5ef38feb7507938a5a3
 >>>>>>> 2bd7b4e96a6381b354304ef0ad09eba9873cd7c4
+<<<<<<< HEAD
 /assignments/sarmientoc/unit2/HW11Calculator/Calculator/nbproject/private/
 /assignments/sarmientoc/unit2/HW11Calculator/Calculator/build/
+=======
+>>>>>>> 3cd6695800faba521e947daec139d60b1429c25e
+>>>>>>> 6cab8e267d92cf1302ae51b4a3bd9be3ce7805f9
+>>>>>>> c4ed6ff81a922f398afc5e742a2f6ce414ca2c38
+>>>>>>> 762ad1755551cfa8ac280906634b50539ffe23b9
+<<<<<<< HEAD
+/assignments/guerreros/unit2/HW10UnitTest/HW10Calculator/nbproject/private/
+/assignments/guerreros/unit2/HW10UnitTest/HW10Calculator/build/
+=======
+/assignments/heredial/unit2/HW11UnitTest/HW10Calculator/nbproject/private/
+/assignments/heredial/unit2/HW11UnitTest/HW10Calculator/build/
+>>>>>>> 19cd3b5f150d9de4592cc697adf864f1a51cd312
+>>>>>>> af546c7a638b9591c72978e992428ba9e18579ac
+>>>>>>> 8111803404d6c165620cb357d826ace32cc3d48b
+>>>>>>> 52cf7e0b120322e4db5122b1ab8692c868ea4d52
+>>>>>>> 9300d1e1f225e0b728f4f22a258c93a1f522b0a9
+>>>>>>> 01c647622e65d741d53ec9ba25bd5ab9a1bffb0a
+>>>>>>> ab2559db791d91c380273df096ce771a124af60e

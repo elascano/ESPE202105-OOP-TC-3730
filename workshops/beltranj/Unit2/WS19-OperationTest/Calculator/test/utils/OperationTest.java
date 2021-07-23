@@ -16,8 +16,6 @@ public class OperationTest {
     
     public OperationTest() {
     }
-    
-
     /**
      * Test of add method, of class Operation.
      */
