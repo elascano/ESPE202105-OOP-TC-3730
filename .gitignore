@@ -2017,6 +2017,7 @@ hs_err_pid*
 =======
 >>>>>>> c56e29b60f94193c974bfdff6f7eee16ac908eae
 >>>>>>> 136862964f9cf7227f88cc9cc877af129f89c57b
+<<<<<<< Updated upstream
 >>>>>>> 165938438ea961492f7da411d3dbda4987172d7d
 >>>>>>> a794aea5882c6b8ce5c40d68099245858bda9fb1
 >>>>>>> 4e911e4b6777887032e726b39c4bcd9b368a2db0
@@ -2115,6 +2116,11 @@ hs_err_pid*
 /workshops/criollok/unit2/Nueva Carpeta/Abstract/nbproject/private/
 =======
 >>>>>>> 53f17fce3ff8194c07a159c1bbcf9d4614b16fee
+<<<<<<< HEAD
+/workshops/chasig/unit2/WS18Abstract/WS18Abstract/nbproject/private/
+/workshops/chasig/unit2/Nueva Carpeta/Calculator/nbproject/private/
+/workshops/chasig/unit2/Nueva Carpeta/Calculator/build/
+=======
 /workshops/mosquerak/unit2/WS17Inheritace/WS18Abstract/nbproject/private/
 /workshops/mosquerak/unit2/WS18Abstract/WS18Abstract/nbproject/private/
 /workshops/mosquerak/unit2/WS18Abstract/WS18Abstract/build/
@@ -2298,6 +2304,12 @@ hs_err_pid*
 =======
 >>>>>>> 3cd6695800faba521e947daec139d60b1429c25e
 >>>>>>> 6cab8e267d92cf1302ae51b4a3bd9be3ce7805f9
+<<<<<<< HEAD
+/workshops/ortizm/unit2/WS19Calculator/UnitTesting/build/
+/workshops/ortizm/unit2/WS19Calculator/UnitTesting/nbproject/private/
+/workshops/ortizm/unit2/WS19Calculator/Calculator/build/
+/workshops/ortizm/unit2/WS19Calculator/Calculator/nbproject/private/
+=======
 >>>>>>> c4ed6ff81a922f398afc5e742a2f6ce414ca2c38
 >>>>>>> 762ad1755551cfa8ac280906634b50539ffe23b9
 <<<<<<< HEAD
@@ -2307,17 +2319,67 @@ hs_err_pid*
 /assignments/heredial/unit2/HW11UnitTest/HW10Calculator/nbproject/private/
 /assignments/heredial/unit2/HW11UnitTest/HW10Calculator/build/
 >>>>>>> 19cd3b5f150d9de4592cc697adf864f1a51cd312
+<<<<<<< HEAD
+/workshops/yaneze/unit2/WS20/WS20FarmSimulator/nbproject/private/
+/workshops/yaneze/unit2/WS20/WS20FarmSimulator/build/
+=======
 >>>>>>> af546c7a638b9591c72978e992428ba9e18579ac
+<<<<<<< HEAD
+/workshops/titoañal/unit2/WS20Interfaces/FarmSimulator/nbproject/private/
+/workshops/titoañal/unit2/WS20Interfaces/FarmSimulator/build/
+=======
 >>>>>>> 8111803404d6c165620cb357d826ace32cc3d48b
+<<<<<<< HEAD
+/workshops/villavicencioa/unit2/WS20Interface/FarmSimulator/nbproject/private/
+/workshops/villavicencioa/unit2/WS20Interface/FarmSimulator/build/
+=======
 >>>>>>> 52cf7e0b120322e4db5122b1ab8692c868ea4d52
 >>>>>>> 9300d1e1f225e0b728f4f22a258c93a1f522b0a9
 >>>>>>> 01c647622e65d741d53ec9ba25bd5ab9a1bffb0a
+<<<<<<< HEAD
+/workshops/cuaspae/unit2/WS20Interfaces/farmSimulator/nbproject/private/
+/workshops/cuaspae/unit2/WS20Interfaces/farmSimulator/build/
+=======
+<<<<<<< HEAD
+/workshops/beltranj/Unit2/Nueva Carpeta/FarmSimulator/nbproject/private/
+/workshops/beltranj/Unit2/WS20-Interfaces/FarmSimulator/build/
+/workshops/beltranj/Unit2/WS20-Interfaces/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/cayambev/Unit 2/WS20-Interfaces/FarmSimulator/nbproject/private/
+/workshops/cayambev/Unit 2/WS20-Interfaces/FarmSimulator/build/
+=======
 <<<<<<< HEAD
 >>>>>>> e635cf785edea83d598913824e685812453f45b6
 =======
 >>>>>>> ab2559db791d91c380273df096ce771a124af60e
 >>>>>>> a25b203131eb086c350276c205c65e1eac9370f7
+<<<<<<< HEAD
+/workshops/yugsim/unit2/WS20-Interfaces/FarmSimulator/nbproject/private/
+/workshops/yugsim/unit2/WS20-Interfaces/FarmSimulator/build/
+=======
 >>>>>>> 2cc98d0106164665bd0a41e03e370f113a0e2c9c
 >>>>>>> 45945a01dd7674e76559d6317d944d2959327ed9
+<<<<<<< HEAD
 /workshops/cadenaf/unit2/WS20/farmSimulator/nbproject/private/
 /workshops/cadenaf/unit2/WS20/farmSimulator/build/
+=======
+<<<<<<< HEAD
+/assignments/galarzaa/unit2/Nueva Carpeta/Calculator/nbproject/private/
+=======
+>>>>>>> 3e12bb73f96ea6a44253bceca8109ab8524390a3
+>>>>>>> dc7de7ef4f8fd31c3dd3701198c835da4090561d
+>>>>>>> bcb3c5613f1cb1c50d6c06184162ad53a619f7fd
+=======
+/assignments/contrerasi/unit2/HW-Inheritance/3730FarmSystem/nbproject/private/
+/workshops/contrerasi/unit2/WS18-Abstract/WS18-Abstract/nbproject/private/
+/workshops/contrerasi/unit2/WS19-Calculator/Calculator/nbproject/private/
+/workshops/contrerasi/unit2/WS19-Calculator/Calculator/build/
+>>>>>>> Stashed changes
+>>>>>>> 0e45099bea91568fbbc1d3f148d3daf2ab6567b4
+>>>>>>> 54fe4bda70c3b21209fbcd0cdd0c21855c83c51d
+>>>>>>> 9cfa03dbeec2abd212e1b9c72f8b87f53a997dbf
+>>>>>>> def093a31b75a6438395a714091e9a7158062825
+>>>>>>> bbdfd39c59dd61539add47371bc363555ed57db0
+>>>>>>> 0c4a6931c558bddefbd15a2a40476c27be26ad79
+>>>>>>> f8ab32528ef21b2949d3b836d172e2b1dee104fe
