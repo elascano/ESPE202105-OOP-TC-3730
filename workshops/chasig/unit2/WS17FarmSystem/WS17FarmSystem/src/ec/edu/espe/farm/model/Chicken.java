@@ -33,11 +33,14 @@ import java.util.Date;
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
     }
+    
+    
 
-    @Override
-    public String toString() {
-        return "Chicken{" + super.toString() + "isMolting=" + isMolting + '}';
+    public void geed (int amount){
+        System.out.println("feeding the chicken ->" +getId() +"with" +amount +"maiz" );
+    }
+    
     }
    
     
-}
+
