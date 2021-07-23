@@ -12,22 +12,27 @@ import java.util.ArrayList;
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
 public class C {
-    private ArrayList<H> hs = new ArrayList<>();  //2   full function
+    private ArrayList<H> hs = new ArrayList<>();
     
-    public void m(F f){    //
-    }
-    public float m(float f){  //1   the function that completes the float is not declared
-    return f;
-    }
+    public void m(F f){
     
-    public C() {           
+        System.out.println("Inside method m of class C receiving an F->" + f);
     }
     
+    public float m(float f){
+        float result;
+        result = f*5.0F;
+        return result;
+    }
+
     @Override
-    public String toString() {          //1   full function
+    public String toString() {
         return "C{" + "hs=" + hs + '}';
     }
-      
+
+    public C(ArrayList<H> hs) {
+        this.hs = hs;
+    }
 
     /**
      * @return the hs
@@ -42,6 +47,8 @@ public class C {
     public void setHs(ArrayList<H> hs) {
         this.hs = hs;
     }
+    
+   
     
     }
    
