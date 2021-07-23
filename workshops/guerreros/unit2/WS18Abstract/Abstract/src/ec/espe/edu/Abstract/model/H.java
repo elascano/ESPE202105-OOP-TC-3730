@@ -9,6 +9,14 @@ package ec.espe.edu.Abstract.model;
  *
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
+<<<<<<< HEAD
 public class H {
     
+    
+    
+    
+=======
+public class H { 
+//it  does not have a constructor,  toString     
+>>>>>>> 3cd6695800faba521e947daec139d60b1429c25e
 }

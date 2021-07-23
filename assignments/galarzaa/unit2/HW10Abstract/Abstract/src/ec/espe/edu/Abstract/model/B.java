@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public abstract class B {
     
-     private float f;
+    private float f;
     private double d;
     ArrayList<G> gs = new ArrayList<>();
 

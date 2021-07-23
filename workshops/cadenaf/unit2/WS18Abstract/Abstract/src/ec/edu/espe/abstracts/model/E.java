@@ -10,8 +10,8 @@ package ec.edu.espe.abstracts.model;
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class E {
-   private float p; 
-   private float q; 
+   private float p; //1
+   private float q;   //1
 
     /**
      * @return the p
@@ -41,12 +41,12 @@ public class E {
         this.q = q;
     }
 
-    public E(float p, float q) {
+    public E(float p, float q) {      //1
         this.p = p;
         this.q = q;
     }
 
-    @Override
+    @Override                //1
     public String toString() {
         return "E{" + "p=" + p + ", q=" + q + '}';
     }

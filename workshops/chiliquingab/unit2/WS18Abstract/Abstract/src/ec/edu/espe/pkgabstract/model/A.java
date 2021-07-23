@@ -13,38 +13,40 @@ import java.util.ArrayList;
  */
 public class A extends B{
 
-    private int a;
-    private int b;
+    private int a; // 1
+    private int b; //1
 
-    private A a1;
-    private A a2;
+    private A a1; //1
+    private A a2; //1
 
-    private B[] bs = new B[5];
+    private B[] bs = new B[5]; //1
 
-    private ArrayList<C> cs = new ArrayList<>();
+    private ArrayList<C> cs = new ArrayList<>(); //1
 
-    public A(float f, double d) {
+    public A(float f, double d) { 
         super(f, d);
     }
 
-    public A(int a, int b, A a1, A a2, float f, double d) {
-        super(f, d);
+    public A(int a, int b, A a1, A a2, float f, double d) { // falta A[] as , b [] bs, ArrayList<C> cs
+        super(f, d);  /// constructor parametrizado incompleto 0,25
         this.a = a;
         this.b = b;
         this.a1 = a1;
         this.a2 = a2;
+        //falta :  this.as=as; this.bs=bs; this.cs=cs;  
+        //for(int i=0; i<5; i++){ this.as[1]=as[1]: 
     }
 
-    public A m(int m, int n) {
+    public A m(int m, int n) { //falta completar el metodo 0,25
         return null;
     }
 
-    public A m() {
+    public A m() {// falta completar el metodo 0,25
 
         return null;
     }
 
-    @Override
+    @Override 
     public String toString() {
         return "A{" + "a=" + a + ", b=" + b + ", a1=" + a1 + ", a2=" + a2 + ", bs=" + bs + ", cs=" + cs + '}';
     }
@@ -52,7 +54,7 @@ public class A extends B{
     /**
      * @return the a
      */
-    public int getA() {
+    public int getA() { 
         return a;
     }
 
@@ -143,3 +145,4 @@ public class A extends B{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
+//falta el constructor sin parametros 0
