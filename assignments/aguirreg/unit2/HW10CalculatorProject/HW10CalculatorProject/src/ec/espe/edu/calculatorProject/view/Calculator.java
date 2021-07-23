@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.espe.edu.calculator.view;
+package ec.espe.edu.calculatorProject.view;
 
 import utils.Operation;
 
@@ -20,13 +20,19 @@ public class Calculator {
         float addend1 = 1.0F;
         float addend2 = 2.0F;
         
-        
-        
+        float minuend = 3.0F;
+        float subtrahend = 4.0F;
+       
         float result;
+        float result1;
         
         result = Operation.add(addend1, addend2);
-        System.out.println("The addition of " + addend1 + "+" + addend2 + " is " + result);
+        result1 = Operation.subtract(minuend, subtrahend);
+        
+        System.out.println("The addition of " + addend1 + " + " + addend2 + " is " + result);
+        System.out.println("The difference of " + minuend + " - " + subtrahend + " is " + result1);
         
     }
     
 }
+
