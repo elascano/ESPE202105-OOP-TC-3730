@@ -43,9 +43,9 @@ public class OperationTest {
     @Test
     public void testAddZeros() {
         System.out.println("add");
-        float addend1 = 0.0F;
-        float addend2 = 0.0F;
-        float expResult = 0.0F;
+        float addend1 = 5.0F;
+        float addend2 = 3.0F;
+        float expResult = 8.0F;
         float result = Operation.add(addend1, addend2);
         assertEquals(expResult, result, 0.0);
         
@@ -56,12 +56,15 @@ public class OperationTest {
      */
     @Test
     public void testSubtract() {
+        
         System.out.println("subtract");
-        float minuend = 5.0F;
-        float subtranend = 3.0F;
-        float expResult = 8.0F;
+        float minuend = 1.2F;
+        float subtranend = 3.4F;
+        float expResult = 4.6F;
         float result = Operation.subtract(minuend, subtranend);
         assertEquals(expResult, result, 0.0);
+        
+        
         
     }
     
