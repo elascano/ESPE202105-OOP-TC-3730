@@ -24,3 +24,7 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/cadenaf/unit2/WS19/Calculator/nbproject/private/
+/workshops/cadenaf/unit2/WS19/Calculator/build/
+/assignments/cadenaf/unit2/HW10Calculator/Calculator/build/
+/assignments/cadenaf/unit2/HW10Calculator/Calculator/nbproject/private/
