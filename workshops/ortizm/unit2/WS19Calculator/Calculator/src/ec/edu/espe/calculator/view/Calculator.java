@@ -5,26 +5,26 @@
  */
 package ec.edu.espe.calculator.view;
 
-import utils.Operation;
+import units.Operation;
 
 /**
  *
- * @author Marlon Ortiz Codec ESPE-DCCO
+ * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
-public class WS {
+public class Calculator {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       float addend1 = 1.0F;
+       float addend2 = 2.0F;
        
-        float addend1= 1.0F;
-        float addend2= 2.8F;
+       float result;
+       
+       result = Operation.add(addend1, addend2);
+        System.out.println("the addito of " + addend1 + " + " + addend2 + " = " + result);
         
-        float result;
-        
-        result= Operation.add(addend1, addend2);
-        System.out.println("The adition of "+ addend1 + "+ " + addend2+ " is -> "+ result);
     }
     
 }
