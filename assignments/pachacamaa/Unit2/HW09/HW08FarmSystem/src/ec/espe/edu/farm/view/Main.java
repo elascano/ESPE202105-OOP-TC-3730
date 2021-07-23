@@ -35,16 +35,16 @@ public class Main {
        
        System.out.println("Far Animal is a ->" + farmAnimal.getClass());
        ArrayList<Chicken> chickens = new ArrayList<>();
-       farmAnimal = new Chicken(1, "Criolla", date, true); 
+       farmAnimal = new Chicken(1, "Castisa", date, true); 
        System.out.println("farm Animal -> " + farmAnimal);
        farmAnimals.add(farmAnimal);
        
        
        System.out.println("Far Animal is a ->" + farmAnimal.getClass());
-       Chicken chicken = new Chicken(2, "Aguarico", date, true); 
+       Chicken chicken = new Chicken(2, "Ponedora", date, true); 
        System.out.println("chicken -> " + chicken);
        
-       Chicken chicken1 = new Chicken(3, "Runa", date, true); 
+       Chicken chicken1 = new Chicken(3, "Pio pio", date, true); 
        System.out.println("chicken -> " + chicken1);
        
        

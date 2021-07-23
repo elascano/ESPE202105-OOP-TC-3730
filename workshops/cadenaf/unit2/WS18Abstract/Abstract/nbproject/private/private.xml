@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/model/G.java</file>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/model/E.java</file>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/model/A.java</file>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/model/B.java</file>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/model/C.java</file>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/model/D.java</file>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/model/F.java</file>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/model/H.java</file>
+            <file>file:/C:/Users/hecto/Downloads/deberes/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit2/WS18Abstract/Abstract/src/ec/edu/espe/abstracts/view/Abstract.java</file>
+        </group>
+>>>>>>> 2cc98d0106164665bd0a41e03e370f113a0e2c9c
     </open-files>
 </project-private>

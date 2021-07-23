@@ -11,14 +11,23 @@ import java.util.ArrayList;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class C extends B{
+public class C{
 
     private ArrayList<H> hs; // Needs completing 1,5
 
+<<<<<<< HEAD
+
+    public C(ArrayList<H> hs) { //2
+        this.hs = hs;
+    }
+    public C(float f, double d) {
+       
+=======
     public C(ArrayList<H> hs) { //2
         this.hs = hs;
     public C(float f, double d) {
         super(f, d);
+>>>>>>> ace332268e238da37ba90259b9d6acb921c352de
     }
 
     @Override //1
@@ -49,15 +58,5 @@ public class C extends B{
      */
     public void setHs(ArrayList<H> hs) { //1
         this.hs = hs;
-    }
-
-    @Override
-    public void operation1(int n) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public float operation2(float f) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
