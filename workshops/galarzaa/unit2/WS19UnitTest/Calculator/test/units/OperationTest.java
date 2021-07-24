@@ -5,8 +5,12 @@
  */
 package units;
 
+import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.BeforeClass;
 
 /**
  *
@@ -14,55 +18,76 @@ import static org.junit.Assert.*;
  */
 public class OperationTest {
     
-    public OperationTest() {
+      public OperationTest() {
+    }
+    
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+    }
+    
+    @After
+    public void tearDown() {
     }
 
     /**
      * Test of add method, of class Operation.
+     * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
      */
     @Test
-    public void testAddZeroe() {
+    public void testAddZeroes() {
         System.out.println("add");
         float addend1 = 0.0F;
         float addend2 = 0.0F;
         float expResult = 0.0F;
         float result = Operation.add(addend1, addend2);
         assertEquals(expResult, result, 0.0);
-       
-    }
+        
+    }  
     @Test
-    public void testAdd() {
+    public void testAddIntegerNegativeAndPositive() {
         System.out.println("add");
-        float addend1 = 5.0F;
-        float addend2 = 3.0F;
-        float expResult = 8.0F;
+        float addend1 = -5.0F;
+        float addend2 = 2.0F;
+        float expResult = -3.0F;
         float result = Operation.add(addend1, addend2);
-        assertEquals(expResult, result, 0.0);
-       
-    }
-    @Test
-    public void testAddPosutivos() {
-        System.out.println("add");
-        float addend1 = 1.20F;
-        float addend2 = 3.40F;
-        float expResult = 4.60F;
-        float result = Operation.add(addend1, addend2);
-        assertEquals(expResult, result, 0.0);
-       
-    }
-
-    /**
-     * Test of subtract method, of class Operation.
-     */
-    @Test
-    public void testSubtract() {
-        System.out.println("subtract");
-        float minuend = 0.0F;
-        float subtrahend = 0.0F;
-        float expResult = 0.0F;
-        float result = Operation.subtract(minuend, subtrahend);
         assertEquals(expResult, result, 0.0);
         
     }
-    
+ 
+
+    @Test
+    public void testAddFloats() {
+        System.out.println("add");
+        float addend1 = -7.6F;
+        float addend2 = -5.6F;
+        float expResult = -13.2F;
+        float result = Operation.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+
+    /**
+     * Test of substract method, of class Operation.
+     * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
+     */
+    @Test
+    public void testSubstractZeroes() {
+        System.out.println("substract");
+        float minuend = 0.0F;
+        float subrahend = 0.0F;
+        float expResult = 0.0F;
+        float result = Operation.substract(minuend, subrahend);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+  
+ 
 }
