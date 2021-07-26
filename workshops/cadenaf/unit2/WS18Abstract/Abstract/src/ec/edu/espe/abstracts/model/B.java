@@ -11,20 +11,25 @@ import java.util.ArrayList;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class B {                           
-    private float f;                       //1
-    private double d;                 //1
-    private ArrayList<G> gs = new ArrayList<>();        //1 
+public abstract class B {                           
+    private float f;                      
+    private double d;                
+    private ArrayList<G> gs = new ArrayList<>();        
 
-   public int operation1(int n){                     //1
-       
-       return n; 
-   }
+   public abstract int operation1(int n);               
    
-   public float operation(float f){
-       
-       return f; 
-   }
+   public abstract float operation(float f);
+
+    public B(float f, double d, ArrayList<G> gs) {
+        this.f = f;
+        this.d = d;
+        this.gs = gs; 
+    }
+
+    @Override
+    public String toString() {
+        return "B{" + "f=" + f + ", d=" + d + ", gs=" + gs + '}';
+    }
 
     /**
      * @return the f
@@ -67,6 +72,7 @@ public class B {
     public void setGs(ArrayList<G> gs) {
         this.gs = gs;
     }
+   
 }
     
         
