@@ -9,7 +9,7 @@ import com.google.gson.Gson;
 import ec.edu.espe.Filemanager.utils.FileManager;
 
 
-import ec.edu.espe.chairfactory.ChairFactory;
+
 
 import java.util.Scanner;
 import ec.edu.espe.chairfactory.ChairData;

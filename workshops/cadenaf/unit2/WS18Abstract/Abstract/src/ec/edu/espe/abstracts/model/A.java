@@ -5,24 +5,87 @@
  */
 package ec.edu.espe.abstracts.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class A {
-    private int a; //1
-    private A a1;  //1
-    private A a2;   //1 
-    private int b; //1
-    private B[] bs = new B[5];     //1
+    private int a; 
+    private int b; 
+    
+    private A a1; 
+    private A a2; 
+    //exclusive or
+    private A[] as = new A[2]; 
+    
+    private B[] bs = new B[5]; 
+    private ArrayList<C> cs = new ArrayList(); 
 
-    public A m(int m, int n) {    //incompleto 
-        A a = new A(); 
+    public A m(int m, int n){
+     System.out.println("using the method m, using ints n -> " + m + " and n " + n);
+      A a;
+      A a1 = new A();
+      A[] as = new A[2];
+      B[] bs = new B[5]; 
+      ArrayList<C> cs = new ArrayList<>(); 
+      
+      a = new A(m, n, a1, a1, as, bs, cs);
+      return a;
+    }
+     public A m(){
+         A a; 
+         a = new A(); 
+         return a; 
+     }
+    
+     
+   @Override
+    public String toString() {
+        return "A{" + "a=" + a + ", a1=" + a1 + ", a2=" + a2 + ", b=" + b + ", bs=" + bs + ", cs=" + cs + '}';
+    }  
+    
+     public A(int a, int b, A a1, A a2, A[] as, B[] bs, ArrayList<C> cs) {
+        this.a = a;
+        this.b = b;
+        this.a1 = a1;
+        this.a2 = a2;
         
-        return a; 
-        
+        this.as = as; 
+        this.bs = bs; 
+        //we may need a loop for bs
+        for(int i=0; i<2; i++){
+            this.as[i] = as[i]; 
+        }
+         for(int i=0; i<5; i++){
+            this.bs[i] = bs[i]; 
+        }
+        this.cs = cs; 
     }
 
+     
+     public A() {
+        a = 0;
+        b = 0;
+        a1 =  new A();
+        a2 = new A();
+        
+        for(int i=0; i<2; i++){
+            this.as[i] = new A(); 
+        }
+         for(int i=0; i<5; i++){
+             if(i%2==0){
+            bs[i] = new D(i, i + 10, i * 10.0F, i * 20.0F, new ArrayList<G>()); 
+        } else{
+                bs[i] = new E(i * 5.0F, i / 5.0F, i / 2.0F, i * 100.0F); new ArrayList<G>()); 
+                }
+        cs = new ArrayList<C>(); 
+    }
+    
+     
+
+   
     /**
      * @return the a
      */
@@ -90,27 +153,25 @@ public class A {
      * @param bs the bs to set
      */
     public void setBs(B[] bs) {
-        this.setBs(bs);
-    }
-
-    public A(int a, A a1, A a2, int b) {
-        this.a = a;
-        this.a1 = a1;
-        this.a2 = a2;
-        this.b = b;
-    }
-
-    @Override             //incompleto
-    public String toString() {
-        return "A{" + "a=" + getA() + ", a1=" + getA1() + ", a2=" + getA2() + ", b=" + getB() + ", bs=" + getBs() + '}';
+        this.bs = bs;
     }
 
     /**
-     * @param bs the bs to set
+     * @return the cs
      */
-    public void setBs(B[] bs) {
-        this.bs = bs;
+    public ArrayList<C> getCs() {
+        return cs;
     }
+
+    /**
+     * @param cs the cs to set
+     */
+    public void setCs(ArrayList<C> cs) {
+        this.cs = cs;
+    }
+
+        
+       
    
     
 }
