@@ -17,8 +17,8 @@ public class Calculator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double addend1 = 1.0;
-        double addend2 = 2.0;
+        double addend1 = 1.7878;
+        double addend2 = 2.756;
         double minuend = 3.0;
         double subtrahend = 4.0;
 
