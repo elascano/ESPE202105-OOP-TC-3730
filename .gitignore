@@ -2313,6 +2313,11 @@ hs_err_pid*
 >>>>>>> c4ed6ff81a922f398afc5e742a2f6ce414ca2c38
 >>>>>>> 762ad1755551cfa8ac280906634b50539ffe23b9
 <<<<<<< HEAD
+/workshops/tupizas/unit2/FarmSimulator/nbproject/private/
+/workshops/tupizas/unit2/FarmSimulator/build/
+/workshops/tupizas/unit2/FarmSystem/nbproject/private/
+=======
+<<<<<<< HEAD
 /workshops/jaramilloj/unit2/Nueva Carpeta/FarmSymulator/nbproject/private/
 /workshops/jaramilloj/unit2/Nueva Carpeta/FarmSymulator/build/
 =======
@@ -2383,6 +2388,13 @@ hs_err_pid*
 =======
 >>>>>>> a25b203131eb086c350276c205c65e1eac9370f7
 <<<<<<< HEAD
+/workshops/aguirreg/unit2/WS20Interfaces/FarmSimulator/nbproject/private/
+/workshops/aguirreg/unit2/WS20Interfaces/FarmSimulator/build/
+=======
+<<<<<<< HEAD
+/workshops/harol/unit2/WS20Interfaces/farmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
 /workshops/maisinchob/unit2/WS20-ER/FarmSimulator/nbproject/private/
 /workshops/maisinchob/unit2/WS20-ER/FarmSimulator/build/
 /workshops/maisinchob/unit2/WS20-Interfaces/FarmSimulator/build/
@@ -2411,6 +2423,10 @@ hs_err_pid*
 =======
 >>>>>>> 3e12bb73f96ea6a44253bceca8109ab8524390a3
 <<<<<<< HEAD
+/workshops/chasig/unit2/Nueva Carpeta/HW20FarmSimulator/nbproject/private/
+/workshops/chasig/unit2/Nueva Carpeta/HW20FarmSimulator/build/
+=======
+<<<<<<< HEAD
 /workshops/sarmientoc/unit2/Nueva Carpeta/FarmSimulator/nbproject/private/
 /workshops/sarmientoc/unit2/Nueva Carpeta/FarmSimulator/build/
 =======
@@ -2437,3 +2453,7 @@ hs_err_pid*
 >>>>>>> c8834971a43705051188e1ff6c030f772241e2c3
 >>>>>>> a64ee06127b630b76fb2bfa2d2e4aadc4020c437
 >>>>>>> b473f0d056a18b4945ee574fa8dc46e7b3d6e54e
+>>>>>>> 0b0cae0b6b4464ffa6df8ce46a2ce00d8ea019a0
+>>>>>>> fcfda7ea5c925d48f68a60239bb29c644ed52e24
+>>>>>>> e82c8208b660cdd567eb5832b42907da9d8e96d9
+>>>>>>> 67d18fc6e36151e1c9264b2a0b06bfc2c68b51ca
