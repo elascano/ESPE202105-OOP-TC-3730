@@ -9,9 +9,19 @@ package ec.edu.espe.abstracts.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class G {       //The method is incomplete 
+public class G {       
   private int z; 
 
+  public G(int z){
+      this.z = z; 
+  }
+
+    @Override
+    public String toString() {
+        return "G{" + "z=" + z + '}';
+    }
+
+  
     /**
      * @return the z
      */
@@ -25,14 +35,7 @@ public class G {       //The method is incomplete
     public void setZ(int z) {
         this.z = z;
     }
-
-    public G() {
-    }
-
-    @Override
-    public String toString() {
-        return "G{" + "z=" + z + '}';
-    }
-
+  
+   
   
 }
