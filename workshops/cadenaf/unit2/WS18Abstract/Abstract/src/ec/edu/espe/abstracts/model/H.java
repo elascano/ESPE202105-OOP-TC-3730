@@ -12,6 +12,11 @@ package ec.edu.espe.abstracts.model;
 public class H {
 
     public H() {
-    }               //the don't have the constructor
+    }     
     
+  @Override
+public String toString(){
+    return "H(" + ')';
+}  
+
 }
