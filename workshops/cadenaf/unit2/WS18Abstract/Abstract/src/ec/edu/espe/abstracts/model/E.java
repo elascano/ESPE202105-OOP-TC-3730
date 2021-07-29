@@ -5,14 +5,56 @@
  */
 package ec.edu.espe.abstracts.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class E {
-   private float p; //1
-   private float q;   //1
+public class E extends B{
+   private float p; 
+   private float q;   
 
+   public int a1(boolean b){
+       
+       int result = 0; 
+       if (b) {
+           result = 1;
+       }
+       return result; 
+   }
+
+   
+    @Override
+    public String toString() {
+        return "E{" + super.toString() +  "p=" + getP() + ", q=" + getQ() + '}';
+    }
+ 
+
+    @Override
+    public int operation1(int a){    
+    }
+    
+    @Override
+    public float operation1(int a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+  @Override
+    public float operation2(float f) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }  
+
+   public E(float p, float q, float f, double d, ArrayList<G> gs) {
+        super(f, d, gs);
+        this.p = p;
+        this.q = q;
+    }
+
+    
+
+   
+   
     /**
      * @return the p
      */
@@ -40,16 +82,10 @@ public class E {
     public void setQ(float q) {
         this.q = q;
     }
-
-    public E(float p, float q) {      //1
-        this.p = p;
-        this.q = q;
-    }
-
-    @Override                //1
-    public String toString() {
-        return "E{" + "p=" + p + ", q=" + q + '}';
-    }
+   
+   
+    
+    
    
    
 }

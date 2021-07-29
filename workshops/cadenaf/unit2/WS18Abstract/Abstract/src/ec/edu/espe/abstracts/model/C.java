@@ -11,39 +11,49 @@ import java.util.ArrayList;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class C {              //public void missing m
-    private ArrayList<H> hs = new ArrayList<>();   //2
+public class C { 
     
-    public void m(F f){   //1
-        
+    private ArrayList<H> hs = new ArrayList<>();  
+    
+    public void m(F f){
+        System.out.println("Inside method m of the class C receiving en f -> " + f);
     }
     
-    public float m(float f){    //1
-        
-        return f; 
+    public float m(float f){
+        float result; 
+        result = f = 5.0F; 
+        return result; 
+    }
+    
+    public C(ArrayList<H> hs){
+        this.hs = hs; 
     }
 
+
+    @Override
+    public String toString() {
+        return "C{" + "hs=" + hs + '}';
+    }
+
+    
+    
     /**
      * @return the hs
      */
-    public ArrayList<H> getHs() {    //1
+    public ArrayList<H> getHs() {
         return hs;
     }
 
     /**
      * @param hs the hs to set
      */
-    public void setHs(ArrayList<H> hs) {     //1
+    public void setHs(ArrayList<H> hs) {
         this.hs = hs;
     }
-
-    public C() {  //1
-    }
-
-    @Override
-    public String toString() {       //1
-        return "C{" + "hs=" + hs + '}';
-    }
+        
+    
+    
+    
     
     
 }
