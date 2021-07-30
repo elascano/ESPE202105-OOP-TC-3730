@@ -29,7 +29,7 @@ public class JFMongoConection extends javax.swing.JFrame {
     public JFMongoConection() {
         try {
             Mongo mongo = new Mongo("Localhost",27017);
-            db=mongo.getDB("basededatos");
+            db=mongo.getDB("basededatos1");
             tabla=db.getCollection("tabla");
             //Product" : "Capacitor", "ID" : 2162, "Fabricator" : "B", "Cost" : "$0.60", "Quantity" : 2 }
             
@@ -164,9 +164,9 @@ public class JFMongoConection extends javax.swing.JFrame {
                     .addComponent(jLQuantity)
                     .addComponent(txtQuantity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(33, 33, 33)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(bttSave)
-                    .addComponent(bttShow))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(bttShow, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(bttSave))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(23, Short.MAX_VALUE))
