@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.library.model;
+package ec.edu.espe.contacts.model;
 
 /**
  *
  * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
 public class Sport {
+
     private int id;
     private String description;
     private boolean team;
@@ -61,6 +62,5 @@ public class Sport {
     public void setTeam(boolean team) {
         this.team = team;
     }
-    
-    
+
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.library.model;
+package ec.edu.espe.contacts.model;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -13,6 +13,7 @@ import java.util.ArrayList;
  * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
 public class Contact {
+
     private String firstName;
     private String lastName;
     private String password;
@@ -24,11 +25,11 @@ public class Contact {
     private LocalDateTime birthDate;
     private int monthIKnewThisContact;
 
-    public Contact(String firstName, String lastName, String password, String phoneNumber, String email, String description, String gender, ArrayList<Sport> sports, LocalDateTime birthDate, int monthIKnewThisContact) {
+    public Contact(String firstName, String lastName, String password, String phoneNumbre, String email, String description, String gender, ArrayList<Sport> sports, LocalDateTime birthDate, int monthIKnewThisContact) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.password = password;
-        this.phoneNumber = phoneNumber;
+        this.phoneNumber = phoneNumbre;
         this.email = email;
         this.description = description;
         this.gender = gender;
@@ -176,5 +177,5 @@ public class Contact {
     public void setMonthIKnewThisContact(int monthIKnewThisContact) {
         this.monthIKnewThisContact = monthIKnewThisContact;
     }
-            
+
 }
