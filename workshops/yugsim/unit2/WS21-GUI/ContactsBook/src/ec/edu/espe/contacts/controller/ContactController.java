@@ -10,6 +10,8 @@ import ec.edu.espe.contacts.model.Sport;
 import ec.edu.espe.contacts.view.FrmContact;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -18,10 +20,19 @@ import java.util.ArrayList;
 public class ContactController {
     private Contact contact;
     private FrmContact frmContact;
+    private PersistenceI persistence;
+
+    public ContactController(Contact contact, FrmContact aThis) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public void add(Contact contact){
         //TODO add contact to database
         //TODO call utils classes
+        persistence = new DBManager();
+        //TODO convert contact to json;
+        String contactJson = "{\"firstname\":\"Pamela\"}";
+        
     }
     
     public ArrayList<Contact> find(String email){
@@ -30,6 +41,18 @@ public class ContactController {
         Contact contact = new Contact("MP", "Yugsi", "password", "0995420088", "mpyugsi@espe.edu.ec", "description", "female", new ArrayList<Sport>(), LocalDateTime.MIN, 0);
         contacts.add(contact);
         return contacts;
+    }
+    
+    public boolean delete(String email){
+        boolean deleted = false;
+        //TODO 
+         ArrayList<Contact> contacts = new ArrayList<>();
+        contacts = find (email);
+        if(contacts.size()>0){
+            //TODO delete from data base
+            deleted = true;
+        }
+        return deleted;
     }
     
     public boolean update(String email){
