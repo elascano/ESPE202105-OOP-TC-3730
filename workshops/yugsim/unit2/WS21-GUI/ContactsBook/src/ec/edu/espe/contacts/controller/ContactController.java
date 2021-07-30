@@ -32,6 +32,18 @@ public class ContactController {
         return contacts;
     }
     
+    public boolean delete(String email){
+        boolean deleted = false;
+        //TODO 
+         ArrayList<Contact> contacts = new ArrayList<>();
+        contacts = find (email);
+        if(contacts.size()>0){
+            //TODO delete from data base
+            deleted = true;
+        }
+        return deleted;
+    }
+    
     public boolean update(String email){
         boolean updated = false;
         //TODO 
