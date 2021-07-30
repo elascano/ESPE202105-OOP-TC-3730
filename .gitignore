@@ -2579,8 +2579,16 @@ hs_err_pid*
 =======
 /workshops/yaneze/unit2/Nueva Carpeta/ContactsBook/nbproject/private/
 /workshops/yaneze/unit2/Nueva Carpeta/ContactsBook/build/
+<<<<<<< HEAD
+/assignments/yaneze/unit2/HW14MongoDb/MongoDb/nbproject/private/
+/assignments/yaneze/unit2/HW14MongoDb/MongoDb/build/
+=======
 >>>>>>> a0d8022463beee50f25627bedb836bfd3c0cc8ac
 >>>>>>> 973bd199eb5a05a415f8d89698fc479fe7bd97be
+<<<<<<< HEAD
+/assignments/chiliquingab/unit2/HW14 Mongodb/MongoTest/build/
+/assignments/chiliquingab/unit2/HW14 Mongodb/MongoTest/nbproject/private/
+=======
 >>>>>>> 53da9f1b75bed6a6664ede94b5fca1d3a24399e2
 >>>>>>> 798c3667685bcea1748930fafef6933e83c79281
 >>>>>>> a797e7e40b4eb2a8d369baa8b696770360eeba75
@@ -2601,5 +2609,10 @@ hs_err_pid*
 >>>>>>> 5638ac6c534cdd24f271f2a08f426a0bbe2e7353
 >>>>>>> ea654d187c0745872a83e4345e1fc7d462bcc328
 >>>>>>> 5d1e1a38500ab8fa3b64ea7ebd1968b65c3f9948
+<<<<<<< HEAD
 /assignments/heredial/unit2/HW15MongoDB DataBase/HW15TelecomunicationsInventory/nbproject/private/
 /assignments/heredial/unit2/HW15MongoDB DataBase/HW15TelecomunicationsInventory/build/
+=======
+>>>>>>> e3607617f2ad5a8ea42a59e8e1992c2065397edc
+>>>>>>> 7e607efc91476068da71aa3760366128379774d9
+>>>>>>> 976623af64677c8d9c0341afb4bf621fec186783
