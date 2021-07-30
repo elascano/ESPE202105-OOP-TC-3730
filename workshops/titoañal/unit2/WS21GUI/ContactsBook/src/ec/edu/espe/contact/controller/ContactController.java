@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.electronic.controller;
+package ec.edu.espe.contact.controller;
 
-import ec.edu.espe.electronic.model.Contact;
-import ec.edu.espe.electronic.view.FrmContact;
+import ec.edu.espe.contact.model.Contact;
+import ec.edu.espe.contact.view.FrmContact;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -17,10 +19,15 @@ import java.util.ArrayList;
 public class ContactController {
     private Contact contact;
     private FrmContact frmC0ntact;
+    private PersistenceI persistence;
 
     public void add(Contact contact){
         //TODO add contact to database
         //TODO call the utils classes
+        persistence = new DBManager();
+        String contactJson = "{\"firstname\":\"Leslie\"}";
+        persistence.create(contactJson, "contacts");
+        
         
     }
     
@@ -28,6 +35,7 @@ public class ContactController {
         ArrayList<Contact> contacts = new ArrayList<>();
         //TODO fin the contact(s) by email using utils
         Contact contact = new Contact("Leslie", "Titoaña", "Oe14", "0987654321", "lbtitoana@espe.edu.ec", 19,"female", new ArrayList<>(), LocalDateTime.MIN,0);
+        contacts.add(contact);
         return contacts;
     }
     
@@ -53,12 +61,15 @@ public class ContactController {
         contacts = find(email);
         if(contacts.size()>0){
             //TODO delete from database
-            updated = true;
-            
+            updated = true;    
         }
-        return updated;
-        
-        
+        return updated;  
+    }
+
+    public ContactController(Contact contact, FrmContact frmC0ntact, PersistenceI persistence) {
+        this.contact = contact;
+        this.frmC0ntact = frmC0ntact;
+        this.persistence = persistence;
     }
     
     
@@ -66,9 +77,9 @@ public class ContactController {
         this.contact = contact;
         this.frmC0ntact = frmC0ntact;
     }
-
     
     
+   
     /**
      * @return the contact
      */
