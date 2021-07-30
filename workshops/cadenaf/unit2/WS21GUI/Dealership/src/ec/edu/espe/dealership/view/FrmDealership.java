@@ -5,17 +5,17 @@
  */
 package ec.edu.espe.dealership.view;
 
+
 /**
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class FrmDealership extends javax.swing.JFrame {
-
+   
     /**
      * Creates new form FrmDealership
      */
     public FrmDealership() {
-        initComponents();
     }
 
     /**
@@ -47,15 +47,15 @@ public class FrmDealership extends javax.swing.JFrame {
         btnUpdate = new javax.swing.JButton();
         btnDelate = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
-        TxtFullName = new javax.swing.JTextField();
-        TxtIDCard = new javax.swing.JTextField();
-        TxtAddress = new javax.swing.JTextField();
-        TxtEmail = new javax.swing.JTextField();
-        TxtPhone = new javax.swing.JTextField();
-        TxtDateOfBirth = new javax.swing.JTextField();
+        FullName = new javax.swing.JTextField();
+        IDCard = new javax.swing.JTextField();
+        address = new javax.swing.JTextField();
+        email = new javax.swing.JTextField();
+        phone = new javax.swing.JTextField();
+        dateOfBirth = new javax.swing.JTextField();
         btnSave = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
-        jPasswordField1 = new javax.swing.JPasswordField();
+        password = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -123,6 +123,11 @@ public class FrmDealership extends javax.swing.JFrame {
         });
 
         btnUpdate.setText("Update");
+        btnUpdate.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUpdateActionPerformed(evt);
+            }
+        });
 
         btnDelate.setText("Delate");
         btnDelate.addActionListener(new java.awt.event.ActionListener() {
@@ -133,33 +138,33 @@ public class FrmDealership extends javax.swing.JFrame {
 
         btnExit.setText("Exit");
 
-        TxtFullName.addActionListener(new java.awt.event.ActionListener() {
+        FullName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TxtFullNameActionPerformed(evt);
+                FullNameActionPerformed(evt);
             }
         });
 
-        TxtIDCard.addActionListener(new java.awt.event.ActionListener() {
+        IDCard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TxtIDCardActionPerformed(evt);
+                IDCardActionPerformed(evt);
             }
         });
 
-        TxtAddress.addActionListener(new java.awt.event.ActionListener() {
+        address.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TxtAddressActionPerformed(evt);
+                addressActionPerformed(evt);
             }
         });
 
-        TxtPhone.addActionListener(new java.awt.event.ActionListener() {
+        phone.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TxtPhoneActionPerformed(evt);
+                phoneActionPerformed(evt);
             }
         });
 
-        TxtDateOfBirth.addActionListener(new java.awt.event.ActionListener() {
+        dateOfBirth.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TxtDateOfBirthActionPerformed(evt);
+                dateOfBirthActionPerformed(evt);
             }
         });
 
@@ -172,7 +177,7 @@ public class FrmDealership extends javax.swing.JFrame {
 
         jLabel10.setText("Password: ");
 
-        jPasswordField1.setText("jPasswordField1");
+        password.setText("jPasswordField1");
 
         javax.swing.GroupLayout PnlBotonsLayout = new javax.swing.GroupLayout(PnlBotons);
         PnlBotons.setLayout(PnlBotonsLayout);
@@ -193,13 +198,13 @@ public class FrmDealership extends javax.swing.JFrame {
                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PnlBotonsLayout.createSequentialGroup()
                                             .addComponent(jLabel2)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(TxtFullName))
+                                            .addComponent(FullName))
                                         .addGroup(PnlBotonsLayout.createSequentialGroup()
                                             .addGroup(PnlBotonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                 .addComponent(jLabel3)
                                                 .addComponent(jLabel4))
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(TxtIDCard, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(IDCard, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(PnlBotonsLayout.createSequentialGroup()
                                         .addComponent(jRadioButton1)
                                         .addGap(78, 78, 78)
@@ -211,22 +216,22 @@ public class FrmDealership extends javax.swing.JFrame {
                                     .addGroup(PnlBotonsLayout.createSequentialGroup()
                                         .addComponent(jLabel7)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(TxtDateOfBirth))
+                                        .addComponent(dateOfBirth))
                                     .addGroup(PnlBotonsLayout.createSequentialGroup()
                                         .addComponent(jLabel6)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(TxtPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(phone, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PnlBotonsLayout.createSequentialGroup()
                                 .addGroup(PnlBotonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(TxtAddress, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(address, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PnlBotonsLayout.createSequentialGroup()
                                         .addComponent(jLabel5)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(TxtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel10)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(PnlBotonsLayout.createSequentialGroup()
                         .addGap(27, 27, 27)
                         .addGroup(PnlBotonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -254,24 +259,24 @@ public class FrmDealership extends javax.swing.JFrame {
                 .addGroup(PnlBotonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(jLabel6)
-                    .addComponent(TxtFullName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TxtPhone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(FullName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(phone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(PnlBotonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(jLabel7)
-                    .addComponent(TxtIDCard, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TxtDateOfBirth, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(IDCard, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(dateOfBirth, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(PnlBotonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(TxtAddress, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(address, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel10)
-                    .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(PnlBotonsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
-                    .addComponent(TxtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34)
                 .addComponent(jLabel8)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -335,7 +340,7 @@ public class FrmDealership extends javax.swing.JFrame {
     }//GEN-LAST:event_jCheckBox2ActionPerformed
 
     private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
-        // TODO add your handling code here:
+     // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox3ActionPerformed
 
     private void jCheckBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox4ActionPerformed
@@ -346,29 +351,33 @@ public class FrmDealership extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnDelateActionPerformed
 
-    private void TxtFullNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtFullNameActionPerformed
+    private void FullNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FullNameActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TxtFullNameActionPerformed
+    }//GEN-LAST:event_FullNameActionPerformed
 
-    private void TxtAddressActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtAddressActionPerformed
+    private void addressActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addressActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TxtAddressActionPerformed
+    }//GEN-LAST:event_addressActionPerformed
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnSaveActionPerformed
 
-    private void TxtIDCardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtIDCardActionPerformed
+    private void IDCardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IDCardActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TxtIDCardActionPerformed
+    }//GEN-LAST:event_IDCardActionPerformed
 
-    private void TxtPhoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtPhoneActionPerformed
+    private void phoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TxtPhoneActionPerformed
+    }//GEN-LAST:event_phoneActionPerformed
 
-    private void TxtDateOfBirthActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtDateOfBirthActionPerformed
+    private void dateOfBirthActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dateOfBirthActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TxtDateOfBirthActionPerformed
+    }//GEN-LAST:event_dateOfBirthActionPerformed
+
+    private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnUpdateActionPerformed
 
     /**
      * @param args the command line arguments
@@ -406,17 +415,16 @@ public class FrmDealership extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField FullName;
+    private javax.swing.JTextField IDCard;
     private javax.swing.JPanel PnlBotons;
-    private javax.swing.JTextField TxtAddress;
-    private javax.swing.JTextField TxtDateOfBirth;
-    private javax.swing.JTextField TxtEmail;
-    private javax.swing.JTextField TxtFullName;
-    private javax.swing.JTextField TxtIDCard;
-    private javax.swing.JTextField TxtPhone;
+    private javax.swing.JTextField address;
     private javax.swing.JButton btnDelate;
     private javax.swing.JButton btnExit;
     private javax.swing.JButton btnSave;
     private javax.swing.JButton btnUpdate;
+    private javax.swing.JTextField dateOfBirth;
+    private javax.swing.JTextField email;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox3;
@@ -431,9 +439,10 @@ public class FrmDealership extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
+    private javax.swing.JPasswordField password;
+    private javax.swing.JTextField phone;
     // End of variables declaration//GEN-END:variables
 }
