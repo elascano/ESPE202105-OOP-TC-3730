@@ -10,6 +10,8 @@ import ec.edu.espe.contacts.model.Sport;
 import ec.edu.espe.contacts.view.FrmContact;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -18,35 +20,55 @@ import java.util.ArrayList;
 public class ContactController {
     private Contact contact;
     private FrmContact frmContact;
+    private PersistenceI persistence;
+
+    public ContactController(Contact contact, FrmContact aThis) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public void add(Contact contact){
-        //TODO add contact to dabatase 
-        //TODO call the utils classes
+        //TODO add contact to database
+        //TODO call utils classes
+        persistence = new DBManager();
+        //TODO convert contact to json;
+        String contactJson = "{\"firstname\":\"Vanessa\"}";
+        
     }
     
     public ArrayList<Contact> find(String email){
         ArrayList<Contact> contacts = new ArrayList<>();
-        
-        Contact contact = new Contact("Vanessa", "Cayambe", "password", "0939350899", "vkcayambe@espe.edu.ec", "description", new ArrayList<Sport>(), LocalDateTime.MIN, 0);
+        //TODO find the contact(s) by email using utils
+        Contact contact = new Contact("VK", "Cayambe", "password", "0968436981", "vkcayambe@espe.edu.ec", "description", "female", new ArrayList<Sport>(), LocalDateTime.MIN, 0);
         contacts.add(contact);
         return contacts;
-        
+    }
+    
+    public boolean delete(String email){
+        boolean deleted = false;
+        //TODO 
+         ArrayList<Contact> contacts = new ArrayList<>();
+        contacts = find (email);
+        if(contacts.size()>0){
+            //TODO delete from data base
+            deleted = true;
+        }
+        return deleted;
     }
     
     public boolean update(String email){
-        boolean updated=false;
+        boolean updated = false;
         //TODO 
-        ArrayList<Contact> contacts = new ArrayList<>();
+         ArrayList<Contact> contacts = new ArrayList<>();
         contacts = find (email);
         if(contacts.size()>0){
-            updated =true;
-            
+            updated = true;
         }
         return updated;
     }
-    public ContactController(Contact contact, FrmContact frmContact) {
-        this.contact = contact;
-        this.frmContact = frmContact;
+    
+    @Override
+    public String toString() {
+        return "ContactController{" + "contact=" + contact + ", frmContact=" + frmContact + '}';
     }
 
     /**
@@ -76,7 +98,4 @@ public class ContactController {
     public void setFrmContact(FrmContact frmContact) {
         this.frmContact = frmContact;
     }
-    
-    
-    
 }

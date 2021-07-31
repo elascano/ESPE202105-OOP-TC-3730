@@ -10,6 +10,7 @@ package ec.edu.espe.contacts.model;
  * @author Vanessa Cayambe Team of machine ESPE-DCCO
  */
 public class Sport {
+
     private int id;
     private String description;
     private boolean team;
@@ -20,7 +21,6 @@ public class Sport {
         this.team = team;
     }
 
-    
     /**
      * @return the id
      */
@@ -62,6 +62,5 @@ public class Sport {
     public void setTeam(boolean team) {
         this.team = team;
     }
-    
-    
+
 }

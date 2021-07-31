@@ -13,56 +13,57 @@ import java.util.ArrayList;
  * @author Vanessa Cayambe Team of machine ESPE-DCCO
  */
 public class Contact {
-    private String Firstname;
-    private String LastName;
+
+    private String firstName;
+    private String lastName;
     private String password;
     private String phoneNumber;
     private String email;
     private String description;
+    private String gender;
     private ArrayList<Sport> sports;
     private LocalDateTime birthDate;
-    private int monthIKnewThisContact; 
+    private int monthIKnewThisContact;
 
-    public Contact(String Firstname, String LastName, String password, String phoneNumber, String email, String description, ArrayList<Sport> sports, LocalDateTime birthDate, int monthIKnewThisContact) {
-        this.Firstname = Firstname;
-        this.LastName = LastName;
+    public Contact(String firstName, String lastName, String password, String phoneNumbre, String email, String description, String gender, ArrayList<Sport> sports, LocalDateTime birthDate, int monthIKnewThisContact) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.password = password;
-        this.phoneNumber = phoneNumber;
+        this.phoneNumber = phoneNumbre;
         this.email = email;
         this.description = description;
+        this.gender = gender;
         this.sports = sports;
         this.birthDate = birthDate;
         this.monthIKnewThisContact = monthIKnewThisContact;
     }
-    
-    
-    
+
     /**
-     * @return the Firstname
+     * @return the firstName
      */
-    public String getFirstname() {
-        return Firstname;
+    public String getFirstName() {
+        return firstName;
     }
 
     /**
-     * @param Firstname the Firstname to set
+     * @param firstName the firstName to set
      */
-    public void setFirstname(String Firstname) {
-        this.Firstname = Firstname;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     /**
-     * @return the LastName
+     * @return the lastName
      */
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     /**
-     * @param LastName the LastName to set
+     * @param lastName the lastName to set
      */
-    public void setLastName(String LastName) {
-        this.LastName = LastName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     /**
@@ -122,6 +123,20 @@ public class Contact {
     }
 
     /**
+     * @return the gender
+     */
+    public String getGender() {
+        return gender;
+    }
+
+    /**
+     * @param gender the gender to set
+     */
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    /**
      * @return the sports
      */
     public ArrayList<Sport> getSports() {
@@ -162,6 +177,5 @@ public class Contact {
     public void setMonthIKnewThisContact(int monthIKnewThisContact) {
         this.monthIKnewThisContact = monthIKnewThisContact;
     }
-    
-    
+
 }
