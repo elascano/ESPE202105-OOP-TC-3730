@@ -9,6 +9,8 @@ import ec.edu.espe.contacts.model.Contact;
 import ec.edu.espe.contacts.view.FrmContact;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -17,11 +19,15 @@ import java.util.ArrayList;
 public class ContactController {
     private Contact contact;
     private FrmContact frmC0ntact;
+    private PersistenceI persistence;
 
-    public void add(Contact contact){
+    public void add(Contact contact){ /////////review
         //TODO add contact to database
         //TODO call the utils classes
-        
+        persistence = new DBManager();
+        //TODO convert contact to json
+        String contactJson = "{\"firstname\":\"Erick\"}";
+        persistence.create(contactJson, "contacts");
     }
     
     public ArrayList<Contact> find(String email){
