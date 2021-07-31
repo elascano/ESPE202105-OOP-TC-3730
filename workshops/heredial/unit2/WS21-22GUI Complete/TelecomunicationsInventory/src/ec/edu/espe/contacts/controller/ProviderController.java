@@ -5,28 +5,38 @@
  */
 package ec.edu.espe.contacts.controller;
 
-import ec.edu.espe.contacts.model.Invoice;import ec.edu.espe.contacts.model.Product;
-import ec.edu.espe.contacts.view.FrmInvoice;
+import ec.edu.espe.contacts.model.Provider;
+import ec.edu.espe.contacts.model.Product;
+import ec.edu.espe.contacts.view.ProviderInvoice;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.Persistence;
 
 /**
  *
  * @author Luis Heredia Accent on the Future ESPE-DCC0
  */
-public class InvoiceController {
-    private Invoice invoice;
-    private FrmInvoice frmInvoice;
+public class ProviderController {
+    private Provider invoice;
+    private ProviderInvoice frmInvoice;
+    private Persistence persistence;
 
-    public void add(Invoice invoice){
+    public void add(Provider invoice){
         //TODO add product to database
         //TODO call the utils classes
+        persistence = new DBManager();
+        //TODO convert contact to json;
+        String providerJson = "{\"name\":\"Carlos\"}";
+        persistence.create(providerJson, "provider");
+        
+
     }
     
-    public ArrayList<Invoice> find(int CI){
-        ArrayList<Invoice> invoices = new ArrayList<>();
+    public ArrayList<Provider> find(int CI){
+        ArrayList<Provider> invoices = new ArrayList<>();
          //TODO find the product using utils
-         Invoice invoice = new Invoice("Luis", "Heredia", 1719289330, 12.5F, 2341, LocalDateTime.now(),new ArrayList<Product>());
+         Provider invoice = new Provider("Luis", "Heredia", "1719289330", "12.5", "2341", "Cash",LocalDateTime.now(),new ArrayList<Product>());
          invoices.add(invoice);
          return invoices;
     }
@@ -34,7 +44,7 @@ public class InvoiceController {
     public boolean delete(int CI){
         //TODO
         boolean deleted = false;
-        ArrayList<Invoice> invoices = new ArrayList<>();
+        ArrayList<Provider> invoices = new ArrayList<>();
         invoices =  find(CI);
         if(invoices.size()>0){
             //TODO  delete from database
@@ -47,7 +57,7 @@ public class InvoiceController {
     public boolean update(int CI){
         //TODO
         boolean update = false;
-        ArrayList<Invoice> invoices = new ArrayList<>();
+        ArrayList<Provider> invoices = new ArrayList<>();
         invoices = find(CI);
         if(invoices.size()>0){
             //TODO delete from data base
@@ -57,7 +67,7 @@ public class InvoiceController {
         
     }
 
-    public InvoiceController(Invoice invoice, FrmInvoice frmInvoice) {
+    public ProviderController(Provider invoice, ProviderInvoice frmInvoice) {
         this.invoice = invoice;
         this.frmInvoice = frmInvoice;
     }
@@ -65,28 +75,28 @@ public class InvoiceController {
     /**
      * @return the invoice
      */
-    public Invoice getInvoice() {
+    public Provider getInvoice() {
         return invoice;
     }
 
     /**
      * @param invoice the invoice to set
      */
-    public void setInvoice(Invoice invoice) {
+    public void setInvoice(Provider invoice) {
         this.invoice = invoice;
     }
 
     /**
      * @return the frmInvoice
      */
-    public FrmInvoice getFrmInvoice() {
+    public ProviderInvoice getFrmInvoice() {
         return frmInvoice;
     }
 
     /**
      * @param frmInvoice the frmInvoice to set
      */
-    public void setFrmInvoice(FrmInvoice frmInvoice) {
+    public void setFrmInvoice(ProviderInvoice frmInvoice) {
         this.frmInvoice = frmInvoice;
     }
 
