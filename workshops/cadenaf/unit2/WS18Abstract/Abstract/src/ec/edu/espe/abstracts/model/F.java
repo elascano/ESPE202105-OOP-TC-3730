@@ -9,9 +9,19 @@ package ec.edu.espe.abstracts.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class F {       // The don’t have the method  
+public class F {        
    private String r; 
 
+   public F(String r){
+       this.r = r; 
+   }
+
+    @Override
+    public String toString() {
+        return "F{" + "r=" + r + '}';
+    }
+
+   
     /**
      * @return the r
      */
@@ -25,15 +35,9 @@ public class F {       // The don’t have the method
     public void setR(String r) {
         this.r = r;
     }
-
-    public F(String r) {
-        this.r = r;
-    }
-
-    @Override
-    public String toString() {
-        return "F{" + "r=" + r + '}';
-    }
    
+
+
+    
    
 }

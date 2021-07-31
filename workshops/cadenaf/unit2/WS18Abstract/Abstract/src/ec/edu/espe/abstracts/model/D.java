@@ -10,8 +10,8 @@ package ec.edu.espe.abstracts.model;
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
 public class D {
-  private int x;       //1
-  private int y;   //1
+  private int x;      
+  private int y;   
   
   public boolean m(int i){
           
@@ -46,14 +46,14 @@ public class D {
         this.y = y;
     }
 
-    public D(int x, int y) {    //1
+    public D(int x, int y) {    
         this.x = x;
         this.y = y;
     }
 
     @Override
     public String toString() {
-        return "D{" + "x=" + x + ", y=" + y + '}';   //1
+        return "D{" + "x=" + x + ", y=" + y + '}';   
     }
   
   
