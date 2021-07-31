@@ -29,6 +29,10 @@ public class Material {
         this.DateOfPurchase = DateOfPurchase;
     }
 
+    public Material() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     /**
      * @return the firstName
      */
