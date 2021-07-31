@@ -41,10 +41,14 @@ public class FrmInformation extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         Txtfind = new javax.swing.JTextField();
-        txtfind2 = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
+        PswCode = new javax.swing.JPasswordField();
+        txtName = new javax.swing.JTextField();
+        txtUniversity = new javax.swing.JTextField();
+        txtCareer = new javax.swing.JTextField();
+        cbxGender = new javax.swing.JComboBox<>();
         PnlButton = new javax.swing.JPanel();
         BtnAdd = new javax.swing.JButton();
         BtnSearch = new javax.swing.JButton();
@@ -91,6 +95,15 @@ public class FrmInformation extends javax.swing.JFrame {
 
         jLabel14.setText("Birthday Date:");
 
+        PswCode.setText("jPasswordField1");
+
+        cbxGender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cbxGender.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbxGenderActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout PnlimputLayout = new javax.swing.GroupLayout(Pnlimput);
         Pnlimput.setLayout(PnlimputLayout);
         PnlimputLayout.setHorizontalGroup(
@@ -106,33 +119,45 @@ public class FrmInformation extends javax.swing.JFrame {
                             .addGroup(PnlimputLayout.createSequentialGroup()
                                 .addComponent(jLabel3)
                                 .addGap(18, 18, 18)
-                                .addComponent(txtfind2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5)
+                                .addComponent(PswCode, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(PnlimputLayout.createSequentialGroup()
                                 .addComponent(jLabel8)
                                 .addGap(27, 27, 27)
                                 .addComponent(jLabel7)
-                                .addGap(32, 32, 32)
+                                .addGap(50, 50, 50)
                                 .addComponent(jLabel9)
-                                .addGap(30, 30, 30)
+                                .addGap(44, 44, 44)
                                 .addComponent(jLabel10))
-                            .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(PnlimputLayout.createSequentialGroup()
-                                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Txtfind, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(185, 185, 185)))
+                            .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(PnlimputLayout.createSequentialGroup()
+                                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(Txtfind, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(185, 185, 185))
+                                .addGroup(PnlimputLayout.createSequentialGroup()
+                                    .addComponent(jLabel6)
+                                    .addGap(49, 49, 49)
+                                    .addComponent(txtCareer, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel13)
+                                        .addComponent(jLabel11)
+                                        .addGroup(PnlimputLayout.createSequentialGroup()
+                                            .addComponent(jLabel12)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(cbxGender, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addGroup(PnlimputLayout.createSequentialGroup()
                                 .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel12)
-                                    .addComponent(jLabel13)
-                                    .addComponent(jLabel11)))))
+                                    .addComponent(jLabel4)
+                                    .addComponent(jLabel5))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(txtName)
+                                    .addComponent(txtUniversity, javax.swing.GroupLayout.DEFAULT_SIZE, 178, Short.MAX_VALUE)))))
                     .addGroup(PnlimputLayout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel14)))
-                .addContainerGap(209, Short.MAX_VALUE))
+                .addContainerGap(168, Short.MAX_VALUE))
         );
         PnlimputLayout.setVerticalGroup(
             PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -146,28 +171,42 @@ public class FrmInformation extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
-                    .addComponent(txtfind2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(PswCode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel4)
+                .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel5)
+                .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(txtUniversity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(PnlimputLayout.createSequentialGroup()
-                        .addComponent(jLabel6)
-                        .addGap(18, 18, 18))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PnlimputLayout.createSequentialGroup()
-                        .addComponent(jLabel12)
-                        .addGap(26, 26, 26)))
-                .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel10))
-                .addGap(18, 18, 18)
-                .addComponent(jLabel13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel14)
+                        .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PnlimputLayout.createSequentialGroup()
+                                .addComponent(jLabel6)
+                                .addGap(18, 18, 18))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PnlimputLayout.createSequentialGroup()
+                                .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel12)
+                                    .addComponent(cbxGender, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(23, 23, 23)))
+                        .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel10))
+                        .addGroup(PnlimputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PnlimputLayout.createSequentialGroup()
+                                .addGap(43, 43, 43)
+                                .addComponent(jLabel14))
+                            .addGroup(PnlimputLayout.createSequentialGroup()
+                                .addGap(33, 33, 33)
+                                .addComponent(jLabel13))))
+                    .addGroup(PnlimputLayout.createSequentialGroup()
+                        .addComponent(txtCareer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel9)))
                 .addGap(0, 84, Short.MAX_VALUE))
         );
 
@@ -184,10 +223,10 @@ public class FrmInformation extends javax.swing.JFrame {
         );
         PnlButtonLayout.setVerticalGroup(
             PnlButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PnlButtonLayout.createSequentialGroup()
-                .addGap(31, 31, 31)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PnlButtonLayout.createSequentialGroup()
+                .addContainerGap(45, Short.MAX_VALUE)
                 .addComponent(BtnAdd)
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addGap(32, 32, 32))
         );
 
         BtnSearch.setText("Search");
@@ -218,7 +257,7 @@ public class FrmInformation extends javax.swing.JFrame {
                 .addComponent(Pnlimput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
                         .addComponent(PnlButton, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
@@ -231,6 +270,10 @@ public class FrmInformation extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void cbxGenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbxGenderActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbxGenderActionPerformed
 
     /**
      * @param args the command line arguments
@@ -273,7 +316,9 @@ public class FrmInformation extends javax.swing.JFrame {
     private javax.swing.JButton Btndeleted;
     private javax.swing.JPanel PnlButton;
     private javax.swing.JPanel Pnlimput;
+    private javax.swing.JPasswordField PswCode;
     private javax.swing.JTextField Txtfind;
+    private javax.swing.JComboBox<String> cbxGender;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -289,6 +334,8 @@ public class FrmInformation extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JTextField txtfind2;
+    private javax.swing.JTextField txtCareer;
+    private javax.swing.JTextField txtName;
+    private javax.swing.JTextField txtUniversity;
     // End of variables declaration//GEN-END:variables
 }
