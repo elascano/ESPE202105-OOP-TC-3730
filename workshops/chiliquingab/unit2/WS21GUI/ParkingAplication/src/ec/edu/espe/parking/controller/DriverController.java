@@ -5,8 +5,10 @@
  */
 package ec.edu.espe.parking.controller;
 
+import Utlils.DBManager;
+import Utlils.PersistenceI;
 import ec.edu.espe.parking.model.Driver;
-import ec.edu.espe.parking.model.Type;
+import ec.edu.espe.parking.model.TypeCar;
 import ec.edu.espe.parking.view.FrmDriver;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -15,20 +17,25 @@ import java.util.ArrayList;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class DriverContoller {
+public class DriverController {
     private Driver drivers;
     private FrmDriver frmDriver;
+    private PersistenceI persistence;
     
     public void add(Driver drivers){
         //TODO add contact to datebase
         //TODO call the utils classes
+        persistence = new DBManager();
+        //TODO convert driver to json
+        String driverJson = "{\"firstname\":\"Bryan\"}";
+        persistence.create(driverJson, "Drivers");
     }
     
     public ArrayList <Driver> find(String email){
         ArrayList<Driver> driver = new ArrayList<>();
         //TODO find the contacts by mail using utils
-        Driver driver1 = new Driver("Bryan", "Chiliquinga", "melanieteamo", "099782134", "bryanchiliquinga423@gmail.com", "Yo amo a la melanie", "Masculino", new ArrayList<Type>(), LocalDateTime.now(), 1);
-        driver.add(driver1);
+        Driver drivers = new Driver("Bryan", "Chiliquinga", "melanieteamo", "099782134", "bryanchiliquinga423@gmail.com", "Yo amo a la melanie", "Masculino", new ArrayList<TypeCar>(), LocalDateTime.now(), 0);
+        driver.add(drivers);
         return driver;
     }
     
@@ -54,7 +61,7 @@ public class DriverContoller {
         return update;
     }
     
-    public DriverContoller(Driver drivers, FrmDriver frmDriver) {
+    public DriverController(Driver drivers, FrmDriver frmDriver) {
         this.drivers = drivers;
         this.frmDriver = frmDriver;
     }

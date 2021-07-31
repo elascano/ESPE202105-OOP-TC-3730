@@ -9,12 +9,13 @@ package ec.edu.espe.parking.model;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class Type {
+public class TypeCar {
+
     private int mark;
     private String description;
     private boolean exist;
 
-    public Type(int mark, String description, boolean exist) {
+    public TypeCar(int mark, String description, boolean exist) {
         this.mark = mark;
         this.description = description;
         this.exist = exist;
@@ -61,5 +62,5 @@ public class Type {
     public void setExist(boolean exist) {
         this.exist = exist;
     }
-    
+
 }
