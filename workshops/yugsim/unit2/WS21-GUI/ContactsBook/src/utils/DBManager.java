@@ -11,7 +11,8 @@ package utils;
  */
 public class DBManager implements PersistenceI{
     
-    
+    public void connect(String database, String user, String password){
+    }
     
     @Override
     public boolean create(String data, String table) {

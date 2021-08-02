@@ -21,10 +21,6 @@ public class ContactController {
     private Contact contact;
     private FrmContact frmContact;
     private PersistenceI persistence;
-
-    public ContactController(Contact contact, FrmContact aThis) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
     public void add(Contact contact){
         //TODO add contact to database
@@ -32,7 +28,7 @@ public class ContactController {
         persistence = new DBManager();
         //TODO convert contact to json;
         String contactJson = "{\"firstname\":\"Pamela\"}";
-        
+        persistence.create(contactJson, "contacts");
     }
     
     public ArrayList<Contact> find(String email){
@@ -66,9 +62,9 @@ public class ContactController {
         return updated;
     }
     
-    @Override
-    public String toString() {
-        return "ContactController{" + "contact=" + contact + ", frmContact=" + frmContact + '}';
+    public ContactController(Contact contact, FrmContact frmContact) {
+        this.contact = contact;
+        this.frmContact = frmContact;
     }
 
     /**
