@@ -21,7 +21,7 @@ public class Pig extends FarmAnimal{
 
     @Override
     public String toString() {
-        return "Pig{" + "weight=" + weight + '}';
+        return "Pig{"+ super.toString() + ", weight=" + weight + '}';
     }
 
     @Override
