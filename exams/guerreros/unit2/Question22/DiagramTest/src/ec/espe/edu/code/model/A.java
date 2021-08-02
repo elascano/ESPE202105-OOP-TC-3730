@@ -3,20 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.espe.edu.Abstract.model;
+package ec.espe.edu.code.model;
 
 /**
  *
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
-
-public class H {
+public class A {
     
-    
-    
-    
-
-public class H { 
-//it  does not have a constructor,  toString     
-
+     
 }

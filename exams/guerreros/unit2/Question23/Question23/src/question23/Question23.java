@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.espe.edu.Abstract.model;
+package question23;
 
 /**
  *
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
+public class Question23 {
 
-public class H {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
-    
-    
-    
-
-public class H { 
-//it  does not have a constructor,  toString     
-
 }
