@@ -21,10 +21,7 @@ public class FarmAnimal {
         return getBornOn().getMonth();
      }
 
-    @Override
-    public String toString() {
-        return "FarmAnimal{" + "id=" + id + ", breed=" + breed + ", bornOn=" + bornOn + '}';
-    }
+ 
 
     /**
      * @return the id

@@ -17,7 +17,7 @@ import java.util.ArrayList;
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class DriverController {
+public class driver_controller {
     private Driver drivers;
     private FrmDriver frmDriver;
     private PersistenceI persistence;
@@ -61,7 +61,7 @@ public class DriverController {
         return update;
     }
     
-    public DriverController(Driver drivers, FrmDriver frmDriver) {
+    public driver_controller(Driver drivers, FrmDriver frmDriver) {
         this.drivers = drivers;
         this.frmDriver = frmDriver;
     }
