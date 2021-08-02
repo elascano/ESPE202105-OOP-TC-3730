@@ -10,7 +10,7 @@ package ec.edu.espe.model;
  * @author hecto
  */
 public class D {
-    private int x;
-    private int y;
+    private int x; //1 - it only has the variables x and y declared
+    private int y; //1 - it only has the variables x and y declared
     
 }

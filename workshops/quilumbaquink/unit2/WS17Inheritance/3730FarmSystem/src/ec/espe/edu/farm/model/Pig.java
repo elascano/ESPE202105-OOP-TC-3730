@@ -12,16 +12,41 @@ import java.util.Date;
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
 public class Pig extends FarmAnimal{
-    float weight;
-    
-    public Pig(int id, String breed, Date bornOn, float weight) {
-        super(id, breed, bornOn);
-        this.weight=weight;
-    }
+    private float weight;
+   
 
+    public Pig(float weight, int id, String breed, Date bornOn) {
+        super(id, breed, bornOn);
+        this.weight = weight;
+    }
+    
     @Override
     public String toString() {
-        return "Pig{" + super.toString() + "weight=" + weight + '}';
+        return "Pig{" + super.toString() + "weight=" + getWeight() + '}';
+    }
+    
+    @Override
+    public void feed(int amount) {
+        System.out.println("feeding the pig with" + amount + " units of pig food " );
+    }
+
+    /**
+     * @return the weight
+     */
+    public float getWeight() {
+        return weight;
+    }
+
+    /**
+     * @param weight the weight to set
+     */
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+    
+    @Override
+    public void vaccinate(int numberOfVaccines){
+        System.out.println(" The pig got "+ numberOfVaccines);
     }
     
     

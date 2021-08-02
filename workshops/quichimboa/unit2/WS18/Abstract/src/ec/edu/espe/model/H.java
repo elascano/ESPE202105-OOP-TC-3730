@@ -9,6 +9,7 @@ package ec.edu.espe.model;
  *
  * @author Estefania
  */
+// empty class 
 public class H {
     public H{
     

@@ -9,14 +9,14 @@ package ec.espe.edu.Abstract.model;
  *
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
-public class E extends B {
-    private float p;
-    private float q;
+public class E extends B { //1
+    private float p; //1
+    private float q; //1
     
-    public int m1(int i){
+    public int m1(int i){ //0, inside the(), is boolean and complete the method
         return 0;
     }
-
+    
     @Override
     public String toString() {
         return "E{" + super.toString() + "p=" + p + ", q=" + q + '}';
@@ -24,7 +24,7 @@ public class E extends B {
 
     
     //constructor
-    public E(float p, float q) {
+    public E(float p, float q) { // it needs completing
         this.p = p;
         this.q = q;
     }
@@ -59,13 +59,13 @@ public class E extends B {
     }
 
     @Override
-    public int operation1(int n) {
+    public int operation1(int n) { // needs complete
         System.out.println("The int is -> " + n);
         return n;
     }
 
     @Override
-    public float operation2(float f) {
+    public float operation2(float f) { // needs completing
         System.out.println("The float is -> " + f);
         return f;
     }

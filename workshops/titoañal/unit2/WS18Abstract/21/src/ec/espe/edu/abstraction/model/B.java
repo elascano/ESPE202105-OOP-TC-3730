@@ -13,6 +13,8 @@ import java.util.ArrayList;
  */
 public abstract class  B {
     
+    //missing constructor  ArrayList<G>gs
+
     private float f;
     private double d;
     private ArrayList<G> gs = new ArrayList<>();
