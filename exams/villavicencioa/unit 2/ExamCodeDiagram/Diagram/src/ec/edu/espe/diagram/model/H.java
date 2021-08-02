@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.espe.edu.abstraction.model;
+package ec.edu.espe.diagram.model;
 
 /**
  *
- * @author Alina Villavicencio LAMES Tech ESPE-DCC0
+ * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
-public class H {
-
+public interface H {
+    
 }
