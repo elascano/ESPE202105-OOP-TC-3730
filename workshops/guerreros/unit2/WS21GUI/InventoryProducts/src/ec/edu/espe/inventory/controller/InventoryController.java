@@ -9,6 +9,8 @@ import ec.edu.espe.inventory.model.Inventory;
 import ec.edu.espe.inventory.view.FrmInventory;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 
 
@@ -21,15 +23,20 @@ public class InventoryController {
  
     private Inventory inventory;
     private FrmInventory frmInventory;
-
+    private PersistenceI persistence;
+   
+  
     public InventoryController(Inventory inventory, FrmInventory frmInventory) {
         this.inventory = inventory;
         this.frmInventory = frmInventory;
     }
     
     public void add(Inventory product){
-       
-        
+     
+     persistence = new DBManager();  
+      
+     String InventoryJson="";
+     
     }
     
  public ArrayList<Inventory> find(int code){

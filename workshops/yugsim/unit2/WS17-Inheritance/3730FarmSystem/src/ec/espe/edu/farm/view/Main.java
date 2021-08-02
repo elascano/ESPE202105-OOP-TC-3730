@@ -50,10 +50,14 @@ public class Main {
         
         farmAnimal = new Pig(28.5F, 3, "nineature", new Date(2020,8,25));
         
+        farmAnimals.add(farmAnimal);
+        
         chicken.feed(1);
         farmAnimal.feed(5);
         
         chicken.vaccinate(3);
         farmAnimal.vaccinate(1);
+        
+        System.out.println("My Farm Animals are" + farmAnimals);
     }
 }

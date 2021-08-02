@@ -17,7 +17,7 @@ public abstract class FarmAnimal {
     private Date bornOn;
     
     public abstract void feed(int amount);
-    public abstract void vaccinate(int NumberOfVaccines);
+    public abstract void vaccinate(int numberOfVaccines);
     
     public int getAgeInMonths(){
         //TODO Compute the age in months

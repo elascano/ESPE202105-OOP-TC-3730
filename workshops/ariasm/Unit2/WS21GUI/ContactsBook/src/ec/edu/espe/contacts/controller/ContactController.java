@@ -31,14 +31,14 @@ public class ContactController {
         //TODO call utils classes
         persistence = new DBManager();
         //TODO convert contact to json;
-        String contactJson = "{\"firstname\":\"Pamela\"}";
+        String contactJson = "{\"firstname\":\"Marco\"}";
         
     }
     
     public ArrayList<Contact> find(String email){
         ArrayList<Contact> contacts = new ArrayList<>();
         //TODO find the contact(s) by email using utils
-        Contact contact = new Contact("MP", "Yugsi", "password", "0995420088", "mpyugsi@espe.edu.ec", "description", "female", new ArrayList<Sport>(), LocalDateTime.MIN, 0);
+        Contact contact = new Contact("MA", "Arias", "password", "0982235379", "ariasc@espe.edu.ec", "description", "male", new ArrayList<Sport>(), LocalDateTime.MIN, 0);
         contacts.add(contact);
         return contacts;
     }
