@@ -9,8 +9,9 @@ package utils;
  *
  * @author hecto
  */
-public class FileManager implements PersistenceI{
+public class DBManager implements PersistenceI{
 
+    public void connect(String datbase, String )
     @Override
     public boolean create(String data, String table) {
         //TODO inserte data in the file table
