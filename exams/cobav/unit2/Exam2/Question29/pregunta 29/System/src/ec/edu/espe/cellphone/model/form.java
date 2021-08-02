@@ -7,7 +7,7 @@ package ec.edu.espe.cellphone.model;
 
 /**
  *
- * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
+ * @author Victor Coba Beta Software ESPE-DCCO
  */
 public class form {
     

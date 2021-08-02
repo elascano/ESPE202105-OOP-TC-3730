@@ -7,7 +7,7 @@ package ec.edu.espe.cellphone.model;
 
 /**
  *
- * @author Isaac Escobar InnovaCode ESPE-DCCO
+ * @author Victor Coba Beta Software ESPE-DCCO
  */
 public class Additions {
     private int id;

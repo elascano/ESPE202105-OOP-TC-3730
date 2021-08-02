@@ -14,7 +14,7 @@ import utils.Persistence;
 
 /**
  *
- * @author Isaac Escobar InnovaCode ESPE-DCCO
+ * @author Victor Coba Beta Software  ESPE-DCCO
  */
 public class CellphoneController {
     private Cellphone cellphone;

@@ -11,7 +11,7 @@ import java.util.Date;
 
 /**
  *
- * @author Isaac Escobar InnovaCode ESPE-DCCO
+ * @author Victor Coba Beta Software ESPE-DCCO
  */
 public class Cellphone {
     
