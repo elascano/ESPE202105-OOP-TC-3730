@@ -9,6 +9,8 @@ import ec.edu.espe.material.model.Material;
 import ec.edu.espe.material.view.FrmMaterial;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -17,10 +19,15 @@ import java.util.ArrayList;
 public class MaterialController {
   private Material material;
   private FrmMaterial frmMaterial;
+  private PersistenceI persistence;
 
   public void add (Material material){
       // TODO add contact to datebase
       // TODO  call the utils classes
+      persistence = new DBManager();
+      //TODO convert contact to json;
+      String materialJson="{\"name\":\"Alina\"}";
+      persistence.create(materialJson, "material");
   }
   
   public ArrayList<Material> find (String email){
