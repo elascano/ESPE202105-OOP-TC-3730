@@ -13,7 +13,7 @@ public class E extends B {
      private float p;
     private float q;
     
-    public int m1(int i){
+    public int m1(int i){//0 is not int in boolean
         return 0;
     }
 
@@ -24,7 +24,7 @@ public class E extends B {
 
     
     //constructor
-    public E(float p, float q) {
+    public E(float p, float q) { //0 constructor incomplete
         this.p = p;
         this.q = q;
     }
@@ -59,13 +59,13 @@ public class E extends B {
     }
 
     @Override
-    public int operation1(int n) {
+    public int operation1(int n) { //0 operation1 Incomplete
         System.out.println("The int is -> " + n);
         return n;
     }
 
     @Override
-    public float operation2(float f) {
+    public float operation2(float f) { //0operation2 Incomplete
         System.out.println("The float is -> " + f);
         return f;
     }

@@ -9,7 +9,7 @@ package ec.edu.espe.abastract.model;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class E extends B {
+public class E extends B {        //method incorrect, class incomplete.
     private float p;
     private float q;
     

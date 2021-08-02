@@ -11,7 +11,8 @@ import java.util.ArrayList;
  *
  * @author Estefania
  */
-public class B {
+public class B { // class not declared as abstract, wrong methods
+
     private float f;
     private double d;
     private ArrayList<G> gs = new ArrayList<>();
@@ -19,6 +20,10 @@ public class B {
     public B(float f, double d) {
         this.f = f;
         this.d = d;
+    }
+
+    public B() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
@@ -75,6 +80,10 @@ public class B {
      */
     public void setGs(ArrayList<G> gs) {
         this.gs = gs;
+    }
+
+    public void setA(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

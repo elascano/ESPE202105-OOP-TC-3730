@@ -9,21 +9,21 @@ package ec.espe.edu.Abstract.model;
  *
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
-public class D extends B {
-    private int x;
-    private int y;
+public class D extends B { //1
+    private int x; //1
+    private int y; //1
     
-    public boolean m(int i){
+    public boolean m(int i){ // 1
         return false;
     }
 
     @Override
-    public String toString() {
+    public String toString() { //1
         return "D{" + super.toString() + "x=" + getX() + ", y=" + getY() + '}';
     }
 
     //constructor
-    public D(int x, int y) {
+    public D(int x, int y) { //0  the method
         this.x = x;
         this.y = y;
     }
@@ -61,13 +61,13 @@ public class D extends B {
     }
 
     @Override
-    public int operation1(int n) {
+    public int operation1(int n) { // missing the method
         System.out.println("The int is -> " + n);
         return n;
     }
 
     @Override
-    public float operation2(float f) {
+    public float operation2(float f) { // missin the method
         System.out.println("The float is -> " + f);
         return f;
     }

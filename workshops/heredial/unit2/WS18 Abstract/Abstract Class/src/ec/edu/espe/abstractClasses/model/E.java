@@ -11,44 +11,44 @@ import java.util.ArrayList;
  *
  * @author Luis Heredia Accent on the Future ESPE-DCC0
  */
-public class E extends B{
+public class E extends B{ //1
     
-    private float p;
-    private float q;
+    private float p; //1
+    private float q; //1
     
-    public static int m1(boolean b){
+    public static int m1(boolean b){ // 0 // Incomplete operation
         
-        return m1(b);
+        return m1(b); 
              
     }
 
-    public E(float f, double d, ArrayList<G> gs) {
+    public E(float f, double d, ArrayList<G> gs) { //0 // Incomplete operation
         super(f, d, gs);
     }
 
     @Override
-    public void operation1(int n) {
+    public void operation1(int n) { //0  // Incomplete operation
         System.out.println(n);
         
                 
     }
 
     @Override
-    public void operation2(float f) {
+    public void operation2(float f) {  //0 // Incomplete operation
         System.out.println(f);
     }
 
-    public E(float p, float q, float f, double d, ArrayList<G> gs) {
+    public E(float p, float q, float f, double d, ArrayList<G> gs) {  //1
         super(f, d, gs);
         this.p = p;
         this.q = q;
     }
 
-    @Override
-    public String toString() {
+    @Override 
+    public String toString() { //1 
         return "E{" +super.toString() + "p=" + getP() + ", q=" + getQ() + '}';
     }
-
+    
     /**
      * @return the p
      */

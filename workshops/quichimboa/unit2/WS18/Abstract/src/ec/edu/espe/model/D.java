@@ -9,36 +9,43 @@ package ec.edu.espe.model;
  *
  * @author Estefania
  */
-public class D {
-    private int x;
-    private int y;
+public class D { //0 Not E extends
+    private int x; //1
+    private int y; //1 
     
  public static boolean m(int i){
         
         return false;
+  // Return not is correct
     }
 
     public D(int x, int y) {
         this.x = x;
         this.y = y;
     }
+    //0 Constructor is incomplete
+
+    public D() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     @Override
     public String toString() {
         return "D{" + "x=" + x + ", y=" + y + '}';
     }
-
+    //2
+// To String incomplete
     /**
      * @return the x
      */
-    public int getX() {
+    public int getX() { 
         return x;
     }
 
     /**
      * @param x the x to set
      */
-    public void setX(int x) {
+    public void setX(int x) { 
         this.x = x;
     }
 
