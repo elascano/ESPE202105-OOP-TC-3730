@@ -5,7 +5,7 @@
  */
 package ec.edu.espe.parking.view;
 
-import ec.edu.espe.parking.controller.DriverController;
+import ec.edu.espe.parking.controller.driver_controller;
 import ec.edu.espe.parking.model.Driver;
 import ec.edu.espe.parking.model.TypeCar;
 import java.time.LocalDateTime;
@@ -310,7 +310,7 @@ public class FrmDriver extends javax.swing.JFrame {
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
         // TODO add your handling code here:
         Driver drivers;
-        DriverController driverController;
+        driver_controller driverController;
         
         String firstName = txtFirstName.getText();
         String lastName = txtFirstName.getText();
@@ -327,7 +327,7 @@ public class FrmDriver extends javax.swing.JFrame {
         
         //using Gson to convert the driver to Json
        // String driverJson = driver.totring();
-        driverController = new DriverController(drivers, this);
+        driverController = new driver_controller(drivers, this);
         driverController.add(drivers);
         
         JOptionPane.showMessageDialog(rootPane, "Adding " + txtFirstName.getText());
