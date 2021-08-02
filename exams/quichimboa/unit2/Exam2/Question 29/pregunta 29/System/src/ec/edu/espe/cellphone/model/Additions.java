@@ -7,7 +7,7 @@ package ec.edu.espe.cellphone.model;
 
 /**
  *
- * @author Andrea Quichimbo InnovaCode ESPE-DCCO
+ * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
  */
 public class Additions {
     private int id;

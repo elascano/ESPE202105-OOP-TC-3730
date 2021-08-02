@@ -11,7 +11,7 @@ import java.util.Date;
 
 /**
  *
- * @author Andrea Quichimbo InnovaCode ESPE-DCCO
+ * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
  */
 public class Cellphone {
     

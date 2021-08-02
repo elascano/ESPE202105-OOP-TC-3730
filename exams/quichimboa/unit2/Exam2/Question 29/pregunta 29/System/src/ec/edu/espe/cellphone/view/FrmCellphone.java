@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Andrea Quichimbo  ESPE-DCCO
+ * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
  */
 public class FrmCellphone extends javax.swing.JFrame {
 
