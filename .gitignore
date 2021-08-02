@@ -2204,6 +2204,15 @@ hs_err_pid*
 >>>>>>> 0524377a68f240727f91e4201480d5bed52a0885
 >>>>>>> 446fd16f60eaead8dbddae8083e62ec1f3d4832f
 <<<<<<< HEAD
+/workshops/aulestiaa/unit2/WS19OperationTest/Calculator/nbproject/private/
+/workshops/aulestiaa/unit2/WS19OperationTest/Calculator/build/
+/workshops/aulestiaa/unit2/WS20interfaces/farmsimulator/nbproject/private/
+/workshops/aulestiaa/unit2/WS20interfaces/farmsimulator/build/
+/workshops/aulestiaa/unit2/WS21GUI/JavaApplication22/nbproject/private/
+/workshops/aulestiaa/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/aulestiaa/unit2/WS18Abstract/Abstract/build/
+=======
+<<<<<<< HEAD
 /workshops/ortizm/unit2/W18Abstract/WS18Abstract/nbproject/private/
 =======
 >>>>>>> 55ebc890add5356bf1d4342b673196daf687153b
@@ -2497,8 +2506,14 @@ hs_err_pid*
 /assignments/oñae/unit2/HW11-Design/PROGRAM BUILDER/build/
 =======
 >>>>>>> 6e28cf094e1caf15d7c62436bfd41dc80ead110f
+<<<<<<< HEAD
+/workshops/galarzaa/unit2/W21GUI/ProductInventary/nbproject/private/
+/assignments/galarzaa/unit2/Nueva Carpeta/Mongo/nbproject/private/
+/assignments/galarzaa/unit2/Nueva Carpeta/Mongo/build/
+=======
 >>>>>>> 1d3bcb158be58da49a24aa5d1827cd5eaeaca606
 >>>>>>> c327f679bf75b1cde75852da9e95c26a6f245280
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 /workshops/chasig/unit2/WS21/ContacDealership/nbproject/private/
 /workshops/chasig/unit2/WS21/ContacDealership/build/
@@ -2634,6 +2649,13 @@ hs_err_pid*
 /assignments/jaramilloj/unit2/HW14-Mongdb/mongoDb/build/
 =======
 >>>>>>> 7e3a8ccc7d61ac3b5204e763056cb4afe56a1968
+<<<<<<< HEAD
+/assignments/quilumbaquink/unit2/HW14MongoDB/ConexionMongo/nbproject/private/
+/assignments/quilumbaquink/unit2/HW14MongoDB/ConexionMongo/build/
+/assignments/quilumbaquink/unit2/HW14MongoDB/Conexion_mongo/nbproject/private/
+/assignments/quilumbaquink/unit2/HW14MongoDB/Conexion_mongo/build/
+/workshops/quilumbaquink/unit2/WS21GUI/ContactsBook/build/
+=======
 >>>>>>> 8fe04550d5b196da491b6c5c851e4698d61d99d5
 >>>>>>> d3c1225063ae47b9a06ce988df27837303664002
 >>>>>>> d797ca7ded5ef149804895ea380aaa369d12ef81
@@ -2646,6 +2668,9 @@ hs_err_pid*
 >>>>>>> 68538197b7d42be6780daab7a45780428a83adc7
 >>>>>>> 16ca038d2fd2dd010ad76f77730c9c453347c65c
 >>>>>>> 5638ac6c534cdd24f271f2a08f426a0bbe2e7353
+<<<<<<< HEAD
+/assignments/pachacamaa/Unit2/HW14/ContactsBook/build/
+=======
 >>>>>>> ea654d187c0745872a83e4345e1fc7d462bcc328
 <<<<<<< HEAD
 /workshops/titoañal/unit2/WS20Interfaces/Mongo/nbproject/private/
@@ -2684,9 +2709,117 @@ hs_err_pid*
 >>>>>>> d7855db0e2888c22be24c6e8b606611ce18f8b07
 >>>>>>> e1ff0fe70623d791db7227ddd06449ac3411faf0
 >>>>>>> 8385ae62b940143466a171858c8f999d93978916
+<<<<<<< HEAD
+/exams/beltranj/Unit2/Q22/Q22/nbproject/private/
+/exams/beltranj/Unit2/Q22/Q22/build/
+=======
 >>>>>>> 27b9ce6e1ee5a2dea19e96165d13dcf76ab37f54
+<<<<<<< HEAD
+/exams/yaneze/unit2/Q22/Question22/nbproject/private/
+/exams/yaneze/unit2/Q22/Question22/build/
+=======
 >>>>>>> 77c561cb9ecb28765dbbcda29a62aa13542d21bd
+<<<<<<< HEAD
+/exams/ortizm/unit2/Code/Code/nbproject/private/
+/exams/ortizm/unit2/QuizCode/QuizCode/nbproject/private/
+/exams/ortizm/unit2/Q22/QuizCode/nbproject/private/
+=======
 >>>>>>> 0f3a544a3bffae6d96860c2f2b4e0200254a5ef7
+<<<<<<< HEAD
 /exams/jaramilloj/unit2/Q29/Question 29/nbproject/private/
 /workshops/jaramilloj/unit2/WS21GUI/TouristGuide/build/
 /exams/jaramilloj/unit2/Q22/question 22/nbproject/private/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/exams/suntaj/unit2/Question22/QUESTION22/nbproject/private/
+=======
+=======
+/exams/guerreros/unit2/Quiestion22/DiagramTest/nbproject/private/
+/exams/guerreros/unit2/Question23/Question23/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> 5442697b0eee2f1ba209b24f21a18e46d5eedabb
+/exams/mosquerak/unit2/Exam2/JavaApplication29/nbproject/private/
+/exams/mosquerak/unit2/Exam2/SistemDisplay/nbproject/private/
+/exams/mosquerak/unit2/Exam2/ExamUnit2/nbproject/private/
+/exams/mosquerak/unit2/Exam2/ExamUnit2/build/
+/exams/mosquerak/unit2/TouristGuide/nbproject/private/
+/exams/mosquerak/unit2/TouristGuide/build/
+>>>>>>> 43b1f52dc729d19dccc590235b0906f150066b38
+=======
+<<<<<<< HEAD
+/exams/cayambev/Unit2/Q23/Q23/nbproject/private/
+/exams/cayambev/Unit2/Q23/Q28/nbproject/private/
+/exams/cayambev/Unit2/Q-28/Q-28/nbproject/private/
+/exams/cayambev/Unit2/Q29/Q29/nbproject/private/
+=======
+<<<<<<< HEAD
+/assignments/maisinchob/unit1/HW04 Calculation Java/Tourist Guest/nbproject/private/
+/workshops/maisinchob/unit2/Nueva carpeta/PurchaseOfTouristPackages/build/
+/workshops/maisinchob/unit2/Nueva carpeta/PurchaseOfTouristPackages/nbproject/private/
+=======
+>>>>>>> 53ddbbbd4c37d8a07da0eb290430a4d5113e050d
+<<<<<<< HEAD
+/exams/quilumbaquink/unit2/Q22/Q22/nbproject/private/
+/exams/quilumbaquink/unit2/Q23/Q28/nbproject/private/
+=======
+<<<<<<< HEAD
+/exams/sarmientoc/unit2/question22/Diagram Code/nbproject/private/
+/exams/sarmientoc/unit2/question22/Diagram Code/build/
+/exams/sarmientoc/unit2/question23/OperationCRUD/nbproject/private/
+/exams/sarmientoc/unit2/question29/question29/nbproject/private/
+=======
+>>>>>>> 1f140aa63c892ac2ae3f2709d25e8c7cb0f29fbb
+<<<<<<< HEAD
+/exams/heredial/unit2/EXAM 2/QUESTION 22/CodeDiagram Question22/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/chasig/unit2/WS18Abstract/WS18Abstract/build/
+/workshops/chasig/unit2/WS18Abstract/Abstract/build/
+/workshops/chasig/unit2/WS21GUI/Dealership/nbproject/private/
+/workshops/chasig/unit2/WS22 Continuation/contactVehicle/build/
+/workshops/chasig/unit2/WS21-GUI1/ContacDealership/build/
+/workshops/chasig/unit2/WS21-GUI1/ContacDealership/nbproject/private/
+/workshops/chasig/unit2/WS22 -GUI2/contactVehicle/build/
+/workshops/chasig/unit2/WS22 -GUI2/contactVehicle/nbproject/private/
+=======
+/workshops/cadenaf/unit2/WS18Abstract/Abstract-team/build/
+/workshops/cadenaf/unit2/WS18Abstract/Abstract-team/nbproject/private/
+<<<<<<< HEAD
+/exams/galarzaa/unit2/Q22/q22/nbproject/private/
+=======
+>>>>>>> 2de9df82c7e8aada7d273269db7479d07c1497e6
+>>>>>>> 572bc680fc57be8798109c69f0480dd29ee683db
+<<<<<<< HEAD
+/exams/maisinchob/unit2/Exam/ExamUnit2/nbproject/private/
+=======
+>>>>>>> f30b280fcb862d3c8585a33b744f677df6807b4c
+<<<<<<< HEAD
+/exams/aulestiaa/unit2/Examunit2/ExamUnit2/nbproject/private/
+=======
+>>>>>>> 31cf9d44c9827e14607ced339990fc88f2b1b47b
+<<<<<<< HEAD
+/exams/yaneze/unit2/Q29/Question29/nbproject/private/
+=======
+>>>>>>> a1f8c63c64c94bf1996118395be2e567f6efbc26
+<<<<<<< HEAD
+>>>>>>> 3eb2b1410862ebb26523ad25b15146a797b96dd4
+=======
+=======
+/workshops/contrerasi/unit2/WS21/ParkingCard/nbproject/private/
+/exams/contrerasi/unit2/Q22/Class Diagram/Class Diagram/nbproject/private/
+>>>>>>> Stashed changes
+>>>>>>> 1061484d569fddecb3573a2e811a7d328b937fcb
+>>>>>>> 59f01b20db5c111e1151a2ae9a50b6dabc04dbfb
+>>>>>>> 452401853398c1b07dd486835751b82244648f5a
+<<<<<<< HEAD
+=======
+>>>>>>> 6663f231d63da830a60c7a28b18cf602d117a1f9
+>>>>>>> 43b1f52dc729d19dccc590235b0906f150066b38
+>>>>>>> e23671f44e38b49307da2866736336d70686ae4e
+>>>>>>> 6d7098aadb4a1d7db8f72b5d12559bc115171048
+>>>>>>> 2a6e7dd185e50557b735e30fc31cf8feb1ce2329
+>>>>>>> 44cca54aedb330ac4cf400746271433851445235
+>>>>>>> 2738470836b3615ff0e3dbc8d0726a49a79846b0
