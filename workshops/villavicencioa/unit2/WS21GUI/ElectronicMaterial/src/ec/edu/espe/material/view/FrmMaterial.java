@@ -5,6 +5,13 @@
  */
 package ec.edu.espe.material.view;
 
+import ec.edu.espe.material.controller.MaterialController;
+import ec.edu.espe.material.model.Material;
+import ec.edu.espe.material.model.Product;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
@@ -36,8 +43,15 @@ public class FrmMaterial extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        txtGender = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
+        pwdPassword = new javax.swing.JPasswordField();
+        txtEmail = new javax.swing.JTextField();
+        cmdGender = new javax.swing.JComboBox();
+        chkResistor = new javax.swing.JCheckBox();
+        chkProtoboard = new javax.swing.JCheckBox();
+        chkLed = new javax.swing.JCheckBox();
+        spnDate = new javax.swing.JSpinner();
+        txtCost = new javax.swing.JTextField();
         PnlButtons = new javax.swing.JPanel();
         btnAdd = new javax.swing.JButton();
         btnFind = new javax.swing.JButton();
@@ -63,6 +77,16 @@ public class FrmMaterial extends javax.swing.JFrame {
 
         jLabel8.setText("Date of Purchose");
 
+        pwdPassword.setText("jPasswordField1");
+
+        cmdGender.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Male", "Female", "Undefined" }));
+
+        chkResistor.setText("Resistor");
+
+        chkProtoboard.setText("Protoboard");
+
+        chkLed.setText("Led");
+
         javax.swing.GroupLayout PnlInputLayout = new javax.swing.GroupLayout(PnlInput);
         PnlInput.setLayout(PnlInputLayout);
         PnlInputLayout.setHorizontalGroup(
@@ -72,26 +96,43 @@ public class FrmMaterial extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(PnlInputLayout.createSequentialGroup()
-                .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel4)
-                        .addGroup(PnlInputLayout.createSequentialGroup()
-                            .addComponent(jLabel1)
-                            .addGap(18, 18, 18)
-                            .addComponent(txtFirstName, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(PnlInputLayout.createSequentialGroup()
-                            .addComponent(jLabel6)
-                            .addGap(170, 170, 170)
-                            .addComponent(jLabel7)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PnlInputLayout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addGap(165, 165, 165)
+                .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(PnlInputLayout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtFirstName, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(PnlInputLayout.createSequentialGroup()
+                        .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(PnlInputLayout.createSequentialGroup()
+                                .addComponent(jLabel3)
+                                .addGap(21, 21, 21)
+                                .addComponent(pwdPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PnlInputLayout.createSequentialGroup()
+                                .addComponent(jLabel4)
+                                .addGap(45, 45, 45)
+                                .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(29, 29, 29)
                         .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel8)
+                            .addGroup(PnlInputLayout.createSequentialGroup()
+                                .addComponent(jLabel8)
+                                .addGap(50, 50, 50)
+                                .addComponent(spnDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(PnlInputLayout.createSequentialGroup()
                                 .addComponent(jLabel5)
                                 .addGap(18, 18, 18)
-                                .addComponent(txtGender)))))
+                                .addComponent(cmdGender, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(PnlInputLayout.createSequentialGroup()
+                        .addComponent(jLabel6)
+                        .addGap(18, 18, 18)
+                        .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(chkProtoboard)
+                            .addGroup(PnlInputLayout.createSequentialGroup()
+                                .addComponent(chkResistor)
+                                .addGap(59, 59, 59)
+                                .addComponent(jLabel7)
+                                .addGap(18, 18, 18)
+                                .addComponent(txtCost))
+                            .addComponent(chkLed))))
                 .addGap(0, 57, Short.MAX_VALUE))
         );
         PnlInputLayout.setVerticalGroup(
@@ -103,22 +144,37 @@ public class FrmMaterial extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(txtFirstName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
+                .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel5)
+                        .addComponent(cmdGender, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jLabel3)
-                    .addComponent(txtGender, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pwdPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(jLabel8))
-                .addGap(64, 64, 64)
+                    .addComponent(jLabel8)
+                    .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(spnDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(57, 57, 57)
                 .addGroup(PnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
-                    .addComponent(jLabel7))
-                .addContainerGap(117, Short.MAX_VALUE))
+                    .addComponent(jLabel7)
+                    .addComponent(chkResistor)
+                    .addComponent(txtCost, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(chkProtoboard)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(chkLed)
+                .addContainerGap(47, Short.MAX_VALUE))
         );
 
         btnAdd.setText("Add");
+        btnAdd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddActionPerformed(evt);
+            }
+        });
 
         btnFind.setText("Find");
 
@@ -178,6 +234,29 @@ public class FrmMaterial extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
+       
+        Material material;
+        MaterialController materialController;
+        
+        String firstname= txtFirstName.getText();
+       String password = pwdPassword.getText();
+       String gender = cmdGender.getSelectedItem().toString();
+       String email= txtEmail.getText();
+       String cost= txtCost.getText();
+       ArrayList<Material> materials = new ArrayList<>();
+       LocalDateTime DateOfPurchase = LocalDateTime.now();
+       
+        
+       material = new Material(firstname, password, email, gender, null, DateOfPurchase);
+       
+       
+      materialController = new MaterialController(material, this);
+      materialController.add(material);
+       
+        JOptionPane.showMessageDialog(rootPane, "adding + " + txtFirstName.getText());
+    }//GEN-LAST:event_btnAddActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -221,6 +300,10 @@ public class FrmMaterial extends javax.swing.JFrame {
     private javax.swing.JButton btnDelete;
     private javax.swing.JButton btnFind;
     private javax.swing.JButton btnUpdate;
+    private javax.swing.JCheckBox chkLed;
+    private javax.swing.JCheckBox chkProtoboard;
+    private javax.swing.JCheckBox chkResistor;
+    private javax.swing.JComboBox cmdGender;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -229,7 +312,10 @@ public class FrmMaterial extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JPasswordField pwdPassword;
+    private javax.swing.JSpinner spnDate;
+    private javax.swing.JTextField txtCost;
+    private javax.swing.JTextField txtEmail;
     private javax.swing.JTextField txtFirstName;
-    private javax.swing.JTextField txtGender;
     // End of variables declaration//GEN-END:variables
 }

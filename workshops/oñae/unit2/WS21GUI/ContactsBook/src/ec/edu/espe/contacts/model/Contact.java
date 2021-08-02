@@ -13,6 +13,10 @@ import java.util.ArrayList;
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
 public class Contact {
+
+    public static void add(Contact contact) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     private String firtName;
     private String lastName;
     private String password;
