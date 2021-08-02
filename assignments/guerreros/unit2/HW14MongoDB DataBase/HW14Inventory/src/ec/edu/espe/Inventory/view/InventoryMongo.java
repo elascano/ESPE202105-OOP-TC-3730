@@ -13,6 +13,7 @@ import com.mongodb.Mongo;
 import java.net.UnknownHostException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -21,6 +22,7 @@ import java.util.logging.Logger;
 public class InventoryMongo extends javax.swing.JFrame {
 DB db;
 DBCollection product;
+BasicDBObject archive = new BasicDBObject();
 
     /**
      * Creates new form InventoryMongo
@@ -62,6 +64,8 @@ DBCollection product;
         pnlbutton = new javax.swing.JPanel();
         btnsave = new javax.swing.JButton();
         btnview = new javax.swing.JButton();
+        btmdelete = new javax.swing.JButton();
+        btmupdate = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
 
@@ -160,16 +164,34 @@ DBCollection product;
             }
         });
 
+        btmdelete.setText("Delete");
+        btmdelete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btmdeleteActionPerformed(evt);
+            }
+        });
+
+        btmupdate.setText("Update");
+        btmupdate.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btmupdateActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout pnlbuttonLayout = new javax.swing.GroupLayout(pnlbutton);
         pnlbutton.setLayout(pnlbuttonLayout);
         pnlbuttonLayout.setHorizontalGroup(
             pnlbuttonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlbuttonLayout.createSequentialGroup()
-                .addGap(42, 42, 42)
+                .addGap(20, 20, 20)
                 .addComponent(btnsave, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(88, 88, 88)
+                .addGap(46, 46, 46)
                 .addComponent(btnview, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(52, 52, 52)
+                .addComponent(btmdelete, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addComponent(btmupdate)
+                .addGap(33, 33, 33))
         );
         pnlbuttonLayout.setVerticalGroup(
             pnlbuttonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -177,7 +199,9 @@ DBCollection product;
                 .addGap(26, 26, 26)
                 .addGroup(pnlbuttonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnsave, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnview, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnview, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btmdelete, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btmupdate, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
@@ -190,11 +214,11 @@ DBCollection product;
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(pnlimput, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(pnlbutton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1)
                 .addContainerGap())
+            .addComponent(pnlbutton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -202,7 +226,7 @@ DBCollection product;
                 .addComponent(pnlimput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(pnlbutton, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -227,14 +251,48 @@ DBCollection product;
 
     private void btnsaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsaveActionPerformed
       BasicDBObject archive = new BasicDBObject();
-      archive.put("Name","'"+ name.getText());
-      archive.put("Brand","'"+ brand.getText());
-      archive.put("Quantity","'"+ quantity.getText());
-      archive.put("Price","'"+ price.getText());
-      archive.put("Type","'"+ type.getText());
+      archive.put("Name", name.getText());
+      archive.put("Brand", brand.getText());
+      archive.put("Quantity", quantity.getText());
+      archive.put("Price", price.getText());
+      archive.put("Type",type.getText());
       product.insert(archive);
       
     }//GEN-LAST:event_btnsaveActionPerformed
+
+    private void btmdeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmdeleteActionPerformed
+         String names = JOptionPane.showInputDialog("Enter Name");
+    archive.put("Name", names);
+    product.remove(archive);
+    JOptionPane.showConfirmDialog(null,"Delete confirm", "Ok", JOptionPane.DEFAULT_OPTION);
+        
+    }//GEN-LAST:event_btmdeleteActionPerformed
+
+    private void btmupdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmupdateActionPerformed
+        
+        
+        
+         if (name.getText().equals("")){
+        JOptionPane.showMessageDialog(null, "Enter ID","Conexio", JOptionPane.ERROR_MESSAGE);
+        
+        
+    }else{
+        archive.put("Name", name.getText());
+        
+        BasicDBObject documentN = new BasicDBObject();
+       
+   
+      documentN.put("Name", name.getText());
+      documentN.put("Brand", brand.getText());
+      documentN.put("Quantity", quantity.getText());
+      documentN.put("Price", price.getText());
+      documentN.put("Type",type.getText());
+      product.update(archive,documentN);
+        
+         }
+        
+        
+    }//GEN-LAST:event_btmupdateActionPerformed
 
     /**
      * @param args the command line arguments
@@ -273,6 +331,8 @@ DBCollection product;
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField brand;
+    private javax.swing.JButton btmdelete;
+    private javax.swing.JButton btmupdate;
     private javax.swing.JButton btnsave;
     private javax.swing.JButton btnview;
     private javax.swing.JLabel jLabel1;
