@@ -25,6 +25,11 @@ hs_err_pid*
 # visual paradigm bakcup files
 *vpp.bak*
 <<<<<<< HEAD
+/workshops/angoj/unit2/WS16-3730FarmSystem/Exceptions/nbproject/private/
+/workshops/angoj/unit2/WS19Calculator/Calculator/nbproject/private/
+/workshops/angoj/unit2/WS19Calculator/Calculator/build/
+=======
+<<<<<<< HEAD
 /workshops/cadenaf/unit2/WS19/Calculator/nbproject/private/
 /workshops/cadenaf/unit2/WS19/Calculator/build/
 /assignments/cadenaf/unit2/HW10Calculator/Calculator/build/
@@ -1988,6 +1993,9 @@ hs_err_pid*
 =======
 >>>>>>> 94ed50719a8d8f125f0ecda3441189b42a48eceb
 <<<<<<< HEAD
+/workshops/cobav/unit2/WS18-Abstract/WS18Abstract/nbproject/private/
+=======
+<<<<<<< HEAD
 /workshops/aulestiaa/unit2/WS17Inheritance/3730FarmSystem/nbproject/private/
 /workshops/aulestiaa/unit2/WS17Inheritance/3730FarmSystem/build/
 =======
@@ -2216,6 +2224,15 @@ hs_err_pid*
 /workshops/ortizm/unit2/W18Abstract/WS18Abstract/nbproject/private/
 =======
 >>>>>>> 55ebc890add5356bf1d4342b673196daf687153b
+<<<<<<< HEAD
+/workshops/quichimboa/unit2/WS19EXCEPTION/EXCEPTION/nbproject/private/
+/workshops/quichimboa/unit2/WS20/HadwareStore/nbproject/private/
+/workshops/quichimboa/unit2/WS19Tes1/Calculator/nbproject/private/
+/workshops/quichimboa/unit2/WS19Tes1/Calculator/build/
+/workshops/quichimboa/unit2/WS19Tes1/TestCase/nbproject/private/
+/workshops/quichimboa/unit2/WS20Interfaces/farmSimulator/nbproject/private/
+/workshops/quichimboa/unit2/WS20Interfaces/farmSimulator/build/
+=======
 >>>>>>> 815c2fbbd0562a7595f785ba7221bf60cf99a6f7
 <<<<<<< HEAD
 /workshops/villavicencioa/unit2/WS19UnitTest/Calculator/nbproject/private/
@@ -2513,6 +2530,7 @@ hs_err_pid*
 =======
 >>>>>>> 1d3bcb158be58da49a24aa5d1827cd5eaeaca606
 >>>>>>> c327f679bf75b1cde75852da9e95c26a6f245280
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 /workshops/chasig/unit2/WS21/ContacDealership/nbproject/private/
 /workshops/chasig/unit2/WS21/ContacDealership/build/
@@ -2667,6 +2685,9 @@ hs_err_pid*
 >>>>>>> 68538197b7d42be6780daab7a45780428a83adc7
 >>>>>>> 16ca038d2fd2dd010ad76f77730c9c453347c65c
 >>>>>>> 5638ac6c534cdd24f271f2a08f426a0bbe2e7353
+<<<<<<< HEAD
+/assignments/pachacamaa/Unit2/HW14/ContactsBook/build/
+=======
 >>>>>>> ea654d187c0745872a83e4345e1fc7d462bcc328
 <<<<<<< HEAD
 /workshops/titoañal/unit2/WS20Interfaces/Mongo/nbproject/private/
@@ -2711,18 +2732,72 @@ hs_err_pid*
 =======
 >>>>>>> 27b9ce6e1ee5a2dea19e96165d13dcf76ab37f54
 <<<<<<< HEAD
+/exams/titoañal/Unit2/Exam/DiagramClass/nbproject/private/
+=======
+<<<<<<< HEAD
 /exams/yaneze/unit2/Q22/Question22/nbproject/private/
 /exams/yaneze/unit2/Q22/Question22/build/
 =======
 >>>>>>> 77c561cb9ecb28765dbbcda29a62aa13542d21bd
+<<<<<<< HEAD
+/exams/ortizm/unit2/Code/Code/nbproject/private/
+/exams/ortizm/unit2/QuizCode/QuizCode/nbproject/private/
+/exams/ortizm/unit2/Q22/QuizCode/nbproject/private/
+=======
 >>>>>>> 0f3a544a3bffae6d96860c2f2b4e0200254a5ef7
+<<<<<<< HEAD
+/exams/villavicencioa/unit 2/ExamCodeDiagram/Diagram/nbproject/private/
+=======
+<<<<<<< HEAD
+/exams/jaramilloj/unit2/Q29/Question 29/nbproject/private/
+/workshops/jaramilloj/unit2/WS21GUI/TouristGuide/build/
+/exams/jaramilloj/unit2/Q22/question 22/nbproject/private/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/exams/suntaj/unit2/Question22/QUESTION22/nbproject/private/
+=======
+=======
+/exams/guerreros/unit2/Quiestion22/DiagramTest/nbproject/private/
+/exams/guerreros/unit2/Question23/Question23/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> 5442697b0eee2f1ba209b24f21a18e46d5eedabb
+/exams/mosquerak/unit2/Exam2/JavaApplication29/nbproject/private/
+/exams/mosquerak/unit2/Exam2/SistemDisplay/nbproject/private/
+/exams/mosquerak/unit2/Exam2/ExamUnit2/nbproject/private/
+/exams/mosquerak/unit2/Exam2/ExamUnit2/build/
+/exams/mosquerak/unit2/TouristGuide/nbproject/private/
+/exams/mosquerak/unit2/TouristGuide/build/
+>>>>>>> 43b1f52dc729d19dccc590235b0906f150066b38
+=======
+<<<<<<< HEAD
+/exams/cayambev/Unit2/Q23/Q23/nbproject/private/
+/exams/cayambev/Unit2/Q23/Q28/nbproject/private/
+/exams/cayambev/Unit2/Q-28/Q-28/nbproject/private/
+/exams/cayambev/Unit2/Q29/Q29/nbproject/private/
+=======
 <<<<<<< HEAD
 /assignments/maisinchob/unit1/HW04 Calculation Java/Tourist Guest/nbproject/private/
 /workshops/maisinchob/unit2/Nueva carpeta/PurchaseOfTouristPackages/build/
 /workshops/maisinchob/unit2/Nueva carpeta/PurchaseOfTouristPackages/nbproject/private/
 =======
 >>>>>>> 53ddbbbd4c37d8a07da0eb290430a4d5113e050d
+<<<<<<< HEAD
+/exams/quilumbaquink/unit2/Q22/Q22/nbproject/private/
+/exams/quilumbaquink/unit2/Q23/Q28/nbproject/private/
+=======
+<<<<<<< HEAD
+/exams/sarmientoc/unit2/question22/Diagram Code/nbproject/private/
+/exams/sarmientoc/unit2/question22/Diagram Code/build/
+/exams/sarmientoc/unit2/question23/OperationCRUD/nbproject/private/
+/exams/sarmientoc/unit2/question29/question29/nbproject/private/
+=======
 >>>>>>> 1f140aa63c892ac2ae3f2709d25e8c7cb0f29fbb
+<<<<<<< HEAD
+/exams/heredial/unit2/EXAM 2/QUESTION 22/CodeDiagram Question22/nbproject/private/
+=======
 <<<<<<< HEAD
 /workshops/chasig/unit2/WS18Abstract/WS18Abstract/build/
 /workshops/chasig/unit2/WS18Abstract/Abstract/build/
@@ -2735,11 +2810,79 @@ hs_err_pid*
 =======
 /workshops/cadenaf/unit2/WS18Abstract/Abstract-team/build/
 /workshops/cadenaf/unit2/WS18Abstract/Abstract-team/nbproject/private/
+<<<<<<< HEAD
+/exams/cadenaf/Unit2/Exam2POO/Exam2/nbproject/private/
+/exams/cadenaf/Unit2/Exam2POO/Exam2/build/
+=======
+<<<<<<< HEAD
+/exams/galarzaa/unit2/Q22/q22/nbproject/private/
+=======
 >>>>>>> 2de9df82c7e8aada7d273269db7479d07c1497e6
+<<<<<<< HEAD
+/exams/chasig/unit2/ExamClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram/ClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram - copia/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram - copia/ClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram2/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram2/ClassDiagram/nbproject/private/
+=======
 >>>>>>> 572bc680fc57be8798109c69f0480dd29ee683db
+<<<<<<< HEAD
+/exams/maisinchob/unit2/Exam/ExamUnit2/nbproject/private/
+=======
 >>>>>>> f30b280fcb862d3c8585a33b744f677df6807b4c
+<<<<<<< HEAD
+/exams/aulestiaa/unit2/Examunit2/ExamUnit2/nbproject/private/
+=======
 >>>>>>> 31cf9d44c9827e14607ced339990fc88f2b1b47b
 <<<<<<< HEAD
 /exams/yaneze/unit2/Q29/Question29/nbproject/private/
 =======
 >>>>>>> a1f8c63c64c94bf1996118395be2e567f6efbc26
+<<<<<<< HEAD
+>>>>>>> 3eb2b1410862ebb26523ad25b15146a797b96dd4
+=======
+=======
+/workshops/contrerasi/unit2/WS21/ParkingCard/nbproject/private/
+/exams/contrerasi/unit2/Q22/Class Diagram/Class Diagram/nbproject/private/
+>>>>>>> Stashed changes
+>>>>>>> 1061484d569fddecb3573a2e811a7d328b937fcb
+>>>>>>> 59f01b20db5c111e1151a2ae9a50b6dabc04dbfb
+>>>>>>> 452401853398c1b07dd486835751b82244648f5a
+<<<<<<< HEAD
+=======
+>>>>>>> 6663f231d63da830a60c7a28b18cf602d117a1f9
+>>>>>>> 43b1f52dc729d19dccc590235b0906f150066b38
+>>>>>>> e23671f44e38b49307da2866736336d70686ae4e
+>>>>>>> 6d7098aadb4a1d7db8f72b5d12559bc115171048
+<<<<<<< HEAD
+>>>>>>> bad7021a2ab2d166722931734a4f612c430cbf34
+=======
+>>>>>>> 2a6e7dd185e50557b735e30fc31cf8feb1ce2329
+<<<<<<< HEAD
+>>>>>>> 7f8be85e2110023d2e2ead933ea7fde808040356
+/exams/titoañal/Unit2/Exam/DiagramClass/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 7f8be85e2110023d2e2ead933ea7fde808040356
+=======
+>>>>>>> 44cca54aedb330ac4cf400746271433851445235
+<<<<<<< HEAD
+/workshops/pachacamaa/Unit2/WS21/ContactsBookMONGO/nbproject/private/
+/assignments/pachacamaa/Unit2/HW10/Calculator/nbproject/private/
+=======
+>>>>>>> 2738470836b3615ff0e3dbc8d0726a49a79846b0
+>>>>>>> edb885f720740a5447d3918b03f268f97922d6e3
+<<<<<<< HEAD
+>>>>>>> 2a1982fedb073f40834ed726c56054ceb4395725
+/exams/villavicencioa/unit 2/ExamCodeDiagram/Diagram/build/
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> baea196e4478217898691bd5973b1701bf7a14c0
+>>>>>>> 27c01e9c5204cec05b5477356312b6c4b7ce7065
+>>>>>>> 9925dde503f67b5bc77a15d9d3d0f3066ba84758
+>>>>>>> 8441d1d56042058bcd0b155ec88d037591bcb3ce
+>>>>>>> f1c373b175873a85883d729d3d071b48713431be
+>>>>>>> 3f5944f2cde9ce750d26970a3fe8022873a64a18
