@@ -25,6 +25,11 @@ hs_err_pid*
 # visual paradigm bakcup files
 *vpp.bak*
 <<<<<<< HEAD
+/workshops/angoj/unit2/WS16-3730FarmSystem/Exceptions/nbproject/private/
+/workshops/angoj/unit2/WS19Calculator/Calculator/nbproject/private/
+/workshops/angoj/unit2/WS19Calculator/Calculator/build/
+=======
+<<<<<<< HEAD
 /workshops/cadenaf/unit2/WS19/Calculator/nbproject/private/
 /workshops/cadenaf/unit2/WS19/Calculator/build/
 /assignments/cadenaf/unit2/HW10Calculator/Calculator/build/
@@ -2219,6 +2224,15 @@ hs_err_pid*
 /workshops/ortizm/unit2/W18Abstract/WS18Abstract/nbproject/private/
 =======
 >>>>>>> 55ebc890add5356bf1d4342b673196daf687153b
+<<<<<<< HEAD
+/workshops/quichimboa/unit2/WS19EXCEPTION/EXCEPTION/nbproject/private/
+/workshops/quichimboa/unit2/WS20/HadwareStore/nbproject/private/
+/workshops/quichimboa/unit2/WS19Tes1/Calculator/nbproject/private/
+/workshops/quichimboa/unit2/WS19Tes1/Calculator/build/
+/workshops/quichimboa/unit2/WS19Tes1/TestCase/nbproject/private/
+/workshops/quichimboa/unit2/WS20Interfaces/farmSimulator/nbproject/private/
+/workshops/quichimboa/unit2/WS20Interfaces/farmSimulator/build/
+=======
 >>>>>>> 815c2fbbd0562a7595f785ba7221bf60cf99a6f7
 <<<<<<< HEAD
 /workshops/villavicencioa/unit2/WS19UnitTest/Calculator/nbproject/private/
@@ -2794,9 +2808,22 @@ hs_err_pid*
 /workshops/cadenaf/unit2/WS18Abstract/Abstract-team/build/
 /workshops/cadenaf/unit2/WS18Abstract/Abstract-team/nbproject/private/
 <<<<<<< HEAD
+/exams/cadenaf/Unit2/Exam2POO/Exam2/nbproject/private/
+/exams/cadenaf/Unit2/Exam2POO/Exam2/build/
+=======
+<<<<<<< HEAD
 /exams/galarzaa/unit2/Q22/q22/nbproject/private/
 =======
 >>>>>>> 2de9df82c7e8aada7d273269db7479d07c1497e6
+<<<<<<< HEAD
+/exams/chasig/unit2/ExamClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram/ClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram - copia/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram - copia/ClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram2/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram2/ClassDiagram/nbproject/private/
+=======
 >>>>>>> 572bc680fc57be8798109c69f0480dd29ee683db
 <<<<<<< HEAD
 /exams/maisinchob/unit2/Exam/ExamUnit2/nbproject/private/
@@ -2830,8 +2857,19 @@ hs_err_pid*
 >>>>>>> bad7021a2ab2d166722931734a4f612c430cbf34
 =======
 >>>>>>> 2a6e7dd185e50557b735e30fc31cf8feb1ce2329
+<<<<<<< HEAD
+>>>>>>> 7f8be85e2110023d2e2ead933ea7fde808040356
+=======
 >>>>>>> 44cca54aedb330ac4cf400746271433851445235
 >>>>>>> 2738470836b3615ff0e3dbc8d0726a49a79846b0
 >>>>>>> edb885f720740a5447d3918b03f268f97922d6e3
+<<<<<<< HEAD
 >>>>>>> 2a1982fedb073f40834ed726c56054ceb4395725
 /exams/villavicencioa/unit 2/ExamCodeDiagram/Diagram/build/
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> baea196e4478217898691bd5973b1701bf7a14c0
+>>>>>>> 27c01e9c5204cec05b5477356312b6c4b7ce7065
+>>>>>>> 9925dde503f67b5bc77a15d9d3d0f3066ba84758
+>>>>>>> 8441d1d56042058bcd0b155ec88d037591bcb3ce
