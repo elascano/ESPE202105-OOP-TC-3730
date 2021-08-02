@@ -7,7 +7,7 @@ package ec.espe.edu.abs.model;
 
 /**
  *
- * @author Erick Yánez LAMESTech ESPE-DCC0
+ * @author Pamela Yugsi LAMESTech ESPE-DCC0
  */
 public class F {
     private String r;
@@ -17,17 +17,10 @@ public class F {
         return "F{" + "r=" + r + '}';
     }
 
-    
-    
-    //constructor
     public F(String r) {
         this.r = r;
     }
 
-    
-    
-    
-    
     /**
      * @return the r
      */
@@ -41,7 +34,5 @@ public class F {
     public void setR(String r) {
         this.r = r;
     }
-    
-    
-    
+  
 }

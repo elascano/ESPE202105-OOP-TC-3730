@@ -10,6 +10,8 @@ import ec.edu.espe.contacts.model.Sport;
 import ec.edu.espe.contacts.view.FrmContact;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -18,10 +20,15 @@ import java.util.ArrayList;
 public class ContactController {
     private Contact contact;
     private FrmContact frmContact;
+    private PersistenceI persistence;
     
     public void add(Contact contact){
         //TODO add contact to database
         //TODO call utils classes
+        persistence = new DBManager();
+        //TODO convert contact to json;
+        String contactJson = "{\"firstname\":\"Pamela\"}";
+        persistence.create(contactJson, "contacts");
     }
     
     public ArrayList<Contact> find(String email){
@@ -55,9 +62,9 @@ public class ContactController {
         return updated;
     }
     
-    @Override
-    public String toString() {
-        return "ContactController{" + "contact=" + contact + ", frmContact=" + frmContact + '}';
+    public ContactController(Contact contact, FrmContact frmContact) {
+        this.contact = contact;
+        this.frmContact = frmContact;
     }
 
     /**

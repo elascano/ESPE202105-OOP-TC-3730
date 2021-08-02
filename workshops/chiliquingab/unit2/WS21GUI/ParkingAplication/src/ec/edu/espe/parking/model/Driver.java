@@ -5,6 +5,7 @@
  */
 package ec.edu.espe.parking.model;
 
+import java.awt.Window;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
@@ -20,11 +21,11 @@ public class Driver {
     private String email;
     private String descrition;
     private String gener;
-    private ArrayList <Type> type;
+    private ArrayList <TypeCar> types;
     private LocalDateTime birthDate;
     private int monthIknewThisContact;
 
-    public Driver(String firstName, String lastName, String password, String phoneNumber, String email, String descrition, String gener, ArrayList<Type> type, LocalDateTime birthDate, int monthIknewThisContact) {
+    public Driver(String firstName, String lastName, String password, String phoneNumber, String email, String descrition, String gener, ArrayList<TypeCar> types, LocalDateTime birthDate, int monthIknewThisContact) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.password = password;
@@ -32,7 +33,7 @@ public class Driver {
         this.email = email;
         this.descrition = descrition;
         this.gener = gener;
-        this.type = type;
+        this.types = types;
         this.birthDate = birthDate;
         this.monthIknewThisContact = monthIknewThisContact;
     }
@@ -136,17 +137,17 @@ public class Driver {
     }
 
     /**
-     * @return the type
+     * @return the types
      */
-    public ArrayList <Type> getType() {
-        return type;
+    public ArrayList <TypeCar> getTypes() {
+        return types;
     }
 
     /**
-     * @param type the type to set
+     * @param types the types to set
      */
-    public void setType(ArrayList <Type> type) {
-        this.type = type;
+    public void setTypes(ArrayList <TypeCar> types) {
+        this.types = types;
     }
 
     /**
@@ -176,5 +177,5 @@ public class Driver {
     public void setMonthIknewThisContact(int monthIknewThisContact) {
         this.monthIknewThisContact = monthIknewThisContact;
     }
-    
+
 }
