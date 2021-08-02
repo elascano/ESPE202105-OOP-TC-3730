@@ -13,27 +13,30 @@ public class FileManager implements PersistenceI{
 
     @Override
     public boolean create(String data, String table) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //TODO inserte data in the file table
+        return true;
     }
 
     @Override
     public String read(String table) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return "{}";
     }
 
     @Override
     public boolean update(String searchString, String data, String table) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //TODO u
+        return true;
     }
 
     @Override
-    public boolean delet(String searchString, String data, String table) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean delete(String searchString, String data, String table) {
+       return true;
     }
 
     @Override
     public String find(String searchString, String table) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //TODO find a record in the table file according to searchString
+        return "{}";
     }
     
 }

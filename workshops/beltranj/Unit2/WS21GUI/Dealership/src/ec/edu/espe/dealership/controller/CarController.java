@@ -10,6 +10,8 @@ import ec.edu.espe.dealership.model.Accessory;
 import ec.edu.espe.dealership.model.Car;
 import ec.edu.espe.dealership.view.FrmCar;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -18,14 +20,18 @@ import java.util.ArrayList;
 public class CarController {
     private Car car;
     private FrmCar frmCar; 
+    private PersistenceI persistence;
 
     public void add(Car car){
         //TODO add car to database
         //TODO call the util classses
+        persistence = new DBManager();
+        //Todo convert contact to json
+        String carJson ="{"
     }
     public ArrayList<Car> find(String email){
         ArrayList<Car> cars = new ArrayList<>();
-        Car car = new Car("Jennifer", "Beltran", "pasword", "chevrolet", "aveo",new ArrayList<Accessory>());
+        Car car = new Car("Jennifer", "Beltran", "password", "chevrolet", "aveo",new ArrayList<Accessory>());
         cars.add(car);
         return cars;
     }
