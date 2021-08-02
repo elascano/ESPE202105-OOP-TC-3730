@@ -26,7 +26,7 @@ public class Pig extends FarmAnimal{
 
     @Override
     public void feed(int amount) {
-        System.out.println("feeding the pig whit" + amount + "units of pig food");
+        System.out.println("feeding the pig whit" + amount + " of pig food");
     }
 
     /**
@@ -44,8 +44,8 @@ public class Pig extends FarmAnimal{
     }
 
     @Override
-    public void vaccinate(int NumberOfVaccines) {
-        System.out.println("");
+    public void vaccinate(int numberOfVaccines) {
+        System.out.println("The pig got " + numberOfVaccines);
     }
     
 }
