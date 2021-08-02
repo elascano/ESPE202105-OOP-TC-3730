@@ -63,13 +63,84 @@ public class OperationTest {
      @Test
     public void testAddPositivos() {
         System.out.println("add");
-        float addend1 = 1.20F;
-        float addend2 = 3.40F;
-        float expResult = 4.6F;
+        float addend1 = 0.0F;
+        float addend2 = 3.4F;
+        float expResult = 3.4F;
         float result = Operation.add(addend1, addend2);
         assertEquals(expResult, result, 0.0);
        
     }
+    @Test
+    public void testAdd4() {
+        System.out.println("add");
+        float addend1 = 0.0F;
+        float addend2 = 7.3F;
+        float expResult = 7.3F;
+        float result = Operation.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+       
+    }
+    @Test
+    public void testAdd5() {
+        System.out.println("add");
+        float addend1 = 4.0F;
+        float addend2 = 4.0F;
+        float expResult = 8.0F;
+        float result = Operation.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+       
+    }
+    @Test
+    public void testAdd6() {
+        System.out.println("add");
+        float addend1 = 6.0F;
+        float addend2 = 4.0F;
+        float expResult = 10.0F;
+        float result = Operation.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+       
+    }
+    @Test
+    public void testAdd7() {
+        System.out.println("add");
+        float addend1 = 12.0F;
+        float addend2 = 12.0F;
+        float expResult = 24.0F;
+        float result = Operation.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+       
+    }
+    @Test
+    public void testAdd8() {
+        System.out.println("add");
+        float addend1 = 9.0F;
+        float addend2 = 10.0F;
+        float expResult = 19.0F;
+        float result = Operation.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+       
+    }
+    @Test
+    public void testAdd9() {
+        System.out.println("add");
+        float addend1 = 2.0F;
+        float addend2 = 70.0F;
+        float expResult = 72.0F;
+        float result = Operation.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+       
+    }
+    @Test
+    public void testAdd10() {
+        System.out.println("add");
+        float addend1 = 7.2F;
+        float addend2 = 3.4F;
+        float expResult = 10.6F;
+        float result = Operation.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+       
+    }
+    
     /**
      * Test of subtract method, of class Operation.
      */
