@@ -18,23 +18,27 @@ public class Contact {
     private String password;
     private String phoneNumber;
     private String email;
+    private String description;
     private String gender;
     private ArrayList<Sport> sports;
-    private LocalDateTime birthDay;
+    private LocalDateTime birthDate;
     private int monthIKnewThisContact;
 
-    public Contact(String firstName, String lastName, String password, String phoneNumber, String email, String gender, ArrayList<Sport> sports, LocalDateTime birthDay, int monthIKnewThisContact) {
+    public Contact(String firstName, String lastName, String password, String phoneNumber, String email, String description, String gender, ArrayList<Sport> sports, LocalDateTime birthDate, int monthIKnewThisContact) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.password = password;
         this.phoneNumber = phoneNumber;
         this.email = email;
+        this.description = description;
         this.gender = gender;
         this.sports = sports;
-        this.birthDay = birthDay;
+        this.birthDate = birthDate;
         this.monthIKnewThisContact = monthIKnewThisContact;
     }
 
+    
+    
     
     /**
      * @return the firstName
@@ -107,6 +111,20 @@ public class Contact {
     }
 
     /**
+     * @return the description
+     */
+    public String getDescription() {
+        return description;
+    }
+
+    /**
+     * @param description the description to set
+     */
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    /**
      * @return the gender
      */
     public String getGender() {
@@ -135,17 +153,17 @@ public class Contact {
     }
 
     /**
-     * @return the birthDay
+     * @return the birthDate
      */
-    public LocalDateTime getBirthDay() {
-        return birthDay;
+    public LocalDateTime getBirthDate() {
+        return birthDate;
     }
 
     /**
-     * @param birthDay the birthDay to set
+     * @param birthDate the birthDate to set
      */
-    public void setBirthDay(LocalDateTime birthDay) {
-        this.birthDay = birthDay;
+    public void setBirthDate(LocalDateTime birthDate) {
+        this.birthDate = birthDate;
     }
 
     /**
@@ -161,6 +179,6 @@ public class Contact {
     public void setMonthIKnewThisContact(int monthIKnewThisContact) {
         this.monthIKnewThisContact = monthIKnewThisContact;
     }
-    
+
     
 }
