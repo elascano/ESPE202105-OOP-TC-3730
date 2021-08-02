@@ -119,17 +119,27 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
+=======
+                  <EmptySpace max="-2" attributes="0"/>
+>>>>>>> 72f40c991b8da22c168d0adc3d8e3206a6221040
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Component id="jLabel1" alignment="1" min="-2" pref="61" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                               <EmptySpace max="-2" attributes="0"/>
+=======
+>>>>>>> 72f40c991b8da22c168d0adc3d8e3206a6221040
                               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                               <Component id="Txttitle" min="-2" pref="289" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                               <EmptySpace max="-2" attributes="0"/>
+=======
+>>>>>>> 72f40c991b8da22c168d0adc3d8e3206a6221040
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
