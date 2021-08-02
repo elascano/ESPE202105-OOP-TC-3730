@@ -5,10 +5,25 @@
  */
 package ec.edu.espe.diagram.view;
 
+import ec.edu.espe.diagram.model.A;
+import java.util.ArrayList;
+
 /**
  *
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
 public class main {
+    public static void main(String[] args) {
+        A a;
+        ArrayList<A> as;
+        as = new ArrayList<>();
+        
+        a = new A (as);
+        
+        
+        System.out.println("a: "+a);
+    }
+    
+ 
     
 }

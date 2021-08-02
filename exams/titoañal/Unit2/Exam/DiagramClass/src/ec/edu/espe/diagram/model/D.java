@@ -18,9 +18,10 @@ public class D extends A {
 
     public D(ArrayList<A> as, ArrayList<F> fs,E[] es){
 
+        super(as);
         this.es = es;       
         this.fs= fs;
-        super(as);
+        
     }
 
     @Override

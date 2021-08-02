@@ -12,8 +12,16 @@ import java.util.ArrayList;
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
 public class A {
-    
     private ArrayList<A> as = new ArrayList<>();
+
+    public A(ArrayList<A> as) {
+        this.as= as;
+    }
+
+    @Override
+    public String toString() {
+        return "A{" + "as=" + getAs() + '}';
+    }
 
     /**
      * @return the as
@@ -28,20 +36,5 @@ public class A {
     public void setAs(ArrayList<A> as) {
         this.as = as;
     }
-
-    public A(ArrayList<A> as){ 
-        this.as = as;
+}    
     
-    }
-
-    @Override
-    public String toString() {
-        return "A{" + "as=" + as + '}';
-    }
-    
-    
-    
-    
-  
-}
-
