@@ -10,35 +10,57 @@ package ec.edu.espe.contacts.model;
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
 public class Sport {
-    int id,
-    String description;
-    boolean team;
+    private int id;
+    private String description;
+    private boolean team;
 
-    public int getId() {
-        return id;
-    }
-
-    public int getString() {
-        return String;
-    }
-
-    public boolean isTeam() {
-        return team;
-    }
-
-    public void setId(int id) {
+    public Sport(int id, String description, boolean team) {
         this.id = id;
-    }
-
-    public void setString(int String) {
-        this.String = String;
-    }
-
-    public void setTeam(boolean team) {
+        this.description = description;
         this.team = team;
     }
 
     
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the description
+     */
+    public String getDescription() {
+        return description;
+    }
+
+    /**
+     * @param description the description to set
+     */
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    /**
+     * @return the team
+     */
+    public boolean isTeam() {
+        return team;
+    }
+
+    /**
+     * @param team the team to set
+     */
+    public void setTeam(boolean team) {
+        this.team = team;
+    }
     
-            
 }
