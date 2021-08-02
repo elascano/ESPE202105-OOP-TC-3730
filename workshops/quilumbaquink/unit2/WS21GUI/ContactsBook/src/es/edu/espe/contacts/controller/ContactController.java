@@ -10,6 +10,8 @@ import es.edu.espe.contacts.model.Sport;
 import es.edu.espe.contacts.view.FrmContact;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -18,12 +20,18 @@ import java.util.ArrayList;
 public class ContactController {
     private Contact contact;
     private FrmContact frmContact;
+    private PersistenceI persistence;
     
     public void add(Contact contact){
         // TODO add contact to databases
         //TODO call the utils classes
+        persistence=new DBManager();
+        //TODO convert contact to json;
+        String contactJson="{\"firtname\":\"Edison\"}";
+        persistence.create(contactJson, "contacts");
+        
     }
-    public Contact find(String email){
+    public ArrayList<Contact> find(String email){
         ArrayList<Contact> contacts= new ArrayList<>();
         // TODO find the contact(s) by email using utils
         Contact contact=new Contact("ed","lascano","password","0961194040","ed@ed.espe.edu.ec","description","male", new ArrayList<Sport>, LocalDateTime);

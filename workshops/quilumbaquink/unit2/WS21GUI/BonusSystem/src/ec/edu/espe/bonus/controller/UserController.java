@@ -15,5 +15,39 @@ import ec.edu.espe.bonus.view.FrmUser;
 public class UserController {
      private User user;
     private FrmUser frmUser;
+
+    public UserController(User user, FrmUser frmUser) {
+        this.user = user;
+        this.frmUser = frmUser;
+    }
+
+    /**
+     * @return the user
+     */
+    public User getUser() {
+        return user;
+    }
+
+    /**
+     * @param user the user to set
+     */
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    /**
+     * @return the frmUser
+     */
+    public FrmUser getFrmUser() {
+        return frmUser;
+    }
+
+    /**
+     * @param frmUser the frmUser to set
+     */
+    public void setFrmUser(FrmUser frmUser) {
+        this.frmUser = frmUser;
+    }
+    
     
 }
