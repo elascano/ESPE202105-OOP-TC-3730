@@ -7,8 +7,11 @@ package ec.edu.espe.contacts.controller;
 
 import ec.edu.espe.contacts.model.Contact;
 import ec.edu.espe.contacts.view.FrmContact;
+import ec.edu.espe.contacts.model.Sport;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -17,15 +20,19 @@ import java.util.ArrayList;
 public class ContactController {
     private Contact contact;
     private FrmContact frmContact;
+    private PersistenceI persistence;
     
     public void add(Contact contact){
         //TODO add contact to database
         //TODO call the utils classes
+        persistence = new DBManager();
+        String contactJson= "{\"firstname\":\"Cristopher\"}";
+        persistence.create(contactJson, "contacts");
     }
     public ArrayList<Contact> find(String email){
         ArrayList<Contact> contacts = new ArrayList<>();
         //TODO find the contacts by email using utils
-        Contact contact = new Contact("email", "cristopher", "password", "0995437333", "cjsarmiento@espe,edu.espe", "dfg", "sdfs", LocalDateTime.MIN, 0);
+        Contact contact = new Contact("cristopher", "sarmiento", "password", "0995437333", "cjsarmiento@espe.edu.espe", "description","male", new ArrayList<Sport>(), LocalDateTime.MIN, 0);
         contacts.add(contact);
         return contacts;
                 
@@ -39,9 +46,20 @@ public class ContactController {
         if (contacts.size()>0){
             deleted = true;
         }
-        return updated;
+        return deleted;
     }
 
+     public boolean update(String email){
+        boolean updated=false;
+        //TODO 
+        ArrayList<Contact> contacts = new ArrayList<>();
+        contacts = find(email);
+        if (contacts.size()>0){
+            updated = true;
+        }
+        return updated;
+    }
+    
     public ContactController(Contact contact, FrmContact frmContact) {
         this.contact = contact;
         this.frmContact = frmContact;

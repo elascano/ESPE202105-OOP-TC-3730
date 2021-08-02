@@ -5,10 +5,21 @@
  */
 package ec.edu.espe.diagram.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
-public class B {
+public class B extends A {
+
+    public B(ArrayList<A> as) {
+        super(as);
+    }
+
+    @Override
+    public String toString() {
+        return "B{" + '}';
+    }
     
 }

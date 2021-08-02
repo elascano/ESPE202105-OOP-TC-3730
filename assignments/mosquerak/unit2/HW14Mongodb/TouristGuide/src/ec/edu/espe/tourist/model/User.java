@@ -37,7 +37,12 @@ public class User {
         this.city = city;
         this.returndate = returndate;
         this.monthIknewThisUser = monthIknewThisUser;
-     
+    }
+
+   
+
+    public User(String firstName, String lastName, String password, String phoneNumber, String email) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     /**
      * @return the firtName

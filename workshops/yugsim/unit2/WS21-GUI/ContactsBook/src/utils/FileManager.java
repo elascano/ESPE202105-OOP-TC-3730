@@ -25,7 +25,7 @@ public class FileManager implements PersistenceI{
 
     @Override
     public boolean update(String searchString, String data, String table) {
-        //TTODO update data in the file table accordind to the searchString
+        //TODO update data in the file table accordind to the searchString
         return true;
     }
 
@@ -37,7 +37,7 @@ public class FileManager implements PersistenceI{
 
     @Override
     public String find(String searchString, String table) {
-        //TOD Find a record in the table file according to searchString
+        //TODO Find a record in the table file according to searchString
         return "{}";
     }
     
