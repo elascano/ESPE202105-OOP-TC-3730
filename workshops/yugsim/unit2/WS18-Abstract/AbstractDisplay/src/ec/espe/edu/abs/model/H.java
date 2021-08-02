@@ -7,8 +7,16 @@ package ec.espe.edu.abs.model;
 
 /**
  *
- * @author Erick Yánez LAMESTech ESPE-DCC0
+ * @author Pamela Yugsi LAMESTech ESPE-DCC0
  */
 public class H {
+    
+    public H() {
+    }
+
+    @Override
+    public String toString() {
+        return "H{" + '}';
+    }
     
 }
