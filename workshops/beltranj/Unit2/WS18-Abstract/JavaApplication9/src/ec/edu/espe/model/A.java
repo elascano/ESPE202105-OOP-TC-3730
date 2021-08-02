@@ -10,22 +10,22 @@ import java.util.ArrayList;
  * @author hecto
  */
 public class A {
-    private int a; 
-    private int b;
-    private A a1; 
-    private A a2;
-    private B[] bs = new B[5];
-    private Arrayist<C> cs = new Arraylist<>();
+    private int a; //1
+    private int b;  //1
+    private A a1; //1
+    private A a2; //1
+    private B[] bs = new B[5]; //0.8 - the arrangement of A is missing
+    private Arrayist<C> cs = new Arraylist<>(); //0.8 - the arraylist is misspelled
     
  
     
-   public A m (int m, int n){
+   public A m (int m, int n){   //0.8 set the attributes for the m method
         A a = new A ();
         
         return a;
 } 
    
-   public A m(){
+   public A m(){    //1
        A a = new A();
        return a;
    }

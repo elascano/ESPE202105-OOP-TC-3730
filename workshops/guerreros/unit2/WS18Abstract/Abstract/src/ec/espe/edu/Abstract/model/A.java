@@ -13,16 +13,18 @@ import java.util.ArrayList;
  */
 public class A {
 
-    private int a;
-    private int b;
+    private int a; //1
+    private int b; //1 
     
-    private A a1;
-    private A a2;
+    private A a1; //1
+    private A a2; //1
     
   
-    private B[] bs = new B[5];
+    private B[] bs = new B[5]; //1
     
-    private ArrayList<C> cs = new ArrayList<>();
+    private ArrayList<C> cs = new ArrayList<>(); //1
+    
+    // missing complete the methods
     
     public A m(int m, int n){
         return null;

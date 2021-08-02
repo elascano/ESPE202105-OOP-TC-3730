@@ -44,8 +44,8 @@ public class Chicken extends FarmAnimal{
     }
 
     @Override
-    public void vaccinate(int NumberOfVaccines) {
-        System.out.println("vaccine");
+    public void vaccinate(int numberOfVaccines) {
+        System.out.println("vaccinating the chicken with" + numberOfVaccines);
     }
     
 }
