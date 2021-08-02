@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Erick Yánez LAMESTech ESPE-DCC0
+ * @author Pamela Yugsi LAMESTech ESPE-DCC0
  */
 public class AbstractDisplay {
 
@@ -22,18 +22,24 @@ public class AbstractDisplay {
         
         B b;
         
-        b = new D(8, 32);
-        System.out.println("b in int is -> " + b);
+        int x;
+        int y;
+        float f;
+        double d;
+        ArrayList<G> gs = new ArrayList<>();
         
-        System.out.println("b int is a class of -> " + b);
+        x = 1;
+        y = 2;
+        f = 1.0F;
+        d = 12.98F;
         
-        b = new E(2.2F, 0.8F);
-        System.out.println("b in float is -> " + b.getClass());
+        b = new D(x, y, f, d, gs);
         
-        ArrayList<B> bs = new ArrayList<>();
-        bs.add(b);
+        System.out.println("b -> " + b + "of type" + b.getClass().getName());
         
-        System.out.println("b float is a class of -> " + b.getClass());
+        b = new E(f, f, f, d, gs);
+        
+        System.out.println("b -> " + b + "of type" + b.getClass().getName());
     }
     
 }

@@ -5,30 +5,34 @@
  */
 package ec.espe.edu.abs.model;
 
+import java.util.ArrayList;
+
 /**
  *
- * @author Erick Yánez LAMESTech ESPE-DCC0
+ * @author Pamela Yugsi LAMESTech ESPE-DCC0
  */
 public class E extends B {
     private float p;
     private float q;
     
-    public int m1(int i){
-        return 0;
+    public int m1(boolean b){
+        int result = 0;
+        if (b){
+            result = 1;
+        }
+        return result;
     }
 
+    public E(float p, float q, float f, double d, ArrayList<G> gs) {
+        super(f, d, gs);
+        this.p = p;
+        this.q = q;
+    }
+    
     @Override
     public String toString() {
         return "E{" + super.toString() + "p=" + p + ", q=" + q + '}';
     }
-
-    
-    //constructor
-    public E(float p, float q) {
-        this.p = p;
-        this.q = q;
-    }
-
     
     /**
      * @return the p
@@ -60,14 +64,16 @@ public class E extends B {
 
     @Override
     public int operation1(int n) {
-        System.out.println("The int is -> " + n);
-        return n;
+        int result;
+        result = n*10;
+        return result;
     }
 
     @Override
     public float operation2(float f) {
-        System.out.println("The float is -> " + f);
-        return f;
+        float result;
+        result = f / 10.0F;
+        return result;
     }
 
 }
