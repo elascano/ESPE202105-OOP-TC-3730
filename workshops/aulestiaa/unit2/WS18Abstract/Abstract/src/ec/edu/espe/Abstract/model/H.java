@@ -10,5 +10,15 @@ package ec.edu.espe.Abstract.model;
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
 public class H {
+
+    public H() {
+    }
+
+    @Override
+    public String toString() {
+        return "H{" + '}';
+    }
+    
+    
     
 }

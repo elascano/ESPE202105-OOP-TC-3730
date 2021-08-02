@@ -10,5 +10,31 @@ package ec.edu.espe.Abstract.model;
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
 public class G {
+    private int z;
+
+    public G(int z) {
+        this.z = z;
+    }
+
+    @Override
+    public String toString() {
+        return "G{" + "z=" + z + '}';
+    }
+    
+    
+    /**
+     * @return the z
+     */
+    public int getZ() {
+        return z;
+    }
+
+    /**
+     * @param z the z to set
+     */
+    public void setZ(int z) {
+        this.z = z;
+    }
+    
     
 }

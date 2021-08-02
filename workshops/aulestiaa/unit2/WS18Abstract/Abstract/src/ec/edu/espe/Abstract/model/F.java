@@ -10,5 +10,31 @@ package ec.edu.espe.Abstract.model;
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
 public class F {
+    private String r;
+
+    public F(String r) {
+        this.r = r;
+    }
+
+    @Override
+    public String toString() {
+        return "F{" + "r=" + r + '}';
+    }
     
+    
+    /**
+     * @return the r
+     */
+    public String getR() {
+        return r;
+    }
+
+    /**
+     * @param r the r to set
+     */
+    public void setR(String r) {
+        this.r = r;
+    }
+    
+     
 }
