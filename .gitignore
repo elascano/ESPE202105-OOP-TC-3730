@@ -2701,6 +2701,7 @@ hs_err_pid*
 >>>>>>> 0f3a544a3bffae6d96860c2f2b4e0200254a5ef7
 >>>>>>> 53ddbbbd4c37d8a07da0eb290430a4d5113e050d
 >>>>>>> 1f140aa63c892ac2ae3f2709d25e8c7cb0f29fbb
+<<<<<<< HEAD
 /workshops/chasig/unit2/WS18Abstract/WS18Abstract/build/
 /workshops/chasig/unit2/WS18Abstract/Abstract/build/
 /workshops/chasig/unit2/WS21GUI/Dealership/nbproject/private/
@@ -2709,3 +2710,7 @@ hs_err_pid*
 /workshops/chasig/unit2/WS21-GUI1/ContacDealership/nbproject/private/
 /workshops/chasig/unit2/WS22 -GUI2/contactVehicle/build/
 /workshops/chasig/unit2/WS22 -GUI2/contactVehicle/nbproject/private/
+=======
+/workshops/cadenaf/unit2/WS18Abstract/Abstract-team/build/
+/workshops/cadenaf/unit2/WS18Abstract/Abstract-team/nbproject/private/
+>>>>>>> 2de9df82c7e8aada7d273269db7479d07c1497e6
