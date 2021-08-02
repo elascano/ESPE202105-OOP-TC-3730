@@ -10,5 +10,14 @@ package ec.edu.espe.quizunit2.model;
  * @author LILIAN IZA TOURIST GUEST OPP-ESPE
  */
 public class E {
+
+    public E() {
+    }
+
+    @Override
+    public String toString() {
+        return "E{" + '}';
+    }
+    
     
 }
