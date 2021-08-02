@@ -10,6 +10,8 @@ import ec.edu.espe.contacts.model.Client;
 import ec.edu.espe.contacts.view.FrmClient;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -18,10 +20,15 @@ import java.util.ArrayList;
 public class ClientController {
     private Client client;
     private FrmClient frmClient;
+    private PersistenceI persistence;
     
     public void add(Client client){
     //TODO add client to database
     //TODO call the utils clases
+    persistence = new DBManager();
+    //TODO covert Client to json;
+    String clienteJson = "{\"first Name\":\"Lilia\"}";
+    persistence.create(clienteJson, "Clients");
     }
     public ArrayList<Client> find(String email){
     ArrayList<Client> clients = new ArrayList<>();

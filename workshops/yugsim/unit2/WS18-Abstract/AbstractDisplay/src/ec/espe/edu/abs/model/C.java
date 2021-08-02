@@ -9,37 +9,29 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Erick Yánez LAMESTech ESPE-DCC0
+ * @author Pamela Yugsi LAMESTech ESPE-DCC0
  */
 public class C {
     private ArrayList<H> hs = new ArrayList<>();
     public void m(F f){
-        
+        System.out.println("inside method m of class C receiving an F -> " + f);
     }
-
     
+    public float m(float f){
+        float result;
+        result = f*5.0F;
+        return result;
+    }
     
-    
+    public C(ArrayList<H> hs) {
+        this.hs = hs;
+    }
     
     @Override
     public String toString() {
         return "C{" + "hs=" + hs + '}';
     }
-
     
-    
-    //constructor
-    public C() {
-    }
-    
-    
-    
-    
-    
-    public float m(float f){
-        return f;
-    }
-
     /**
      * @return the hs
      */
@@ -53,7 +45,4 @@ public class C {
     public void setHs(ArrayList<H> hs) {
         this.hs = hs;
     }
-         
-    
-    
 }

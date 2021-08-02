@@ -16,7 +16,7 @@ public class Contact {
     private String firstName;
     private String lastName;
     private String password;
-    private String phoneNumbre;
+    private String phoneNumber;
     private String email;
     private String description;
     private String gender;
@@ -28,7 +28,7 @@ public class Contact {
         this.firstName = firstName;
         this.lastName = lastName;
         this.password = password;
-        this.phoneNumbre = phoneNumbre;
+        this.phoneNumber = phoneNumbre;
         this.email = email;
         this.description = description;
         this.gender = gender;
@@ -80,17 +80,17 @@ public class Contact {
     }
 
     /**
-     * @return the phoneNumbre
+     * @return the phoneNumber
      */
-    public String getPhoneNumbre() {
-        return phoneNumbre;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
     /**
-     * @param phoneNumbre the phoneNumbre to set
+     * @param phoneNumber the phoneNumber to set
      */
-    public void setPhoneNumbre(String phoneNumbre) {
-        this.phoneNumbre = phoneNumbre;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     /**

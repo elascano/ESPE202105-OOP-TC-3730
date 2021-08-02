@@ -2204,6 +2204,15 @@ hs_err_pid*
 >>>>>>> 0524377a68f240727f91e4201480d5bed52a0885
 >>>>>>> 446fd16f60eaead8dbddae8083e62ec1f3d4832f
 <<<<<<< HEAD
+/workshops/aulestiaa/unit2/WS19OperationTest/Calculator/nbproject/private/
+/workshops/aulestiaa/unit2/WS19OperationTest/Calculator/build/
+/workshops/aulestiaa/unit2/WS20interfaces/farmsimulator/nbproject/private/
+/workshops/aulestiaa/unit2/WS20interfaces/farmsimulator/build/
+/workshops/aulestiaa/unit2/WS21GUI/JavaApplication22/nbproject/private/
+/workshops/aulestiaa/unit2/WS18Abstract/Abstract/nbproject/private/
+/workshops/aulestiaa/unit2/WS18Abstract/Abstract/build/
+=======
+<<<<<<< HEAD
 /workshops/ortizm/unit2/W18Abstract/WS18Abstract/nbproject/private/
 =======
 >>>>>>> 55ebc890add5356bf1d4342b673196daf687153b
@@ -2440,6 +2449,14 @@ hs_err_pid*
 /workshops/sarmientoc/unit2/Nueva Carpeta/FarmSimulator/build/
 =======
 >>>>>>> dc7de7ef4f8fd31c3dd3701198c835da4090561d
+<<<<<<< HEAD
+/workshops/ortizm/unit2/New Folder/FarmSimulator/nbproject/private/
+/workshops/ortizm/unit2/WS20Interfase/FarmSimulator/build/
+/workshops/ortizm/unit2/WS21/TouristGuide/nbproject/private/
+/workshops/ortizm/unit2/WS21/TouristGuide/build/
+/assignments/ortizm/unit2/HW10MongoDatabase/Mongodb/nbproject/private/
+/assignments/ortizm/unit2/HW10MongoDatabase/Mongodb/build/
+=======
 >>>>>>> bcb3c5613f1cb1c50d6c06184162ad53a619f7fd
 <<<<<<< HEAD
 /workshops/galarzaa/unit2/WS20Interfases/FarmIntefaces/nbproject/private/
@@ -2489,6 +2506,11 @@ hs_err_pid*
 /assignments/oñae/unit2/HW11-Design/PROGRAM BUILDER/build/
 =======
 >>>>>>> 6e28cf094e1caf15d7c62436bfd41dc80ead110f
+<<<<<<< HEAD
+/workshops/galarzaa/unit2/W21GUI/ProductInventary/nbproject/private/
+/assignments/galarzaa/unit2/Nueva Carpeta/Mongo/nbproject/private/
+/assignments/galarzaa/unit2/Nueva Carpeta/Mongo/build/
+=======
 >>>>>>> 1d3bcb158be58da49a24aa5d1827cd5eaeaca606
 >>>>>>> c327f679bf75b1cde75852da9e95c26a6f245280
 <<<<<<< HEAD
@@ -2621,7 +2643,18 @@ hs_err_pid*
 /assignments/sarmientoc/unit2/HW14MongoDB/ConectionMongoDB/build/
 =======
 >>>>>>> 6c08651768c2168b9d3d3839a66aea5682c10b7b
+<<<<<<< HEAD
+/assignments/jaramilloj/unit2/HW14-Mongdb/mongoDb/nbproject/private/
+/assignments/jaramilloj/unit2/HW14-Mongdb/mongoDb/build/
+=======
 >>>>>>> 7e3a8ccc7d61ac3b5204e763056cb4afe56a1968
+<<<<<<< HEAD
+/assignments/quilumbaquink/unit2/HW14MongoDB/ConexionMongo/nbproject/private/
+/assignments/quilumbaquink/unit2/HW14MongoDB/ConexionMongo/build/
+/assignments/quilumbaquink/unit2/HW14MongoDB/Conexion_mongo/nbproject/private/
+/assignments/quilumbaquink/unit2/HW14MongoDB/Conexion_mongo/build/
+/workshops/quilumbaquink/unit2/WS21GUI/ContactsBook/build/
+=======
 >>>>>>> 8fe04550d5b196da491b6c5c851e4698d61d99d5
 >>>>>>> d3c1225063ae47b9a06ce988df27837303664002
 >>>>>>> d797ca7ded5ef149804895ea380aaa369d12ef81
@@ -2665,9 +2698,40 @@ hs_err_pid*
 <<<<<<< HEAD
 =======
 >>>>>>> d9264c5c105e7b86d2426777abe72af86133b966
+<<<<<<< HEAD
+/workshops/titoañal/unit2/WS21GUI/ContactsBook/build/
+=======
 >>>>>>> 141766985fe9b5c3a13baca6899efee1a417e9a4
 >>>>>>> d7855db0e2888c22be24c6e8b606611ce18f8b07
 >>>>>>> e1ff0fe70623d791db7227ddd06449ac3411faf0
 >>>>>>> 8385ae62b940143466a171858c8f999d93978916
+<<<<<<< HEAD
 /exams/beltranj/Unit2/Q22/Q22/nbproject/private/
 /exams/beltranj/Unit2/Q22/Q22/build/
+=======
+>>>>>>> 27b9ce6e1ee5a2dea19e96165d13dcf76ab37f54
+>>>>>>> 77c561cb9ecb28765dbbcda29a62aa13542d21bd
+>>>>>>> 0f3a544a3bffae6d96860c2f2b4e0200254a5ef7
+<<<<<<< HEAD
+/assignments/maisinchob/unit1/HW04 Calculation Java/Tourist Guest/nbproject/private/
+/workshops/maisinchob/unit2/Nueva carpeta/PurchaseOfTouristPackages/build/
+/workshops/maisinchob/unit2/Nueva carpeta/PurchaseOfTouristPackages/nbproject/private/
+=======
+>>>>>>> 53ddbbbd4c37d8a07da0eb290430a4d5113e050d
+>>>>>>> 1f140aa63c892ac2ae3f2709d25e8c7cb0f29fbb
+<<<<<<< HEAD
+/workshops/chasig/unit2/WS18Abstract/WS18Abstract/build/
+/workshops/chasig/unit2/WS18Abstract/Abstract/build/
+/workshops/chasig/unit2/WS21GUI/Dealership/nbproject/private/
+/workshops/chasig/unit2/WS22 Continuation/contactVehicle/build/
+/workshops/chasig/unit2/WS21-GUI1/ContacDealership/build/
+/workshops/chasig/unit2/WS21-GUI1/ContacDealership/nbproject/private/
+/workshops/chasig/unit2/WS22 -GUI2/contactVehicle/build/
+/workshops/chasig/unit2/WS22 -GUI2/contactVehicle/nbproject/private/
+=======
+/workshops/cadenaf/unit2/WS18Abstract/Abstract-team/build/
+/workshops/cadenaf/unit2/WS18Abstract/Abstract-team/nbproject/private/
+>>>>>>> 2de9df82c7e8aada7d273269db7479d07c1497e6
+>>>>>>> 572bc680fc57be8798109c69f0480dd29ee683db
+>>>>>>> f30b280fcb862d3c8585a33b744f677df6807b4c
+>>>>>>> 31cf9d44c9827e14607ced339990fc88f2b1b47b
