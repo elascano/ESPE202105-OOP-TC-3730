@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Kevin Criollo Beta-SoftwareTech ESPE-DCCO
  */
-public class C {
+public class C { //does not have a method 
     private ArrayList<H> hs = new ArrayList<>();
     
     public void m(F f){    

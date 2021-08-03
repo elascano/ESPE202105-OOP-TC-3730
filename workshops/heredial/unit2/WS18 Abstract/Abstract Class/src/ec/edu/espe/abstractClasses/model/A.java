@@ -13,14 +13,14 @@ import java.util.ArrayList;
  */
 public class A {
     
-    private int a;
-    private int b;
-    private A a1;
-    private A b2;
-    private B[] bs = new B[5];
-    private ArrayList<C> cs = new ArrayList<>();
+    private int a; //1
+    private int b; //1
+    private A a1;  //1
+    private A b2;  //1
+    private B[] bs = new B[5]; //1
+    private ArrayList<C> cs = new ArrayList<>(); //1 
     
-    public static A m(int m, int n){
+    public static A m(int m, int n){ //0 incoplete operation
         
         System.out.println(m);
         System.out.println(n);
@@ -29,12 +29,12 @@ public class A {
   
     }
     
-    public static A m(){
+    public static A m(){ //0 incoplete operation
         
     return m();
     }
 
-    public A(int a, int b, A a1, A b2, ArrayList<C> cs) {
+    public A(int a, int b, A a1, A b2, ArrayList<C> cs) { //0 incoplete operation
         this.a = a;
         this.b = b;
         this.a1 = a1;
@@ -43,7 +43,7 @@ public class A {
     }
 
     @Override
-    public String toString() {
+    public String toString() {   //0 incoplete operation
         return "A{" + "a=" + getA() + ", b=" + getB() + ", a1=" + getA1() + ", b2=" + getB2() + ", bs=" + getBs() + ", cs=" + getCs() + '}';
     }
 

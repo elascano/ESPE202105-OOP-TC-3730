@@ -9,7 +9,7 @@ package ec.edu.espe.abastract.model;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class D extends B {
+public class D extends B {     //method not found.
     private int x;
     private int y;
     

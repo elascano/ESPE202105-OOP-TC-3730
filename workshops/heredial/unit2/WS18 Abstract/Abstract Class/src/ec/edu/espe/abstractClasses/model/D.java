@@ -12,30 +12,33 @@ import java.util.ArrayList;
  *
  * @author Luis Heredia Accent on the Future ESPE-DCC0
  */
-public class D extends B{
+public class D extends B{ //1
 
-    private int x;
-    private int y;
+    private int x;  //1
+
+    private int y;  //1
+
         
 
-    public static boolean m(int i){
+    public static boolean m(int i){  //0 // Incomplete operation
+
         
         
         return false;
         
     }
 
-    public D(float f, double d, ArrayList<G> gs) {
+    public D(float f, double d, ArrayList<G> gs) { //0  // Incomplete operation
         super(f, d, gs);
     }
     
      @Override
-    public void operation1(int n) { 
+    public void operation1(int n) { //0  // Incomplete operation
         System.out.println(n);      
     }
 
     @Override
-    public void operation2(float f) {
+    public void operation2(float f) { //0   // Incomplete operation
         System.out.println(f);
     }
 }

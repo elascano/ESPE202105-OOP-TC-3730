@@ -12,35 +12,26 @@ import java.util.ArrayList;
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
 public class C {
- 
-    
     
     private ArrayList<H> hs = new ArrayList<>();
+    
     public void m(F f){
-        
+        // it does not have Sout 
     }
-
-    
-    
-    
     
     @Override
     public String toString() {
         return "C{" + "hs=" + hs + '}';
     }
 
-    
-    
+   
     //constructor
     public C() {
     }
-    
-    
-    
-    
+   
     
     public float m(float f){
-        return f;
+        return f; // needs completing
     }
 
     /**
@@ -56,9 +47,5 @@ public class C {
     public void setHs(ArrayList<H> hs) {
         this.hs = hs;
     }
-         
-    
-    
-    
     
 }

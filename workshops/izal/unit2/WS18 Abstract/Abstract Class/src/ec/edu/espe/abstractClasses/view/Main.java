@@ -12,13 +12,13 @@ import ec.edu.espe.abstractClasses.model.B;
  *
  * @author Luis Heredia Accent on the Future ESPE-DCC0 
  */
-//MEMBERS: Luis Heredia, Lilian Iza, Jean Carlos 
+/*MEMBERS: Luis Heredia, Lilian Iza, Jean Carlos*/
 public class Main {
     
     public static void main(String[] args) {
         
-        A a;
-        a = new A(0, 0, a, a, cs);
+        /*A a;
+        a = new A(0, 0, a, a, cs);*/
         
         
         

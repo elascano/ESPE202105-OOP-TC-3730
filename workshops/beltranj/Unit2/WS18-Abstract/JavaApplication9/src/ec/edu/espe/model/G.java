@@ -10,5 +10,5 @@ package ec.edu.espe.model;
  * @author hecto
  */
 public class G {
-    private int z;
+    private int z; //2 - constructor is missing, to string and setters, getters 
 }

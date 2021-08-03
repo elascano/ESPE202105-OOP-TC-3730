@@ -10,6 +10,25 @@ package ec.edu.espe.model;
  * @author hecto
  */
 public class F {
-    private String r;
-    
+    private String r; 
+
+    public F(String r) {
+        this.r = r;
+    }
+    @Override
+    public String toString() {
+        return "F{" + "r=" + getR() + '}';
+    }
+    /**
+     * @return the r
+     */
+    public String getR() {
+        return r;
+    }
+    /**
+     * @param r the r to set
+     */
+    public void setR(String r) {
+        this.r = r;
+    } 
 }
