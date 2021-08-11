@@ -10,5 +10,5 @@ package ec.espe.Quiz.model;
  * @author Jean Jaramillo
  */
 public class B {
-    
+    //0.4/1 does not contain ArrayList of <G> and ArrayList of <A>
 }

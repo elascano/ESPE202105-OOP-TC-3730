@@ -14,26 +14,6 @@ import java.util.ArrayList;
 public class D extends A{
     private ArrayList<E> es = new ArrayList<>();
 
-    public D() {
-    }
-
-    @Override
-    public String toString() {
-        return "D{" + "es=" + es + '}';
-    }
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     /**
      * @return the es
      */

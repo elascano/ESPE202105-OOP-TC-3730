@@ -102,6 +102,11 @@ public class FrmPurchasePackage extends javax.swing.JFrame {
         });
 
         pwdPassword.setText("jPasswordField1");
+        pwdPassword.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pwdPasswordActionPerformed(evt);
+            }
+        });
 
         jckLossOfLuggage.setText("Loss of luggage");
         jckLossOfLuggage.addActionListener(new java.awt.event.ActionListener() {
@@ -341,6 +346,10 @@ public class FrmPurchasePackage extends javax.swing.JFrame {
         
         JOptionPane.showMessageDialog(rootPane, "adding + " + txtNames.getText());
     }//GEN-LAST:event_btnAddActionPerformed
+
+    private void pwdPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pwdPasswordActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pwdPasswordActionPerformed
 
     /**
      * @param args the command line arguments
