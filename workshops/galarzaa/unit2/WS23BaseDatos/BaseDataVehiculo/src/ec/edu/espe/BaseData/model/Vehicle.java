@@ -3,18 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.ec.question22.model;
+package ec.edu.espe.BaseData.model;
 
 /**
  *
- * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
+ * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
-public class G {
-
-    public G() {
-    }
-    
-    
-    
+public class Vehicle {
     
 }
