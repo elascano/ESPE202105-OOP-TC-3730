@@ -9,6 +9,6 @@ package ec.edu.espe.program.model;
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
-public class B extends A {
+public class B extends A {    //0,4
     
 }

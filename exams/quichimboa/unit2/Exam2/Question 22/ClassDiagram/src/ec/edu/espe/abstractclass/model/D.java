@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
 * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
 */
-public class D extends B {
+public class D extends B {  //0    No extends A
 
     private int x;
     private int y;
