@@ -9,7 +9,7 @@ package ec.edu.espe.view;
  *
  * @author user
  */
-public class Question22 {
+public class Question22 {//0
 
     /**
      * @param args the command line arguments
