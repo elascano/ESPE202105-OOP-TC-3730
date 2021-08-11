@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
 * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
 */
-public class E extends C {
+public class E extends C {    //0   Class E no extend
 
 
     public E() {
