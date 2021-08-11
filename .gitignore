@@ -25,6 +25,11 @@ hs_err_pid*
 # visual paradigm bakcup files
 *vpp.bak*
 <<<<<<< HEAD
+/workshops/angoj/unit2/WS16-3730FarmSystem/Exceptions/nbproject/private/
+/workshops/angoj/unit2/WS19Calculator/Calculator/nbproject/private/
+/workshops/angoj/unit2/WS19Calculator/Calculator/build/
+=======
+<<<<<<< HEAD
 /workshops/cadenaf/unit2/WS19/Calculator/nbproject/private/
 /workshops/cadenaf/unit2/WS19/Calculator/build/
 /assignments/cadenaf/unit2/HW10Calculator/Calculator/build/
@@ -2207,6 +2212,15 @@ hs_err_pid*
 >>>>>>> 0524377a68f240727f91e4201480d5bed52a0885
 >>>>>>> 446fd16f60eaead8dbddae8083e62ec1f3d4832f
 <<<<<<< HEAD
+/workshops/poncec/unit2/WS19-CALCULATOR/Calculator/nbproject/private/
+/workshops/poncec/unit2/WS19-CALCULATOR/Calculator/build/
+/workshops/poncec/unit2/WS13Object/nbproject/private/
+/workshops/poncec/unit2/WS14 Libraries/Taxes/nbproject/private/
+/workshops/poncec/unit2/WS14 Libraries/Taxes/build/
+/workshops/poncec/unit2/WS14 Libraries/TaxLibrary/nbproject/private/
+/workshops/poncec/unit2/WS17/3730FarmSystem/nbproject/private/
+=======
+<<<<<<< HEAD
 /workshops/aulestiaa/unit2/WS19OperationTest/Calculator/nbproject/private/
 /workshops/aulestiaa/unit2/WS19OperationTest/Calculator/build/
 /workshops/aulestiaa/unit2/WS20interfaces/farmsimulator/nbproject/private/
@@ -2219,6 +2233,15 @@ hs_err_pid*
 /workshops/ortizm/unit2/W18Abstract/WS18Abstract/nbproject/private/
 =======
 >>>>>>> 55ebc890add5356bf1d4342b673196daf687153b
+<<<<<<< HEAD
+/workshops/quichimboa/unit2/WS19EXCEPTION/EXCEPTION/nbproject/private/
+/workshops/quichimboa/unit2/WS20/HadwareStore/nbproject/private/
+/workshops/quichimboa/unit2/WS19Tes1/Calculator/nbproject/private/
+/workshops/quichimboa/unit2/WS19Tes1/Calculator/build/
+/workshops/quichimboa/unit2/WS19Tes1/TestCase/nbproject/private/
+/workshops/quichimboa/unit2/WS20Interfaces/farmSimulator/nbproject/private/
+/workshops/quichimboa/unit2/WS20Interfaces/farmSimulator/build/
+=======
 >>>>>>> 815c2fbbd0562a7595f785ba7221bf60cf99a6f7
 <<<<<<< HEAD
 /workshops/villavicencioa/unit2/WS19UnitTest/Calculator/nbproject/private/
@@ -2478,6 +2501,10 @@ hs_err_pid*
 >>>>>>> bbdfd39c59dd61539add47371bc363555ed57db0
 >>>>>>> 0c4a6931c558bddefbd15a2a40476c27be26ad79
 >>>>>>> f8ab32528ef21b2949d3b836d172e2b1dee104fe
+<<<<<<< HEAD
+/workshops/criollok/unit2/WS21GUI/Parkinglot/nbproject/private/
+/exams/criollok/unit2/Q22/Exam#2/nbproject/private/
+=======
 >>>>>>> 88db665177ea8c555a6e85749975cf85f6f43cec
 <<<<<<< HEAD
 /workshops/izal/unit2/WS21GUI/TouristGuest/nbproject/private/
@@ -2711,12 +2738,19 @@ hs_err_pid*
 >>>>>>> 141766985fe9b5c3a13baca6899efee1a417e9a4
 >>>>>>> d7855db0e2888c22be24c6e8b606611ce18f8b07
 >>>>>>> e1ff0fe70623d791db7227ddd06449ac3411faf0
+<<<<<<< HEAD
+/exams/aguirreg/unit2/Question22/ExamUnit2/nbproject/private/
+/exams/aguirreg/unit2/Question22/ExamUnit2/build/
+=======
 >>>>>>> 8385ae62b940143466a171858c8f999d93978916
 <<<<<<< HEAD
 /exams/beltranj/Unit2/Q22/Q22/nbproject/private/
 /exams/beltranj/Unit2/Q22/Q22/build/
 =======
 >>>>>>> 27b9ce6e1ee5a2dea19e96165d13dcf76ab37f54
+<<<<<<< HEAD
+/exams/titoañal/Unit2/Exam/DiagramClass/nbproject/private/
+=======
 <<<<<<< HEAD
 /exams/yaneze/unit2/Q22/Question22/nbproject/private/
 /exams/yaneze/unit2/Q22/Question22/build/
@@ -2729,6 +2763,9 @@ hs_err_pid*
 =======
 >>>>>>> 0f3a544a3bffae6d96860c2f2b4e0200254a5ef7
 <<<<<<< HEAD
+/exams/villavicencioa/unit 2/ExamCodeDiagram/Diagram/nbproject/private/
+=======
+<<<<<<< HEAD
 /exams/jaramilloj/unit2/Q29/Question 29/nbproject/private/
 /workshops/jaramilloj/unit2/WS21GUI/TouristGuide/build/
 /exams/jaramilloj/unit2/Q22/question 22/nbproject/private/
@@ -2736,11 +2773,16 @@ hs_err_pid*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+/exams/izal/unit2/QuizUnit2/QuizUnit2/nbproject/private/
+=======
+<<<<<<< HEAD
 /exams/suntaj/unit2/Question22/QUESTION22/nbproject/private/
 =======
+>>>>>>> 44cca54aedb330ac4cf400746271433851445235
 =======
 /exams/guerreros/unit2/Quiestion22/DiagramTest/nbproject/private/
 /exams/guerreros/unit2/Question23/Question23/nbproject/private/
+>>>>>>> 5442697b0eee2f1ba209b24f21a18e46d5eedabb
 =======
 <<<<<<< HEAD
 >>>>>>> 5442697b0eee2f1ba209b24f21a18e46d5eedabb
@@ -2764,6 +2806,11 @@ hs_err_pid*
 /workshops/maisinchob/unit2/Nueva carpeta/PurchaseOfTouristPackages/nbproject/private/
 =======
 >>>>>>> 53ddbbbd4c37d8a07da0eb290430a4d5113e050d
+<<<<<<< HEAD
+/exams/sigchaj/unit2/Exam2/nbproject/private/
+/exams/sigchaj/unit2/Q22/nbproject/private/
+/exams/sigchaj/unit2/Q29/nbproject/private/
+=======
 <<<<<<< HEAD
 /exams/quilumbaquink/unit2/Q22/Q22/nbproject/private/
 /exams/quilumbaquink/unit2/Q23/Q28/nbproject/private/
@@ -2791,9 +2838,30 @@ hs_err_pid*
 /workshops/cadenaf/unit2/WS18Abstract/Abstract-team/build/
 /workshops/cadenaf/unit2/WS18Abstract/Abstract-team/nbproject/private/
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/exams/yugsim/unit2/Q22/Exam2P/nbproject/private/
+/exams/yugsim/unit2/Q22/Exam2P/build/
+=======
+=======
+/exams/cadenaf/Unit2/Exam2POO/Exam2/nbproject/private/
+/exams/cadenaf/Unit2/Exam2POO/Exam2/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 08302bbf298cf86a55c5c50261004e420330c5e5
 /exams/galarzaa/unit2/Q22/q22/nbproject/private/
+>>>>>>> 6d7098aadb4a1d7db8f72b5d12559bc115171048
 =======
 >>>>>>> 2de9df82c7e8aada7d273269db7479d07c1497e6
+<<<<<<< HEAD
+/exams/chasig/unit2/ExamClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram/ClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram - copia/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram - copia/ClassDiagram/nbproject/private/
+/exams/chasig/unit2/ExamClassDiagram2/ClassDiagram/build/
+/exams/chasig/unit2/ExamClassDiagram2/ClassDiagram/nbproject/private/
+=======
 >>>>>>> 572bc680fc57be8798109c69f0480dd29ee683db
 <<<<<<< HEAD
 /exams/maisinchob/unit2/Exam/ExamUnit2/nbproject/private/
@@ -2808,26 +2876,105 @@ hs_err_pid*
 =======
 >>>>>>> a1f8c63c64c94bf1996118395be2e567f6efbc26
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f4e3aef80c33ed83b91a3310d621a8d70a70c204
+=======
 >>>>>>> 3eb2b1410862ebb26523ad25b15146a797b96dd4
+>>>>>>> 452401853398c1b07dd486835751b82244648f5a
 =======
 =======
 /workshops/contrerasi/unit2/WS21/ParkingCard/nbproject/private/
 /exams/contrerasi/unit2/Q22/Class Diagram/Class Diagram/nbproject/private/
 >>>>>>> Stashed changes
 >>>>>>> 1061484d569fddecb3573a2e811a7d328b937fcb
+<<<<<<< HEAD
+=======
 >>>>>>> 59f01b20db5c111e1151a2ae9a50b6dabc04dbfb
 >>>>>>> 452401853398c1b07dd486835751b82244648f5a
 <<<<<<< HEAD
 =======
 >>>>>>> 6663f231d63da830a60c7a28b18cf602d117a1f9
 >>>>>>> 43b1f52dc729d19dccc590235b0906f150066b38
+<<<<<<< HEAD
+/assignments/aulestiaa/unit2/HW14Mongodb/Mongodb/nbproject/private/
+/assignments/aulestiaa/unit2/HW14Mongodb/Mongodb/build/
+=======
 >>>>>>> e23671f44e38b49307da2866736336d70686ae4e
+<<<<<<< HEAD
+/workshops/galarzaa/unit2/WS23BaseDatos/BaseDataVehiculo/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> 6d7098aadb4a1d7db8f72b5d12559bc115171048
+=======
+<<<<<<< HEAD
+>>>>>>> 52de31a468dba388c19211b92e6b47e46f7e8588
+=======
 >>>>>>> 6d7098aadb4a1d7db8f72b5d12559bc115171048
 <<<<<<< HEAD
->>>>>>> bad7021a2ab2d166722931734a4f612c430cbf34
+/exams/suntaj/unit2/Question22/proyecto/nbproject/private/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5442697b0eee2f1ba209b24f21a18e46d5eedabb
 =======
 >>>>>>> 2a6e7dd185e50557b735e30fc31cf8feb1ce2329
 >>>>>>> 44cca54aedb330ac4cf400746271433851445235
+=======
+>>>>>>> bad7021a2ab2d166722931734a4f612c430cbf34
+=======
+>>>>>>> 2a6e7dd185e50557b735e30fc31cf8feb1ce2329
+<<<<<<< HEAD
+>>>>>>> 7f8be85e2110023d2e2ead933ea7fde808040356
+/exams/titoañal/Unit2/Exam/DiagramClass/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 7f8be85e2110023d2e2ead933ea7fde808040356
+=======
+>>>>>>> 44cca54aedb330ac4cf400746271433851445235
+<<<<<<< HEAD
+/workshops/pachacamaa/Unit2/WS21/ContactsBookMONGO/nbproject/private/
+/assignments/pachacamaa/Unit2/HW10/Calculator/nbproject/private/
+=======
 >>>>>>> 2738470836b3615ff0e3dbc8d0726a49a79846b0
 >>>>>>> edb885f720740a5447d3918b03f268f97922d6e3
+<<<<<<< HEAD
 /exams/maisinchob/unit2/Exam/ExamUnit2/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 2a1982fedb073f40834ed726c56054ceb4395725
+/exams/villavicencioa/unit 2/ExamCodeDiagram/Diagram/build/
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> baea196e4478217898691bd5973b1701bf7a14c0
+>>>>>>> 27c01e9c5204cec05b5477356312b6c4b7ce7065
+>>>>>>> 9925dde503f67b5bc77a15d9d3d0f3066ba84758
+>>>>>>> 8441d1d56042058bcd0b155ec88d037591bcb3ce
+>>>>>>> f1c373b175873a85883d729d3d071b48713431be
+>>>>>>> 3f5944f2cde9ce750d26970a3fe8022873a64a18
+>>>>>>> 54604e4828daec447d09438da7c4f054dc398cf2
+>>>>>>> 6773707c6cd53faf9604b645360bd6a42541d4e9
+>>>>>>> f806d36ca78d8d2433e0dabd91bd950b1f785b58
+>>>>>>> 08302bbf298cf86a55c5c50261004e420330c5e5
+>>>>>>> 1680d9a52a44a2a946a05df80411a7b60959b6f3
+>>>>>>> 72f40c991b8da22c168d0adc3d8e3206a6221040
+<<<<<<< HEAD
+/workshops/angoj/unit2/WS20FramSimulation/FramSimulation_2/nbproject/private/
+=======
+>>>>>>> 44d166f0cf13bef1b9f4f79c35743018c7feb94c
+>>>>>>> ab6df90d0b813b7b82da6dea7a1a578b2ad55c13
+<<<<<<< HEAD
+/exams/quichimboa/unit2/Exam2/Question 22/ClassDiagram/ClassDiagram/nbproject/private/
+=======
+<<<<<<< HEAD
+/exams/criollok/unit2/Q22/Exam#2/build/
+=======
+<<<<<<< HEAD
+/exams/quilumbaquink/unit2/Q22/Q22/build/
+=======
+>>>>>>> 19d16fb42fbc7cf6356eee3af0ffda11723033e0
+>>>>>>> 57e6ddcd5861949652baa1979efe20f8075fe386
+>>>>>>> d23e4f1cadb10cf1b1407f65771c72496c8a916d
+>>>>>>> d4f8c1035c77bf8b4989eb77381837ea6844013c
+>>>>>>> 48a1f7cfa3a9dca225d60438237143c6d7c6a8c0
+>>>>>>> d1884f21cc1b690f9b1269e7b3a39f927c9bdb52
