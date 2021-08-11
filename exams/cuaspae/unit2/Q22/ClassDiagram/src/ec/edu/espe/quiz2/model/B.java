@@ -9,6 +9,14 @@ package ec.edu.espe.quiz2.model;
  *
  * @author Eliana Cuaspa Beta-SoftwareTech ESPE-DCCO
  */
-public class B {
+public class B extends A {
+    public B(){
+    }
+
+    @Override
+    public String toString() {
+        return "B{" + '}';
+    }
+    
     
 }

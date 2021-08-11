@@ -11,4 +11,14 @@ package ec.edu.espe.quiz2.model;
  */
 public class J {
     
+    public J(){
+    }
+
+    @Override
+    public String toString() {
+        return "J{" + '}';
+    }
+    
+   
+    
 }

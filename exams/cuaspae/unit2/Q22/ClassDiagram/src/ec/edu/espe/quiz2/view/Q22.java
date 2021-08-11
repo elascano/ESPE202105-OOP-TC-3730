@@ -10,6 +10,7 @@ package ec.edu.espe.quiz2.view;
  * @author Eliana Cuaspa Beta-SoftwareTech ESPE-DCCO
  */
 public class Q22 {
+    
 
     /**
      * @param args the command line arguments

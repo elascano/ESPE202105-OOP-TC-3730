@@ -10,5 +10,12 @@ package ec.edu.espe.quiz2.model;
  * @author Eliana Cuaspa Beta-SoftwareTech ESPE-DCCO
  */
 public class G {
+    public G(){
+    }
+
+    @Override
+    public String toString() {
+        return "G{" + '}';
+    }
     
 }
