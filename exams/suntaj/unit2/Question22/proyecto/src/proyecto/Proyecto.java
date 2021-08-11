@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.ec.question22.model;
+package proyecto;
 
 /**
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class G {
+public class Proyecto {
 
-    public G() {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
-    
-    
-    
     
 }
