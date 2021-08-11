@@ -11,4 +11,6 @@ package ec.edu.ec.question22.model;
  */
 public class B {
     
+    
+    
 }

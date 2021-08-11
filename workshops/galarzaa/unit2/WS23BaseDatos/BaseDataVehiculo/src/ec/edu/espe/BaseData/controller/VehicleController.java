@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.abstractclass.model;
+package ec.edu.espe.BaseData.controller;
 
 /**
  *
- * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
+ * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
-class G {   //0 no implements
+public class VehicleController {
     
 }
