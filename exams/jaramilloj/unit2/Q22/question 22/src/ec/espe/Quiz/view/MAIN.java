@@ -10,5 +10,7 @@ package ec.espe.Quiz.view;
  * @author Jean Jaramillo
  */
 public class MAIN {
-    
+    //0.4/3  It does not contain variables of the declared classes,does not contain ArrayList of declared classes
+    //1.5/3  the class does not return
+
 }

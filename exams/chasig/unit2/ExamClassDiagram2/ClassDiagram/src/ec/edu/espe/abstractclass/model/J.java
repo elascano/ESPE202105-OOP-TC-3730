@@ -10,5 +10,5 @@ package ec.edu.espe.abstractclass.model;
  * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
 class J {
-    
+    //does not have the to String
 }

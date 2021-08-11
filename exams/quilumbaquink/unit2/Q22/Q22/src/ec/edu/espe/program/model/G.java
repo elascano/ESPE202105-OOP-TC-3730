@@ -9,12 +9,12 @@ package ec.edu.espe.program.model;
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
-public class G {
+public class G {  //0   No implemets H
 
     public G() {
     }
 
-    @Override
+    @Override   //0.5
     public String toString() {
         return "G{" + '}';
     }

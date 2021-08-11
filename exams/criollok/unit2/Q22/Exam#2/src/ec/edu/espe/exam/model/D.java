@@ -12,11 +12,11 @@ import java.util.Arrays;
  *
  * @author Kevin Criollo BetaSoftwareTech ESPE-DCCO
  */
-public class D {
-      E[] ed = new E[5];
-    ArrayList<F> fd;
+public class D { //0.2
+      E[] ed = new E[5];//0.1 missing private
+    ArrayList<F> fd;// 0.1
 
-    public D(ArrayList<F> fd) {
+    public D(ArrayList<F> fd) { //0.2 needs completing
         this.fd = fd;
     }
 
