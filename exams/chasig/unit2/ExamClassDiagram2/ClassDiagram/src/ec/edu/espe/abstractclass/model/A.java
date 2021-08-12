@@ -16,7 +16,7 @@ public class A {
     private int a;
     private int b;
     private int d;
-    private ArrayList<C> cs;
+    private ArrayList<C> cs; // ArrayList<A>
     private B bs[]= new B[1] ;
     
     
