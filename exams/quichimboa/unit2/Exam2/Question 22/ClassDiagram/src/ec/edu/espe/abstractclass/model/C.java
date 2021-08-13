@@ -11,9 +11,9 @@ import java.util.ArrayList;
  *
 * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
 */
-public class C {
+public class C {  //0
     
-   private ArrayList<E> hs;
+   private ArrayList<E> hs;   //0.4
 
     @Override
     public String toString() {

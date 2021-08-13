@@ -7,8 +7,8 @@ import java.util.List;
  *
  @author Luis Haro
  */
-public class A {
-    private List<A> as = new ArrayList<>();
+public class A {  //0.5
+    private List<A> as = new ArrayList<>(); //0.5
     
     public A() {
         System.out.println("A::A()");
