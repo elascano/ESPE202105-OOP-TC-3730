@@ -9,6 +9,8 @@ package ec.edu.espe.abc.model;
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class J {
+public class J {             //0.8
+    
+    //falta un to string
     
 }

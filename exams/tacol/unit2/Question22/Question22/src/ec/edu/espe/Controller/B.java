@@ -11,14 +11,14 @@ import java.util.ArrayList;
  *
  * @author user
  */
-public class B {
+public class B {//0
     
     private int H;
     
-    private ArrayList<G> gs;
+    private ArrayList<G> gs;//0.4
     private double d;
 
-    public B(int H, ArrayList<G> gs, double d) {
+    public B(int H, ArrayList<G> gs, double d) {//0
         this.H = H;
         this.gs = gs;
         this.d = d;
