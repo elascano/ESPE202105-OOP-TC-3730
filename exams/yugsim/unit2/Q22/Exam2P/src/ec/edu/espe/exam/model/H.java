@@ -9,7 +9,7 @@ package ec.edu.espe.exam.model;
  *
  * @author Pamela Yugsi LAMESTech ESPE-DCCO
  */
-public class H {
+public class H {//0,6
 
     public H() {
     }
