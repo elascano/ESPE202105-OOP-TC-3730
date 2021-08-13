@@ -9,7 +9,7 @@ package ec.edu.espe.exam.view;
  *
  * @author Pamela Yugsi LAMESTech ESPE-DCCO
  */
-public class Exam2P {
+public class Exam2P {//0,0
 
     /**
      * @param args the command line arguments

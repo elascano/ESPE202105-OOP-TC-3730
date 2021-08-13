@@ -10,5 +10,6 @@ package ec.edu.espe.abstractclass.model;
  * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
 class G {
-    
+    //there is no implementation of class h
+
 }
