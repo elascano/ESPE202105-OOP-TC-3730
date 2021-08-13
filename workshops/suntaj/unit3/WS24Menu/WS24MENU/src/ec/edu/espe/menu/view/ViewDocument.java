@@ -34,6 +34,8 @@ public class ViewDocument extends javax.swing.JFrame {
         MnuAddComments = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
         MnuEmployee = new javax.swing.JMenu();
+        mnuAdd = new javax.swing.JMenuItem();
+        mnuSelect = new javax.swing.JMenuItem();
         MnuExit = new javax.swing.JMenu();
 
         jMenuItem1.setText("jMenuItem1");
@@ -75,6 +77,24 @@ public class ViewDocument extends javax.swing.JFrame {
         jMenuBar1.add(MnuDocuments);
 
         MnuEmployee.setText("Employee");
+
+        mnuAdd.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_H, java.awt.event.InputEvent.CTRL_MASK));
+        mnuAdd.setText("Add");
+        mnuAdd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mnuAddActionPerformed(evt);
+            }
+        });
+        MnuEmployee.add(mnuAdd);
+
+        mnuSelect.setText("Select");
+        mnuSelect.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mnuSelectActionPerformed(evt);
+            }
+        });
+        MnuEmployee.add(mnuSelect);
+
         jMenuBar1.add(MnuEmployee);
 
         MnuExit.setText("Exit");
@@ -91,11 +111,11 @@ public class ViewDocument extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 307, Short.MAX_VALUE)
+            .addGap(0, 367, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 252, Short.MAX_VALUE)
+            .addGap(0, 294, Short.MAX_VALUE)
         );
 
         pack();
@@ -129,6 +149,21 @@ public class ViewDocument extends javax.swing.JFrame {
           FrmSendComments frmSendcomments = new  FrmSendComments();
          frmSendcomments.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void mnuAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuAddActionPerformed
+        // TODO add your handling code here:
+          FrmAddEmployee frmAddemployee = new  FrmAddEmployee();
+         frmAddemployee.setVisible(true);
+        
+    }//GEN-LAST:event_mnuAddActionPerformed
+
+    private void mnuSelectActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuSelectActionPerformed
+        // TODO add your handling code here:
+        
+         FrmSelectEmployee frmSelectemployee = new  FrmSelectEmployee();
+         frmSelectemployee.setVisible(true);
+        
+    }//GEN-LAST:event_mnuSelectActionPerformed
 
     /**
      * @param args the command line arguments
@@ -174,5 +209,7 @@ public class ViewDocument extends javax.swing.JFrame {
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem mnuAdd;
+    private javax.swing.JMenuItem mnuSelect;
     // End of variables declaration//GEN-END:variables
 }
