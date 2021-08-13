@@ -11,10 +11,10 @@ import java.util.ArrayList;
  *
  * @author Pamela Yugsi LAMESTech ESPE-DCCO
  */
-public class B extends A{
-    private ArrayList<H> hs = new ArrayList<>();
+public class B extends A{ //0,4
+    private ArrayList<H> hs = new ArrayList<>();//0,2
 
-    public B() {
+    public B() {//0,0
     }
 
     @Override

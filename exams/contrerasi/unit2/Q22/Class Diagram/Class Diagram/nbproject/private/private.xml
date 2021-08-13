@@ -2,16 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/F.java</file>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/A.java</file>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/C.java</file>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/H.java</file>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/D.java</file>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/J.java</file>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/E.java</file>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/G.java</file>
-            <file>file:/C:/Users/INTEPRO/Desktop/POO/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/B.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/F.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/H.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/A.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/E.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/J.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/B.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/D.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/C.java</file>
+            <file>file:/C:/Users/Kevin/Desktop/Nivek/ESPE202105-OOP-TC-3730/exams/contrerasi/unit2/Q22/Class%20Diagram/Class%20Diagram/src/ec/edu/espe/model/G.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> e0bb5afca692435f9829ea9087d6e0fc899b3363
     </open-files>
 </project-private>

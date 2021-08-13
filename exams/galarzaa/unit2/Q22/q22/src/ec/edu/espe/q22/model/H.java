@@ -9,6 +9,6 @@ package ec.edu.espe.q22.model;
  *
  * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
-public class H {
+public class H { //0.4 falta la declarar la interface
     
 }
