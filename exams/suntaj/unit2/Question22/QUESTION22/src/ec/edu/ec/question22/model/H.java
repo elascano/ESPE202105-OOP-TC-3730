@@ -10,5 +10,11 @@ package ec.edu.ec.question22.model;
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
 public class H {
+
+    public H() {
+    }
+    
+    
+    
     
 }
