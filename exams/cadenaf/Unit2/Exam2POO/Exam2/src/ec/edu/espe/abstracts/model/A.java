@@ -9,9 +9,11 @@ package ec.edu.espe.abstracts.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class A {
+public class A { //0.2
     public A(){
-        
+        //No arraylist. 
+        // the constructor of A is missing. 
+        // No setters and getters. 
     }
 
     @Override

@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 
 */
-public abstract class B {
+public abstract class B { // 0.8
 
     private float H;
     

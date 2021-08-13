@@ -14,6 +14,8 @@ import java.util.ArrayList;
 */
 public class D extends B {
 
+    //It is not inherited from the pope, it does not have the constructor, there is no E and F arrangement
+    
     private int x;
     private int y;
 
