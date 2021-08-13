@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
 * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
 */
-public class C {
+public class C { // 0.4
     
    private ArrayList<E> hs;
 
