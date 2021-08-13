@@ -7,9 +7,9 @@ import java.util.List;
  *
  * @author Luis Haro
  */
-public class D extends A {
-    private List<F> fs = new ArrayList<>();
-    private E es[] = new E[5];
+public class D extends A {//0.2
+    private List<F> fs = new ArrayList<>();//0.2
+    private E es[] = new E[5];//0.2
 
     public List<F> getFs() {
         return fs;
@@ -27,7 +27,7 @@ public class D extends A {
         this.es = es;
     }
     
-    public D() {
+    public D() {//0 constructor incomplete array incomplete
         System.out.println("D::D()");
         fs.add(new F());
         

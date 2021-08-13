@@ -9,6 +9,6 @@ package ec.edu.espe.model;
  *
  * @author Ian Contreras LAMES ESPE-DCCO
  */
-public class F {
-    
+public class F { //0.8
+     // does not have tosString
 }
