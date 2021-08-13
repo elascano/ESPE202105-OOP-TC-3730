@@ -9,6 +9,6 @@ package ec.edu.espe.abstractclass.model;
  *
  * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
  */
-class J {
+public class J {  //0.8
     
 }

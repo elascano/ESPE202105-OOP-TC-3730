@@ -9,6 +9,6 @@ package ec.edu.espe.ABC.model;
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class G {
+public class G implements H{ //0.5
     
 }

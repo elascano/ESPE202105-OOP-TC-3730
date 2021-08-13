@@ -9,6 +9,7 @@ package ec.edu.espe.exam.model;
  *
  * @author Kevin Criollo BetaSoftwareTech ESPE-DCCO
  */
-public class F {
+public class F { //0.8
+    // 0 missig toString
     
 }

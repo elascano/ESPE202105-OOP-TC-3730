@@ -10,5 +10,8 @@ package ec.espe.Quiz.model;
  * @author Jean Jaramillo
  */
 public class C {
+    //0.4/1 does not contain methods
+
+
     
 }
