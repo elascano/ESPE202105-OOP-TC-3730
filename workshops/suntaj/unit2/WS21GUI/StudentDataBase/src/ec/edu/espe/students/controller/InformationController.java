@@ -5,12 +5,10 @@
  */
 package ec.edu.espe.students.controller;
 
-import static com.sun.org.apache.xalan.internal.lib.ExsltDatetime.date;
+import Utils.DBManager;
+import Utils.PersistenceI;
 import ec.edu.espe.students.model.Information;
-import ec.edu.espe.students.model.Subject;
 import ec.edu.espe.students.view.FrmInformation;
-import java.awt.List;
-import java.lang.reflect.Array;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
@@ -19,47 +17,67 @@ import java.util.ArrayList;
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
 public class InformationController {
+    
     private Information information;
     private FrmInformation frmInformation;
-
-    public void add(Information information){
-        //TODO add information to dtabase
-        // T
+    private PersistenceI persistence;
+    
+     public InformationController(Information information, FrmInformation frmInformation) {
+         this.information = information;
+        this.frmInformation = frmInformation;
     }
     
-    public ArrayList<Information> search(int ID){
+    public void add(Information information){
+     
+     persistence = new DBManager();  
+      
+     String InformationJson="";
+     
+    }
+    
+ public ArrayList<Information> search(int ID){
         ArrayList<Information> informations = new ArrayList<>();
         
-        Information information = new Information("joss", "espe", "civvil", "flor","fem", 12,new ArrayList<>(), LocalDateTime.MIN, 15);
+         Information information = new Information("joss", "espe", "civvil", "flor","fem", 12,new ArrayList<>(), LocalDateTime.MIN, 15);
       
         informations.add(information);
         return informations;
-        
-        
     }
-    
-    public boolean deleted(int ID){
-          boolean deleted = false;
+ 
+ 
+  public boolean delete(int ID){
+        //TODO
+       boolean deleted = false;
           ArrayList<Information> informations = new ArrayList<>();
           informations = search(ID);
           if(informations.size() >0 ){
           deleted = true;
           }
           
-          return deleted;
-          
+          return deleted;        
+        
     }
-     
-       
+    
+   public boolean update(int code){
+        //TODO
+        boolean updated = false;
+        ArrayList<Information> contacts = new ArrayList<>();
+        contacts = search(code);
+        if(contacts.size()>0){
+            //TODO delete from database
+            updated = true;
             
             
-    
-    
-    public InformationController(Information information, FrmInformation frmInformation) {
-        this.information = information;
-        this.frmInformation = frmInformation;
+        }
+        return updated;
+        
+        
     }
 
+    /**
+     * @return the inventory
+     */
+    
     /**
      * @return the information
      */
@@ -89,6 +107,10 @@ public class InformationController {
     }
     
     
+        
     
-            
+    
+    
+    
+    
 }

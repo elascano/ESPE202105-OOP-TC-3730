@@ -10,6 +10,8 @@ import ec.edu.espe.contacts.model.Sport;
 import ec.edu.espe.contacts.view.FrmContact;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import utils.DBManager;
+import utils.PersistenceI;
 
 /**
  *
@@ -18,10 +20,15 @@ import java.util.ArrayList;
 public class ContactController {
     private Contact contact;
     private FrmContact frmContact;
+    private PersistenceI persistence;
     
     public void add(Contact contact){
         //TODO add contact to database
         //TODO call utils classes
+        persistence = new DBManager();
+        //TODO convert contact to json;
+        String contactJson = "{\"firstname\":\"Pamela\"}";
+        persistence.create(contactJson, "contacts");
     }
     
     public ArrayList<Contact> find(String email){
@@ -30,6 +37,18 @@ public class ContactController {
         Contact contact = new Contact("MP", "Yugsi", "password", "0995420088", "mpyugsi@espe.edu.ec", "description", "female", new ArrayList<Sport>(), LocalDateTime.MIN, 0);
         contacts.add(contact);
         return contacts;
+    }
+    
+    public boolean delete(String email){
+        boolean deleted = false;
+        //TODO 
+         ArrayList<Contact> contacts = new ArrayList<>();
+        contacts = find (email);
+        if(contacts.size()>0){
+            //TODO delete from data base
+            deleted = true;
+        }
+        return deleted;
     }
     
     public boolean update(String email){
@@ -43,9 +62,9 @@ public class ContactController {
         return updated;
     }
     
-    @Override
-    public String toString() {
-        return "ContactController{" + "contact=" + contact + ", frmContact=" + frmContact + '}';
+    public ContactController(Contact contact, FrmContact frmContact) {
+        this.contact = contact;
+        this.frmContact = frmContact;
     }
 
     /**
