@@ -9,6 +9,13 @@ package ec.edu.espe.abc.model;
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class F {
+public class F {             //0.8
+
+    @Override
+    public String toString() {    //0.2
+        return "F{" + '}';
+    }
+    
+    
     
 }

@@ -12,7 +12,9 @@ package ec.edu.espe.abstracts.model;
 public class G {
     public G(){       
     }
-
+// no implementation with H.
+ 
+  // There is no J public void. 
     @Override
     public String toString() {
         return "G{" + '}';

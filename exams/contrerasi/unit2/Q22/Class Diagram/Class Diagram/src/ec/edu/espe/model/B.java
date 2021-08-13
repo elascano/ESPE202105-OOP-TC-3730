@@ -10,5 +10,5 @@ package ec.edu.espe.model;
  * @author Ian Contreras LAMES ESPE-DCCO
  */
 public class B {
-    private String r;
+    private String r;  //0 it has nothing
 }

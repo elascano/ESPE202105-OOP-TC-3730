@@ -11,10 +11,13 @@ import java.util.ArrayList;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class D extends A{
+public class D extends A{//0.2
+    private  E[] es;//0.2
     public D(){
     }
-
+// no arraylist of F.
+// no constructor. 
+ 
     @Override
     public String toString() {
         return "D{" + '}';

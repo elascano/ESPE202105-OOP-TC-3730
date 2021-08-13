@@ -10,5 +10,5 @@ package ec.edu.espe.abstractclass.model;
  * @author Geraldi Chasi Team of Machine ESPE-DCCD
 */
 public class H {
-    
+    //It is not created as an interface
 }
