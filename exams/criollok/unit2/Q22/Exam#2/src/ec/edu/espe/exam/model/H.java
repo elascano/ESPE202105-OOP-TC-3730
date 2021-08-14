@@ -9,6 +9,7 @@ package ec.edu.espe.exam.model;
  *
  * @author Kevin Criollo BetaSoftwareTech ESPE-DCCO
  */
-public class H {
+public class H { //0
+    // 0, has no method
     
 }

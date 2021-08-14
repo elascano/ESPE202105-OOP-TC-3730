@@ -7,10 +7,10 @@ import java.util.List;
  *
 @author Luis Haro
  */
-public class B extends A {
-    private final List<H> hs = new ArrayList<>();
+public class B extends A {//0.4
+    private final List<H> hs = new ArrayList<>();//0
     
-    public B() {
+    public B() {//0 imcomplete constructor arrayList<G> 
         System.out.println("B::B()");
         hs.add(new G(new J()));
     }

@@ -9,13 +9,13 @@ package ec.edu.espe.exam.model;
  *
  * @author Pamela Yugsi LAMESTech ESPE-DCCO
  */
-public class G {
+public class G {//0,3
 
     public G() {
     }
 
     @Override
-    public String toString() {
+    public String toString() {//0,3
         return "G{" + '}';
     }
     
