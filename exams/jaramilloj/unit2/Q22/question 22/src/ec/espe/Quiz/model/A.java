@@ -10,5 +10,9 @@ package ec.espe.Quiz.model;
  * @author Jean Jaramillo
  */
 public class A {
+    //0.5/1 does not contain ArrayList or COnstructor or seter or geter
+	
+
+
     
 }

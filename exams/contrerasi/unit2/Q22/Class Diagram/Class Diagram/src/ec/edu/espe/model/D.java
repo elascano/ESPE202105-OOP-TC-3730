@@ -10,5 +10,6 @@ package ec.edu.espe.model;
  * @author Ian Contreras LAMES ESPE-DCCO
  */
 public class D {
+    //0 it has nothing
     
 }

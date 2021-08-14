@@ -11,8 +11,8 @@ import java.util.ArrayList;
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
-public class C extends A {
-    private ArrayList<E> es=new ArrayList<>();
+public class C extends A {  //0.4
+    private ArrayList<E> es=new ArrayList<>();   //0.4
 
     @Override
     public String toString() {
