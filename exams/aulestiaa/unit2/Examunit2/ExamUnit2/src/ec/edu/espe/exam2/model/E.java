@@ -9,7 +9,7 @@ package ec.edu.espe.exam2.model;
  *
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
-public class E {
+public class E { //0.8
   private D[] ds = new D[4];
 
     /**
@@ -30,7 +30,7 @@ public class E {
     }
 
     @Override
-    public String toString() {
+    public String toString() { //0.2
         return "E{" + "ds=" + ds + '}';
     }
   

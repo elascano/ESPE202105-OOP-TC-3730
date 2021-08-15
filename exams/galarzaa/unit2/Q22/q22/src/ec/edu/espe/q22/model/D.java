@@ -9,6 +9,6 @@ package ec.edu.espe.q22.model;
  *
  * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
-public class D {
+public class D { //0.1 solo esta la creación de la clase
     
 }

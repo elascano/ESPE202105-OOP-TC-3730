@@ -7,10 +7,10 @@ import java.util.List;
  *
  * @author Luis Haro
  */
-public class C extends A {
-    private List<E> es = new ArrayList<>();
+public class C extends A {//0.4
+    private List<E> es = new ArrayList<>();//0.4
     
-    public C() {
+    public C() {//0
         System.out.println("C::C()");
         es.add(new E());
     }
