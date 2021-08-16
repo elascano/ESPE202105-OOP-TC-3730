@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Geraldi Chasi Team of Machine ESPE-DCCD
 */
-public class C {
+public class C {//It is not inherited from the pope
     
    private ArrayList<E> hs;
 
@@ -20,7 +20,7 @@ public class C {
         return "C{" + "hs=" + hs + '}';
     }
 
-    public C(ArrayList<E> hs) {
+    public C(ArrayList<E> hs) {////incomplete constructor
         this.hs = hs;
     }
 

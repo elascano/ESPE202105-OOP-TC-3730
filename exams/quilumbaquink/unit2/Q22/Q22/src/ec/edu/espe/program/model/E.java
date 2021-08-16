@@ -9,13 +9,13 @@ package ec.edu.espe.program.model;
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
-public class E {
+public class E {  //0.8
 
     public E() {
     }
 
     @Override
-    public String toString() {
+    public String toString() {  //0.2
         return "E{" + '}';
     }
     

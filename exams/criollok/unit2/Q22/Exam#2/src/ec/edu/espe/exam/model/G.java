@@ -9,6 +9,6 @@ package ec.edu.espe.exam.model;
  *
  * @author Kevin Criollo BetaSoftwareTech ESPE-DCCO
  */
-public class G {
+public class G { // 0
     
 }

@@ -9,10 +9,11 @@ package ec.edu.espe.abstracts.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class B extends A{
+public class B extends A{ //0.4
     public B(){
     }
-
+     // no  arraylist of G. 
+     // no constructor  of B. 
     @Override
     public String toString() {
         return "B{" + '}';

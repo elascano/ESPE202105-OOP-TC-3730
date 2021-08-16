@@ -14,14 +14,14 @@ import java.util.ArrayList;
 
 
 */
-public abstract class B {
+public abstract class B {//it is not abstract class
 
     private float H;
     
     private ArrayList<G> gs;
     private double d;
 
-    public B() {
+    public B() {//incomplete constructor
     }
 
     @Override
