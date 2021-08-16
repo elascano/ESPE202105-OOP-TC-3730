@@ -9,7 +9,7 @@ package ec.edu.espe.exam2.model;
  *
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
-public class J {
+public class J { //0.8
     private String r;
 
     public J(String r) {
@@ -17,7 +17,7 @@ public class J {
     }
 
     @Override
-    public String toString() {
+    public String toString() { //0.2
         return "J{" + "r=" + r + '}';
     }
     
