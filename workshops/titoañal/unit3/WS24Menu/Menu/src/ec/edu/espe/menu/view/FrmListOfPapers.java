@@ -99,7 +99,9 @@ public class FrmListOfPapers extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
-        System.exit(0);
+        PapersRegistration papersRegistration = new PapersRegistration();
+        papersRegistration.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnExitActionPerformed
 
     /**
