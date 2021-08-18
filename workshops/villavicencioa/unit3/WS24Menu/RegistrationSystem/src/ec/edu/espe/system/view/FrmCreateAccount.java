@@ -34,10 +34,10 @@ public class FrmCreateAccount extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         txtName = new javax.swing.JTextField();
         txtLastName = new javax.swing.JTextField();
-        rbtnMale = new javax.swing.JRadioButton();
-        rbtnFemale = new javax.swing.JRadioButton();
         btnCancel = new javax.swing.JButton();
         btnOK = new javax.swing.JButton();
+        chkMale = new javax.swing.JCheckBox();
+        chkFemale = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -59,13 +59,18 @@ public class FrmCreateAccount extends javax.swing.JFrame {
 
         txtLastName.setText("Antamba");
 
-        rbtnMale.setText("Male");
-
-        rbtnFemale.setText("Female");
-
         btnCancel.setText("Cancel");
+        btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCancelActionPerformed(evt);
+            }
+        });
 
         btnOK.setText("OK");
+
+        chkMale.setText("Male");
+
+        chkFemale.setText("Female");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -90,8 +95,8 @@ public class FrmCreateAccount extends javax.swing.JFrame {
                             .addComponent(txtLastName)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(rbtnMale)
-                                    .addComponent(rbtnFemale))
+                                    .addComponent(chkFemale)
+                                    .addComponent(chkMale))
                                 .addGap(0, 0, Short.MAX_VALUE)))
                         .addContainerGap())))
             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -114,9 +119,9 @@ public class FrmCreateAccount extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel4)
-                    .addComponent(rbtnMale))
+                    .addComponent(chkMale))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(rbtnFemale)
+                .addComponent(chkFemale)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnCancel)
@@ -143,6 +148,11 @@ public class FrmCreateAccount extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelActionPerformed
+       RegistrationSystem registrationSystem = new RegistrationSystem();
+       registrationSystem.setVisible(true);
+    }//GEN-LAST:event_btnCancelActionPerformed
 
     /**
      * @param args the command line arguments
@@ -182,13 +192,13 @@ public class FrmCreateAccount extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancel;
     private javax.swing.JButton btnOK;
+    private javax.swing.JCheckBox chkFemale;
+    private javax.swing.JCheckBox chkMale;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JRadioButton rbtnFemale;
-    private javax.swing.JRadioButton rbtnMale;
     private javax.swing.JTextField txtLastName;
     private javax.swing.JTextField txtName;
     // End of variables declaration//GEN-END:variables

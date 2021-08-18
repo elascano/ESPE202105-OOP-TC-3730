@@ -48,6 +48,11 @@ public class FrmSubmitComments extends javax.swing.JFrame {
         btnOK.setText("OK");
 
         btnCancel.setText("Cancel");
+        btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCancelActionPerformed(evt);
+            }
+        });
 
         btnAdd.setText("Add");
 
@@ -115,6 +120,11 @@ public class FrmSubmitComments extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelActionPerformed
+        RegistrationSystem registrationSystem = new RegistrationSystem();
+        registrationSystem.setVisible(true);
+    }//GEN-LAST:event_btnCancelActionPerformed
 
     /**
      * @param args the command line arguments
