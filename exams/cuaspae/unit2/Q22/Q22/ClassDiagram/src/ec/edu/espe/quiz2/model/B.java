@@ -9,12 +9,12 @@ package ec.edu.espe.quiz2.model;
  *
  * @author Eliana Cuaspa Beta-SoftwareTech ESPE-DCCO
  */
-public class B extends A {
-    public B(){
+public class B extends A { //0.4
+    public B(){           //0.0 there is no arraylist
     }
 
     @Override
-    public String toString() {
+    public String toString() {  //0.0 it is not good it is to string
         return "B{" + '}';
     }
     

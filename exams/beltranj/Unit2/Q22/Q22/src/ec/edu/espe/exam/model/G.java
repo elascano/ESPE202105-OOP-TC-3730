@@ -9,7 +9,8 @@ package ec.edu.espe.exam.model;
  *
  * @author Jennifer Beltran
  */
-public class G {
+public class G { //0 It does not have the implementation, it does not receive the j
+ 
     public G(){
         
     }
