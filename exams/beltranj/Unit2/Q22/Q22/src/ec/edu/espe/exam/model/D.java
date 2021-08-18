@@ -11,8 +11,10 @@ import java.util.ArrayList;
  *
  * @author Jennifer Beltran
  */
-public class D {
-    private ArrayList<F> fs = new ArrayList<>();
+public class D { //0,2 It doesn't have the inheritance, it doesn't have the es array, it doesn't have the constructor
+
+
+    private ArrayList<F> fs = new ArrayList<>();//0,2
 
     @Override
     public String toString() {
