@@ -3,22 +3,50 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package electronicmaterial;
+package ec.edu.espe.lames.view;
 
+import com.mongodb.BasicDBObjectBuilder;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
+import com.mongodb.WriteResult;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 /**
  *
- * @author Pamela Yugsi LAMESTech ESPE-DCC0
+ * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
 public class View extends javax.swing.JFrame {
 
     /**
      * Creates new form View
      */
-    ArrayList<Product> list= new ArrayList<Product>();
+    ArrayList<Product> list = new ArrayList<Product>();
+
     public View() {
         initComponents();
+    }
+
+    private static DBObject createDBObject(Product book) {
+        BasicDBObjectBuilder docBuilder = BasicDBObjectBuilder.start();
+        docBuilder.append("Name", book.getProduct());
+        docBuilder.append("Author", book.getFabricator());
+        docBuilder.append("Id", book.getId());
+        docBuilder.append("Price", book.getPrice());
+
+        return docBuilder.get();
+    }
+
+    private static Product createBook(String name, String author, String id, String price) {
+        Product book = new Product(name, author, id, price);
+        book.setProduct(name);
+        book.setFabricator(author);
+        book.setId(id);
+        book.setPrice(price);
+        return book;
     }
 
     /**
@@ -43,7 +71,7 @@ public class View extends javax.swing.JFrame {
         txtPrice = new javax.swing.JTextField();
         BtnRegister = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        tblProduct = new javax.swing.JTable();
+        jTableBook = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(153, 255, 255));
@@ -123,14 +151,14 @@ public class View extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        BtnRegister.setText("Register");
+        BtnRegister.setText("SAVE");
         BtnRegister.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnRegisterActionPerformed(evt);
             }
         });
 
-        tblProduct.setModel(new javax.swing.table.DefaultTableModel(
+        jTableBook.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -139,11 +167,11 @@ public class View extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "Product", "Fabricator", "Id", "Price"
+                "Name", "Author", "Id", "Price"
             }
         ));
-        tblProduct.setRowHeight(20);
-        jScrollPane1.setViewportView(tblProduct);
+        jTableBook.setRowHeight(20);
+        jScrollPane1.setViewportView(jTableBook);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -197,32 +225,43 @@ public class View extends javax.swing.JFrame {
         // TODO add your handling code here:
         Product product = new Product(txtProduct.getText(), txtFabricator.getText(), txtId.getText(), txtPrice.getText());
         list.add(product);
-        
         show1();
-        
+        try {
+            // TODO add your handling code here:
+            MongoClient mongo = new MongoClient("localhost", 27017);
+            DB db = mongo.getDB("BookShop");
+            DBCollection col = db.getCollection("book");
+            DBObject doc = createDBObject(product);
+            WriteResult result = col.insert(doc);
+            JOptionPane.showMessageDialog(null, "Registered book successfully");
+
+        } catch (UnknownHostException ex) {
+
+        }
         txtProduct.setText("");
         txtFabricator.setText("");
         txtId.setText("");
         txtPrice.setText("");
     }//GEN-LAST:event_BtnRegisterActionPerformed
 
-    public void show1(){
-        String matrix[][] = new String [list.size()][4];
+    public void show1() {
+        String matrix[][] = new String[list.size()][4];
         for (int i = 0; i < list.size(); i++) {
-            
-            matrix[i][0] = list.get(i).getName();
-            matrix[i][1] = list.get(i).getAuthor();
+
+            matrix[i][0] = list.get(i).getProduct();
+            matrix[i][1] = list.get(i).getFabricator();
             matrix[i][2] = list.get(i).getId();
             matrix[i][3] = list.get(i).getPrice();
-            
-            tblProduct.setModel(new javax.swing.table.DefaultTableModel(
-            matrix,
-            new String [] {
-                "Name", "Author", "Id", "Price"
-            }
-        ));
+
+            jTableBook.setModel(new javax.swing.table.DefaultTableModel(
+                    matrix,
+                    new String[]{
+                        "Name", "Author", "Id", "Price"
+                    }
+            ));
         }
     }
+
     /**
      * @param args the command line arguments
      */
@@ -268,7 +307,7 @@ public class View extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable tblProduct;
+    private javax.swing.JTable jTableBook;
     private javax.swing.JTextField txtFabricator;
     private javax.swing.JTextField txtId;
     private javax.swing.JTextField txtPrice;

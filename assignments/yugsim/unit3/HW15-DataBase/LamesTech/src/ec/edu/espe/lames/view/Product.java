@@ -3,39 +3,40 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package electronicmaterial;
+package ec.edu.espe.lames.view;
 
 /**
  *
- * @author Pamela Yugsi LAMESTech ESPE-DCC0
+ * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
 public class Product {
-    String Name;
-    String Author;
+
+    String Product;
+    String Fabricator;
     String Id;
     String Price;
 
     public Product(String Name, String Author, String Id, String Price) {
-        this.Name = Name;
-        this.Author = Author;
+        this.Product = Name;
+        this.Fabricator = Author;
         this.Id = Id;
         this.Price = Price;
     }
 
-    public String getName() {
-        return Name;
+    public String getProduct() {
+        return Product;
     }
 
-    public void setName(String Name) {
-        this.Name = Name;
+    public void setProduct(String Product) {
+        this.Product = Product;
     }
 
-    public String getAuthor() {
-        return Author;
+    public String getFabricator() {
+        return Fabricator;
     }
 
-    public void setAuthor(String Author) {
-        this.Author = Author;
+    public void setFabricator(String Fabricator) {
+        this.Fabricator = Fabricator;
     }
 
     public String getId() {
@@ -53,5 +54,5 @@ public class Product {
     public void setPrice(String Price) {
         this.Price = Price;
     }
-       
+
 }

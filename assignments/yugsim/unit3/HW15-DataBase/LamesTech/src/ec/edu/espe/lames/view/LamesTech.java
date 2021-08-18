@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package electronicmaterial;
+package ec.edu.espe.lames.view;
 
 /**
  *
- * @author Pamela Yugsi LAMESTech ESPE-DCC0
+ * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
 public class LamesTech {
 
