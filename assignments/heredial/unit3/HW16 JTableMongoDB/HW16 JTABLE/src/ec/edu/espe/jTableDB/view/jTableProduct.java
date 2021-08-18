@@ -43,8 +43,8 @@ public class jTableProduct extends javax.swing.JFrame {
           try {
               Mongo mongo;
               mongo = new Mongo("localhost", 27017);
-             DataBase = mongo.getDB("InventoryProduct");
-            collection = DataBase.getCollection("Product");
+             DataBase = mongo.getDB("InventoryDB");
+            collection = DataBase.getCollection("Products");
             System.out.println("successful connection");
           } catch (UnknownHostException ex) {
               Logger.getLogger(jTableProduct.class.getName()).log(Level.SEVERE, null, ex);
@@ -117,13 +117,10 @@ public class jTableProduct extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1)
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
                 .addGap(408, 408, 408)
                 .addComponent(jLabel1)
                 .addContainerGap(464, Short.MAX_VALUE))
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

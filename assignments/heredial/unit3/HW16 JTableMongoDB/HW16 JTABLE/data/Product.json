@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "610d5818377f6cb210cd5c4f"
+  },
+  "ID": 1235,
+  "Name": "Router ",
+  "Brand": "Cisco",
+  "Purchase Price": 18.5,
+  "Sale Price": 25.25,
+  "Quantity": 20,
+  "ID Provide": 2357
+},{
+  "_id": {
+    "$oid": "610d5818377f6cb210cd5c50"
+  },
+  "ID": 1236,
+  "Name": "Arduino ",
+  "Brand": "Arduino",
+  "Purchase Price": 12.25,
+  "Sale Price": 10.63,
+  "Quantity": 30,
+  "ID Provide": 2358
+},{
+  "_id": {
+    "$oid": "610d5818377f6cb210cd5c51"
+  },
+  "ID": 1237,
+  "Name": "RaspberryPi4 ",
+  "Brand": "Raspberry",
+  "Purchase Price": 80.25,
+  "Sale Price": 110.12,
+  "Quantity": 50,
+  "ID Provide": 2359
+},{
+  "_id": {
+    "$oid": "611470a79eadef5642cad34b"
+  },
+  "ID": 2563,
+  "Name": "Amplify",
+  "Brand": "Xiaomi",
+  "Purchase Price": 10.98,
+  "Sale Price": 12.6,
+  "Quantity": 55,
+  "ID Provide": 1256
+},{
+  "_id": {
+    "$oid": "61147c6c9ead243ff4dd9f69"
+  },
+  "ID": 12,
+  "Name": "Router",
+  "Brand": "Tecatel",
+  "Purchase Price": 12.65,
+  "Sale Price": 14.5,
+  "Quantity": 60,
+  "ID Provide": 12345
+},{
+  "_id": {
+    "$oid": "61147cb19ead2f173b7a7e00"
+  },
+  "ID": 123,
+  "Name": "Pin",
+  "Brand": "Tecatel",
+  "Purchase Price": 0.57,
+  "Sale Price": 1.5,
+  "Quantity": 100,
+  "ID Provide": 12354
+},{
+  "_id": {
+    "$oid": "611c6aa6c56d9ae31f509cdd"
+  },
+  "ID": 145,
+  "Name": "Antena Parabolica",
+  "Brand": "Tecatel",
+  "Purchase Price": 25.25,
+  "Sale Price": 23.56,
+  "Quantity": 20,
+  "ID Provide": 12345
+}]

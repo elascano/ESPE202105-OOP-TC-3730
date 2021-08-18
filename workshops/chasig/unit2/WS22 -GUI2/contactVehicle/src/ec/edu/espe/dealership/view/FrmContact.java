@@ -19,7 +19,28 @@ import javax.swing.JOptionPane;
  */
 public class FrmContact extends javax.swing.JFrame {
     private Object cmbGender;
-   
+   Contact contact; 
+       ContactController contactController; 
+       String fullName = txtFullName.getText(); 
+       String iDCard = txtIDCard.getText(); 
+       String address = txtAddress.getText(); 
+       String email = txtEmail.getText();
+       String phone = txtPhone.getText(); 
+       String dateOfBirth = txtDateOfBirth.getText(); 
+       String password = pwdPassword.getText();
+       String gender = cmbGender.getSelectedItem().toString(); 
+       String description = txaDescription.getText(); 
+       ArrayList<Vehicle> vehicles = new ArrayList<>(); 
+       LocalDateTime birthDate = LocalDateTime.now(); 
+       int monthIkew = 3; 
+       
+       contact = new Contact(fullName, fullName, password, email, description, gender, vehicles, birthDate, monthIkew);                 
+       
+       contactController = new ContactController(contact, this); 
+       contactController.add(contact); 
+       
+       
+       JOptionPane.showMessageDialog(rootPane, "adding + " + txtFullName.getText());
     /**
      * Creates new form FrmDealership
      */

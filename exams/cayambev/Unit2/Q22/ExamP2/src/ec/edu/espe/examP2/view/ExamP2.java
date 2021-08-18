@@ -23,8 +23,9 @@ public class ExamP2 {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    ArrayList<A> as;
-    ArrayList<F> fs;
-    ArrayList<E> es;
-    ArrayList<H> hs;
+    ArrayList<A> as;//0.1
+    ArrayList<F> fs;//0.1
+    ArrayList<E> es;//0.1
+    ArrayList<H> hs;//0.1
+    
 }
