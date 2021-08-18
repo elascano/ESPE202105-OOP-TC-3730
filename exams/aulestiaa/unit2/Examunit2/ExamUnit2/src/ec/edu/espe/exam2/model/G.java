@@ -9,12 +9,12 @@ package ec.edu.espe.exam2.model;
  *
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
-public class G {
+public class G { //0
 
     
     public void m(J j){
         System.out.println("inside the method m of class G receaving an F ->" + j);
     }
-    
+                 //0
     
 }

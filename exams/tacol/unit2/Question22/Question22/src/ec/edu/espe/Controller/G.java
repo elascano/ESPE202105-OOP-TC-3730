@@ -9,6 +9,6 @@ package ec.edu.espe.Controller;
  *
  * @author user
  */
-public class G {
+public class G {//
     
 }
