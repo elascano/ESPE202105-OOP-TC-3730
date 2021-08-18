@@ -12,7 +12,9 @@ package ec.edu.espe.abstracts.model;
 public class H {
    public H(){       
    } 
+// Must be programmed as an interface of H.
 
+   //No method M.
     @Override
     public String toString() {
         return "H{" + '}';

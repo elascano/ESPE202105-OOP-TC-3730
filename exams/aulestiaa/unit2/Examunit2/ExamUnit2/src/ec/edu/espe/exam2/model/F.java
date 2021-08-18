@@ -9,7 +9,7 @@ package ec.edu.espe.exam2.model;
  *
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
-public class F {
+public class F { //0.8
     private float w;
 
     /**
@@ -32,7 +32,7 @@ public class F {
 
     @Override
     public String toString() {
-        return "F{" + "w=" + w + '}';
+        return "F{" + "w=" + w + '}'; //0.2
     }
     
 }

@@ -9,7 +9,8 @@ package ec.edu.espe.exam.model;
  *
  * @author Jennifer Beltran
  */
-public class H {
+public class H { //0 It doesn't have the interface, it doesn't have the implementations.
+
     public H(){
         
     }

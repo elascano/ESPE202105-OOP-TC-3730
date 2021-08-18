@@ -19,13 +19,25 @@ import java.util.ArrayList;
  */
 public class Abstract {
     public static void main(String[] args) {
-        A a;
-        B b;
-        C c;
-        D d;
-        F f;
-        H h;
-            
+        A a; //0.1
+        B b; //0.1
+        C c;  //0.1
+        D d;  //0.1
+        //No arraylist of A.
+        //No arraylist of B.
+        //No C[].
+        //No D[].
+        
+        
+        //No arraylist of E.
+        //No arraylist of F.
+        //No arraylist of G.
+        
+        
+        
+        F f; //No
+        H h; //No
+       
         System.out.println("Abstract Class");
        
     }
