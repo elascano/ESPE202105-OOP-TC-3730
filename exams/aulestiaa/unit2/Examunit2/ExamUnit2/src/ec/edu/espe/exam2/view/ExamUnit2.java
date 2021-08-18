@@ -14,7 +14,7 @@ public class ExamUnit2 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) { //0
         // TODO code application logic here
     }
     

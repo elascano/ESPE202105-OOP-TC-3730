@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
 public class D {
-    private E[] es = new E[5];
+    private E[] es = new E[5];//0
     
     private ArrayList<F> fs = new ArrayList<>();
     
