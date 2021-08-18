@@ -15,7 +15,7 @@ public class Q22 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) {  //0 the main is empty
         // TODO code application logic here
     }
     

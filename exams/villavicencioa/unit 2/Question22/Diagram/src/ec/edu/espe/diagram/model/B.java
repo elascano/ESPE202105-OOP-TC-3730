@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
-public class B extends A {
+public class B extends A {          //0.4
 
     public B(ArrayList<A> as) {
         super(as);

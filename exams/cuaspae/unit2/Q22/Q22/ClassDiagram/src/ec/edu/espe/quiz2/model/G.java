@@ -9,12 +9,12 @@ package ec.edu.espe.quiz2.model;
  *
  * @author Eliana Cuaspa Beta-SoftwareTech ESPE-DCCO
  */
-public class G {
+public class G {  //0 does not have the implementation
     public G(){
     }
 
     @Override
-    public String toString() {
+    public String toString() { //0 does not have to string well
         return "G{" + '}';
     }
     
