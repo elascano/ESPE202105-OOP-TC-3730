@@ -9,7 +9,9 @@ package ec.edu.espe.exam.model;
  *
  * @author Jennifer Beltran
  */
-public class B {
+public class B { //0 It doesn't have the inheritance, it doesn't have the arrayList, it doesn't have the constructor
+
+
     public B(){
         
     }

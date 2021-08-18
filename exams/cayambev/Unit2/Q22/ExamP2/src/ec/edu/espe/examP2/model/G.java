@@ -9,7 +9,7 @@ package ec.edu.espe.examP2.model;
  *
  * @author Vanessa Cayambe Team of machine ESPE-DCCO
  */
-public class G {
+public class G { //0.10
     public G(){       
     }
     @Override
