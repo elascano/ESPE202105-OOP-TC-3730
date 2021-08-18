@@ -32,9 +32,6 @@ public class Material {
         this.monthIknewThisMaterial = monthIknewThisMaterial;
     }
     
-    
-    
-    
 
     /**
      * @return the FirstName
@@ -134,8 +131,6 @@ public class Material {
         this.monthIknewThisMaterial = monthIknewThisMaterial;
     }
 
-    
-
-    
+ 
     
 }
