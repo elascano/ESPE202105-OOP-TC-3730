@@ -9,6 +9,8 @@ package ec.edu.espe.quiz2.model;
  *
  * @author Eliana Cuaspa Beta-SoftwareTech ESPE-DCCO
  */
-public class H {
+public class H {  //0 interface is not done 
+                  //0  there is no method m
+                  //0 there is no method m
     
 }

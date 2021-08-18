@@ -11,9 +11,9 @@ import java.util.ArrayList;
  *
  * @author Vanessa Cayambe Team of machine ESPE-DCCO
  */
-public class D {
+public class D { //0.2
     private ArrayList<F> fs = new ArrayList<>();
-    private ArrayList<E> es = new ArrayList<>();
+    private ArrayList<E> es = new ArrayList<>(); //0.2
 
     @Override
     public String toString() {

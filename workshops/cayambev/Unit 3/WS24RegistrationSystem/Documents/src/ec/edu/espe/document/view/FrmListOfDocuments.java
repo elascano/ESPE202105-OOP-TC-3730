@@ -45,7 +45,7 @@ public class FrmListOfDocuments extends javax.swing.JFrame {
             }
         });
 
-        ItmDocuments.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Actions", "Horror", "Romantics", " " }));
+        ItmDocuments.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Textual", "Virtual", "Iconographic", " " }));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
