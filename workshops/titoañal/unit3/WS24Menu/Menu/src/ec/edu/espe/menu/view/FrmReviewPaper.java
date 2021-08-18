@@ -42,6 +42,11 @@ public class FrmReviewPaper extends javax.swing.JFrame {
         btnOk.setText("Review");
 
         btnCancel.setText("Cancel");
+        btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCancelActionPerformed(evt);
+            }
+        });
 
         jList1.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Paper 1", "Paper 2", "Paper 3", "Paper 4", " " };
@@ -96,6 +101,12 @@ public class FrmReviewPaper extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelActionPerformed
+        PapersRegistration papersRegistration = new PapersRegistration();
+        papersRegistration.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnCancelActionPerformed
 
     /**
      * @param args the command line arguments

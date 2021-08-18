@@ -9,7 +9,8 @@ package ec.edu.espe.exam.view;
  *
  * @author Jennifer Beltran
  */
-public class Q22 {
+public class Q22 { // 0 incomplete main
+
 
     /**
      * @param args the command line arguments
