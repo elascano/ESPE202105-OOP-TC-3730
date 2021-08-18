@@ -10,5 +10,5 @@ package ec.espe.Quiz.model;
  * @author Jean Jaramillo
  */
 public class J {
-    
+    //0.8/1 the to string is missing
 }

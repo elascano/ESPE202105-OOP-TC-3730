@@ -23,7 +23,7 @@ public class ContactController {
     private PersistenceI persistence;
 
     public ContactController(Contact contact, FrmContact aThis) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
     
     public void add(Contact contact){

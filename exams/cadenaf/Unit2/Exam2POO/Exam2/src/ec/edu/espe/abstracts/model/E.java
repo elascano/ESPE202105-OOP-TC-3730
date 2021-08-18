@@ -9,12 +9,12 @@ package ec.edu.espe.abstracts.model;
  *
  * @author Fernanda Cadena Team of Machine ESPE-DCCD
  */
-public class E {
+public class E { //0.8
     public E(){
     }
-
+    
     @Override
-    public String toString() {
+    public String toString() { //0.2
         return "E{" + '}';
     }
     

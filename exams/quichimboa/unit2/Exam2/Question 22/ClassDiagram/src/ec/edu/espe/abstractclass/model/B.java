@@ -14,11 +14,11 @@ import java.util.ArrayList;
 
 
 */
-public abstract class B {
+public abstract class B {     //0
 
     private float H;
     
-    private ArrayList<G> gs;
+    private ArrayList<G> gs;   //0.4
     private double d;
 
     public B() {
