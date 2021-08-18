@@ -9,5 +9,5 @@ package ec.edu.espe.abstractclass.model;
  *
 * @author  JOHNY ANGO ESPE-DCCO*/
 public class H {
-    
+   //0 Does not have 
 }
