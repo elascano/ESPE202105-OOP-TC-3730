@@ -11,8 +11,8 @@ import java.util.ArrayList;
  *
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
-public class A {
-    private ArrayList<A> as = new ArrayList<>();
+public class A { //0.5 
+    private ArrayList<A> as = new ArrayList<>(); //0.5 
 
     public A(ArrayList<A> as) {
         this.as= as;

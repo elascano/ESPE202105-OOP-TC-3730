@@ -9,13 +9,13 @@ package ec.edu.espe.diagram.model;
  *
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
-public class F {
+public class F { //0.8
 
     public F() {
     }
 
     @Override
-    public String toString() {
+    public String toString() { //0.2
         return "F{" + '}';
     }
 

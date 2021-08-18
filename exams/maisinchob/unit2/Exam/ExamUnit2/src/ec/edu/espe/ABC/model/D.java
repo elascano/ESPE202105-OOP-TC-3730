@@ -11,8 +11,8 @@ import java.util.ArrayList;
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class D extends A{
-    private ArrayList<E> es = new ArrayList<>();
+public class D extends A{ //0.2
+    private ArrayList<E> es = new ArrayList<>(); //0.2
 
     /**
      * @return the es
