@@ -9,13 +9,13 @@ package ec.edu.espe.quiz2.model;
  *
  * @author Eliana Cuaspa Beta-SoftwareTech ESPE-DCCO
  */
-public class J {
+public class J {   //0.8
     
     public J(){
     }
 
     @Override
-    public String toString() {
+    public String toString() {   //0.2
         return "J{" + '}';
     }
     
