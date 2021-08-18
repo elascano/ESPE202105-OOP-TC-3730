@@ -41,6 +41,11 @@ public class FrmChangePassword extends javax.swing.JFrame {
         jLabel1.setText("Change Password");
 
         btnCancel.setText("Cancel");
+        btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCancelActionPerformed(evt);
+            }
+        });
 
         btnContinue.setText("Continue");
 
@@ -96,6 +101,12 @@ public class FrmChangePassword extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelActionPerformed
+            PapersRegistration papersRegistration = new PapersRegistration();
+            papersRegistration.setVisible(true);
+            this.dispose();
+    }//GEN-LAST:event_btnCancelActionPerformed
 
     /**
      * @param args the command line arguments

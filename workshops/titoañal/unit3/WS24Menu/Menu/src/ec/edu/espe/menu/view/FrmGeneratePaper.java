@@ -44,6 +44,11 @@ public class FrmGeneratePaper extends javax.swing.JFrame {
         btnGenerate.setText("Generate");
 
         btnCancel.setText("Cancel");
+        btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCancelActionPerformed(evt);
+            }
+        });
 
         jLabel2.setText("Name of Paper:");
 
@@ -104,6 +109,12 @@ public class FrmGeneratePaper extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelActionPerformed
+        PapersRegistration papersRegistration = new PapersRegistration();
+        papersRegistration.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnCancelActionPerformed
 
     /**
      * @param args the command line arguments
