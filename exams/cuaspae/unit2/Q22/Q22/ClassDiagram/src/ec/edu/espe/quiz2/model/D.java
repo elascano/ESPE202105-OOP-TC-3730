@@ -9,12 +9,12 @@ package ec.edu.espe.quiz2.model;
  *
  * @author Eliana Cuaspa Beta-SoftwareTech ESPE-DCCO
  */
-public class D extends A {
-    public D(){
-    }
+public class D extends A { //0.2
+    public D(){           //0 there is no Fs arraylist
+    }                      //0 this is not the arrangement of Es
 
     @Override
-    public String toString() {
+    public String toString() {         //0  it is not good it is to string
         return "D{" + '}';
     }
     
