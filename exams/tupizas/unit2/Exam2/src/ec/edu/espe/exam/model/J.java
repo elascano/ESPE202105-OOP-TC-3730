@@ -10,9 +10,16 @@ package ec.edu.espe.exam.model;
  * @author Solange Tupiza search for electrical and electronic materials
  * OOP-ESPE
  */
+<<<<<<< HEAD
+public class J {
+
+    public J() {
+        
+=======
 public class J {  //0.8
 
     public J() {
+>>>>>>> 3136e17288f759cc014e95341f6a58823e9b37d7
     }
     
     

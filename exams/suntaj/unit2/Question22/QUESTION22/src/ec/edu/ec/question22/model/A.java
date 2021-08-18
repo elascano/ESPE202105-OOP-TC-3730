@@ -9,6 +9,6 @@ package ec.edu.ec.question22.model;
  *
  * @author Gabriela Sunta Future'sProgrammersTech ESPE- DCCO
  */
-public class A {
+public class A { //0.5
     
 }
