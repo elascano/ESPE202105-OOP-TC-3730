@@ -9,7 +9,7 @@ package ec.edu.espe.program.model;
  *
  * @author Karen Quilumbaquin Program Builder ESPE-DCC0
  */
-public class A {
+public class A {  //0.5  Class A
 
     public A() {
     }
