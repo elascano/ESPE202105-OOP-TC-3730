@@ -11,12 +11,12 @@ import java.util.ArrayList;
  *
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
-public class D extends A{
+public class D extends A{   //0.2
 
-   private E[]es = new E[5];
-   private ArrayList<F> fs = new ArrayList<>();
+   private E[]es = new E[5];//0.2
+   private ArrayList<F> fs = new ArrayList<>();//0.2
    
-    public D(ArrayList<A> as,E[] es, ArrayList<F> fs ) {
+    public D(ArrayList<A> as,E[] es, ArrayList<F> fs ) {//0.4
         super(as);
         this.es = es;
         this.fs = fs;

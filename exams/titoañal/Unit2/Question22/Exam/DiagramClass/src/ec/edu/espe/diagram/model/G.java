@@ -9,9 +9,9 @@ package ec.edu.espe.diagram.model;
  *
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
-public class G {
+public class G { //0
     
-    public static void J(){
+    public static void J(){ //0
         
     }
 

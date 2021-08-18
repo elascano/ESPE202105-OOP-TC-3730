@@ -12,6 +12,6 @@ import java.util.ArrayList;
  * @author Ariel Aulestia SkyNet.hub 00PTech ESPE-DCC0
  */
 public class C {
-    private ArrayList<E> es = new ArrayList<>();
+    private ArrayList<E> es = new ArrayList<>(); //0.2
     
 }

@@ -11,11 +11,11 @@ import java.util.ArrayList;
  *
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
-public class C extends A {
+public class C extends A {                  //0.4
     
- private ArrayList<E> es = new ArrayList<>();
+ private ArrayList<E> es = new ArrayList<>();//0.4
 
-    public C(ArrayList<A> as, ArrayList<E> es) {
+    public C(ArrayList<A> as, ArrayList<E> es) {//0.2
         super(as);
         this.es = es;
     }
