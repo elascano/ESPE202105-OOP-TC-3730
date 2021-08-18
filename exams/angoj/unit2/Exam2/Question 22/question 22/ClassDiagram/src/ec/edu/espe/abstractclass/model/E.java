@@ -11,8 +11,8 @@ import java.util.ArrayList;
  *
 * @author  JOHNY ANGO ESPE-DCCO
 */
-public class E extends C {
-
+public class E extends C { //0 Does not inherit
+    //0 Does not have to String
 
     public E() {
     }
