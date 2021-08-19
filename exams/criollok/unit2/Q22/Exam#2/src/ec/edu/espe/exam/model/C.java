@@ -11,12 +11,12 @@ import java.util.ArrayList;
  *
  * @author Kevin Criollo BetaSoftwareTech ESPE-DCCO
  */
-public class C {
-    private ArrayList<E> ec;  
+public class C { // 0
+    private ArrayList<E> ec;   //0.4
 
 
     @Override
-    public String toString() {
+    public String toString() { //0
         return "C{" + "ec=" + ec + '}';
     }
     

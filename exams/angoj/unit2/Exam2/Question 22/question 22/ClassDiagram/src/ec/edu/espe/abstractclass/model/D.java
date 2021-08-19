@@ -12,10 +12,10 @@ import java.util.ArrayList;
  *
 * @author  JOHNY ANGO ESPE-DCCO
 */
-public class D extends B {
+public class D extends B { //0,1 D extends A
 
-    private int x;
-    private int y;
+    private int x;  //0 E[] es
+    private int y;  //0 lack Arraylist
 
     @Override
     public String toString() {

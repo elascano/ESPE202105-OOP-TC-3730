@@ -15,10 +15,10 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         
-        A a;
-        ArrayList <A> as;
+        A a;                        //0.1
+        ArrayList <A> as;           //0.2
         as = new ArrayList<>();
-        a = new A(as);
+        a = new A(as);              //0.1
         
         System.out.println("a ->" + a );
     }

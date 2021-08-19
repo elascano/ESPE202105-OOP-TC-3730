@@ -90,8 +90,6 @@ public class FrmContact extends javax.swing.JFrame {
 
         jLabel11.setText("Birth Date:");
 
-        pwdPassword.setText("jPasswordField1");
-
         txaDescription.setColumns(20);
         txaDescription.setRows(5);
         jScrollPane1.setViewportView(txaDescription);
