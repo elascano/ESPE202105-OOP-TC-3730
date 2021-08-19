@@ -12,10 +12,10 @@ import java.util.ArrayList;
  *
 * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
 */
-public class D extends B {
+public class D extends B { //0.2 extens A
 
-    private int x;
-    private int y;
+    private int x; //0 // Others attributes
+    private int y; //0 
 
     @Override
     public String toString() {
@@ -27,7 +27,7 @@ public class D extends B {
     public D() {
     }
 
-    public D(int x, int y, float f, double d, ArrayList<G> gs) {
+    public D(int x, int y, float f, double d, ArrayList<G> gs) { //0.2 Constructor with attributes
         this.x = x;
         this.y = y;
     }
