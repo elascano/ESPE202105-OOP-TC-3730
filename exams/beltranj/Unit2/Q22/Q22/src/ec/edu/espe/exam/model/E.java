@@ -9,12 +9,12 @@ package ec.edu.espe.exam.model;
  *
  * @author Jennifer Beltran
  */
-public class E {
+public class E { //0,8
     public E(){
         
     }
 
-    @Override
+    @Override //0,2
     public String toString() {
         return "E{" + '}';
     }

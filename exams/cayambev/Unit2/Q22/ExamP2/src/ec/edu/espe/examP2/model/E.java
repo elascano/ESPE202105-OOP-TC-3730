@@ -9,13 +9,13 @@ package ec.edu.espe.examP2.model;
  *
  * @author Vanessa Cayambe Team of machine ESPE-DCCO
  */
-public class E {
+public class E { //0.8
     public E(){
         
     }
 
     @Override
-    public String toString() {
+    public String toString() { //0.2
         return "E{" + '}';
     }
 }

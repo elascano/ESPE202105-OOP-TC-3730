@@ -36,11 +36,11 @@
                       <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                      <Component id="jButton6" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jButton4" alignment="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="jButton5" alignment="0" pref="133" max="32767" attributes="0"/>
-                      <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jButton1" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BtnExit" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BtnCategories" alignment="0" pref="133" max="32767" attributes="0"/>
+                      <Component id="BtnHelp" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BtnBuy" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BtnUser" alignment="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
@@ -53,17 +53,17 @@
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnUser" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnBuy" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jButton3" min="-2" pref="0" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnCategories" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnHelp" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnExit" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="70" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -78,32 +78,41 @@
         <Property name="text" type="java.lang.String" value="CELL PHONE STORE"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="BtnUser">
       <Properties>
         <Property name="text" type="java.lang.String" value="USER"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnUserActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="BtnBuy">
       <Properties>
-        <Property name="text" type="java.lang.String" value="PRODUCT"/>
+        <Property name="text" type="java.lang.String" value="BUY"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnBuyActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
         <Property name="text" type="java.lang.String" value="EXIT"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="BtnCategories">
       <Properties>
-        <Property name="text" type="java.lang.String" value="CELL PHONE MODELS"/>
+        <Property name="text" type="java.lang.String" value="CATEGORIES"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnCategoriesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BtnHelp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HELP"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="DESCRIPTONS"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton6">
+    <Component class="javax.swing.JButton" name="BtnExit">
       <Properties>
         <Property name="text" type="java.lang.String" value="EXIT"/>
       </Properties>
