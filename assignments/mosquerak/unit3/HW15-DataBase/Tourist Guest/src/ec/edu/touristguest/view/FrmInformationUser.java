@@ -88,6 +88,11 @@ public class FrmInformationUser extends javax.swing.JFrame {
         });
 
         BtnCancel.setText("CANCEL");
+        BtnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnCancelActionPerformed(evt);
+            }
+        });
 
         jLabel2.setText("Fist Name");
 
@@ -162,9 +167,9 @@ public class FrmInformationUser extends javax.swing.JFrame {
                     .addComponent(jLabel5)
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(55, 55, 55)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(42, 42, 42)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BtnSave)
                     .addComponent(BtnCancel))
@@ -180,34 +185,13 @@ public class FrmInformationUser extends javax.swing.JFrame {
 
     private void BtnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnSaveActionPerformed
     
-        DefaultTableModel tb = new DefaultTableModel();
-        
-        try {
-            Mongo mongo = new Mongo("localhost", 27017);
-            dbMongo = mongo.getDB("Users");
-            tableMongo = dbMongo.getCollection("InformationUsers");
         } 
-        catch (UnknownHostException ex) 
-        {
-            Logger.getLogger(List.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        DBCursor cursor = tableMongo.find();
-        DBCursor cursor1 = tableMongo.find();
-        DBCursor cursor2 = tableMongo.find();
-        DBCursor cursor3 = tableMongo.find();
-
-        tb.addColumn("FirstName");
-        tb.addColumn("LastName");
-        tb.addColumn("Destiny");
-        tb.addColumn("Source");
-
-        while (cursor.hasNext()) {
-            tb.addRow(new Object[]{cursor.next().get("FirstName"),cursor1.next().get("LastName"),
-                cursor2.next().get("Destiny"),cursor3.next().get("Source")});
-            tblUser.setModel(tb);
-        }
+    
     }//GEN-LAST:event_BtnSaveActionPerformed
+
+    private void BtnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnCancelActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnCancelActionPerformed
 
     /**
      * @param args the command line arguments
