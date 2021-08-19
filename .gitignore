@@ -23,6 +23,7 @@
 hs_err_pid*
 
 # visual paradigm bakcup files
+<<<<<<< HEAD
 *vpp.bak*
 <<<<<<< HEAD
 /workshops/angoj/unit2/WS16-3730FarmSystem/Exceptions/nbproject/private/
@@ -3184,3 +3185,6 @@ hs_err_pid*
 /assignments/cuaspae/unit3/WH15DataBase/HW15JTABLE/nbproject/private/
 /assignments/cuaspae/unit3/WH15DataBase/HW15JTABLE/build/
 /workshops/cuaspae/unit3/WS25ContactsBook/WS25/nbproject/private/
+=======
+*vpp.bak*
+>>>>>>> 430b6b4470aff5b3f9d2c180151280961d7ce203
