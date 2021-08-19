@@ -11,12 +11,12 @@ import java.util.ArrayList;
  *
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
-public class A {
+public class A { //0.5
 
     private int a;
     private int b;
     private int d;
-    private ArrayList<C> cs;
+    private ArrayList<C> cs; //0.5
     private B bs[]= new B[1] ;
     
     

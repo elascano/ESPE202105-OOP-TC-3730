@@ -11,16 +11,16 @@ import java.util.ArrayList;
  *
 * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
 */
-public class C {
+public class C { //0
     
-   private ArrayList<E> hs;
+   private ArrayList<E> hs; //0.4
 
     @Override
     public String toString() {
         return "C{" + "hs=" + hs + '}';
     }
 
-    public C(ArrayList<E> hs) {
+    public C(ArrayList<E> hs) { //0.2
         this.hs = hs;
     }
 
