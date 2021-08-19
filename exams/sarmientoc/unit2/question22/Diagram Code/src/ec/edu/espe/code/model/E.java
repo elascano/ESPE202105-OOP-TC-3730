@@ -9,7 +9,7 @@ package ec.edu.espe.code.model;
  *
  * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
-public class E {
+public class E {    //0.8
     
     private float p;
     private float q;
@@ -22,7 +22,7 @@ public class E {
         return 0;
     }
 
-    @Override
+    @Override               //0.2
     public String toString() {
         return "E{" + super.toString() + "p=" + p + ", q=" + q + '}';
     }
