@@ -9,11 +9,11 @@ package ec.edu.espe.abstractclass.model;
  *
 * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
 */
-public class F {
+public class F { //0.8 
     private String r;
 
     @Override
-    public String toString() {
+    public String toString() { //0.2
         return "F{" + "r=" + r + '}';
     }
 
