@@ -157,7 +157,7 @@ public class Documents extends javax.swing.JFrame {
 
     private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
         // TODO add your handling code here:
-        FrmArticle frmArticle = new FrmArticle();
+        FrmDocument frmArticle = new FrmDocument();
         frmArticle.setVisible(true);
     }//GEN-LAST:event_jMenuItem6ActionPerformed
 
