@@ -9,6 +9,6 @@ package ec.edu.espe.q22.model;
  *
  * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
-public class F {
+public class F { //0.8 Falta el To String
     
 }

@@ -9,6 +9,6 @@ package ec.edu.espe.model;
  *
  * @author Ian Contreras LAMES ESPE-DCCO
  */
-public class J {
-    
+public class J { //08
+     // does not have toString
 }

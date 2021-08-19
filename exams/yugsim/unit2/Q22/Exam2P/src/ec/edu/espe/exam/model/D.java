@@ -11,9 +11,9 @@ import java.util.ArrayList;
  *
  * @author Pamela Yugsi LAMESTech ESPE-DCCO
  */
-public class D extends B{
-    private ArrayList<F> fs = new ArrayList<>();
-    private ArrayList<E> es = new ArrayList<>();
+public class D extends B{ //0,2
+    private ArrayList<F> fs = new ArrayList<>();//0,2
+    private ArrayList<E> es = new ArrayList<>();//0,0
 
     public D() {
     }

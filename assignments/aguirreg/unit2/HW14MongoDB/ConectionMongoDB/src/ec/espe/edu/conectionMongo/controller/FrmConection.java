@@ -132,15 +132,26 @@ DBCollection tabla;
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+<<<<<<< HEAD
+=======
                 .addContainerGap()
+>>>>>>> 72f40c991b8da22c168d0adc3d8e3206a6221040
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(jPanel2Layout.createSequentialGroup()
+<<<<<<< HEAD
+                            .addContainerGap()
+=======
+>>>>>>> 72f40c991b8da22c168d0adc3d8e3206a6221040
                             .addComponent(jLabel2)
                             .addGap(33, 33, 33)
                             .addComponent(Txttitle, javax.swing.GroupLayout.PREFERRED_SIZE, 289, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel2Layout.createSequentialGroup()
+<<<<<<< HEAD
+                            .addContainerGap()
+=======
+>>>>>>> 72f40c991b8da22c168d0adc3d8e3206a6221040
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jLabel3)
                                 .addComponent(jLabel4)
