@@ -9,6 +9,6 @@ package ec.edu.espe.abstractclass.model;
  *
 * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
 */
-public class H {
+public class H { //0.8 Interface
     
 }
