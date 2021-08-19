@@ -14,9 +14,9 @@ import java.util.ArrayList;
  */
 public class main {
     public static void main(String[] args) {
-        A a;
+        A a; //0.1
         ArrayList<A> as;
-        as = new ArrayList<>();
+        as = new ArrayList<>();//0.2
         
         a = new A (as);
         

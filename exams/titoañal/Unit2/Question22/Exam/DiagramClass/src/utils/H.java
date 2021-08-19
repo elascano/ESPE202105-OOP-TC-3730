@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
  * @author Leslie Titoaña LAMES Tech ESPE-DCC0
  */
-public interface H {
+public interface H { //0.8
     
      public ArrayList<B> bs = new ArrayList<>();
 

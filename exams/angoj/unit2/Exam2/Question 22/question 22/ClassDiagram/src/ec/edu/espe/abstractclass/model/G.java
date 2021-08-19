@@ -10,5 +10,5 @@ package ec.edu.espe.abstractclass.model;
  * @author  JOHNY ANGO ESPE-DCCO
  */
 class G {
-    
+    //0 Does not have
 }

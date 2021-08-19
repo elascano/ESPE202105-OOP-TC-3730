@@ -9,6 +9,6 @@ package ec.edu.espe.ABC.model;
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class F {
+public class F { //0.5
     
 }

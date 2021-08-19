@@ -11,8 +11,8 @@ import java.util.ArrayList;
  *
  * @author Jennifer Beltran
  */
-public class A {
-    private ArrayList <A> as = new ArrayList <>();
+public class A { //0.5
+    private ArrayList <A> as = new ArrayList <>(); //0.5
         
     public A(){
         
