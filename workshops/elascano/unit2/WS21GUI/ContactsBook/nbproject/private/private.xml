@@ -2,14 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/Users/edisonlascano/Desktop/Dropbox/01ESPE/2021May_Sept/02OOP-TC-3730/03Code/ESPE202105-OOP-TC-3730/workshops/elascano/unit2/WS21GUI/ContactsBook/src/ec/edu/espe/contacts/model/Sport.java</file>
-            <file>file:/Users/edisonlascano/Desktop/Dropbox/01ESPE/2021May_Sept/02OOP-TC-3730/03Code/ESPE202105-OOP-TC-3730/workshops/elascano/unit2/WS21GUI/ContactsBook/src/ec/edu/espe/contacts/view/FrmContact.java</file>
-            <file>file:/Users/edisonlascano/Desktop/Dropbox/01ESPE/2021May_Sept/02OOP-TC-3730/03Code/ESPE202105-OOP-TC-3730/workshops/elascano/unit2/WS21GUI/ContactsBook/src/utils/PersistenceI.java</file>
-            <file>file:/Users/edisonlascano/Desktop/Dropbox/01ESPE/2021May_Sept/02OOP-TC-3730/03Code/ESPE202105-OOP-TC-3730/workshops/elascano/unit2/WS21GUI/ContactsBook/src/utils/DBManager.java</file>
-            <file>file:/Users/edisonlascano/Desktop/Dropbox/01ESPE/2021May_Sept/02OOP-TC-3730/03Code/ESPE202105-OOP-TC-3730/workshops/elascano/unit2/WS21GUI/ContactsBook/src/utils/FileManager.java</file>
-            <file>file:/Users/edisonlascano/Desktop/Dropbox/01ESPE/2021May_Sept/02OOP-TC-3730/03Code/ESPE202105-OOP-TC-3730/workshops/elascano/unit2/WS21GUI/ContactsBook/src/ec/edu/espe/contacts/controller/ContactController.java</file>
-            <file>file:/Users/edisonlascano/Desktop/Dropbox/01ESPE/2021May_Sept/02OOP-TC-3730/03Code/ESPE202105-OOP-TC-3730/workshops/elascano/unit2/WS21GUI/ContactsBook/src/ec/edu/espe/contacts/model/Contact.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
