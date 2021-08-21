@@ -15,7 +15,7 @@ public class Book {
 
     private int id;
     private String description;
-    private ArrayList<Contact> contacts;
+    ArrayList<Contact> contacts;
 
     public Book(ArrayList<Contact> contacts) {
         this.contacts = contacts;
@@ -52,12 +52,5 @@ public class Book {
      */
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    /**
-     * @return the contacts
-     */
-    public ArrayList<Contact> getContacts() {
-        return contacts;
     }
 }

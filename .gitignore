@@ -23,8 +23,8 @@
 hs_err_pid*
 
 # visual paradigm bakcup files
-<<<<<<< HEAD
 *vpp.bak*
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/angoj/unit2/WS16-3730FarmSystem/Exceptions/nbproject/private/
 /workshops/angoj/unit2/WS19Calculator/Calculator/nbproject/private/
@@ -3222,3 +3222,5 @@ hs_err_pid*
 >>>>>>> 67d53788bfb01d07712f356b72b8919b2c234598
 >>>>>>> 42a4cfb2490054140a3720bf3f5b8743ee4a5fa4
 >>>>>>> 7b0d3cb4f1df7f3664fcac23904e4d822a5fb64a
+=======
+>>>>>>> de299dbb00119ea78f89c5823ceb479d40eaaf82
