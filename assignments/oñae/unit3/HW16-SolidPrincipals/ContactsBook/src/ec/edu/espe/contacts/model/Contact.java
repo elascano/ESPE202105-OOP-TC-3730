@@ -5,55 +5,122 @@
  */
 package ec.edu.espe.contacts.model;
 
+import com.mongodb.BasicDBObject;
+
 /**
  *
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
 public class Contact {
+    private String name;
+    private Integer numberOfFriends;
+    private float salary;
+    private String email;
+    private String book;
+
+    public Contact(String name, Integer numberOfFriends, float salary, String email, String book) {
+        this.name = name;
+        this.numberOfFriends = numberOfFriends;
+        this.salary = salary;
+        this.email = email;
+        this.book = book;
+    }
+
     
-    String name;
-    Integer numbersofFriends;
-    float salary;
-    String email;
-
-    public Contact(String name, Integer numbersofFriends, float salary, String email) {
-        this.name = name;
-        this.numbersofFriends = numbersofFriends;
-        this.salary = salary;
-        this.email = email;
+    public Contact(BasicDBObject dbContact) {
+        this.name = dbContact.getString("name");
+        this.numberOfFriends = dbContact.getInt("numberOfFriends");
+        this.salary = dbContact.getLong("salary");
+        this.email = dbContact.getString("email");
+        this.book = dbContact.getString("Book");
+    }
+    
+    
+    public BasicDBObject dbContact(){
+        
+        BasicDBObject dbContact = new BasicDBObject();
+        
+        dbContact.append("name", this.getName());
+        dbContact.append("numberOfFriends", this.getNumberOfFriends());
+        dbContact.append("salary", this.getSalary());
+        dbContact.append("email", this.getEmail());
+        dbContact.append("Book", this.getBook());
+        
+        return dbContact;
+        
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setNumbersofFriends(Integer numbersofFriends) {
-        this.numbersofFriends = numbersofFriends;
-    }
-
-    public void setSalary(float salary) {
-        this.salary = salary;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
+    /**
+     * @return the name
+     */
     public String getName() {
         return name;
     }
 
-    public Integer getNumbersofFriends() {
-        return numbersofFriends;
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
     }
 
+    /**
+     * @return the numberOfFriends
+     */
+    public Integer getNumberOfFriends() {
+        return numberOfFriends;
+    }
+
+    /**
+     * @param numberOfFriends the numberOfFriends to set
+     */
+    public void setNumberOfFriends(Integer numberOfFriends) {
+        this.numberOfFriends = numberOfFriends;
+    }
+
+    /**
+     * @return the salary
+     */
     public float getSalary() {
         return salary;
     }
 
+    /**
+     * @param salary the salary to set
+     */
+    public void setSalary(float salary) {
+        this.salary = salary;
+    }
+
+    /**
+     * @return the email
+     */
     public String getEmail() {
         return email;
     }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    /**
+     * @return the book
+     */
+    public String getBook() {
+        return book;
+    }
+
+    /**
+     * @param book the book to set
+     */
+    public void setBook(String book) {
+        this.book = book;
+    }
+    
+   
     
     
 }

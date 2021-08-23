@@ -12,9 +12,9 @@ import java.util.ArrayList;
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
 public class Book {
-    int id;
-    String description;
-    ArrayList<Contact>contacts;
+    private int id;
+    private String description;
+    private ArrayList<Contact> contacts;
 
     public Book(int id, String description, ArrayList<Contact> contacts) {
         this.id = id;
@@ -22,33 +22,54 @@ public class Book {
         this.contacts = contacts;
     }
 
-    public ArrayList<Contact> getContacts() {
-        return contacts;
-    }
-
-    public void setContacts(ArrayList<Contact> contacts) {
-        this.contacts = contacts;
-    }
-
-    public Book(int id, String description) {
-        this.id = id;
-        this.description = description;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
+    
+    
+    
+    /**
+     * @return the id
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the description
+     */
     public String getDescription() {
         return description;
     }
+
+    /**
+     * @param description the description to set
+     */
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    /**
+     * @return the contacts
+     */
+    public ArrayList<Contact> getContacts() {
+        return contacts;
+    }
+
+    /**
+     * @param contacts the contacts to set
+     */
+    public void setContacts(ArrayList<Contact> contacts) {
+        this.contacts = contacts;
+    }
+    
+    
+
+    
+    
     
 }

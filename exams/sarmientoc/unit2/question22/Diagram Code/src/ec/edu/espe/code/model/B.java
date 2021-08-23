@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
-public class B {
+public class B {    
     
     private float f;
     private double d;

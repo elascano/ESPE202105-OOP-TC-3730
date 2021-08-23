@@ -17,10 +17,9 @@ public interface DBManager {
 
     public String read(String table);
 
-    public void update(String serchInfo, String table, String data);
+    public void update(String searchInfo, String table, String data);
 
-    public boolean delete(String seachInfo, String table);
+    public boolean delete(String searchInfo, String table);
 
     public String find(String searchInfo, String table);
-
 }

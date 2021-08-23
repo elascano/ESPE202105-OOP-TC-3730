@@ -9,38 +9,36 @@ package utils;
  *
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
-public class MongoDBManager implements DBManager{
+public class MongoDBManager implements DBManager {
 
     @Override
     public boolean add(String data, String table) {
-    return true;   
+        return true;
     }
 
     @Override
     public String read(String table) {
-     return "[ {},{},{}] ";   
+        return "[{},{},{}]";
     }
 
     @Override
-    public void update(String serchInfo, String table, String data) {
+    public void update(String searchInfo, String table, String data) {
         
     }
 
     @Override
-    public boolean delete(String seachInfo, String table) {
-     return true;   
+    public boolean delete(String searchInfo, String table) {
+        return true;
     }
 
     @Override
     public String find(String searchInfo, String table) {
-       return "[{},{}] ";
+        return "[{},{}]";
     }
 
     @Override
     public boolean connect(String connectionString) {
         return true;
     }
-    
-    
     
 }
