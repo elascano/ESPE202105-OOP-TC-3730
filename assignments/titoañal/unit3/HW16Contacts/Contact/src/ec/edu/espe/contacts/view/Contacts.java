@@ -46,6 +46,7 @@ public class Contacts extends javax.swing.JFrame {
         txtNumberOfFriends.setText(" ");
         txtSalary.setText(" ");
         txtEmail.setText(" ");
+        cmbBook.setSelectedIndex(WIDTH);
 
     }
 
@@ -195,11 +196,13 @@ public class Contacts extends javax.swing.JFrame {
         int option = JOptionPane.showConfirmDialog(this, "Do you want to save? \n" + name);
 
         if (option == 0) {
+            
             BasicDBObject document = new BasicDBObject();
             document.put("Name", "'" + txtName.getText() + "'");
             document.put("Number of Friends", "'" + Integer.valueOf(txtNumberOfFriends.getText()) + "'");
             document.put("Salary", "'" + "$" + txtSalary.getText() + "'");
             document.put("Email", "'" + txtEmail.getText() + "'");
+            document.put("Book", cmbBook.getSelectedItem().toString());
             delete();
             tabla.insert(document);
 
