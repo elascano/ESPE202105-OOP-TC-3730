@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.contact.model;
+package ec.edu.espe.contacts.model;
 
 import java.util.ArrayList;
 
@@ -14,17 +14,17 @@ import java.util.ArrayList;
 public class Book {
     private int id;
     private String description;
-    ArrayList<Contact> contacts;
+    private ArrayList<Contact> contacts;
 
     public Book(int id, String description, ArrayList<Contact> contacts) {
         this.id = id;
         this.description = description;
         this.contacts = contacts;
     }
+
     
-
-
-
+    
+    
     /**
      * @return the id
      */
@@ -53,13 +53,23 @@ public class Book {
         this.description = description;
     }
 
-    public void setContacts(ArrayList<Contact> contacts) {
-        this.contacts = contacts;
-    }
-
+    /**
+     * @return the contacts
+     */
     public ArrayList<Contact> getContacts() {
         return contacts;
     }
- 
+
+    /**
+     * @param contacts the contacts to set
+     */
+    public void setContacts(ArrayList<Contact> contacts) {
+        this.contacts = contacts;
+    }
+    
+    
+
+    
+    
     
 }

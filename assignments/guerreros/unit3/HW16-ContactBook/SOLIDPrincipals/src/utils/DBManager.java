@@ -9,10 +9,10 @@ package utils;
  *
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
-public interface DBmanager {
+public interface DBManager {
 
     public boolean connect(String connectionString);
-            
+    
     public boolean add(String data, String table);
 
     public String read(String table);
@@ -22,5 +22,4 @@ public interface DBmanager {
     public boolean delete(String searchInfo, String table);
 
     public String find(String searchInfo, String table);
-
 }
