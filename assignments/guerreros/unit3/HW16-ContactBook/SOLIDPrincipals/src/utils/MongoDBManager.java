@@ -9,11 +9,11 @@ package utils;
  *
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
-public class MongoDBManager implements DBmanager {
+public class MongoDBManager implements DBManager {
 
     @Override
     public boolean add(String data, String table) {
-         return true;
+        return true;
     }
 
     @Override
@@ -23,22 +23,22 @@ public class MongoDBManager implements DBmanager {
 
     @Override
     public void update(String searchInfo, String table, String data) {
-      
+        
     }
 
     @Override
     public boolean delete(String searchInfo, String table) {
-         return true;
+        return true;
     }
 
     @Override
     public String find(String searchInfo, String table) {
-       return "[{},{}]";
+        return "[{},{}]";
     }
 
     @Override
     public boolean connect(String connectionString) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return true;
     }
     
 }

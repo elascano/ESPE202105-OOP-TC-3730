@@ -9,7 +9,7 @@ package utils;
  *
  * @author Stefany Guerrero AccentOnTheFuture ESPE-DCC0
  */
-public class MySQLDBManager implements DBmanager {
+public class MySQLDBManager implements DBManager {
 
     @Override
     public boolean connect(String connectionString) {
