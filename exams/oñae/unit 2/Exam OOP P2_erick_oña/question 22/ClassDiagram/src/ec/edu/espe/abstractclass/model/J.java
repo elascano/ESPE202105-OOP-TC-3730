@@ -9,6 +9,6 @@ package ec.edu.espe.abstractclass.model;
  *
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
-class J {
+class J { //0.8
     
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "03",
+    "type": "condenser",
+    "size": 30,
+    "material": "plastic"
+  },
+  {
+    "id": "02",
+    "type": "electret",
+    "size": 30,
+    "material": "metal"
+  },
+  {
+    "id": "01",
+    "type": "condenser",
+    "size": 15,
+    "material": "plastic"
+  }
+]

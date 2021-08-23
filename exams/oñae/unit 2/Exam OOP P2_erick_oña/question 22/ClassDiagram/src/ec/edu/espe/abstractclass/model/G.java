@@ -9,6 +9,6 @@ package ec.edu.espe.abstractclass.model;
  *
  * @author Erick Oña PROGRAM BUILDER ESPE-DCCO
  */
-class G {
-    
+class G { //0.3 implements H
+    //0
 }
