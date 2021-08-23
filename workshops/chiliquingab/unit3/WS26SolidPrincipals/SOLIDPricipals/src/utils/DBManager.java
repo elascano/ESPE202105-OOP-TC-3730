@@ -5,6 +5,8 @@
  */
 package utils;
 
+import ec.edu.espe.book.model.Book;
+
 /**
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
@@ -12,8 +14,8 @@ package utils;
 public interface DBManager {
 
     public boolean connect(String conectionString);
-    
-    public boolean add(String data, String table);
+
+    public boolean add(String name, Integer numberOfFriends, float salary, String email);
 
     public String read(String table);
 
@@ -22,4 +24,5 @@ public interface DBManager {
     public boolean delete(String searchInfo, String table);
 
     public String find(String serachInfo, String table);
+    
 }
