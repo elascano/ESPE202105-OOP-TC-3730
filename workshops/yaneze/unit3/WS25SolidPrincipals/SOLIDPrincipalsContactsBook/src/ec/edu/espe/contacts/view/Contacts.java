@@ -5,8 +5,10 @@
  */
 package ec.edu.espe.contacts.view;
 
+import ec.edu.espe.contacts.controller.ContactController;
 import ec.edu.espe.contacts.model.Book;
 import ec.edu.espe.contacts.model.Contact;
+import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 /**
@@ -14,6 +16,9 @@ import javax.swing.JOptionPane;
  * @author Erick Yánez LAMESTech ESPE-DCC0
  */
 public class Contacts extends javax.swing.JFrame {
+
+    ArrayList<Contact> cntcts = new ArrayList<Contact>();
+    ContactController cntctss = new ContactController();
 
     /**
      * Creates new form Contacts
@@ -68,6 +73,11 @@ public class Contacts extends javax.swing.JFrame {
         });
 
         cmbBook.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Friends", "Family", "Job", "Sport" }));
+        cmbBook.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmbBookActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -183,48 +193,78 @@ public class Contacts extends javax.swing.JFrame {
 
     private void txtNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNameActionPerformed
         // TODO add your handling code here:
-        
-        
-        
+
+
     }//GEN-LAST:event_txtNameActionPerformed
 
     private void btnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOkActionPerformed
         // TODO add your handling code here:
         Contact contact;
-        Book book;
+        //Book book;
         String name;
         Integer numberOfFriends;
         float salary;
         String email;
-        
-       
+        String book;
+
         String message;
-        
+
         name = txtName.getText();
         numberOfFriends = Integer.valueOf(txtNumberOfFriends.getText());
         salary = Float.parseFloat(txtSalary.getText());
         email = txtEmail.getText();
-        
-        contact = new Contact(name, numberOfFriends, salary, email);
-        
+        book = cmbBook.getSelectedItem().toString();
+
+        contact = new Contact(name, numberOfFriends, salary, email, book);
+
+        cntcts.add(contact);
+
         message = "Do you want to save? \n" + name + "\n" + numberOfFriends
                 + "\n" + salary + "\n" + email + "\n in " + cmbBook.getSelectedItem();
-      
+
         //0 = yes, 1 = no, 2 = cancel
-        
         int option = JOptionPane.showConfirmDialog(this, message);
-        
-        if(option == 0){
+
+        if (option == 0) {
+
+            if (txtName.getText().length() == 0
+                    || txtSalary.getText().length() == 0
+                    || txtNumberOfFriends.getText().length() == 0 || cmbBook.getSelectedItem().toString() == null || txtEmail.getText().length() == 0) {
+
+                JOptionPane.showConfirmDialog(null, "Enter Information", "OK", JOptionPane.DEFAULT_OPTION);
+                btnOk.enable(false);
+            } else {
+                btnOk.enable(true);
+                name = this.txtName.getText();
+                numberOfFriends = Integer.valueOf(txtNumberOfFriends.getText());
+                salary = Float.parseFloat(txtSalary.getText());
+                email = this.txtEmail.getText();
+                book = this.cmbBook.getSelectedItem().toString();
+                
+
+                cntctss.addContactToBook(name, numberOfFriends, salary, email, book);
+            }
+
             System.out.println("Saving");
+            this.txtEmail.setText("");
+            this.txtName.setText("");
+            this.txtNumberOfFriends.setText("");
+            this.txtSalary.setText("");
         }
-        if(option == 1){
+        if (option == 1) {
             System.out.println("Does not saved");
         }
-        if(option == 2){
+        if (option == 2) {
             System.out.println("Cancelling");
         }
-        
+
+        //String name, numberOfFriends, salary, email;
+
     }//GEN-LAST:event_btnOkActionPerformed
+
+    private void cmbBookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbBookActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cmbBookActionPerformed
 
     /**
      * @param args the command line arguments
