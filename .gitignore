@@ -23,8 +23,8 @@
 hs_err_pid*
 
 # visual paradigm bakcup files
-<<<<<<< HEAD
 *vpp.bak*
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/angoj/unit2/WS16-3730FarmSystem/Exceptions/nbproject/private/
 /workshops/angoj/unit2/WS19Calculator/Calculator/nbproject/private/
@@ -3109,6 +3109,12 @@ hs_err_pid*
 >>>>>>> 68c3de7d99d050560323877e4339771e93f2a7ea
 <<<<<<< HEAD
 /exams/quichimboa/unit2/Exam2/Question 22/ClassDiagram/ClassDiagram/build/
+/workshops/quilumbaquink/unit3/WSRegisterOfJobs/RegisterOfJobs/nbproject/private/
+/assignments/quilumbaquink/unit3/HW15Table/TableData/nbproject/private/
+/assignments/quilumbaquink/unit3/HW15Table/TableData/build/
+=======
+<<<<<<< HEAD
+/exams/quichimboa/unit2/Exam2/Question 22/ClassDiagram/ClassDiagram/build/
 /workshops/aguirreg/unit3/WS24Menu/nbproject/private/
 /workshops/aguirreg/unit3/WS24Menu/build/
 =======
@@ -3194,21 +3200,135 @@ hs_err_pid*
 >>>>>>> 8a529e37a1c373942080069fc016708c4b7919a2
 >>>>>>> 6d0831c424616b7eb79f60a3b7c82e4faa13b55c
 >>>>>>> 79bef0ddc574ee5c36a7afaf3e926f91707e9ab4
+<<<<<<< HEAD
+/workshops/galarzaa/unit3/WS25SOLIDPRINCIPOL/SOLIDPRINCIPOL/nbproject/private/
+/workshops/galarzaa/unit3/WS25SOLIDPRINCIPOL/ContactBook/build/
+=======
 >>>>>>> 764fc574b378aaabce3f5b87ba3797ff192deeb2
 >>>>>>> 0ecbb17c5785af37f3b3b9b1438b10914c4471c0
 >>>>>>> 3c87f0b67b249fc3dd1822099463dcf664c14ffc
 >>>>>>> 917af6003ce0d575f924fa51ce3f35ead885c53a
 >>>>>>> 5da7191d2d2a2df9ea466471ef7e18c8ca2e9bd3
 >>>>>>> f8d362836300d896a227299c7fa5f3d12ed984d2
+<<<<<<< HEAD
+/workshops/quilumbaquink/unit3/WS25Solid/ContactsBook/nbproject/private/
+/workshops/quilumbaquink/unit3/WS24RegisterOfJobs/RegisterOfJobs/nbproject/private/
+/workshops/quilumbaquink/unit3/WS25Solid/ContactsBook/build/
+=======
 >>>>>>> 1baa4e70946a41fba1b15a697a281d83d6548ba8
 >>>>>>> 426a49b5776864f5beef43d7f3750186ceee13f9
 /assignments/cuaspae/unit3/WH15DataBase/HW15JTABLE/nbproject/private/
 /assignments/cuaspae/unit3/WH15DataBase/HW15JTABLE/build/
+<<<<<<< HEAD
+>>>>>>> 19fae4c4cacc1d342adf6b91b5de77c54c967f79
+>>>>>>> aa3169b1b5d30cf316762da831ec16201bce1c29
+<<<<<<< HEAD
+>>>>>>> 17132d1275fc3b85f27b0adabb53e0fb4a4f20f3
+<<<<<<< HEAD
+>>>>>>> 3bc09e87d928944d780faa347ce67c0b59573c85
+>>>>>>> c4a0398e0f57189f466d963a45dc16531cde550e
+>>>>>>> 61ada87cc81789039ad8d47d9948dcbd840257ea
+>>>>>>> 464f2ee4c93ba16cae0cc0d8defe715dc4dddd4e
+>>>>>>> 668fb9aeaaae22545aac5f91548f0d42a1c734cc
+>>>>>>> 492930a4d67afec5b52b5ddbf97536cdb0af91f0
+>>>>>>> 73933ba65f7737c3ace4bc6f4f9e68d4d4ba01b7
+>>>>>>> ac1cbee0f61a934c5375ca3e8cac6d64947c459e
+>>>>>>> c5b6fdb1cdc075cca91927f7c7046f31cc9a51ce
+>>>>>>> 7a3b9be719b5be9ae8bbf0e903c6badd939c064a
+>>>>>>> ae6e1abeeb80f095d15a6d687f38fc9ca6ad7ddf
+>>>>>>> 5cf2bb7993304a2545a2d6a90b4ca3e2b9d6f558
+>>>>>>> da86c94dcceb053b50efdc16f462a37587342e12
+>>>>>>> a28f9e9b341f486be8e21aca148edd66a37d2c27
+/assignments/cadenaf/unit3/HW16_SOLID/ContactBook/build/
+/assignments/cadenaf/unit3/HW16_SOLID/ContactBook/nbproject/private/
+/assignments/cadenaf/unit3/HW16_SolidPrincipals/HW16_SolidPrincipals/ContactBook/build/
+/assignments/cadenaf/unit3/HW16_SolidPrincipals/HW16_SolidPrincipals/ContactBook/nbproject/private/
+/assignments/cadenaf/unit3/HW16_SolidPrincipals/ContactBook/build/
+/assignments/cadenaf/unit3/HW16_SolidPrincipals/ContactBook/nbproject/private/
+=======
+/assignments/titoañal/unit3/HW16Contacts/Contact/nbproject/private/
+/assignments/titoañal/unit3/HW16Contacts/Contact/build/
+=======
+/workshops/yaneze/unit3/WS25SolidPrincipals/SOLIDPrincipalsContactsBook/nbproject/private/
+/workshops/yaneze/unit3/WS25SolidPrincipals/SOLIDPrincipalsContactsBook/build/
+=======
 /workshops/cuaspae/unit3/WS25ContactsBook/WS25/nbproject/private/
 =======
 *vpp.bak*
 >>>>>>> 430b6b4470aff5b3f9d2c180151280961d7ce203
 >>>>>>> 67d53788bfb01d07712f356b72b8919b2c234598
 >>>>>>> 42a4cfb2490054140a3720bf3f5b8743ee4a5fa4
+<<<<<<< HEAD
 /assignments/beltranj/Unit3/HW16_SolidPrincipals/ContactBook/build/
 /assignments/beltranj/Unit3/HW16_SolidPrincipals/ContactBook/nbproject/private/
+=======
+<<<<<<< HEAD
+/assignments/mosquerak/unit3/HW16ContantsMongoDB/Contacts_Book/nbproject/private/
+/assignments/mosquerak/unit3/HW16ContantsMongoDB/Contacts Book/nbproject/private/
+/assignments/mosquerak/unit3/HW16ContantsMongoDB/Contacts Book/build/
+=======
+<<<<<<< HEAD
+>>>>>>> fa25aebf30353dbb570cb55708230f362514bbb0
+/workshops/heredial/unit3/WS25 SOLID/ContactsBook/nbproject/private/
+/workshops/heredial/unit3/WS25 SOLID/ContactsBook/build/
+=======
+>>>>>>> 7b0d3cb4f1df7f3664fcac23904e4d822a5fb64a
+=======
+>>>>>>> de299dbb00119ea78f89c5823ceb479d40eaaf82
+<<<<<<< HEAD
+/assignments/quilumbaquink/unit3/HW16ContactsBook/ContactsBook/nbproject/private/
+=======
+>>>>>>> 8e61859ef4dd510114fe127fd76daee443b3fb59
+>>>>>>> b6cb232248709e8e4cbe2a70b3fd4540321cd62a
+>>>>>>> 77fd94952c34f9163c74659d19a9770e478bfa01
+<<<<<<< HEAD
+/workshops/jaramilloj/unit3/WS26Solid/SOLID/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 426a49b5776864f5beef43d7f3750186ceee13f9
+/assignments/cuaspae/unit3/WH15DataBase/HW15JTABLE/nbproject/private/
+/assignments/cuaspae/unit3/WH15DataBase/HW15JTABLE/build/
+>>>>>>> 19fae4c4cacc1d342adf6b91b5de77c54c967f79
+>>>>>>> aa3169b1b5d30cf316762da831ec16201bce1c29
+>>>>>>> 17132d1275fc3b85f27b0adabb53e0fb4a4f20f3
+>>>>>>> 3bc09e87d928944d780faa347ce67c0b59573c85
+>>>>>>> c4a0398e0f57189f466d963a45dc16531cde550e
+>>>>>>> 61ada87cc81789039ad8d47d9948dcbd840257ea
+>>>>>>> 464f2ee4c93ba16cae0cc0d8defe715dc4dddd4e
+>>>>>>> 668fb9aeaaae22545aac5f91548f0d42a1c734cc
+>>>>>>> 492930a4d67afec5b52b5ddbf97536cdb0af91f0
+>>>>>>> 73933ba65f7737c3ace4bc6f4f9e68d4d4ba01b7
+<<<<<<< HEAD
+/workshops/maisinchob/unit3/WS25__Solid_Principles_/CONTRACTSBOOK/build/
+/workshops/maisinchob/unit3/WS25__Solid_Principles_/CONTRACTSBOOK/nbproject/private/
+/workshops/maisinchob/unit3/WS25__Sol/CONTRACTSBOOK/build/
+/workshops/maisinchob/unit3/WS25__Sol/CONTRACTSBOOK/nbproject/private/
+=======
+>>>>>>> ac1cbee0f61a934c5375ca3e8cac6d64947c459e
+>>>>>>> c5b6fdb1cdc075cca91927f7c7046f31cc9a51ce
+>>>>>>> 7a3b9be719b5be9ae8bbf0e903c6badd939c064a
+>>>>>>> ae6e1abeeb80f095d15a6d687f38fc9ca6ad7ddf
+>>>>>>> 5cf2bb7993304a2545a2d6a90b4ca3e2b9d6f558
+>>>>>>> da86c94dcceb053b50efdc16f462a37587342e12
+>>>>>>> a28f9e9b341f486be8e21aca148edd66a37d2c27
+>>>>>>> 090bb36b6c17a0a014a97c98548032a301b46a19
+>>>>>>> e9dda68ff8911394eba6c257cbd038047610e9c1
+>>>>>>> e8e8c17b1cf8233a9fc91fa20443947abd019872
+/assignments/oñae/unit3/HW16-/VoucherAplications/nbproject/private/
+=======
+>>>>>>> 79359785ace5119047bcb477627b7bf2c574baff
+>>>>>>> fbdd24c46278878c611bd353235a8262c6d55271
+>>>>>>> 352fe78274ebbdd0185c72238f15224198af37e7
+<<<<<<< HEAD
+/assignments/cuaspae/unit3/HW15/HW15JTABLE/build/
+/assignments/cuaspae/unit3/HW15/HW15JTABLE/nbproject/private/
+/assignments/cuaspae/unit3/HW16SolidPrincipals/ContactBook/nbproject/private/
+/assignments/cuaspae/unit3/HW16SolidPrincipals/ContactBook/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 64c135f792a964fe6c03792d412d7d6df110e11a
+=======
+>>>>>>> c6954eefd9021f6a06fc6c42f30b9cebb1ec103e
+>>>>>>> 1d073e205ad31cd0c1db190dfd21cf1e35ed8e99
+>>>>>>> cb7205941767ad2e81e0c379bfa82a6f832fc595
+>>>>>>> aff37e3d313ff6a7b7095296b06eea7125512b17
