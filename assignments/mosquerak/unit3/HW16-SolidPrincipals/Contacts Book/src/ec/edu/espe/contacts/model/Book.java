@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.contactsbook.model;
+package ec.edu.espe.contacts.model;
 
 import java.util.ArrayList;
 
@@ -12,18 +12,14 @@ import java.util.ArrayList;
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
 public class Book {
-
     private int id;
     private String description;
-    ArrayList<Contact> contacts;
+    private ArrayList<Contact> contacts;
 
-    public Book(ArrayList<Contact> contacts) {
-        this.contacts = contacts;
-    }
-    
-    public Book(int id, String description) {
+    public Book(int id, String description, ArrayList<Contact> contacts) {
         this.id = id;
         this.description = description;
+        this.contacts = contacts;
     }
 
     /**
@@ -54,7 +50,19 @@ public class Book {
         this.description = description;
     }
 
-    public Object getContacts() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    /**
+     * @return the contacts
+     */
+    public ArrayList<Contact> getContacts() {
+        return contacts;
     }
+
+    /**
+     * @param contacts the contacts to set
+     */
+    public void setContacts(ArrayList<Contact> contacts) {
+        this.contacts = contacts;
+    }
+    
+    
 }
