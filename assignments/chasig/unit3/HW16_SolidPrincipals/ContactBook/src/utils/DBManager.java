@@ -7,13 +7,13 @@ package utils;
 
 /**
  *
- * @author Marco Arias SkyNet.hub tech ESPE-DCCO
+ * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
 public interface DBManager {
     
     public boolean connect(String connectionString);
 
-    public boolean add(String data, String table);
+    public boolean add(String name, Integer numberOfFriends, float salary, String email);
 
     public String read(String table);
 

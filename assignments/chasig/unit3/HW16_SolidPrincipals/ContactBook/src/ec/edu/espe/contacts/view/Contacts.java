@@ -10,14 +10,15 @@ import ec.edu.espe.contacts.model.Book;
 import ec.edu.espe.contacts.model.Contact;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
+import utils.MongoDBManager;
 
 
 /**
  *
- * @author Marco Arias SkyNet.hub tech ESPE-DCCO
+ * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
 public class Contacts extends javax.swing.JFrame {
-  
+  MongoDBManager db;
     
     
 
@@ -52,14 +53,12 @@ public class Contacts extends javax.swing.JFrame {
         txtNumberOfFriends = new javax.swing.JTextField();
         txtSalary = new javax.swing.JTextField();
         txtEmail = new javax.swing.JTextField();
-        cmbBook = new javax.swing.JComboBox<>();
+        cmbBook = new javax.swing.JComboBox<String>();
         pnlButtons = new javax.swing.JPanel();
         btnOk = new javax.swing.JButton();
         btnCancel = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        pnlInput.setBackground(new java.awt.Color(153, 255, 153));
 
         jLabel1.setText("CONTACTS REGISTRATION");
 
@@ -73,7 +72,7 @@ public class Contacts extends javax.swing.JFrame {
 
         jLabel6.setText("Book:");
 
-        cmbBook.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Friends", "Family", "Job", "Sport" }));
+        cmbBook.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Friends", "Family", "Job", "Sport" }));
 
         javax.swing.GroupLayout pnlInputLayout = new javax.swing.GroupLayout(pnlInput);
         pnlInput.setLayout(pnlInputLayout);
@@ -97,9 +96,12 @@ public class Contacts extends javax.swing.JFrame {
                             .addGroup(pnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(pnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txtNumberOfFriends)
-                                    .addComponent(txtSalary)
-                                    .addComponent(txtEmail)))
+                                    .addComponent(txtEmail)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlInputLayout.createSequentialGroup()
+                                        .addGap(0, 0, Short.MAX_VALUE)
+                                        .addGroup(pnlInputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(txtSalary, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 105, Short.MAX_VALUE)
+                                            .addComponent(txtNumberOfFriends, javax.swing.GroupLayout.Alignment.TRAILING)))))
                             .addComponent(cmbBook, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(35, 35, 35))))
         );
@@ -130,8 +132,6 @@ public class Contacts extends javax.swing.JFrame {
                     .addComponent(cmbBook, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
-        pnlButtons.setBackground(new java.awt.Color(153, 255, 153));
 
         btnOk.setText("Ok");
         btnOk.addActionListener(new java.awt.event.ActionListener() {
@@ -210,6 +210,9 @@ public class Contacts extends javax.swing.JFrame {
 
         if (option == 0) {
             System.out.println("Saving");
+            db = new MongoDBManager();
+                db.connect(name);
+                db.add(name, numberOfFriends, salary, email);
         }
         if (option == 1) {
             System.out.println("Does not saved");
@@ -230,7 +233,7 @@ public class Contacts extends javax.swing.JFrame {
             salary = Float.parseFloat(txtSalary.getText());
             email = this.txtEmail.getText();
 
-            cntctss.addContactToBook(name, numberOfFriends, salary, email);
+           
         }
 
         this.txtEmail.setText("");

@@ -7,7 +7,7 @@ package utils;
 
 /**
  *
- * @author Marco Arias SkyNet.hub tech ESPE-DCCO
+ * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
 public class MySQLDBManager implements DBManager{
 
@@ -17,7 +17,7 @@ public class MySQLDBManager implements DBManager{
     }
 
     @Override
-    public boolean add(String data, String table) {
+    public boolean add(String name, Integer numberOfFriends, float salary, String email) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

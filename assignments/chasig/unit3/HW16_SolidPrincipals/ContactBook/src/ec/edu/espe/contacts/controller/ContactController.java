@@ -5,53 +5,17 @@
  */
 package ec.edu.espe.contacts.controller;
 
-import com.mongodb.BasicDBObject;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.Mongo;
 import ec.edu.espe.contacts.model.Book;
 import ec.edu.espe.contacts.model.Contact;
-import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.logging.Logger;
-import javax.swing.JOptionPane;
 
 /**
  *
- * @author Marco Arias SkyNet.hub tech ESPE-DCCO
+ * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
 public class ContactController {
-
-    DB DataBase;
-    DBCollection collection;
-    BasicDBObject document = new BasicDBObject();
-
-    public ContactController() {
-
-        try {
-            Mongo mongo = new Mongo("localhost", 27017);
-            DataBase = mongo.getDB("ContactsBook");
-            collection = DataBase.getCollection("Contacts");
-            System.out.println("Welcome - successful connection");
-        } catch (UnknownHostException ex) {
-            Logger.getLogger(ContactController.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-    }
-
-    public boolean addContactToBook(String name, Integer numberOfFriends, float salary, String email) {
-
-        ArrayList<Contact> contacts = new ArrayList<>();
-        contacts.add(new Contact(name, numberOfFriends, salary, email));
-
-        for (Contact pueC : contacts) {
-            collection.insert(pueC.dbContact());
-        }
-
-        int input = JOptionPane.showConfirmDialog(null, "Has been successfully registered", "OK", JOptionPane.DEFAULT_OPTION);
-        System.out.println(input);
-
-        return true;
-
-    }
-
+   public boolean addContactToBook(Book book, Contact contact){
+       book.getContacts().add(contact);
+       //TODO add to dataBase by calling utils
+       return true;
+   }
 }

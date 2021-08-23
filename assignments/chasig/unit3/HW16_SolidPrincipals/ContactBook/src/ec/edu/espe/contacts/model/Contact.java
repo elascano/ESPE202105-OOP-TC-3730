@@ -9,7 +9,7 @@ import com.mongodb.BasicDBObject;
 
 /**
  *
- * @author Marco Arias SkyNet.hub tech ESPE-DCCO
+  * @author Geraldi Chasi Team of Machine ESPE-DCCD
  */
 public class Contact {
 
