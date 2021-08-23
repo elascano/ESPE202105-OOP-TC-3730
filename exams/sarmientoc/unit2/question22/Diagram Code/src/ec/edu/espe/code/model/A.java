@@ -9,7 +9,7 @@ package ec.edu.espe.code.model;
  *
  * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
-public class A {
+public class A {    0.5
        
     private int a;  //1
     private int b;   //1
