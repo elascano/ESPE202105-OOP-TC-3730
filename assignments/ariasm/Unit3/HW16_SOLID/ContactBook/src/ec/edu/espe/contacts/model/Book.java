@@ -12,9 +12,9 @@ import java.util.ArrayList;
  * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
 public class Book {
-    int id;
-    String description;
-    ArrayList<Contact> contacts;
+    private int id;
+    private String description;
+    private ArrayList<Contact> contacts;
 
     public Book(int id, String description, ArrayList<Contact> contacts) {
         this.id = id;

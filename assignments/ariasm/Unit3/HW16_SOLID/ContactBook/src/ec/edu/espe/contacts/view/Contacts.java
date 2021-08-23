@@ -184,50 +184,27 @@ public class Contacts extends javax.swing.JFrame {
 
     private void btnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOkActionPerformed
         // TODO add your handling code here:
+        Contact contact;
+        Book book;
         String name;
         Integer numberOfFriends;
         float salary;
         String email;
         String message;
-        String book;
-
-        Contact contact;
+                
         name = txtName.getText();
         numberOfFriends = Integer.valueOf(txtNumberOfFriends.getText());
         salary = Float.parseFloat(txtSalary.getText());
         email = txtEmail.getText();
-        book = cmbBook.getSelectedItem().toString();
 
-        contact = new Contact(name, numberOfFriends, salary, email, book);
+        contact = new Contact(name, numberOfFriends, salary, email);
 
         message = "Do you want to save \n" + name + "\n" + numberOfFriends + "\n" + salary + "\n" + email + "\n" + cmbBook.getSelectedItem() + "\n";
         // 0 = Yes, 1 = No, 2 = Cancel
         int option = JOptionPane.showConfirmDialog(this, message);
 
         if (option == 0) {
-
-            if (txtName.getText().length() == 0
-                    || txtSalary.getText().length() == 0
-                    || txtNumberOfFriends.getText().length() == 0 || cmbBook.getSelectedItem().toString() == null || txtEmail.getText().length() == 0) {
-
-                JOptionPane.showConfirmDialog(null, "Enter Information", "OK", JOptionPane.DEFAULT_OPTION);
-                btnOk.enable(false);
-            } else {
-                btnOk.enable(true);
-                name = this.txtName.getText();
-                numberOfFriends = Integer.valueOf(txtNumberOfFriends.getText());
-                salary = Float.parseFloat(txtSalary.getText());
-                email = this.txtEmail.getText();
-                book = this.cmbBook.getSelectedItem().toString();
-
-                cntctss.addContactToBook(name, numberOfFriends, salary, email, book);
-            }
-
             System.out.println("Saving");
-            this.txtEmail.setText("");
-            this.txtName.setText("");
-            this.txtNumberOfFriends.setText("");
-            this.txtSalary.setText("");
         }
         if (option == 1) {
             System.out.println("Does not saved");
@@ -235,6 +212,26 @@ public class Contacts extends javax.swing.JFrame {
         if (option == 2) {
             System.out.println("Cancelling");
         }
+
+        if (txtName.getText().length() == 0 || txtNumberOfFriends.getText().length() == 0
+                || txtSalary.getText().length() == 0 || txtEmail.getText().length() == 0) {
+
+            JOptionPane.showConfirmDialog(null, "Enter Information", "OK", JOptionPane.DEFAULT_OPTION);
+            btnOk.enable(false);
+        } else {
+            btnOk.enable(true);
+            name = this.txtName.getText();
+            numberOfFriends = Integer.valueOf(txtNumberOfFriends.getText());
+            salary = Float.parseFloat(txtSalary.getText());
+            email = this.txtEmail.getText();
+
+            cntctss.addContactToBook(name, numberOfFriends, salary, email);
+        }
+
+        this.txtEmail.setText("");
+        this.txtName.setText("");
+        this.txtNumberOfFriends.setText("");
+        this.txtSalary.setText("");
 
     }//GEN-LAST:event_btnOkActionPerformed
 

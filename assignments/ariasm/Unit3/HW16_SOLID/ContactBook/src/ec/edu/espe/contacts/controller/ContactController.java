@@ -38,19 +38,20 @@ public class ContactController {
         }
     }
 
-    public boolean addContactToBook(String name, Integer numberOfFriends, float salary, String email, String book) {
+    public boolean addContactToBook(String name, Integer numberOfFriends, float salary, String email) {
 
         ArrayList<Contact> contacts = new ArrayList<>();
-        contacts.add(new Contact(name, numberOfFriends, salary, email, book));
+        contacts.add(new Contact(name, numberOfFriends, salary, email));
 
         for (Contact pueC : contacts) {
             collection.insert(pueC.dbContact());
         }
-        
+
         int input = JOptionPane.showConfirmDialog(null, "Has been successfully registered", "OK", JOptionPane.DEFAULT_OPTION);
         System.out.println(input);
 
         return true;
 
     }
+
 }
