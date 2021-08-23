@@ -9,9 +9,10 @@ package ec.edu.espe.code.model;
  *
  * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
-public class D {
+public class D {             
     
-    private int x;
+    
+    private int x; 
     private int y;
 
     public D(int i, int i0) {
