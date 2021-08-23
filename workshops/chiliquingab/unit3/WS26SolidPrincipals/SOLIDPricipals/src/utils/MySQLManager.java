@@ -19,7 +19,7 @@ public class MySQLManager implements DBManager {
     }
 
     @Override
-    public boolean add(Book book) {
+    public boolean add(String name, Integer numberOfFriends, float salary, String email) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

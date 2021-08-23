@@ -199,7 +199,7 @@ public class FrmContacts extends javax.swing.JFrame {
         String message;
         String description;
         Integer numberOfFriens;
-        ArrayList<Contact> contacts;
+        //ArrayList<Contact> contacts = new ArrayList<>();
         float salary;
 
         id = 0;
@@ -209,7 +209,7 @@ public class FrmContacts extends javax.swing.JFrame {
         salary = Float.parseFloat(txtSalary.getText());
 
         contact = new Contact(name, numberOfFriens, salary, email);
-        contacts = new ArrayList<>(); 
+        //contacts.add(contact);        
         control = new ContactController();
 
         message = "Do you want to save?\n" + name + "\n" + numberOfFriens + "\n"
@@ -219,11 +219,11 @@ public class FrmContacts extends javax.swing.JFrame {
         if (option == 0) {
             //System.out.println("Saving");
             //if (cmbBook.getSelectedItem().equals("Friends")) {
-                description = "Este es el libro de amigos";
-                book = new Book(id, description, contacts);
+                //description = "Este es el libro de amigos";
+                //book = new Book(id, description, contacts);
                 db = new MongoDBManager();
                 db.connect(name);
-                db.add(book);
+                db.add(name, numberOfFriens, salary, email);
             //}
             JOptionPane.showMessageDialog(rootPane, "The information was saved correctly");
             control.emptyBoxes(pnlPanel);

@@ -15,7 +15,7 @@ public interface DBManager {
 
     public boolean connect(String conectionString);
 
-    public boolean add(Book book);
+    public boolean add(String name, Integer numberOfFriends, float salary, String email);
 
     public String read(String table);
 

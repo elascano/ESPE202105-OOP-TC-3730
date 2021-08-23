@@ -25,13 +25,13 @@ public class MongoDBManager implements DBManager {
     DBCollection tableMongo;
 
     @Override
-    public boolean add(Book book) {
+    public boolean add(String name, Integer numberOfFriends, float salary, String email) {
         BasicDBObject document = new BasicDBObject();
-        //document.put("Name", name);
-        //document.put("Number of friends", numberOfFriends);
-        //document.put("Salary", salary);
-        //document.put("Email", email);
-        document.put("Book", book);
+        document.put("Name", name);
+        document.put("Number of friends", numberOfFriends);
+        document.put("Salary", salary);
+        document.put("Email", email);
+        //document.put("Book", book);
         tableMongo.insert(document);
         return true;
     }
