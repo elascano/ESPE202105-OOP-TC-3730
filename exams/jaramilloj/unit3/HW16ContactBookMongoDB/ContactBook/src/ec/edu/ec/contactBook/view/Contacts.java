@@ -9,7 +9,6 @@ import ec.edu.ec.contactBook.model.Book;
 import ec.edu.ec.contactBook.model.Contact;
 import javax.swing.JOptionPane;
 
-
 /**
  *
  * @author Jean Jaramillo
