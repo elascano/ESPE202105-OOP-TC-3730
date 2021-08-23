@@ -226,14 +226,14 @@ DBCollection Contacts;
             
             Contacts.insert(document);
             
-            System.out.println("Saving");
+            
             txt_Name.setText("");
             txt_NumberOfFriends.setText("");
             txt_Salary.setText("");
             txt_Email.setText("");
         } else {
             if (option == 1) {
-                System.out.println("Not save");
+                
                 
             txt_Name.setText("");
             txt_NumberOfFriends.setText("");
