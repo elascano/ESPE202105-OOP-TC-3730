@@ -239,6 +239,7 @@ public class ElectronicMaterialDisplay extends javax.swing.JFrame {
    
        ematerialss.add(Brand, Model,RegistrationNumber, Color);
       
+       
     }
     txtId.setText("");
     txtMaterial.setText(""); 

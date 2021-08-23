@@ -5,6 +5,8 @@
  */
 package ec.edu.espe.contacts.model;
 
+import com.mongodb.BasicDBObject;
+
 /**
  *
  * @author Erick Yánez LAMESTech ESPE-DCC0
@@ -14,12 +16,38 @@ public class Contact {
     private Integer numberOfFriends;
     private float salary;
     private String email;
+    private String book;
 
-    public Contact(String name, Integer numberOfFriends, float salary, String email) {
+    public Contact(String name, Integer numberOfFriends, float salary, String email, String book) {
         this.name = name;
         this.numberOfFriends = numberOfFriends;
         this.salary = salary;
         this.email = email;
+        this.book = book;
+    }
+
+    
+    public Contact(BasicDBObject dbContact) {
+        this.name = dbContact.getString("name");
+        this.numberOfFriends = dbContact.getInt("numberOfFriends");
+        this.salary = dbContact.getLong("salary");
+        this.email = dbContact.getString("email");
+        this.book = dbContact.getString("Book");
+    }
+    
+    
+    public BasicDBObject dbContact(){
+        
+        BasicDBObject dbContact = new BasicDBObject();
+        
+        dbContact.append("name", this.getName());
+        dbContact.append("numberOfFriends", this.getNumberOfFriends());
+        dbContact.append("salary", this.getSalary());
+        dbContact.append("email", this.getEmail());
+        dbContact.append("Book", this.getBook());
+        
+        return dbContact;
+        
     }
 
     /**
@@ -77,7 +105,22 @@ public class Contact {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    /**
+     * @return the book
+     */
+    public String getBook() {
+        return book;
+    }
+
+    /**
+     * @param book the book to set
+     */
+    public void setBook(String book) {
+        this.book = book;
+    }
     
+   
     
     
 }
