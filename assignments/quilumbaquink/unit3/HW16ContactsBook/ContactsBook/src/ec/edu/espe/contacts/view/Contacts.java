@@ -66,10 +66,6 @@ public class Contacts extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
-
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 204, 204));
         jLabel1.setText("CONTACT REGISTRATION");
 
         jLabel2.setText("Name");
@@ -108,14 +104,14 @@ public class Contacts extends javax.swing.JFrame {
                         .addComponent(jLabel3)
                         .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jLabel1)
                         .addComponent(txtName)
                         .addComponent(txtNumberOfFriends)
                         .addComponent(txtSalary)
-                        .addComponent(txtEmail))
+                        .addComponent(txtEmail, javax.swing.GroupLayout.DEFAULT_SIZE, 191, Short.MAX_VALUE))
                     .addComponent(cmbBook, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(127, 127, 127))
         );
@@ -242,9 +238,9 @@ public class Contacts extends javax.swing.JFrame {
         if(option==1){
              System.out.println("Not Save");
              txtName.setText(null);
-             txtNumberOfFriends.setText(null);
-             txtSalary.setText(null);
-             txtEmail.setText(null);
+            txtNumberOfFriends.setText(null);
+            txtSalary.setText(null);
+            txtEmail.setText(null);
         }
         if(option==2){
              System.out.println("Canceling");
