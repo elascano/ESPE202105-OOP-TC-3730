@@ -1,0 +1,23 @@
+   test cases for -> float add(float addend1, float addend2)
+   input             result
+addend1  addend2      sum
+     5 ,   3           8
+     7,    2           9
+    -5,    2          -3
+    10,   -5.5        4.5
+    7.6,   4         11.6
+    -7.6  -5.6      -13.2
+     0,    7          7
+     0,    7.6        7.6
+    -7.9   0         -7.90
+     0,    0
+8765.23    8907676.45
+    1.2    3.4        4.6
+
+(100.0 * 1.2 ) * 1.12
+100.0 * 20/100 + 100.0 -> PVP
+120.00 * 12 /100 +120.00 -> 134.40
+test cases for -> float computeFinalPrice(price)
+  input                result
+  price                totalPrice
+  100.00               134.40

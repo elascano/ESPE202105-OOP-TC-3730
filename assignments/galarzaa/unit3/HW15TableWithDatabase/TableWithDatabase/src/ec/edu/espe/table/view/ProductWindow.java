@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Luis Heredia Accent on the Future ESPE-DCC0
+ * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
 public class ProductWindow extends javax.swing.JFrame {
 
