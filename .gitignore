@@ -23,8 +23,8 @@
 hs_err_pid*
 
 # visual paradigm bakcup files
-<<<<<<< HEAD
 *vpp.bak*
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/angoj/unit2/WS16-3730FarmSystem/Exceptions/nbproject/private/
 /workshops/angoj/unit2/WS19Calculator/Calculator/nbproject/private/
@@ -3109,6 +3109,12 @@ hs_err_pid*
 >>>>>>> 68c3de7d99d050560323877e4339771e93f2a7ea
 <<<<<<< HEAD
 /exams/quichimboa/unit2/Exam2/Question 22/ClassDiagram/ClassDiagram/build/
+/workshops/quilumbaquink/unit3/WSRegisterOfJobs/RegisterOfJobs/nbproject/private/
+/assignments/quilumbaquink/unit3/HW15Table/TableData/nbproject/private/
+/assignments/quilumbaquink/unit3/HW15Table/TableData/build/
+=======
+<<<<<<< HEAD
+/exams/quichimboa/unit2/Exam2/Question 22/ClassDiagram/ClassDiagram/build/
 /workshops/aguirreg/unit3/WS24Menu/nbproject/private/
 /workshops/aguirreg/unit3/WS24Menu/build/
 =======
@@ -3133,10 +3139,6 @@ hs_err_pid*
 /workshops/guerreros/unit3/WS24Menu/Menu/build/
 =======
 >>>>>>> a96a8214da7bde6f29d906f5fd6c8f7a1eb6ce6f
-<<<<<<< HEAD
-/workshops/contrerasi/unit3/WS26-SolidPrincipals/WS26SolidPrincipals/nbproject/private/
-/workshops/contrerasi/unit3/WS26-SolidPrincipals/WS26SolidPrincipals/build/
-=======
 >>>>>>> e0bb5afca692435f9829ea9087d6e0fc899b3363
 <<<<<<< HEAD
 /assignments/criollok/unit3/HW15DataBase/HW15/nbproject/private/
@@ -3204,16 +3206,34 @@ hs_err_pid*
 >>>>>>> 917af6003ce0d575f924fa51ce3f35ead885c53a
 >>>>>>> 5da7191d2d2a2df9ea466471ef7e18c8ca2e9bd3
 >>>>>>> f8d362836300d896a227299c7fa5f3d12ed984d2
+<<<<<<< HEAD
+/workshops/quilumbaquink/unit3/WS25Solid/ContactsBook/nbproject/private/
+/workshops/quilumbaquink/unit3/WS24RegisterOfJobs/RegisterOfJobs/nbproject/private/
+/workshops/quilumbaquink/unit3/WS25Solid/ContactsBook/build/
+=======
 >>>>>>> 1baa4e70946a41fba1b15a697a281d83d6548ba8
 >>>>>>> 426a49b5776864f5beef43d7f3750186ceee13f9
 /assignments/cuaspae/unit3/WH15DataBase/HW15JTABLE/nbproject/private/
 /assignments/cuaspae/unit3/WH15DataBase/HW15JTABLE/build/
+<<<<<<< HEAD
+>>>>>>> 19fae4c4cacc1d342adf6b91b5de77c54c967f79
+>>>>>>> aa3169b1b5d30cf316762da831ec16201bce1c29
+/workshops/yaneze/unit3/WS25SolidPrincipals/SOLIDPrincipalsContactsBook/nbproject/private/
+/workshops/yaneze/unit3/WS25SolidPrincipals/SOLIDPrincipalsContactsBook/build/
+=======
 /workshops/cuaspae/unit3/WS25ContactsBook/WS25/nbproject/private/
 =======
 *vpp.bak*
 >>>>>>> 430b6b4470aff5b3f9d2c180151280961d7ce203
 >>>>>>> 67d53788bfb01d07712f356b72b8919b2c234598
 >>>>>>> 42a4cfb2490054140a3720bf3f5b8743ee4a5fa4
+<<<<<<< HEAD
 >>>>>>> fa25aebf30353dbb570cb55708230f362514bbb0
 /workshops/heredial/unit3/WS25 SOLID/ContactsBook/nbproject/private/
 /workshops/heredial/unit3/WS25 SOLID/ContactsBook/build/
+=======
+>>>>>>> 7b0d3cb4f1df7f3664fcac23904e4d822a5fb64a
+=======
+>>>>>>> de299dbb00119ea78f89c5823ceb479d40eaaf82
+>>>>>>> 8e61859ef4dd510114fe127fd76daee443b3fb59
+>>>>>>> b6cb232248709e8e4cbe2a70b3fd4540321cd62a
