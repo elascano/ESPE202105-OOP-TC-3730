@@ -9,7 +9,7 @@ package ec.edu.espe.code.model;
  *
  * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
-public class G {
+public class G {            //0.0 No hay implementacion con H, y no hay public con J
     
       private int z;
 

@@ -42,13 +42,18 @@ public class CellphoneStore extends javax.swing.JFrame {
         MnuUsers = new javax.swing.JMenu();
         ItmCreate = new javax.swing.JMenuItem();
         ItemChangePassword = new javax.swing.JMenuItem();
-        MnuCellPhoneModels = new javax.swing.JMenu();
-        ItmXiaomi = new javax.swing.JMenuItem();
-        jMenuItem4 = new javax.swing.JMenuItem();
-        jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
-        MnuDescriptions = new javax.swing.JMenu();
-        ItmGeneralInformation = new javax.swing.JMenuItem();
+        MnuCategories = new javax.swing.JMenu();
+        ItmHuawei = new javax.swing.JMenuItem();
+        ItmSamsung = new javax.swing.JMenuItem();
+        ItmLG = new javax.swing.JMenuItem();
+        MnuBuy = new javax.swing.JMenu();
+        ItmCombos = new javax.swing.JMenuItem();
+        ItmCellPhones = new javax.swing.JMenuItem();
+        ItmCombosRates = new javax.swing.JMenuItem();
+        MnuHelp = new javax.swing.JMenu();
+        ItmTechnicalService = new javax.swing.JMenuItem();
+        ItmEntermyOrder = new javax.swing.JMenuItem();
+        ItmPortabilityStatus = new javax.swing.JMenuItem();
         MnuExit = new javax.swing.JMenu();
 
         jMenu3.setText("jMenu3");
@@ -106,43 +111,68 @@ public class CellphoneStore extends javax.swing.JFrame {
 
         jMenuBar1.add(MnuUsers);
 
-        MnuCellPhoneModels.setText("Cell Phone Models");
+        MnuCategories.setText("Categories");
 
-        ItmXiaomi.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
-        ItmXiaomi.setText("Xiaomi");
-        ItmXiaomi.addActionListener(new java.awt.event.ActionListener() {
+        ItmHuawei.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmHuawei.setText("Huawei");
+        ItmHuawei.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ItmXiaomiActionPerformed(evt);
+                ItmHuaweiActionPerformed(evt);
             }
         });
-        MnuCellPhoneModels.add(ItmXiaomi);
+        MnuCategories.add(ItmHuawei);
 
-        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
-        jMenuItem4.setText("Apple");
-        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+        ItmSamsung.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmSamsung.setText("Samsung");
+        MnuCategories.add(ItmSamsung);
+
+        ItmLG.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmLG.setText("LG");
+        ItmLG.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem4ActionPerformed(evt);
+                ItmLGActionPerformed(evt);
             }
         });
-        MnuCellPhoneModels.add(jMenuItem4);
+        MnuCategories.add(ItmLG);
 
-        jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
-        jMenuItem5.setText("Huawei");
-        MnuCellPhoneModels.add(jMenuItem5);
+        jMenuBar1.add(MnuCategories);
 
-        jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
-        jMenuItem6.setText("Samsung");
-        MnuCellPhoneModels.add(jMenuItem6);
+        MnuBuy.setText("Buy");
 
-        jMenuBar1.add(MnuCellPhoneModels);
+        ItmCombos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmCombos.setText("Combos");
+        ItmCombos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ItmCombosActionPerformed(evt);
+            }
+        });
+        MnuBuy.add(ItmCombos);
 
-        MnuDescriptions.setText("Descriptions");
+        ItmCellPhones.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmCellPhones.setText("Buy Cell Phones");
+        MnuBuy.add(ItmCellPhones);
 
-        ItmGeneralInformation.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
-        ItmGeneralInformation.setText("General Information");
-        MnuDescriptions.add(ItmGeneralInformation);
+        ItmCombosRates.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmCombosRates.setText("Buy Combos and Rates");
+        MnuBuy.add(ItmCombosRates);
 
-        jMenuBar1.add(MnuDescriptions);
+        jMenuBar1.add(MnuBuy);
+
+        MnuHelp.setText("Help");
+
+        ItmTechnicalService.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmTechnicalService.setText("Technical Service");
+        MnuHelp.add(ItmTechnicalService);
+
+        ItmEntermyOrder.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmEntermyOrder.setText("Enter my order");
+        MnuHelp.add(ItmEntermyOrder);
+
+        ItmPortabilityStatus.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0));
+        ItmPortabilityStatus.setText("Portability Status");
+        MnuHelp.add(ItmPortabilityStatus);
+
+        jMenuBar1.add(MnuHelp);
 
         MnuExit.setText("Exit");
         MnuExit.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -178,8 +208,8 @@ public class CellphoneStore extends javax.swing.JFrame {
     }//GEN-LAST:event_ItemChangePasswordActionPerformed
 
     private void ItmCreateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmCreateActionPerformed
-        FrmCreateUsers frmCreateusers = new FrmCreateUsers();
-        frmCreateusers.setVisible(true);
+        FrmCreateUser frmCreateuser = new FrmCreateUser();
+        frmCreateuser.setVisible(true);
     }//GEN-LAST:event_ItmCreateActionPerformed
 
     private void ItmMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmMenuActionPerformed
@@ -187,14 +217,20 @@ public class CellphoneStore extends javax.swing.JFrame {
         frmMenu.setVisible(true);
     }//GEN-LAST:event_ItmMenuActionPerformed
 
-    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem4ActionPerformed
+    private void ItmHuaweiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmHuaweiActionPerformed
+       FrmHuawei frmHuawei = new FrmHuawei();
+       frmHuawei.setVisible(true);
+    }//GEN-LAST:event_ItmHuaweiActionPerformed
 
-    private void ItmXiaomiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmXiaomiActionPerformed
-        FrmXiaomi frmXiaomi  = new FrmXiaomi ();
-        frmXiaomi .setVisible(true);
-    }//GEN-LAST:event_ItmXiaomiActionPerformed
+    private void ItmLGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmLGActionPerformed
+       FrmLG frmLG = new FrmLG();
+       frmLG.setVisible(true);
+    }//GEN-LAST:event_ItmLGActionPerformed
+
+    private void ItmCombosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmCombosActionPerformed
+       FrmCombos a = new FrmCombos();
+       a.setVisible(true);
+    }//GEN-LAST:event_ItmCombosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -233,13 +269,21 @@ public class CellphoneStore extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem ItemChangePassword;
+    private javax.swing.JMenuItem ItmCellPhones;
+    private javax.swing.JMenuItem ItmCombos;
+    private javax.swing.JMenuItem ItmCombosRates;
     private javax.swing.JMenuItem ItmCreate;
-    private javax.swing.JMenuItem ItmGeneralInformation;
+    private javax.swing.JMenuItem ItmEntermyOrder;
+    private javax.swing.JMenuItem ItmHuawei;
+    private javax.swing.JMenuItem ItmLG;
     private javax.swing.JMenuItem ItmMenu;
-    private javax.swing.JMenuItem ItmXiaomi;
-    private javax.swing.JMenu MnuCellPhoneModels;
-    private javax.swing.JMenu MnuDescriptions;
+    private javax.swing.JMenuItem ItmPortabilityStatus;
+    private javax.swing.JMenuItem ItmSamsung;
+    private javax.swing.JMenuItem ItmTechnicalService;
+    private javax.swing.JMenu MnuBuy;
+    private javax.swing.JMenu MnuCategories;
     private javax.swing.JMenu MnuExit;
+    private javax.swing.JMenu MnuHelp;
     private javax.swing.JMenu MnuMainEntrace;
     private javax.swing.JMenu MnuUsers;
     private javax.swing.JMenu jMenu1;
@@ -252,8 +296,5 @@ public class CellphoneStore extends javax.swing.JFrame {
     private javax.swing.JMenuBar jMenuBar2;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
     // End of variables declaration//GEN-END:variables
 }
