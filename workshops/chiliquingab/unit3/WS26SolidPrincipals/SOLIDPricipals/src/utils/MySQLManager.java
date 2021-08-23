@@ -5,11 +5,13 @@
  */
 package utils;
 
+import ec.edu.espe.book.model.Book;
+
 /**
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class MySQLManager implements DBManager{
+public class MySQLManager implements DBManager {
 
     @Override
     public boolean connect(String conectionString) {
@@ -17,7 +19,7 @@ public class MySQLManager implements DBManager{
     }
 
     @Override
-    public boolean add(String data, String table) {
+    public boolean add(String name, Integer numberOfFriends, float salary, String email) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -40,5 +42,5 @@ public class MySQLManager implements DBManager{
     public String find(String serachInfo, String table) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+
 }

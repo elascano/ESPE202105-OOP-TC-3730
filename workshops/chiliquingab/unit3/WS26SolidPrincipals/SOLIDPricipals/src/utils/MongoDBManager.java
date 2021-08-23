@@ -5,14 +5,34 @@
  */
 package utils;
 
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.Mongo;
+import ec.edu.espe.book.model.Book;
+import java.net.UnknownHostException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.List;
+
 /**
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
-public class MongoDBManager implements DBManager{
+public class MongoDBManager implements DBManager {
+
+    DB dbMongo;
+    DBCollection tableMongo;
 
     @Override
-    public boolean add(String data, String table) {
+    public boolean add(String name, Integer numberOfFriends, float salary, String email) {
+        BasicDBObject document = new BasicDBObject();
+        document.put("Name", name);
+        document.put("Number of friends", numberOfFriends);
+        document.put("Salary", salary);
+        document.put("Email", email);
+        //document.put("Book", book);
+        tableMongo.insert(document);
         return true;
     }
 
@@ -23,7 +43,7 @@ public class MongoDBManager implements DBManager{
 
     @Override
     public void update(String searchInfo, String table, String data) {
-        
+
     }
 
     @Override
@@ -38,7 +58,15 @@ public class MongoDBManager implements DBManager{
 
     @Override
     public boolean connect(String conectionString) {
+        try {
+            Mongo mongo = new Mongo("localhost", 27017);
+            dbMongo = mongo.getDB("Contacts");
+            tableMongo = dbMongo.getCollection("Information-Contacts");
+        } catch (UnknownHostException ex) {
+            Logger.getLogger(List.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
         return true;
     }
-    
+
 }
