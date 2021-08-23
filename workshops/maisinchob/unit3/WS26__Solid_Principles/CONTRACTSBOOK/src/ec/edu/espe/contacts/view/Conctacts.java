@@ -8,17 +8,33 @@ package ec.edu.espe.contacts.view;
 import ec.edu.espe.contacts.model.Book;
 import ec.edu.espe.contacts.model.Contact;
 import javax.swing.JOptionPane;
-
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.Mongo;
+import java.net.UnknownHostException;        
+import java.util.logging.Level;
+import java.util.logging.Logger;
 /**
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
 public class Conctacts extends javax.swing.JFrame {
-
+DB db;
+DBCollection Contacts;
     /**
      * Creates new form Conctacts
      */
     public Conctacts() {
+          try {
+            Mongo mongo = new Mongo("localhost",27017);
+            db= mongo.getDB("UsersRegister");
+            Contacts=db.getCollection("Contacts");
+            
+        } catch (UnknownHostException ex) { 
+        Logger.getLogger(Conctacts.class.getName()).log(Level.SEVERE, null, ex);
+    }
+        
         initComponents();
     }
 
@@ -175,6 +191,12 @@ public class Conctacts extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_OkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_OkActionPerformed
+        
+        
+        
+       
+        
+        
         Contact contact;
         String name;
         Integer numerOfFriends;
@@ -193,16 +215,38 @@ public class Conctacts extends javax.swing.JFrame {
         int option = JOptionPane.showConfirmDialog(this, message);
 
         if (option == 0) {
+            
+            BasicDBObject  document = new BasicDBObject();
+            
+        document.put("Name","'"+txt_Name.getText()+"'");
+        document.put("NumberOfFriends","'"+txt_NumberOfFriends.getText()+"'");
+        document.put("Salary","'"+txt_Salary.getText() +"'");
+        document.put("Email","'"+txt_Email.getText()+"'");
+        document.put("Book","'"+cmb_Book.getSelectedItem().toString()+"'");
+            
+            Contacts.insert(document);
+            
             System.out.println("Saving");
+            txt_Name.setText("");
+            txt_NumberOfFriends.setText("");
+            txt_Salary.setText("");
+            txt_Email.setText("");
         } else {
             if (option == 1) {
                 System.out.println("Not save");
+                
+            txt_Name.setText("");
+            txt_NumberOfFriends.setText("");
+            txt_Salary.setText("");
+            txt_Email.setText("");
             }
                 if (option == 2) {
                     System.out.println("Canceling");
                 }
             }
 
+        
+        
     }//GEN-LAST:event_btn_OkActionPerformed
 
     /**
