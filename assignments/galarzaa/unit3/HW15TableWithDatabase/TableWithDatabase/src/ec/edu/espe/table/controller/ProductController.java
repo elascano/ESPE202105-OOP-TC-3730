@@ -21,7 +21,7 @@ import javax.swing.JTextArea;
 
 /**
  *
- * @author Luis Heredia Accent on the Future ESPE-DCC0
+ * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
 public class ProductController {
     

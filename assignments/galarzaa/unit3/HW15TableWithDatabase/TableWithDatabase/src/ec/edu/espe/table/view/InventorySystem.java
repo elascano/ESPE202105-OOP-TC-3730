@@ -9,7 +9,7 @@ package ec.edu.espe.table.view;
 
 /**
  *
- * @author Luis Heredia Accent on the Future ESPE-DCC0
+ * @author Andres Galarza AccentOnTheFuture ESPE-DCCO
  */
 public class InventorySystem extends javax.swing.JFrame {
 

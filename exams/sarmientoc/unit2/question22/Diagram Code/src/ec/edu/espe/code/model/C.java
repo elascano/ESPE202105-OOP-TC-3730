@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class C {
     
-     private ArrayList<H> hs = new ArrayList<>();
+     private ArrayList<H> hs = new ArrayList<>();   0.4
     
     public float m(float f){
         
