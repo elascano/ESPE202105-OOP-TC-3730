@@ -38,6 +38,14 @@ public class TouristController {
         }
     }
 
+    public TouristController() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public TouristController() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public boolean add(String FistName, String LastName, String Destiny, String Source) {
         ArrayList<TouristController> touristcontrollers = new ArrayList<>();
         touristcontrollers.add(new TouristController(FistName, LastName, Destiny, Source));
