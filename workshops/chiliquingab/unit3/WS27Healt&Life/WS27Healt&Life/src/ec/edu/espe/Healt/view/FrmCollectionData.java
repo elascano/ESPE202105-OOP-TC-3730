@@ -6,7 +6,6 @@
 package ec.edu.espe.Healt.view;
 
 import ec.edu.espe.Healt.controller.PatientController;
-import ec.edu.espe.Healt.model.MedicalRoom;
 import javax.swing.JOptionPane;
 import javax.swing.SpinnerNumberModel;
 
