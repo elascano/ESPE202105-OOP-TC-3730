@@ -10,5 +10,5 @@ package ec.espe.Quiz.model;
  * @author Jean Jaramillo
  */
 public class D {
-    
+    //0.2/1 has no E arrangement
 }
