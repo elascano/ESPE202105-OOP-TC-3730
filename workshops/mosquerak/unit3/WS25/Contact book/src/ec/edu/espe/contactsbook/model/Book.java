@@ -53,4 +53,8 @@ public class Book {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public Object getContacts() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

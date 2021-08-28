@@ -8,17 +8,42 @@ package ec.edu.ec.contactBook.view;
 import ec.edu.ec.contactBook.model.Book;
 import ec.edu.ec.contactBook.model.Contact;
 import javax.swing.JOptionPane;
+import ec.edu.ec.contactBook.model.Book;
+import ec.edu.ec.contactBook.model.Contact;
+import javax.swing.JOptionPane;
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.Mongo;
+import java.net.UnknownHostException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+
 
 /**
  *
  * @author Jean Jaramillo
  */
 public class Contacts extends javax.swing.JFrame {
+    DB db;
+    DBCollection table;
 
     /**
      * Creates new form Contacts
      */
     public Contacts() {
+        try {
+            Mongo mongo = new Mongo("localhost", 27017);
+            db = mongo.getDB("contacts");
+            table = db.getCollection("book");
+
+        } catch (UnknownHostException ex) {
+            Logger.getLogger(conexionJFrame.class.getName()).log(Level.SEVERE, null, ex);
+
+        }
+        
+        
         initComponents();
     }
 
@@ -176,7 +201,7 @@ public class Contacts extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOkActionPerformed
-
+BasicDBObject document = new BasicDBObject();
         String name;
         Integer numberOfFriends;
         float salary;
@@ -211,6 +236,11 @@ public class Contacts extends javax.swing.JFrame {
                
            
         }
+  document.put("name", "'"+txtName.getText()+"'");        
+  document.put("number of friends",  txtNumberOfFriends.getText());    
+  document.put("Salary",  txtSalary.getText());   
+  document.put("email", "'"+txtEmail.getText()+"'");   
+        table.insert(document);
         
 
 
