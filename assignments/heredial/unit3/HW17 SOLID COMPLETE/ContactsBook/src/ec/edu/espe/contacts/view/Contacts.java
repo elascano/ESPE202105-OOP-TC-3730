@@ -237,6 +237,7 @@ public class Contacts extends javax.swing.JFrame {
                 System.out.println("Not Save");
 
             }
+            
             if (option == 2) {
                 System.out.println("Canceling");
             }
