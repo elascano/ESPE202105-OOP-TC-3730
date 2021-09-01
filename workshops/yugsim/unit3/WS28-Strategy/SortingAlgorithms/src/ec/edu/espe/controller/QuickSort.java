@@ -15,7 +15,7 @@ public class QuickSort implements SortingStrategy{
     public int[] sort(int[] data) {
         //TODO program the bubble sort algorithm
         // sort the data and return it
-        System.out.println("ordering" + data + ", using Bubble sort");
+        System.out.println("ordering" + data + ", using Quick sort");
         int[] sortedData = data; // this is only her to compile
         return sortedData;
     }
