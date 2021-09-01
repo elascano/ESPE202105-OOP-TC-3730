@@ -8,7 +8,13 @@ package ec.edu.ec.contactBook.view;
 import ec.edu.ec.contactBook.model.Book;
 import ec.edu.ec.contactBook.model.Contact;
 import javax.swing.JOptionPane;
-
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.Mongo;
+import java.net.UnknownHostException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -16,11 +22,27 @@ import javax.swing.JOptionPane;
  */
 public class Contacts extends javax.swing.JFrame {
 
+    DB db;
+    DBCollection table;
+    
+
     /**
      * Creates new form Contacts
+     *
+     * @throws java.net.UnknownHostException
      */
     public Contacts() {
+        try {
+            Mongo mongo = new Mongo("localhost", 27017);
+            db = mongo.getDB("contacts");
+            table = db.getCollection("book");
+
+        } catch (UnknownHostException ex) {
+            Logger.getLogger(conexionJFrame.class.getName()).log(Level.SEVERE, null, ex);
+
+        }
         initComponents();
+
     }
 
     /**
@@ -128,7 +150,7 @@ public class Contacts extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        btnOk.setText("OK");
+        btnOk.setText("SAVE");
         btnOk.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnOkActionPerformed(evt);
@@ -177,6 +199,8 @@ public class Contacts extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOkActionPerformed
+  BasicDBObject document = new BasicDBObject();
+  
 
         String name;
         Integer numberOfFriends;
@@ -190,29 +214,31 @@ public class Contacts extends javax.swing.JFrame {
         numberOfFriends = Integer.valueOf(txtNumberOfFriends.getText());
         salary = (float) Double.parseDouble(txtSalary.getText());
         email = txtEmail.getText();
-        
+
         contact = new Contact(name, numberOfFriends, salary, email);
-        
-        
-        message ="Do You want to save \n "+ name + "\n "+ numberOfFriends + "\n" + salary + "\n" + email + "\n " + cmbBook.getSelectedItem()+"\n";
+
+        message = "Do You want to save \n " + name + "\n " + numberOfFriends + "\n" + salary + "\n" + email + "\n " + cmbBook.getSelectedItem() + "\n";
         //0=yes. 1=no, 2=cancel
         int option = JOptionPane.showConfirmDialog(this, name);
-        
-        if (option == 0 ){
+
+        if (option == 0) {
             System.out.println("Saving");
-            
-        }else {
-            if (option == 1){
+
+        } else {
+            if (option == 1) {
                 System.out.println("Not Save");
-                
+
             }
-        if (option ==2 ){
-            System.out.println("Cancel");
-        }    
-               
-           
+            if (option == 2) {
+                System.out.println("Cancel");
+            }
+
         }
-        
+  document.put("name", "'"+txtName.getText()+"'");        
+  document.put("number of friends",  txtNumberOfFriends.getText());    
+  document.put("Salary",  txtSalary.getText());   
+  document.put("email", "'"+txtEmail.getText()+"'");   
+        table.insert(document);
 
 
     }//GEN-LAST:event_btnOkActionPerformed
@@ -245,10 +271,8 @@ public class Contacts extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Contacts().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new Contacts().setVisible(true);
         });
     }
 
@@ -269,4 +293,10 @@ public class Contacts extends javax.swing.JFrame {
     private javax.swing.JTextField txtNumberOfFriends;
     private javax.swing.JTextField txtSalary;
     // End of variables declaration//GEN-END:variables
+
+    private static class conexionJFrame {
+
+        public conexionJFrame() {
+        }
+    }
 }
