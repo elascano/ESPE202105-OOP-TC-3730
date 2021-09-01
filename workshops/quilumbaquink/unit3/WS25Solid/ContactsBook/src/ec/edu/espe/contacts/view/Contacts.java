@@ -156,6 +156,11 @@ public class Contacts extends javax.swing.JFrame {
         });
 
         btnCancel.setText("Cancel");
+        btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCancelActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -223,7 +228,7 @@ public class Contacts extends javax.swing.JFrame {
         email=txtEmail.getText();
         
         contact=new Contact(name, numberOfFriends, salary , email);
-        message="Do you want to save \n" + name + "\n " + numberOfFriends + "\n" + salary + "\n" + email + "\n" + cmbBook.getSelectedItem()+ "\n" ;
+        message="Do you want to save? \n" + name + "\n " + numberOfFriends + "\n" + salary + "\n" + email + "\n" + cmbBook.getSelectedItem()+ "\n" ;
         // 0 YES, 1= NO , 2= CANCEL
         int option=JOptionPane.showConfirmDialog(this, message);
         if(option==0){
@@ -253,6 +258,10 @@ public class Contacts extends javax.swing.JFrame {
                 
         
     }//GEN-LAST:event_btnOkActionPerformed
+
+    private void btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnCancelActionPerformed
 
     /**
      * @param args the command line arguments

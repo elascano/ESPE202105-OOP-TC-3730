@@ -11,7 +11,6 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -37,9 +36,9 @@ public class ContactController {
 
     public boolean addContactToBook(String name, Integer numberOfFriends, float salary, String email, String book) {
 
-        ArrayList<Contact> inventory = new ArrayList<>();
-        inventory.add(new Contact(name, numberOfFriends, salary, email,book));
-        for (Contact pueC : inventory) {
+        ArrayList<Contact> contact = new ArrayList<>();
+        contact.add(new Contact(name, numberOfFriends, salary, email,book));
+        for (Contact pueC : contact) {
             collection.insert(pueC.dbContactObjectContactBook());
 
         }

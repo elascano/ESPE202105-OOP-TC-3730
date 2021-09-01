@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "612910b3391ba0fc135bcaee"
+  },
+  "Address": "Susana Letor y Linea Ferrea",
+  "Admission Date": "Sep/08/2020",
+  "Age": 35,
+  "CI": 1712858965,
+  "Email": "lazango@gamil.com",
+  "Gender": "Male",
+  "Name": "Luis Abel Zango Hernandez",
+  "Occupation": "Teacher",
+  "Phone Number": 984756165,
+  "Weight": "80.5"
+},{
+  "_id": {
+    "$oid": "612911ca391ba0fc135bcaf0"
+  },
+  "Address": "Av. Pedro Vicente Maldonado s23-175 Quimiag",
+  "Admission Date": "Aug/21/2010",
+  "Age": 55,
+  "CI": 1758459695,
+  "Email": "paulina120@gamil.com",
+  "Gender": "Female",
+  "Name": "Paulina Sofia",
+  "Occupation": "Doctor",
+  "Phone Number": 987456123,
+  "Weight": "67.56"
+},{
+  "_id": {
+    "$oid": "612911d1391ba0fc135bcaf1"
+  },
+  "Address": "García Moreno S3-64, Quito 170801",
+  "Admission Date": "Jun/25/2015",
+  "Age": 25,
+  "CI": 1719289330,
+  "Email": "lahernandez@gmail.com",
+  "Gender": "Male",
+  "Name": "Luis Alberto Hernandez Juna",
+  "Occupation": "Enginner",
+  "Phone Number": 984777165,
+  "Weight": "80.5"
+},{
+  "_id": {
+    "$oid": "612911d3391ba0fc135bcaf2"
+  },
+  "Address": "Inglaterra, Quito 170515",
+  "Admission Date": "Jan/18/2021",
+  "Age": 73,
+  "CI": 1805485312,
+  "Email": "@carolin@gamil.com",
+  "Gender": "Female",
+  "Name": "Carolina Mishell Quirola Manozalbas",
+  "Occupation": "Veterinary",
+  "Phone Number": 984213445,
+  "Weight": "70.35"
+},{
+  "_id": {
+    "$oid": "612911d5391ba0fc135bcaf3"
+  },
+  "Address": "Isla Floreana, Quito 157423",
+  "Admission Date": "Jul/30/2018",
+  "Age": 23,
+  "CI": 501247429,
+  "Email": "fabian@hotmail.com",
+  "Gender": "Male",
+  "Name": "Paul Fabian Castañeda Andaluz",
+  "Occupation": "Teacher",
+  "Phone Number": 984753456,
+  "Weight": "85.25"
+},{
+  "_id": {
+    "$oid": "612988cec56dfe7231ad3754"
+  },
+  "Name": "Josselyn Gabriela Sunta Barzallo",
+  "Age": 20,
+  "CI": 1719589123,
+  "gender": "Female",
+  "Address": "Nayon Quito 173489",
+  "Phone Number": 987478957,
+  "Occupation": "Student",
+  "Email": "gabriela@hotmail.com",
+  "Weigth": 65.23999786376953,
+  "Admission Date": "25/07/2021"
+}]
