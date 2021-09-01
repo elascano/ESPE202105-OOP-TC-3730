@@ -24,3 +24,5 @@ hs_err_pid*
 
 # visual paradigm bakcup files
 *vpp.bak*
+/workshops/yugsim/unit3/WS28-Strategy/SortingAlgorithms/nbproject/private/
+/workshops/yugsim/unit3/WS28-Strategy/SortingAlgorithms/build/
