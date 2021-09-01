@@ -15,8 +15,8 @@ public class SortingContext {
     
     public int[] sort(int data[]){
         int size = data.length;
-        sortingStrategy = setStrategy(size);
-        return
+        sortingStrategy = setSortStrategy(size);
+        return sortingStrategy.sort(data);
     }
 
     public SortingStrategy setSortStrategy(int n) {

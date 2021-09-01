@@ -15,7 +15,7 @@ public class BubbleSort implements SortingStrategy {
     public int[] sort(int[] data) {
         //TODO program the sort algorithm
         //sort the data and return
-        System.out.println("ordering" + data + ", using Bubble sort");
+        System.out.println("ordering " + data + "], using Bubble sort");
         int[] sortedData = data;  //this is only here to complete
         return sortedData;
     }
