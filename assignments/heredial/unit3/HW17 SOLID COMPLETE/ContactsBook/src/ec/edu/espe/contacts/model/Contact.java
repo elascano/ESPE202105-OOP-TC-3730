@@ -6,7 +6,7 @@
 package ec.edu.espe.contacts.model;
 
 import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
+
 
 /**
  *
