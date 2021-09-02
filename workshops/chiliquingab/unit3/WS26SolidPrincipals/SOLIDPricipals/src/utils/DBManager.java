@@ -5,8 +5,6 @@
  */
 package utils;
 
-import ec.edu.espe.book.model.Book;
-
 /**
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
