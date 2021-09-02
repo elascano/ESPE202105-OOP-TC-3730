@@ -8,7 +8,6 @@ package ec.edu.espe.book.view;
 import ec.edu.espe.book.controller.ContactController;
 import ec.edu.espe.book.model.Book;
 import ec.edu.espe.book.model.Contact;
-import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import utils.MongoDBManager;
 
