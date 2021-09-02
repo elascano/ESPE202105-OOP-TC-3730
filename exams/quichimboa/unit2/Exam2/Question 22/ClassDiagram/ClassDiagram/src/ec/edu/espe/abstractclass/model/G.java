@@ -10,5 +10,5 @@ package ec.edu.espe.abstractclass.model;
  * @author Andrea Quichimbo PROGRAM BUILDER ESPE-DCCO
  */
 class G {
-    
+     
 }
