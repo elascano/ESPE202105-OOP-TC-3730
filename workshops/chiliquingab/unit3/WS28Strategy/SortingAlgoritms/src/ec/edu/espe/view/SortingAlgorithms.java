@@ -17,7 +17,7 @@ public class SortingAlgorithms {
 
         SortingContext sortingContext = new SortingContext();
 
-        int data[] = {1, 5,8,9,9,2,66,7,8,999,11};
+        int data[] = {1, 5,8,9};
         //int sortedList[] = sortingContext.sort(data);
 
         sortingContext.sort(data);
@@ -25,10 +25,10 @@ public class SortingAlgorithms {
         //for (int i = 0; i < data.length; i++) {
         //sortingContext.sort(data);
         //}
-        //System.out.println("");
-        //int data2[] = {1, 9, 6, 2, 5, 7};
-        //sortingContext.sort(data2);
-        //int data3[] = {3, 99, 6, 100, 5, 7, 10000, 12, 34, 45, 12, 23};
-        //sortingContext.sort(data3);
+        System.out.println("");
+        int data2[] = {1, 9, 6, 2, 5, 7};
+        sortingContext.sort(data2);
+        int data3[] = {3, 99, 6, 100, 5, 7, 10000, 12, 34, 45, 12, 23};
+        sortingContext.sort(data3);
     }
 }
