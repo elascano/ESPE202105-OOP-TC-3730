@@ -30,6 +30,11 @@ public class SortingContext {
         if (n >= 10) {
             sortingStrategy = new QuickSort();
         }
+        
+        if (n >= 14 && n <  16){
+            sortingStrategy = new CountingSort();
+        }
+        
         return sortingStrategy;
     }
 }
