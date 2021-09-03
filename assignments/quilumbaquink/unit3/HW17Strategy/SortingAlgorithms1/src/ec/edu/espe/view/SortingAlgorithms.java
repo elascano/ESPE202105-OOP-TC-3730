@@ -16,9 +16,11 @@ public class SortingAlgorithms {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int data[]={3,5,6,7};
+        
         SortingContext sortingContext=new SortingContext();
-        int sortedList[]=sortingContext.sort(data);
+        int data[]={3,5,6,7};
+        sortingContext.sort(data);
+        //int sortedList[]=sortingContext.sort(data);
         
         int data2[]={3,5,6,7,5,7};
         sortingContext.sort(data2);
