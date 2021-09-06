@@ -3,12 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-STRATEGE/sortingAlgorithms/src/ec/edu/espe/controller/SortingStrategy.java</file>
-            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-STRATEGE/sortingAlgorithms/src/ec/edu/espe/controller/QuickSort.java</file>
-            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-STRATEGE/sortingAlgorithms/src/ec/edu/espe/controller/InsertionSort.java</file>
-            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-STRATEGE/sortingAlgorithms/src/ec/edu/espe/view/SortingAlgorithms.java</file>
-            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-STRATEGE/sortingAlgorithms/src/ec/edu/espe/controller/SortingContext.java</file>
-            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-STRATEGE/sortingAlgorithms/src/ec/edu/espe/controller/BubbleSort.java</file>
+            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-SortingAlgorithms/sortingAlgorithms/src/ec/edu/espe/view/SortingAlgorithms.java</file>
+            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-SortingAlgorithms/sortingAlgorithms/src/ec/edu/espe/controller/SortingStrategy.java</file>
+            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-SortingAlgorithms/sortingAlgorithms/src/ec/edu/espe/controller/InsertionSort.java</file>
+            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-SortingAlgorithms/sortingAlgorithms/src/ec/edu/espe/controller/BubbleSort.java</file>
+            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-SortingAlgorithms/sortingAlgorithms/src/ec/edu/espe/controller/SortingContext.java</file>
+            <file>file:/C:/Users/Diana/Desktop/Code/ESPE202105-OOP-TC-3730/workshops/cadenaf/unit3/WS28-SortingAlgorithms/sortingAlgorithms/src/ec/edu/espe/controller/QuickSort.java</file>
         </group>
     </open-files>
 </project-private>
