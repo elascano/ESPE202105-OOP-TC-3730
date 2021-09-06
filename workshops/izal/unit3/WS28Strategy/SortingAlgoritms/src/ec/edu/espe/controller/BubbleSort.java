@@ -10,7 +10,8 @@ package ec.edu.espe.controller;
  * @author LILIAN IZA TOURIST GUEST OPP-ESPE
  */
 public class BubbleSort implements SortingStrategy{
-
+    
+    
     @Override
     public int[] sort(int[] data) {
           //TODO program the bubble sort algorithm
@@ -18,7 +19,6 @@ public class BubbleSort implements SortingStrategy{
           System.out.println("ordering"+ data + "using bubble sort");
           int[] sortedData = data;//this in only here to compile
           return sortedData;
-        
     }
     
 }
