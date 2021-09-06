@@ -29,6 +29,9 @@ public class SortingAlgorithms {
 
         int data3[] = {3, 5, 6, 7, 5, 7, 10, 12, 34, 45, 12, 23};
         sortingContext.sort(data3);
+
+        int data4[] = {2, 5, 3, 2, 7, 5, 3, 2, 2, 3, 4, 2, 5, 6, 6};
+        sortingContext.sort(data4);
     }
 
 }

@@ -7,9 +7,13 @@ package ec.edu.espe.controller;
 
 /**
  *
- * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
+ * @author Solange Tupiza search for electrical and electronic materials
+ * OOP-ESPE
  */
 public interface SortingStrategy {
-
-    public int[] sort(int data[]);
+    
+   public int[] sort(int data[]);
+   
+    
+    
 }
