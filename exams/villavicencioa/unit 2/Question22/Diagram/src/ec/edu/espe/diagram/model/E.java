@@ -9,13 +9,13 @@ package ec.edu.espe.diagram.model;
  *
  * @author Alina Villavicencio LAMESTech ESPE-DCCO
  */
-public class E {
+public class E {//0.8
 
     public E() {
     }
 
     @Override
-    public String toString() {
+    public String toString() {//0.2
         return "E{" + '}';
     }
     

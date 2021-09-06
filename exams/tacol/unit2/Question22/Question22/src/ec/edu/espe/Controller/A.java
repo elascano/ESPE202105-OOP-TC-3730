@@ -11,9 +11,9 @@ import java.util.ArrayList;
  *
  * @author user
  */
-public class A {
+public class A {//0.5
     
-   private ArrayList<A> as = new ArrayList<>();
+   private ArrayList<A> as = new ArrayList<>();//0.5
 
     /**
      * @return the as

@@ -9,6 +9,7 @@ package ec.edu.espe.ABC.model;
  *
  * @author Bryan Maisincho Codes ESPE-DCCO
  */
-public class B extends A{
+public class B extends A{ // 0.4
+    // Lack the private ArrayList gs; 0.4
     
 }

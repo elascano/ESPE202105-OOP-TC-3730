@@ -9,7 +9,7 @@ package ec.edu.espe.code.model;
  *
  * @author Cristopher Sarmiento Futures Programmers ESPE-DCC0
  */
-public class F {
+public class F {        //0.8
 
   private String r;
 
@@ -17,7 +17,7 @@ public class F {
         this.r = r;
     }
 
-    @Override
+    @Override                //0.2
     public String toString() {
         return "F{" + "r=" + r + '}';
     }
