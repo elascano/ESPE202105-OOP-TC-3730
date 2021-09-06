@@ -182,6 +182,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="CountingSort"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdnCountingSortActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
