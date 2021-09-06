@@ -15,6 +15,10 @@ public class SortingContext {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.ra
     }
     private SortingStrategy sortingStrategy;
+
+    public SortingContext() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public int[]sort(int data[]){
         
         
@@ -38,5 +42,10 @@ public class SortingContext {
         return sortingStrategy;
             
     }
+
+    public SortingContext(SortingStrategy sortingStrategy) {
+        this.sortingStrategy = sortingStrategy;
+    }
+    
     
 }
