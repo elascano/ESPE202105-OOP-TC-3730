@@ -28,7 +28,7 @@ public class SortingContext {
         if(n>5 && n <10){
             sortingStrategy = new InsertionSort();
         }
-        if(n>= 30){
+        if(n>= 10){
             sortingStrategy = new QuickSort();
  
 
