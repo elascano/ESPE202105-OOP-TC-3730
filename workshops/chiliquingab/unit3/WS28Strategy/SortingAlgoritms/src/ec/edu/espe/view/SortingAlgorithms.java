@@ -30,5 +30,6 @@ public class SortingAlgorithms {
         sortingContext.sort(data2);
         int data3[] = {3, 99, 6, 100, 5, 7, 10000, 12, 34, 45, 12, 23};
         sortingContext.sort(data3);
+        
     }
 }
