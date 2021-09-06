@@ -16,11 +16,12 @@ public class Patient {
     private Integer id;
     private String gener;
     private String direction;
-    private int numberOfPhone;
     private String ocupation;
     private String email;
     private float weight;
     private String admissionDate;
+    private int numberOfPhone;
+
 
     public Patient(String name, Integer age, Integer id, String gener, String direction, int numberOfPhone, String ocupation, String email, float weight, String admissionDate) {
         this.name = name;
