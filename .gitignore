@@ -3331,6 +3331,12 @@ hs_err_pid*
 >>>>>>> b74b2d079985e57a25b3dcd0a248ecceec3b4248
 >>>>>>> dfe7329c769b244671228a45388a3dab3354f05d
 >>>>>>> fa116ed0838c0ecc7cbdfb5e491f287f9606554e
+<<<<<<< HEAD
+/assignments/mosquerak/unit3/HW17/SortingAlgorithms/nbproject/private/
+/assignments/mosquerak/unit3/HW17/SortingAlgorithms/build/
+/exams/mosquerak/unit3/Q32/SortingStrategy/nbproject/private/
+/exams/mosquerak/unit3/Q32/SortingStrategy/build/
+=======
 >>>>>>> 8147c24c16044ab5ecc18d10547546b28201e26f
 >>>>>>> 2645355c47a2313bb7d2589702b706e5e6ccca17
 /assignments/pachacamaa/Unit3/Hw16Solid/ContactsBook/nbproject/private/
@@ -3349,3 +3355,4 @@ hs_err_pid*
 /workshops/yaneze/unit3/WS28Strategy/SortingAlgorithms/nbproject/private/
 >>>>>>> 83c83b15fd28eea580b1b31680cc0ba8626ded32
 >>>>>>> c912c5044b31dd2f7de4958ef326dc041a93c278
+>>>>>>> 9401ebb158ee08303a8a1acbe4555334eaa1cdef
