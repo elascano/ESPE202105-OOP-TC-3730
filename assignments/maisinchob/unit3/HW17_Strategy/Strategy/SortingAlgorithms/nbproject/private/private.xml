@@ -4,11 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit3/WS28_Strategy/SortingAlgorithms/src/ec/edu/espe/controller/SortingStrategy.java</file>
-            <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit3/WS28_Strategy/SortingAlgorithms/src/ec/edu/espe/view/Frm_AlgorithmCountingSort.java</file>
             <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit3/WS28_Strategy/SortingAlgorithms/src/ec/edu/espe/controller/BubbleSort.java</file>
             <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit3/WS28_Strategy/SortingAlgorithms/src/ec/edu/espe/controller/QuickSort.java</file>
             <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit3/WS28_Strategy/SortingAlgorithms/src/ec/edu/espe/view/SortingAlgorithms.java</file>
-            <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit3/WS28_Strategy/SortingAlgorithms/src/ec/edu/espe/view/Frm_BubbleSort.java</file>
             <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit3/WS28_Strategy/SortingAlgorithms/src/ec/edu/espe/controller/SortingContext.java</file>
             <file>file:/C:/Users/usuario/ESPE202105-OOP-TC-3730/workshops/maisinchob/unit3/WS28_Strategy/SortingAlgorithms/src/ec/edu/espe/controller/InsertionSort.java</file>
         </group>

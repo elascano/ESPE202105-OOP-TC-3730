@@ -77,11 +77,6 @@ public class Frm_AlgorithmCountingSort extends javax.swing.JFrame {
         });
 
         rdnCountingSort.setText("CountingSort");
-        rdnCountingSort.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                rdnCountingSortActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -238,10 +233,6 @@ public class Frm_AlgorithmCountingSort extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Inser Numbers");
         } 
     }//GEN-LAST:event_rdnQuickSortMouseClicked
-
-    private void rdnCountingSortActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdnCountingSortActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_rdnCountingSortActionPerformed
 
     
     
