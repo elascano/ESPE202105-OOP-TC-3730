@@ -11,9 +11,9 @@ import java.util.ArrayList;
  *
  * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
-public class D {
-    private ArrayList<F> fs = new ArrayList<>();
-    private ArrayList<E> es = new ArrayList<>();
+public class D {  // le falta la palabra stends 
+    private ArrayList<F> fs = new ArrayList<>(); // falta el arreglo de E 
+    private ArrayList<E> es = new ArrayList<>(); // falta arraylist de F
 
     public D() {
     }

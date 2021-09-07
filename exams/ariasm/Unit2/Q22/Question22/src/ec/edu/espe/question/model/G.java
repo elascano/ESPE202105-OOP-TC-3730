@@ -9,13 +9,13 @@ package ec.edu.espe.question.model;
  *
  * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
-public class G {
+public class G { // falta implements 
 
     public G() {
     }
 
     @Override
-    public String toString() {
+    public String toString() { // falta el metodo m 
         return "G{" + '}';
     }
     

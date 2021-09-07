@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
 public class B extends A{
-        private ArrayList<H> hs = new ArrayList<>();
+        private ArrayList<H> hs = new ArrayList<>(); //Letra de clase equivocada 
 
     public B() {
     }
