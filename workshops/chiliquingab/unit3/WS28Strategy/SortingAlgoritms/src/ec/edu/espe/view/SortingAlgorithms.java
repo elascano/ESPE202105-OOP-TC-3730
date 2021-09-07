@@ -17,13 +17,19 @@ public class SortingAlgorithms {
 
         SortingContext sortingContext = new SortingContext();
 
-        int data[] = {3, 5, 6, 7};
-        int sortedList[] = sortingContext.sort(data);
+        int data[] = {1, 5,8,9};
+        //int sortedList[] = sortingContext.sort(data);
 
-        int data2[] = {3, 5, 6, 7, 5, 7};
+        sortingContext.sort(data);
+
+        //for (int i = 0; i < data.length; i++) {
+        //sortingContext.sort(data);
+        //}
+        System.out.println("");
+        int data2[] = {1, 9, 6, 2, 5, 7};
         sortingContext.sort(data2);
-
-        int data3[] = {3, 5, 6, 7, 5, 7, 10, 12, 34, 45, 12, 23};
+        int data3[] = {3, 99, 6, 100, 5, 7, 10000, 12, 34, 45, 12, 23};
         sortingContext.sort(data3);
+        
     }
 }

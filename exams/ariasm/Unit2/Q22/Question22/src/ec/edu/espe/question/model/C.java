@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Marco Arias SkyNet.hub tech ESPE-DCCO
  */
-public class C {
+public class C { // falta la palabra stends
     private ArrayList<E> es = new ArrayList<>();
 
     public C() {
