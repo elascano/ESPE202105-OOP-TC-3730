@@ -1,0 +1,10 @@
+{"datasOrdenated":[0,4,6,12],"tam":4,"datasNoOrdenated":["0","12","6","4"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[0,2],"tam":2,"datasNoOrdenated":["2","0"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[0,1],"tam":2,"datasNoOrdenated":["1","0"],"algorithm":"BubbleSort"}
+{"datasOrdenated":[1,3,4,5],"tam":4,"datasNoOrdenated":["5","4","3","1"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[1,2,3,4,5,6,7,8],"tam":8,"datasNoOrdenated":["1","2","3","5","4","6","7","8"],"algorithm":"QuickSort"}
+{"datasOrdenated":[12,14,15,16],"tam":4,"datasNoOrdenated":["15","12","14","16"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[1,3,4,18],"tam":4,"datasNoOrdenated":["18","1","3","4"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[5,6,7,8],"tam":4,"datasNoOrdenated":["8","5","6","7"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[12,45,65,78],"tam":4,"datasNoOrdenated":["78","65","45","12"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[1,2,3,6,7,8,14,15],"tam":8,"datasNoOrdenated":["14","15","7","1","2","3","6","8"],"algorithm":"QuickSort"}

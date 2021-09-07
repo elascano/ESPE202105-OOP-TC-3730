@@ -21,11 +21,11 @@ public class Exam2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         A a;     
-        a = new B();        
-        J j = new J();
-        G g = new G();
-        H h = new H();
+         A a; // 0.1     
+        a = new B();   //0.1     
+        J j = new J(); // 0.1
+        G g = new G(); // 0.1
+        H h = new H(); // 0.1
         g.m(j);
         a = new C();
         a = new B();

@@ -11,8 +11,8 @@ import java.util.ArrayList;
  *
  * @author Pamela Yugsi LAMESTech ESPE-DCCO
  */
-public abstract class A {
-    private ArrayList<A> as = new ArrayList<>();
+public abstract class A { //0,5
+    private ArrayList<A> as = new ArrayList<>();//0,5
 
     public A() {
     }

@@ -9,6 +9,6 @@ package ec.edu.espe.abc.model;
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class A {
-    
+public class A {      //0.5
+                      //0.0
 }

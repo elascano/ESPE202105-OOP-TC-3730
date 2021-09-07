@@ -11,7 +11,7 @@ package ec.edu.espe.code.view;
  */
 public class DiagramCode {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {         //0 
   
 }
 }

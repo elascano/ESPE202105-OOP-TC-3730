@@ -11,13 +11,13 @@ import java.util.ArrayList;
  *
  * @author Kerly Mosquera CODE ESPE-DCCO
  */
-public class  B extends A {
-     private ArrayList<H> Hs = new ArrayList<>();
+public class  B extends A {                //0.4
+     private ArrayList<H> Hs = new ArrayList<>();  //0.4
 
     /**
      * @return the Hs
      */
-    public ArrayList<H> getHs() {
+    public ArrayList<H> getHs() {                 //0
         return Hs;
     }
 

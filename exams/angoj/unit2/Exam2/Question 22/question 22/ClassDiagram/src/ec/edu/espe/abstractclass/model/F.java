@@ -9,10 +9,10 @@ package ec.edu.espe.abstractclass.model;
  *
 * @author  JOHNY ANGO ESPE-DCCO
 */
-public class F {
+public class F {    //0,8
     private String r;
 
-    @Override
+    @Override   //0,2 
     public String toString() {
         return "F{" + "r=" + r + '}';
     }

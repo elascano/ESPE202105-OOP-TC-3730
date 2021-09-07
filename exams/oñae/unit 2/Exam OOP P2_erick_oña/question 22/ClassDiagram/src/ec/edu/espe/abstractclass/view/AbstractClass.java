@@ -23,18 +23,18 @@ import static javafx.scene.input.KeyCode.J;
 */
 public class AbstractClass {
     public static void main(String[] args) {
-        A a;
-        B b;
-        C c;
-        D d;
-        E e;
-        F f;
-        H h;
+        A a; //0.1
+        B b; //0.1
+        C c; //0.1
+        D d; //0.1
+        E e; //0.1 Arreglo
+        F f; // 0.1 Arreglo 
+        H h; // 0.1 ArrayList
     
-        ArrayList<C> cs= null;
-        B bs[] = new B[1];
+        ArrayList<C> cs= null; //0.1
+        B bs[] = new B[1]; //0.1
         
-        System.out.println("Abstract Class");
+        System.out.println("Abstract Class"); //0.1
        
     }
     
