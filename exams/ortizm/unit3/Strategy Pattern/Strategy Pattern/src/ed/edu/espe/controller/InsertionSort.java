@@ -9,16 +9,14 @@ package ed.edu.espe.controller;
  *
  * @author Marlon Ortiz Codec ESPE-DCCO
  */
-public class BubbleSort implements SortingStrategy {
+public class InsertionSort implements SortingStrategy {
 
-    
     @Override
     public int[] sort(int[] data) {
-        //TODO  programa the bubble sort algorithn
+//TODO  programa the bubble sort algorithn
        //sort the data and return it 
-        System.out.println("Ording" + data + "Using Bubble sort");
+        System.out.println("Ording" + data +",using Insertion sort");
         int[] sortedData= data;
-        return sortedData;
-    }
+        return sortedData;    }
     
 }
