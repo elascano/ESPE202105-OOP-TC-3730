@@ -11,7 +11,6 @@ package ed.edu.espe.controller;
  */
 public class BubbleSort implements SortingStrategy {
 
-    
     @Override
     public int[] sort(int[] data) {
         //TODO  programa the bubble sort algorithn
