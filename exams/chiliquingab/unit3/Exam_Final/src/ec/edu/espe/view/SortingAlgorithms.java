@@ -8,23 +8,20 @@ package ec.edu.espe.view;
 import ec.edu.espe.controller.SortingContext;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
-import utils.MongoDB;
 
 /**
  *
  * @author Bryan Chiliquinga Beta_Software ESPE-DCCO
  */
 public class SortingAlgorithms {
+
     public static void main(String[] args) {
 
-        
-        
         Scanner entry = new Scanner(System.in);
         SortingContext sortingContext = new SortingContext();
-MongoDB mongo = null;
 
         int izq = 0;
-        
+
         int der = izq;
 
         izq = Integer.parseInt(JOptionPane.showInputDialog("Enter the number of numbers you want to enter into the arrangement"));
@@ -34,7 +31,7 @@ MongoDB mongo = null;
         System.out.println("Enter the numbers");
 
         for (int i = 0; i < izq; i++) {
-            System.out.println("Enter the [" + (i + 1) + "] number");
+            System.out.print("Enter the [" + (i + 1) + "] number: ");
 
             num[i] = entry.nextInt();
         }
@@ -47,10 +44,8 @@ MongoDB mongo = null;
 
         //int izq[] = {1, 5,8,9};
         //int sortedList[] = sortingContext.sort(izq);
+        sortingContext.sort(num, der);
 
-        sortingContext.sort(num,der);
-        
-               
         //for (int i = 0; i < izq.length; i++) {
         //sortingContext.sort(izq);
         //}

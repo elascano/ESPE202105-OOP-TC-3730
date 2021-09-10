@@ -5,7 +5,6 @@
  */
 package ec.edu.espe.controller;
 
-import utils.MongoDB;
 import utils.SortingStrategy;
 
 /**
@@ -25,10 +24,10 @@ public class QuickSort implements SortingStrategy {
         return sortedData;
     }
 
-    public static void quicksort(int[] data, int izq, int der) {
-        int pivote = data[izq];
-        int i = izq;
-        int j = der;
+    public static void quicksort(int[] data, int i, int j) {
+        int pivote = data[i]; //i -> izq
+        //int i = izq;
+        //int j = der;
         int swap;
         
         while (i < j) {
@@ -42,21 +41,20 @@ public class QuickSort implements SortingStrategy {
                 swap = data[i];
                 data[i] = data[j];
                 data[j] = swap;
-                //imprimeArreglo(data);
+                imprimeArreglo(data);
             }
         }
-        data[izq] = data[j];
+        data[i] = data[j];//i -> izq
         data[j] = pivote;
-        if (izq < j - 1) {
-            quicksort(data, izq, j - 1);
+        if (i < j - 1) { //i -> izq
+            quicksort(data, i, j - 1); //i-> izq
         }
-        if (j + 1 < der) {
-            quicksort(data, j + 1, der);
+        if (j + 1 < j) {//j -> der
+            quicksort(data, j + 1, j);//j -> der
         }
     }
 
-    public void imprimeArreglo(int[] data) {
-        MongoDB mongo = null;
+    public static void imprimeArreglo(int[] data) {
         System.out.print("Sorted using Quick sort[");
         for (int i = 0; i < data.length; i++) {
             System.out.print(data[i] + "-");
