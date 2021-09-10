@@ -30,5 +30,21 @@ public class SortingAlgorithms {
         sortingContext.sort(data3); 
         
     }
-    
+    public static int[] seleccion(int[] tabla) {
+int menor;
+int aux;
+for (int i=0; i<tabla.length-1; i++) {
+menor = tabla[i];
+for (int j=i+1; j<=tabla.length-1; j++) {
+if (tabla[j] < menor) {
+aux = tabla[j];
+tabla[j] = menor;
+menor = aux;
+}
+}
+tabla[i] = menor;
+}
+return tabla;
+
+}
 }

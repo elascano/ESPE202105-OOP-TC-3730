@@ -10,6 +10,8 @@ package ec.edu.espe.controller;
  * @author LILIAN IZA TOURIST GUEST OPP-ESPE
  */
 public class QuickSort implements SortingStrategy {
+    
+    
 
     @Override
     public int[] sort(int[] data) {
@@ -19,6 +21,7 @@ public class QuickSort implements SortingStrategy {
           System.out.println("ordering"+ data + "using Quick sort");
           int[] sortedData = data; //this in only here to compile
           return sortedData;
+          
     }
     
     
