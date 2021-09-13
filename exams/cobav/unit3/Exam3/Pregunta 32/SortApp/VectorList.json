@@ -8,3 +8,15 @@
 {"datasOrdenated":[5,6,7,8],"tam":4,"datasNoOrdenated":["8","5","6","7"],"algorithm":"InsertionSort"}
 {"datasOrdenated":[12,45,65,78],"tam":4,"datasNoOrdenated":["78","65","45","12"],"algorithm":"InsertionSort"}
 {"datasOrdenated":[1,2,3,6,7,8,14,15],"tam":8,"datasNoOrdenated":["14","15","7","1","2","3","6","8"],"algorithm":"QuickSort"}
+{"datasOrdenated":[1,4,5],"tam":3,"datasNoOrdenated":["1","4","5"],"algorithm":"BubbleSort"}
+{"datasOrdenated":[1,7,99],"tam":3,"datasNoOrdenated":["7","1","99"],"algorithm":"BubbleSort"}
+{"datasOrdenated":[6,8],"tam":2,"datasNoOrdenated":["6","8"],"algorithm":"BubbleSort"}
+{"datasOrdenated":[1,123,667],"tam":3,"datasNoOrdenated":["123","1","667"],"algorithm":"BubbleSort"}
+{"datasOrdenated":[1,5,7,8],"tam":4,"datasNoOrdenated":["5","8","1","7"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[2,8,23,88],"tam":4,"datasNoOrdenated":["8","2","88","23"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[2,2,21,67,90],"tam":5,"datasNoOrdenated":["2","90","21","67","2"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[4,7,12,55,77,100],"tam":6,"datasNoOrdenated":["77","55","100","12","4","7"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[3,5,5,12,33,76,567],"tam":7,"datasNoOrdenated":["12","5","76","567","33","3","5"],"algorithm":"InsertionSort"}
+{"datasOrdenated":[1,2,44,45,53,56,76,877],"tam":8,"datasNoOrdenated":["53","56","2","1","45","877","76","44"],"algorithm":"QuickSort"}
+{"datasOrdenated":[0,2,12,34,54,88,89,222,233],"tam":9,"datasNoOrdenated":["2","233","54","89","222","34","88","12","0"],"algorithm":"QuickSort"}
+{"datasOrdenated":[2,3,4,6,9,33,44,45,78,553],"tam":10,"datasNoOrdenated":["553","33","6","2","45","78","44","09","3","4"],"algorithm":"QuickSort"}
